@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "defaultRank": "p3",
+  "priorityRules": [
+    {
+      "label": "Métallurgie",
+      "rank": "p1",
+      "idcc": [
+        "3248"
+      ],
+      "match": [
+        "metallurgie"
+      ]
+    },
+    {
+      "label": "Bâtiment et travaux publics",
+      "rank": "p1",
+      "idcc": [
+        "1596",
+        "1597",
+        "1702",
+        "2609",
+        "2614"
+      ],
+      "match": [
+        "ouvriers employes par les entreprises du batiment"
+      ]
+    },
+    {
+      "label": "Bureaux d'études / Syntec",
+      "rank": "p1",
+      "idcc": [
+        "1486"
+      ],
+      "match": [
+        "bureaux d'etudes",
+        "syntec"
+      ]
+    },
+    {
+      "label": "Hôtels, cafés, restaurants",
+      "rank": "p1",
+      "idcc": [
+        "1979"
+      ],
+      "match": [
+        "hotels",
+        "cafes",
+        "restaurants",
+        "hcr"
+      ]
+    },
+    {
+      "label": "Transports routiers",
+      "rank": "p2",
+      "idcc": [
+        "16"
+      ],
+      "match": [
+        "transports routiers"
+      ]
+    },
+    {
+      "label": "Commerce de détail et de gros",
+      "rank": "p2",
+      "match": [
+        "commerce de detail",
+        "commerce de gros"
+      ]
+    },
+    {
+      "label": "Propreté et sécurité privée",
+      "rank": "p2",
+      "idcc": [
+        "3043",
+        "1351"
+      ],
+      "match": [
+        "proprete",
+        "securite privee"
+      ]
+    }
+  ],
+  "observed": {
+    "idcc-1404": {
+      "label": "métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et a (n° 1404)",
+      "idcc": "1404",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1405": {
+      "label": "entreprises d'expédition et d'exportation de fruits et légumes (n° 1405)",
+      "idcc": "1405",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1499": {
+      "label": "la miroiterie, de la transformation et du négoce du verre (n° 1499)",
+      "idcc": "1499",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1536": {
+      "label": "distributeurs conseils hors domicile (n° 1536)",
+      "idcc": "1536",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1558": {
+      "label": "conditions de travail du personnel des industries céramiques de France (n° 1558)",
+      "idcc": "1558",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1607": {
+      "label": "industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes (n° 1607)",
+      "idcc": "1607",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1982": {
+      "label": "négoce et prestations de services dans les domaines médico-techniques (n° 1982)",
+      "idcc": "1982",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1987": {
+      "label": "pâtes alimentaires sèches et du couscous non préparé (n° 1987)",
+      "idcc": "1987",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-2022": {
+      "label": "France Travail du 18 mars 2026 Le ministre du travail et des solidarités, Vu le code du travail, notamment ses articles L (n° 2022)",
+      "idcc": "2022",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-2023": {
+      "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail (n° 2023)",
+      "idcc": "2023",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-2026": {
+      "label": "Bâtiment et travaux publics",
+      "idcc": "2026",
+      "rank": "p1",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-2332": {
+      "label": "entreprises d'architecture (n° 2332)",
+      "idcc": "2332",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-2609": {
+      "label": "Bâtiment et travaux publics",
+      "idcc": "2609",
+      "rank": "p1",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-3229": {
+      "label": "personnel des entreprises de transport en navigation intérieure (n° 3229)",
+      "idcc": "3229",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-3248": {
+      "label": "Métallurgie",
+      "idcc": "3248",
+      "rank": "p1",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-3249": {
+      "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
+      "idcc": "3249",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-3250": {
+      "label": "commissaires de justice et sociétés de ventes volontaires (n° 3250)",
+      "idcc": "3250",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-915": {
+      "label": "sociétés d'expertises et d'évaluations (n° 915)",
+      "idcc": "915",
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-a9186b09254c": {
+      "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-05-29",
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    }
+  }
+}

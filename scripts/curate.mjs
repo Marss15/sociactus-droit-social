@@ -11,9 +11,11 @@ const DRY_RUN = process.argv.includes("--dry-run");
 const MAX_HISTORY_DAYS = 90;
 const REQUEST_TIMEOUT_MS = 45000;
 const STRICT_DAILY_MODE = process.env.SOCIACTUS_STRICT_DAILY_MODE !== "false";
+const CONVENTION_PRIORITY_PATH = join(DATA_DIR, "convention-priorities.json");
 
 const now = new Date();
 const runDate = process.env.CURATION_DATE || parisDate(now);
+let conventionPriorityMemory = null;
 
 const rssSources = [
   {
@@ -151,9 +153,6 @@ const socialTerms = [
   "france travail",
   "chomage",
   "assurance chomage",
-  "cotisation",
-  "urssaf",
-  "securite sociale",
   "accident du travail",
   "maladie professionnelle",
   "sante au travail",
@@ -166,7 +165,6 @@ const socialTerms = [
   "activite partielle",
   "inspection du travail",
   "branche professionnelle",
-  "retraite",
   "greve",
   "fonction publique",
   "plan social",
@@ -195,7 +193,6 @@ const pressTerms = [
   ["smic", 2],
   ["conge", 2],
   ["conges payes", 2],
-  ["retraite", 2],
   ["chomage", 2],
   ["syndicat", 2],
   ["greve", 2],
@@ -203,9 +200,6 @@ const pressTerms = [
   ["alternance", 2],
   ["fonction publique", 2],
   ["agent public", 2],
-  ["cotisation", 2],
-  ["securite sociale", 2],
-  ["fraude sociale", 2],
   ["marche du travail", 2],
   ["depart volontaire", 2],
   ["plan de departs", 2],
@@ -217,11 +211,22 @@ const pressTerms = [
 
 const exclusionTerms = [
   "vacance d'un emploi",
+  "vacance de l'emploi",
+  "avis de vacance",
   "nomination sur l'emploi",
   "portant nomination",
+  "ouverture d'un concours",
+  "examen professionnel",
+  "changement de corps",
+  "liste d'aptitude",
+  "commissions et organes de controle",
+  "corps des controleurs",
+  "corps des secretaires administratifs",
   "directeurs d'hopital",
   "produits et prestations remboursables",
   "allogreffon",
+  "activite physique adaptee",
+  "influence commerciale",
   "assurance recolte",
   "medicament",
   "code rural",
@@ -254,6 +259,7 @@ main().catch((error) => {
 
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
+  conventionPriorityMemory = await readConventionPriorityMemory();
   const previousIds = await readPreviousEntryIds(runDate);
   const collected = [];
   const errors = [];
@@ -280,8 +286,12 @@ async function main() {
 
   const entries = dedupe(dailyFiltered)
     .filter((entry) => !previousIds.has(entry.id))
-    .sort((a, b) => b.priority - a.priority || new Date(b.publishedAt) - new Date(a.publishedAt));
-
+    .sort(
+      (a, b) =>
+        priorityRankWeight(b.priorityRank) - priorityRankWeight(a.priorityRank) ||
+        b.priority - a.priority ||
+        new Date(b.publishedAt) - new Date(a.publishedAt)
+    );
   const journal = {
     generatedAt: now.toISOString(),
     date: runDate,
@@ -310,6 +320,7 @@ async function main() {
     return;
   }
 
+  await updateConventionPriorityMemory(entries);
   await writeJson(join(DATA_DIR, `${runDate}.json`), journal);
   await updateIndex(journal);
   console.log(`Journal ${runDate}: ${entries.length} entrees (${errors.length} erreurs source).`);
@@ -517,8 +528,10 @@ function makeEntry({
   const normalizedUrl = url || extra.archiveUrl || "";
   const id = hash(`${normalizedUrl}|${normalizedTitle}`);
   const themes = detectThemes(text || normalizedTitle);
-  const priority = priorityFor(category, impact, themes.length);
-  const priorityRank = priorityRankFor({ category, impact, priority, text: text || normalizedTitle });
+  const collectiveAgreement = category === "regle" ? classifyCollectiveAgreement(text || normalizedTitle) : null;
+  const priority = priorityFor(category, impact, themes.length, collectiveAgreement);
+  const priorityRank = priorityRankFor({ category, impact, priority, text: text || normalizedTitle, collectiveAgreement });
+  const nextExtra = collectiveAgreement ? { ...extra, collectiveAgreement } : extra;
   return {
     id,
     date: runDate,
@@ -538,7 +551,7 @@ function makeEntry({
     priorityRank: priorityRank.rank,
     priorityLabel: priorityRank.label,
     priorityReason: priorityRank.reason,
-    extra,
+    extra: nextExtra,
   };
 }
 
@@ -573,14 +586,37 @@ function impactFor(category, text) {
   return "low";
 }
 
-function priorityFor(category, impact, themeCount) {
+function priorityFor(category, impact, themeCount, collectiveAgreement) {
   const impactScore = { high: 30, medium: 20, watch: 12, low: 6 }[impact] || 0;
   const categoryScore = { regle: 30, jurisprudence: 24, "projet-loi": 14, presse: 10, actualite: 8 }[category] || 0;
-  return categoryScore + impactScore + Math.min(themeCount, 4);
+  const collectiveScore = { p1: 30, p2: 10, p3: -25 }[collectiveAgreement?.rank] || 0;
+  return categoryScore + impactScore + Math.min(themeCount, 4) + collectiveScore;
 }
 
-function priorityRankFor({ category, impact, priority, text }) {
+function priorityRankFor({ category, impact, priority, text, collectiveAgreement }) {
   const normalized = fold(text);
+
+  if (category === "regle" && collectiveAgreement) {
+    if (collectiveAgreement.rank === "p1") {
+      return {
+        rank: "p1",
+        label: "Priorité 1",
+        reason: `Convention collective prioritaire : ${collectiveAgreement.label}.`,
+      };
+    }
+    if (collectiveAgreement.rank === "p2") {
+      return {
+        rank: "p2",
+        label: "Priorité 2",
+        reason: `Convention collective suivie : ${collectiveAgreement.label}.`,
+      };
+    }
+    return {
+      rank: "p3",
+      label: "Priorité 3",
+      reason: `Convention collective non prioritaire : ${collectiveAgreement.label}. Rang conservé dans data/convention-priorities.json.`,
+    };
+  }
 
   if (category === "regle" && impact === "high" && isEssentialRuleSignal(normalized)) {
     return {
@@ -608,7 +644,7 @@ function priorityRankFor({ category, impact, priority, text }) {
 
   if (
     category === "presse" &&
-    /smic|licenciement|rupture conventionnelle|assurance chomage|retraite|syndicat|plan de departs|chomage technique|code du travail/.test(
+    /smic|licenciement|rupture conventionnelle|assurance chomage|syndicat|plan de departs|chomage technique|code du travail/.test(
       normalized
     )
   ) {
@@ -627,7 +663,10 @@ function priorityRankFor({ category, impact, priority, text }) {
 }
 
 function isEssentialRuleSignal(normalizedText) {
-  return /code du travail|employeur|salarie|apprenti|apprentissage|formation professionnelle|cpf|smic|salaire minimum|cse|convention collective|accord collectif|cotisation|urssaf|chomage|assurance chomage|conge|pma|adoption|temps de travail|licenciement|rupture/.test(
+  if (isInstitutionalTrainingGovernance(normalizedText)) {
+    return false;
+  }
+  return /contrat de travail|employeur|salarie|smic|salaire minimum|cse|accord collectif|temps de travail|duree du travail|repos|conge|licenciement|rupture conventionnelle|inaptitude|harcelement|discrimination|teletravail|inspection du travail/.test(
     normalizedText
   );
 }
@@ -786,12 +825,93 @@ function pressScore(text) {
 
 function isExcluded(text) {
   const normalized = fold(text);
-  return exclusionTerms.some((term) => normalized.includes(fold(term)));
+  return (
+    exclusionTerms.some((term) => normalized.includes(fold(term))) ||
+    isProtectionSocialOnly(normalized) ||
+    isInstitutionalTrainingGovernance(normalized)
+  );
 }
 
 function isPressExcluded(text) {
   const normalized = fold(text);
   return pressExclusionTerms.some((term) => normalized.includes(fold(term)));
+}
+
+function isProtectionSocialOnly(normalizedText) {
+  const protectionSocialSignal =
+    /securite sociale|assurance maladie|prestations sociales|allocations|remboursement|prise en charge|cancer|soins|patient|activite physique adaptee|apa|pension de retraite|retraites des fonctionnaires/.test(
+      normalizedText
+    );
+  const laborSignal =
+    /contrat de travail|employeur|salarie|paie|bulletin de paie|cotisation patronale|urssaf|accident du travail|maladie professionnelle|sante au travail|inaptitude|licenciement|cse|temps de travail|harcelement|discrimination/.test(
+      normalizedText
+    );
+  return protectionSocialSignal && !laborSignal;
+}
+
+function isInstitutionalTrainingGovernance(normalizedText) {
+  const trainingGovernanceSignal =
+    /france competences|operateurs de competences|opco|commissions paritaires nationales de l'emploi|commissions paritaires de la branche professionnelle|centre de formation d'apprenti|centres de formation d'apprenti/.test(
+      normalizedText
+    );
+  const directLaborSignal =
+    /contrat de travail|employeur|salarie|remuneration|temps de travail|licenciement|rupture|cse|harcelement|discrimination/.test(
+      normalizedText
+    );
+  return trainingGovernanceSignal && !directLaborSignal;
+}
+
+function classifyCollectiveAgreement(text) {
+  const normalized = fold(text);
+  if (!/convention collective|accord de branche|accord collectif|extension d'un accord|extension d'accord|branche/.test(normalized)) {
+    return null;
+  }
+
+  const idcc = extractIdcc(text);
+  const key = idcc ? `idcc-${idcc}` : `name-${hash(normalized.slice(0, 220)).slice(0, 12)}`;
+  const label = extractCollectiveLabel(text, idcc);
+  const fromObserved = conventionPriorityMemory?.observed?.[key];
+  const fromRule = findConventionRule(normalized, idcc);
+  const rank = normalizeRank(fromObserved?.rank || fromRule?.rank || conventionPriorityMemory?.defaultRank || "p3");
+
+  return {
+    key,
+    idcc,
+    label: fromObserved?.label || fromRule?.label || label,
+    rank,
+    source: fromObserved ? "memory" : fromRule ? "rule" : "default",
+  };
+}
+
+function extractIdcc(text) {
+  const match = String(text).match(/(?:n[°ºo]\s*|IDCC\s*)(\d{2,4})/i);
+  return match ? match[1] : null;
+}
+
+function extractCollectiveLabel(text, idcc) {
+  const cleaned = cleanText(text);
+  const match =
+    cleaned.match(/convention collective nationale\s+(?:metropolitaine\s+)?(?:des?|du|de la|relative aux?|applicable aux?)?\s*([^()\\.]{8,180})/i) ||
+    cleaned.match(/branche\s+([^()\\.]{8,160})/i);
+  const label = match ? match[1].replace(/\s+/g, " ").trim() : "Convention collective";
+  return idcc ? `${label} (n° ${idcc})` : label;
+}
+
+function findConventionRule(normalizedText, idcc) {
+  const rules = conventionPriorityMemory?.priorityRules || [];
+  return rules.find((rule) => {
+    const idccMatches = idcc && (rule.idcc || []).map(String).includes(String(idcc));
+    const textMatches = (rule.match || []).some((term) => normalizedText.includes(fold(term)));
+    return idccMatches || textMatches;
+  });
+}
+
+function normalizeRank(rank) {
+  return ["p1", "p2", "p3"].includes(rank) ? rank : "p3";
+}
+
+function priorityRankWeight(rank) {
+  return { p1: 3, p2: 2, p3: 1 }[rank] || 0;
 }
 
 function summarize(text, maxLength) {
@@ -940,6 +1060,102 @@ async function updateIndex(journal) {
     latestDate: days[0]?.date || journal.date,
     days,
   });
+}
+
+async function readConventionPriorityMemory() {
+  if (!existsSync(CONVENTION_PRIORITY_PATH)) {
+    return defaultConventionPriorityMemory();
+  }
+  try {
+    const parsed = JSON.parse(await readFile(CONVENTION_PRIORITY_PATH, "utf8"));
+    return {
+      ...defaultConventionPriorityMemory(),
+      ...parsed,
+      priorityRules: parsed.priorityRules || defaultConventionPriorityMemory().priorityRules,
+      observed: parsed.observed || {},
+    };
+  } catch {
+    return defaultConventionPriorityMemory();
+  }
+}
+
+async function updateConventionPriorityMemory(entries) {
+  const memory = conventionPriorityMemory || defaultConventionPriorityMemory();
+  const observed = { ...(memory.observed || {}) };
+  for (const entry of entries) {
+    const collectiveAgreement = entry.extra?.collectiveAgreement;
+    if (!collectiveAgreement?.key) {
+      continue;
+    }
+    const current = observed[collectiveAgreement.key] || {};
+    observed[collectiveAgreement.key] = {
+      label: current.label || collectiveAgreement.label,
+      idcc: current.idcc || collectiveAgreement.idcc,
+      rank: normalizeRank(current.rank || collectiveAgreement.rank),
+      firstSeen: current.firstSeen || runDate,
+      lastSeen: runDate,
+      seenCount: Number(current.seenCount || 0) + (current.lastSeen === runDate ? 0 : 1),
+    };
+  }
+
+  conventionPriorityMemory = {
+    schemaVersion: 1,
+    defaultRank: normalizeRank(memory.defaultRank || "p3"),
+    priorityRules: memory.priorityRules || [],
+    observed: Object.fromEntries(Object.entries(observed).sort(([a], [b]) => a.localeCompare(b))),
+  };
+  await writeJson(CONVENTION_PRIORITY_PATH, conventionPriorityMemory);
+}
+
+function defaultConventionPriorityMemory() {
+  return {
+    schemaVersion: 1,
+    defaultRank: "p3",
+    priorityRules: [
+      {
+        label: "Métallurgie",
+        rank: "p1",
+        idcc: ["3248"],
+        match: ["metallurgie"],
+      },
+      {
+        label: "Bâtiment et travaux publics",
+        rank: "p1",
+        idcc: ["1596", "1597", "1702", "2609", "2614"],
+        match: ["ouvriers employes par les entreprises du batiment"],
+      },
+      {
+        label: "Bureaux d'études / Syntec",
+        rank: "p1",
+        idcc: ["1486"],
+        match: ["bureaux d'etudes", "syntec"],
+      },
+      {
+        label: "Hôtels, cafés, restaurants",
+        rank: "p1",
+        idcc: ["1979"],
+        match: ["hotels", "cafes", "restaurants", "hcr"],
+      },
+      {
+        label: "Transports routiers",
+        rank: "p2",
+        idcc: ["16"],
+        match: ["transports routiers"],
+      },
+      {
+        label: "Commerce de détail et de gros",
+        rank: "p2",
+        match: ["commerce de detail", "commerce de gros"],
+      },
+      {
+        label: "Propreté et sécurité privée",
+        rank: "p2",
+        idcc: ["3043", "1351"],
+        match: ["proprete", "securite privee"],
+      },
+    ],
+    observed: {},
+  };
 }
 
 async function readPreviousEntryIds(excludeDate) {
