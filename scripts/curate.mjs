@@ -12,6 +12,7 @@ const MAX_HISTORY_DAYS = 90;
 const REQUEST_TIMEOUT_MS = 45000;
 const STRICT_DAILY_MODE = process.env.SOCIACTUS_STRICT_DAILY_MODE !== "false";
 const CONVENTION_PRIORITY_PATH = join(DATA_DIR, "convention-priorities.json");
+const CONVENTION_PRIORITY_URL = process.env.SOCIACTUS_CONVENTION_PRIORITY_URL || "";
 
 const now = new Date();
 const runDate = process.env.CURATION_DATE || parisDate(now);
@@ -884,7 +885,7 @@ function classifyCollectiveAgreement(text) {
 }
 
 function extractIdcc(text) {
-  const match = String(text).match(/(?:n[°ºo]\s*|IDCC\s*)(\d{2,4})/i);
+  const match = String(text).match(/\((?:n[°ºo]\s*|IDCC\s*)(\d{2,4})\)/i) || String(text).match(/IDCC\s*(\d{2,4})/i);
   return match ? match[1] : null;
 }
 
@@ -1063,6 +1064,10 @@ async function updateIndex(journal) {
 }
 
 async function readConventionPriorityMemory() {
+  const remote = await readRemoteConventionPriorityMemory();
+  if (remote) {
+    return remote;
+  }
   if (!existsSync(CONVENTION_PRIORITY_PATH)) {
     return defaultConventionPriorityMemory();
   }
@@ -1077,6 +1082,37 @@ async function readConventionPriorityMemory() {
   } catch {
     return defaultConventionPriorityMemory();
   }
+}
+
+async function readRemoteConventionPriorityMemory() {
+  if (!CONVENTION_PRIORITY_URL) {
+    return null;
+  }
+  try {
+    const response = await fetchWithTimeout(CONVENTION_PRIORITY_URL);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    const parsed = await response.json();
+    return normalizeConventionPriorityMemory(parsed);
+  } catch (error) {
+    console.warn(`Préférences conventions distantes indisponibles : ${error.message}`);
+    return null;
+  }
+}
+
+function normalizeConventionPriorityMemory(value) {
+  const fallback = defaultConventionPriorityMemory();
+  if (!value || typeof value !== "object") {
+    return fallback;
+  }
+  return {
+    ...fallback,
+    ...value,
+    defaultRank: normalizeRank(value.defaultRank || fallback.defaultRank),
+    priorityRules: Array.isArray(value.priorityRules) ? value.priorityRules : fallback.priorityRules,
+    observed: value.observed && typeof value.observed === "object" ? value.observed : {},
+  };
 }
 
 async function updateConventionPriorityMemory(entries) {

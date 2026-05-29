@@ -45,7 +45,9 @@ Le workflow `.github/workflows/daily-curation.yml` est prévu pour lancer `npm r
 
 Par défaut, l'édition est strictement journalière : un élément n'est conservé que si sa date de publication, de décision ou de parution au Journal officiel correspond à la date du journal. Les éléments collectés mais datés d'un autre jour sont rejetés et comptabilisés dans `research.dailyMode.rejectedByDate`. Pour faire une veille historique ponctuelle, lancer la curation avec `SOCIACTUS_STRICT_DAILY_MODE=false`.
 
-La curation écarte les éléments de protection sociale générale lorsqu'ils ne touchent pas directement la relation de travail : assurance maladie, prestations, remboursement de soins, retraite isolée, nominations ou gestion interne de corps administratifs. Les conventions collectives sont classées via `data/convention-priorities.json` : les IDCC ou libellés suivis y gardent leur rang `p1`, `p2` ou `p3` d'un jour à l'autre, et les nouvelles conventions détectées sont ajoutées en `p3` par défaut.
+La curation écarte les éléments de protection sociale générale lorsqu'ils ne touchent pas directement la relation de travail : assurance maladie, prestations, remboursement de soins, retraite isolée, nominations ou gestion interne de corps administratifs. Les conventions collectives sont classées via `data/convention-priorities.json` et, en production, via l'endpoint Netlify `/api/convention-priorities` : les IDCC ou libellés suivis y gardent leur rang `p1`, `p2` ou `p3` d'un jour à l'autre, et les nouvelles conventions détectées sont ajoutées en `p3` par défaut.
+
+Le site affiche un panneau "Conventions collectives" permettant de modifier ces rangs directement dans l'interface. L'enregistrement est protégé par la variable Netlify `SOCIACTUS_ADMIN_TOKEN`; le jeton est saisi dans le navigateur et conservé en local.
 
 Sur Netlify, un rafraîchissement utilisateur ne relance pas la curation : le site statique relit seulement les fichiers JSON déjà publiés sur GitHub. Le shell Netlify n'a donc pas besoin d'être redéployé tous les jours.
 

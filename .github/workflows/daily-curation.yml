@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Europe/Paris
+      SOCIACTUS_CONVENTION_PRIORITY_URL: https://sociactus-droit-social.netlify.app/api/convention-priorities
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

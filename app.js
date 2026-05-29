@@ -4,6 +4,7 @@ const state = {
   filter: "all",
   priorityFilter: "p1",
   query: "",
+  conventionPriorities: null,
 };
 
 const config = window.SOCIACTUS_CONFIG || {};
@@ -62,6 +63,10 @@ const els = {
   segments: document.querySelectorAll(".segment"),
   categorySegments: document.querySelectorAll("[data-filter]"),
   prioritySegments: document.querySelectorAll("[data-priority]"),
+  conventionStatus: document.querySelector("#convention-status"),
+  conventionList: document.querySelector("#convention-list"),
+  adminToken: document.querySelector("#admin-token"),
+  saveConventions: document.querySelector("#save-conventions"),
 };
 
 boot();
@@ -70,6 +75,7 @@ async function boot() {
   try {
     const index = await fetchDataJson("index.json");
     state.index = index;
+    await loadConventionPriorities();
     renderIndex(index);
     if (index.latestDate) {
       await loadDay(index.latestDate);
@@ -112,6 +118,12 @@ async function boot() {
     setPressedGroup(els.prioritySegments, document.querySelector('[data-priority="p1"]'));
     renderEntries();
   });
+
+  els.adminToken.value = localStorage.getItem("sociactus-admin-token") || "";
+  els.adminToken.addEventListener("input", () => {
+    localStorage.setItem("sociactus-admin-token", els.adminToken.value.trim());
+  });
+  els.saveConventions.addEventListener("click", saveConventionPriorities);
 }
 
 async function fetchJson(url) {
@@ -131,6 +143,17 @@ async function fetchDataJson(fileName) {
     }
     console.warn(`Source distante indisponible, tentative locale pour ${fileName}.`, error);
     return fetchJson(dataUrl(fallbackDataBaseUrl, fileName));
+  }
+}
+
+async function loadConventionPriorities() {
+  try {
+    state.conventionPriorities = await fetchJson("/api/convention-priorities");
+    els.conventionStatus.textContent = "Priorités chargées depuis Netlify.";
+  } catch (error) {
+    console.warn("Préférences conventions indisponibles, utilisation des données du journal.", error);
+    state.conventionPriorities = { schemaVersion: 1, defaultRank: "p3", priorityRules: [], observed: {} };
+    els.conventionStatus.textContent = "Mode local : préférences distantes indisponibles.";
   }
 }
 
@@ -162,6 +185,7 @@ function renderIndex(index) {
 async function loadDay(date) {
   const day = await fetchDataJson(`${date}.json`);
   state.day = day;
+  applyConventionPriorities();
   document.querySelectorAll(".day-button").forEach((button) => {
     button.classList.toggle("active", button.dataset.date === date);
   });
@@ -170,8 +194,9 @@ async function loadDay(date) {
 
 function renderDay(day) {
   els.journalTitle.textContent = `Journal du ${formatDate(day.date)}`;
-  renderMetrics(day.stats);
+  renderMetrics(computeStats(day.entries || []));
   renderSources(day.sources);
+  renderConventionPanel();
   renderEntries();
 }
 
@@ -187,6 +212,131 @@ function renderMetrics(stats = {}) {
   els.metrics.innerHTML = metrics
     .map(([label, value]) => `<div class="metric"><strong>${value}</strong><span>${label}</span></div>`)
     .join("");
+}
+
+function renderConventionPanel() {
+  const priorities = state.conventionPriorities;
+  const observed = mergeObservedConventions(priorities);
+  const entries = Object.entries(observed).sort(([, a], [, b]) => {
+    const byRank = rankWeight(b.rank) - rankWeight(a.rank);
+    return byRank || String(a.label).localeCompare(String(b.label));
+  });
+
+  els.conventionList.innerHTML = "";
+  if (!entries.length) {
+    els.conventionList.innerHTML = `<div class="empty-compact">Aucune convention détectée dans le journal.</div>`;
+    return;
+  }
+
+  for (const [key, item] of entries) {
+    const row = document.createElement("label");
+    row.className = "convention-row";
+    row.innerHTML = `
+      <span>
+        <strong>${escapeHtml(item.label)}</strong>
+        <small>${item.idcc ? `IDCC ${escapeHtml(item.idcc)}` : "Sans IDCC"} · vu ${Number(item.seenCount || 0)} fois</small>
+      </span>
+      <select data-convention-key="${escapeHtml(key)}" aria-label="Priorité ${escapeHtml(item.label)}">
+        <option value="p1"${item.rank === "p1" ? " selected" : ""}>P1</option>
+        <option value="p2"${item.rank === "p2" ? " selected" : ""}>P2</option>
+        <option value="p3"${item.rank === "p3" ? " selected" : ""}>P3</option>
+      </select>
+    `;
+    els.conventionList.append(row);
+  }
+}
+
+async function saveConventionPriorities() {
+  const token = els.adminToken.value.trim();
+  if (!token) {
+    els.conventionStatus.textContent = "Jeton admin requis pour enregistrer.";
+    els.adminToken.focus();
+    return;
+  }
+
+  const priorities = {
+    ...(state.conventionPriorities || {}),
+    schemaVersion: 1,
+    observed: mergeObservedConventions(state.conventionPriorities),
+  };
+
+  els.conventionList.querySelectorAll("[data-convention-key]").forEach((select) => {
+    const item = priorities.observed[select.dataset.conventionKey];
+    if (item) {
+      item.rank = select.value;
+    }
+  });
+
+  els.saveConventions.disabled = true;
+  els.conventionStatus.textContent = "Enregistrement...";
+  try {
+    const response = await fetch("/api/convention-priorities", {
+      method: "PUT",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(priorities),
+    });
+    const saved = await response.json();
+    if (!response.ok) {
+      throw new Error(saved.error || `HTTP ${response.status}`);
+    }
+    state.conventionPriorities = saved;
+    applyConventionPriorities();
+    renderDay(state.day);
+    els.conventionStatus.textContent = "Priorités enregistrées. La prochaine curation automatique les utilisera.";
+  } catch (error) {
+    console.error(error);
+    els.conventionStatus.textContent = `Enregistrement impossible : ${error.message}`;
+  } finally {
+    els.saveConventions.disabled = false;
+  }
+}
+
+function mergeObservedConventions(priorities = {}) {
+  const observed = { ...(priorities?.observed || {}) };
+  for (const entry of state.day?.entries || []) {
+    const collectiveAgreement = entry.extra?.collectiveAgreement;
+    if (!collectiveAgreement?.key) {
+      continue;
+    }
+    const current = observed[collectiveAgreement.key] || {};
+    observed[collectiveAgreement.key] = {
+      label: current.label || collectiveAgreement.label,
+      idcc: current.idcc || collectiveAgreement.idcc,
+      rank: current.rank || collectiveAgreement.rank || priorities.defaultRank || "p3",
+      firstSeen: current.firstSeen || entry.firstSeenDate || entry.date,
+      lastSeen: entry.date,
+      seenCount: Number(current.seenCount || 0) || 1,
+    };
+  }
+  return observed;
+}
+
+function applyConventionPriorities() {
+  if (!state.day || !state.conventionPriorities) {
+    return;
+  }
+  const observed = mergeObservedConventions(state.conventionPriorities);
+  for (const entry of state.day.entries || []) {
+    const collectiveAgreement = entry.extra?.collectiveAgreement;
+    if (!collectiveAgreement?.key) {
+      continue;
+    }
+    const item = observed[collectiveAgreement.key];
+    const rank = item?.rank || collectiveAgreement.rank || "p3";
+    collectiveAgreement.rank = rank;
+    collectiveAgreement.label = item?.label || collectiveAgreement.label;
+    entry.priorityRank = rank;
+    entry.priorityLabel = priorityLabels[rank] || "P3";
+    entry.priorityReason =
+      rank === "p1"
+        ? `Convention collective prioritaire : ${collectiveAgreement.label}.`
+        : rank === "p2"
+          ? `Convention collective suivie : ${collectiveAgreement.label}.`
+          : `Convention collective non prioritaire : ${collectiveAgreement.label}.`;
+  }
 }
 
 function renderSources(sources = []) {
@@ -244,6 +394,20 @@ function renderEntries() {
           : "Source officielle";
     els.entryList.append(node);
   }
+}
+
+function computeStats(entries = []) {
+  return {
+    total: entries.length,
+    regles: entries.filter((entry) => entry.category === "regle").length,
+    jurisprudence: entries.filter((entry) => entry.category === "jurisprudence").length,
+    projets: entries.filter((entry) => entry.category === "projet-loi").length,
+    actualites: entries.filter((entry) => entry.category === "actualite").length,
+    presse: entries.filter((entry) => entry.category === "presse").length,
+    priorite1: entries.filter((entry) => entry.priorityRank === "p1").length,
+    priorite2: entries.filter((entry) => entry.priorityRank === "p2").length,
+    priorite3: entries.filter((entry) => entry.priorityRank === "p3").length,
+  };
 }
 
 function filteredEntries() {
@@ -310,4 +474,16 @@ function formatDateTime(value) {
     dateStyle: "medium",
     timeStyle: "short",
   }).format(date);
+}
+
+function rankWeight(rank) {
+  return { p1: 3, p2: 2, p3: 1 }[rank] || 0;
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
 }

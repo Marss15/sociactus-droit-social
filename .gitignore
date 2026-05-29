@@ -4,6 +4,7 @@ node_modules/
 .env
 .env.*
 !.env.example
+.admin-token.local
 dist/
 .cache/
 artifacts/
