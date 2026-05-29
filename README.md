@@ -30,8 +30,9 @@ Les API Légifrance et Judilibre existent via PISTE, accessibles gratuitement ap
 ## Publication gratuite
 
 1. Pousser ce depot sur GitHub.
-2. Activer GitHub Pages avec GitHub Actions.
-3. Laisser les workflows `.github/workflows/daily-curation.yml` et `.github/workflows/pages.yml` actifs.
+2. Publier le shell statique sur Netlify.
+3. Configurer `SOCIACTUS_DATA_BASE_URL` avec l'URL publique des JSON, par exemple `https://raw.githubusercontent.com/Marss15/sociactus-droit-social/master/data`.
+4. Laisser le workflow `.github/workflows/daily-curation.yml` actif.
 
 Le site n'a pas besoin de base de données ni de serveur payant.
 
@@ -39,4 +40,4 @@ Le site n'a pas besoin de base de données ni de serveur payant.
 
 Le workflow `.github/workflows/daily-curation.yml` est prévu pour lancer `npm run curate` tous les jours à 09:00 en heure de Paris. GitHub cron étant en UTC, le workflow est déclenché aux deux heures UTC possibles puis garde uniquement l'exécution qui tombe réellement à 09:00 à Paris.
 
-Sur Netlify, un rafraîchissement utilisateur ne relance pas la curation : le site statique relit seulement les fichiers JSON déjà publiés. Pour mettre à jour Netlify automatiquement chaque matin, connecter le dépôt Git au site Netlify ou ajouter un déploiement Netlify au workflow CI.
+Sur Netlify, un rafraîchissement utilisateur ne relance pas la curation : le site statique relit seulement les fichiers JSON déjà publiés sur GitHub. Le shell Netlify n'a donc pas besoin d'être redéployé tous les jours.
