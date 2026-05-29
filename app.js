@@ -31,6 +31,22 @@ const priorityLabels = {
   p3: "P3",
 };
 
+const priorityFilterLabels = {
+  p1: "P1",
+  p2: "P2",
+  p3: "P3",
+  all: "Tous rangs",
+};
+
+const filterLabels = {
+  all: "Tout",
+  regle: "Règles",
+  jurisprudence: "Jurisprudence",
+  "projet-loi": "Projets",
+  actualite: "Actualités",
+  presse: "Presse",
+};
+
 const els = {
   runStatus: document.querySelector("#run-status"),
   dayList: document.querySelector("#day-list"),
@@ -38,6 +54,9 @@ const els = {
   journalTitle: document.querySelector("#journal-title"),
   metrics: document.querySelector("#metrics"),
   search: document.querySelector("#search-input"),
+  resultCount: document.querySelector("#result-count"),
+  activeFilters: document.querySelector("#active-filters"),
+  resetFilters: document.querySelector("#reset-filters"),
   entryList: document.querySelector("#entry-list"),
   template: document.querySelector("#entry-template"),
   segments: document.querySelectorAll(".segment"),
@@ -71,8 +90,7 @@ async function boot() {
   els.categorySegments.forEach((button) => {
     button.addEventListener("click", () => {
       state.filter = button.dataset.filter;
-      els.categorySegments.forEach((segment) => segment.classList.remove("active"));
-      button.classList.add("active");
+      setPressedGroup(els.categorySegments, button);
       renderEntries();
     });
   });
@@ -80,10 +98,19 @@ async function boot() {
   els.prioritySegments.forEach((button) => {
     button.addEventListener("click", () => {
       state.priorityFilter = button.dataset.priority;
-      els.prioritySegments.forEach((segment) => segment.classList.remove("active"));
-      button.classList.add("active");
+      setPressedGroup(els.prioritySegments, button);
       renderEntries();
     });
+  });
+
+  els.resetFilters.addEventListener("click", () => {
+    state.filter = "all";
+    state.priorityFilter = "p1";
+    state.query = "";
+    els.search.value = "";
+    setPressedGroup(els.categorySegments, document.querySelector('[data-filter="all"]'));
+    setPressedGroup(els.prioritySegments, document.querySelector('[data-priority="p1"]'));
+    renderEntries();
   });
 }
 
@@ -176,24 +203,9 @@ function renderEntries() {
     return;
   }
 
-  const entries = (state.day.entries || []).filter((entry) => {
-    const matchesFilter = state.filter === "all" || entry.category === state.filter;
-    const matchesPriority =
-      state.priorityFilter === "all" || (entry.priorityRank || "p3") === state.priorityFilter;
-    const haystack = [
-      entry.title,
-      entry.summary,
-      entry.watch,
-      entry.priorityLabel,
-      entry.priorityReason,
-      entry.application?.label,
-      ...(entry.themes || []),
-    ]
-      .join(" ")
-      .toLowerCase();
-    const matchesQuery = !state.query || haystack.includes(state.query);
-    return matchesFilter && matchesPriority && matchesQuery;
-  });
+  const entries = filteredEntries();
+
+  renderFilterStatus(entries.length);
 
   els.entryList.innerHTML = "";
 
@@ -216,6 +228,7 @@ function renderEntries() {
     node.querySelector(".priority-badge").textContent = priorityLabels[entry.priorityRank] || "P3";
     node.querySelector(".priority-badge").title = entry.priorityReason || "";
     node.querySelector(".summary").textContent = entry.summary;
+    node.querySelector(".priority-reason").textContent = entry.priorityReason || "";
     node.querySelector(".application").textContent = entry.application?.label || "Date à confirmer dans la source.";
     node.querySelector(".watch").textContent = entry.watch || "Vérifier la source avant toute décision.";
     node.querySelector(".themes").innerHTML = (entry.themes || [])
@@ -231,6 +244,48 @@ function renderEntries() {
           : "Source officielle";
     els.entryList.append(node);
   }
+}
+
+function filteredEntries() {
+  return (state.day.entries || []).filter((entry) => {
+    const matchesFilter = state.filter === "all" || entry.category === state.filter;
+    const matchesPriority =
+      state.priorityFilter === "all" || (entry.priorityRank || "p3") === state.priorityFilter;
+    const haystack = [
+      entry.title,
+      entry.summary,
+      entry.watch,
+      entry.priorityLabel,
+      entry.priorityReason,
+      entry.application?.label,
+      ...(entry.themes || []),
+    ]
+      .join(" ")
+      .toLowerCase();
+    const matchesQuery = !state.query || haystack.includes(state.query);
+    return matchesFilter && matchesPriority && matchesQuery;
+  });
+}
+
+function renderFilterStatus(count) {
+  els.resultCount.textContent = `${count} ${count > 1 ? "résultats" : "résultat"}`;
+  const chips = [
+    priorityFilterLabels[state.priorityFilter] || "P1",
+    filterLabels[state.filter] || "Tout",
+    state.query ? `Recherche: ${state.query}` : null,
+  ].filter(Boolean);
+
+  els.activeFilters.innerHTML = chips.map((chip) => `<span class="filter-chip">${chip}</span>`).join("");
+  const isDefault = state.priorityFilter === "p1" && state.filter === "all" && !state.query;
+  els.resetFilters.disabled = isDefault;
+}
+
+function setPressedGroup(group, activeButton) {
+  group.forEach((segment) => {
+    const isActive = segment === activeButton;
+    segment.classList.toggle("active", isActive);
+    segment.setAttribute("aria-pressed", String(isActive));
+  });
 }
 
 function renderEmpty(message) {

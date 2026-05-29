@@ -41,23 +41,30 @@
         </section>
 
         <section class="toolbar" aria-label="Filtres de veille">
-          <label class="search-box">
-            <span>Rechercher</span>
-            <input id="search-input" type="search" placeholder="ex. CSE, SMIC, licenciement" />
-          </label>
-          <div class="segments priority-segments" role="tablist" aria-label="Rang de priorité">
-            <button class="segment active" data-priority="p1" type="button">P1</button>
-            <button class="segment" data-priority="p2" type="button">P2</button>
-            <button class="segment" data-priority="p3" type="button">P3</button>
-            <button class="segment" data-priority="all" type="button">Tous rangs</button>
+          <div class="filter-row">
+            <label class="search-box">
+              <span>Rechercher</span>
+              <input id="search-input" type="search" placeholder="ex. CSE, SMIC, licenciement" />
+            </label>
+            <div class="segments priority-segments" role="group" aria-label="Rang de priorité">
+              <button class="segment active" data-priority="p1" type="button" aria-pressed="true">P1</button>
+              <button class="segment" data-priority="p2" type="button" aria-pressed="false">P2</button>
+              <button class="segment" data-priority="p3" type="button" aria-pressed="false">P3</button>
+              <button class="segment" data-priority="all" type="button" aria-pressed="false">Tous rangs</button>
+            </div>
+            <div class="segments" role="group" aria-label="Type d'information">
+              <button class="segment active" data-filter="all" type="button" aria-pressed="true">Tout</button>
+              <button class="segment" data-filter="regle" type="button" aria-pressed="false">Règles</button>
+              <button class="segment" data-filter="jurisprudence" type="button" aria-pressed="false">Jurisprudence</button>
+              <button class="segment" data-filter="projet-loi" type="button" aria-pressed="false">Projets</button>
+              <button class="segment" data-filter="actualite" type="button" aria-pressed="false">Actualités</button>
+              <button class="segment" data-filter="presse" type="button" aria-pressed="false">Presse</button>
+            </div>
           </div>
-          <div class="segments" role="tablist" aria-label="Type d'information">
-            <button class="segment active" data-filter="all" type="button">Tout</button>
-            <button class="segment" data-filter="regle" type="button">Règles</button>
-            <button class="segment" data-filter="jurisprudence" type="button">Jurisprudence</button>
-            <button class="segment" data-filter="projet-loi" type="button">Projets</button>
-            <button class="segment" data-filter="actualite" type="button">Actualités</button>
-            <button class="segment" data-filter="presse" type="button">Presse</button>
+          <div class="filter-status" aria-live="polite">
+            <div id="result-count" class="result-count">0 résultat</div>
+            <div id="active-filters" class="active-filters"></div>
+            <button id="reset-filters" class="reset-filters" type="button">Réinitialiser</button>
           </div>
         </section>
 
@@ -78,16 +85,20 @@
           </div>
         </div>
         <p class="summary"></p>
-        <div class="detail-grid">
-          <div>
-            <span class="field-label">Application</span>
-            <p class="application"></p>
+        <p class="priority-reason"></p>
+        <details class="detail-panel">
+          <summary>Détails opérationnels</summary>
+          <div class="detail-grid">
+            <div>
+              <span class="field-label">Application</span>
+              <p class="application"></p>
+            </div>
+            <div>
+              <span class="field-label">Point de vigilance</span>
+              <p class="watch"></p>
+            </div>
           </div>
-          <div>
-            <span class="field-label">Point de vigilance</span>
-            <p class="watch"></p>
-          </div>
-        </div>
+        </details>
         <div class="themes"></div>
         <div class="entry-actions">
           <a class="source-link" target="_blank" rel="noreferrer">Source officielle</a>

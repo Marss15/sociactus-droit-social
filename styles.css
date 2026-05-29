@@ -208,12 +208,21 @@ h1 {
 }
 
 .toolbar {
+  display: grid;
+  gap: 12px;
+  border-radius: 8px;
+  padding: 14px;
+  position: sticky;
+  top: 118px;
+  z-index: 8;
+  backdrop-filter: blur(16px);
+}
+
+.filter-row {
   display: flex;
   align-items: end;
   justify-content: space-between;
   gap: 14px;
-  border-radius: 8px;
-  padding: 14px;
 }
 
 .search-box {
@@ -254,7 +263,7 @@ h1 {
 }
 
 .segment {
-  min-height: 38px;
+  min-height: 44px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
@@ -266,10 +275,65 @@ h1 {
 }
 
 .segment:hover,
-.segment.active {
+.segment.active,
+.segment[aria-pressed="true"] {
   border-color: var(--accent);
   background: var(--green-soft);
   color: var(--accent-ink);
+}
+
+.filter-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.result-count {
+  min-width: max-content;
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 850;
+}
+
+.active-filters {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--muted);
+  padding: 3px 9px;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.reset-filters {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  padding: 0 10px;
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.reset-filters:disabled {
+  cursor: default;
+  opacity: 0.45;
 }
 
 .entry-list {
@@ -376,6 +440,34 @@ h1 {
   line-height: 1.58;
 }
 
+.priority-reason {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 750;
+}
+
+.detail-panel {
+  margin: 14px 0 0;
+}
+
+.detail-panel summary {
+  min-height: 36px;
+  color: var(--accent-ink);
+  cursor: pointer;
+  font-weight: 850;
+}
+
+.detail-panel summary:focus-visible,
+.segment:focus-visible,
+.source-link:focus-visible,
+.day-button:focus-visible,
+.reset-filters:focus-visible,
+.search-box input:focus-visible {
+  outline: 3px solid rgba(15, 118, 110, 0.24);
+  outline-offset: 2px;
+}
+
 .detail-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -461,6 +553,12 @@ h1 {
 
   .toolbar {
     align-items: stretch;
+    position: static;
+  }
+
+  .filter-row,
+  .filter-status {
+    align-items: stretch;
     flex-direction: column;
   }
 
@@ -479,6 +577,10 @@ h1 {
   .detail-grid,
   .entry-head {
     grid-template-columns: 1fr;
+  }
+
+  .entry-flags {
+    justify-content: flex-start;
   }
 
   .run-status {
