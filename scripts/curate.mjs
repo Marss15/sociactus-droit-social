@@ -10,6 +10,7 @@ const DATA_DIR = join(ROOT, "data");
 const DRY_RUN = process.argv.includes("--dry-run");
 const MAX_HISTORY_DAYS = 90;
 const REQUEST_TIMEOUT_MS = 45000;
+const STRICT_DAILY_MODE = process.env.SOCIACTUS_STRICT_DAILY_MODE !== "false";
 
 const now = new Date();
 const runDate = process.env.CURATION_DATE || parisDate(now);
@@ -274,7 +275,10 @@ async function main() {
     }
   }
 
-  const entries = dedupe(collected)
+  const dailyFiltered = STRICT_DAILY_MODE ? collected.filter(isTodayEntry) : collected;
+  const rejectedByDate = collected.length - dailyFiltered.length;
+
+  const entries = dedupe(dailyFiltered)
     .filter((entry) => !previousIds.has(entry.id))
     .sort((a, b) => b.priority - a.priority || new Date(b.publishedAt) - new Date(a.publishedAt));
 
@@ -290,13 +294,19 @@ async function main() {
         "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
         "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice.",
       ],
+      dailyMode: {
+        strict: STRICT_DAILY_MODE,
+        date: runDate,
+        collected: collected.length,
+        rejectedByDate,
+      },
       errors,
     },
     entries,
   };
 
   if (DRY_RUN) {
-    console.log(JSON.stringify({ date: runDate, stats: journal.stats, errors }, null, 2));
+    console.log(JSON.stringify({ date: runDate, stats: journal.stats, rejectedByDate, errors }, null, 2));
     return;
   }
 
@@ -306,6 +316,10 @@ async function main() {
   for (const error of errors) {
     console.warn(error);
   }
+}
+
+function isTodayEntry(entry) {
+  return dateOnly(entry.publishedAt || entry.date) === runDate;
 }
 
 async function fetchText(url) {
@@ -965,9 +979,24 @@ function normalizeDate(value) {
   }
   const parsed = new Date(value);
   if (!Number.isNaN(parsed.getTime())) {
-    return parsed.toISOString().slice(0, 10);
+    return parisDate(parsed);
   }
   return value.slice(0, 10);
+}
+
+function dateOnly(value) {
+  if (!value) {
+    return "";
+  }
+  const text = String(value);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(text)) {
+    return text;
+  }
+  const parsed = new Date(text);
+  if (!Number.isNaN(parsed.getTime())) {
+    return parisDate(parsed);
+  }
+  return text.slice(0, 10);
 }
 
 function parisDate(date) {

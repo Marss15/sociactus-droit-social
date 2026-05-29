@@ -43,6 +43,8 @@ Le site n'a pas besoin de base de données ni de serveur payant.
 
 Le workflow `.github/workflows/daily-curation.yml` est prévu pour lancer `npm run curate` tous les jours à 09:00 en heure de Paris. GitHub cron étant en UTC, le workflow est déclenché aux deux heures UTC possibles puis garde uniquement l'exécution qui tombe réellement à 09:00 à Paris.
 
+Par défaut, l'édition est strictement journalière : un élément n'est conservé que si sa date de publication, de décision ou de parution au Journal officiel correspond à la date du journal. Les éléments collectés mais datés d'un autre jour sont rejetés et comptabilisés dans `research.dailyMode.rejectedByDate`. Pour faire une veille historique ponctuelle, lancer la curation avec `SOCIACTUS_STRICT_DAILY_MODE=false`.
+
 Sur Netlify, un rafraîchissement utilisateur ne relance pas la curation : le site statique relit seulement les fichiers JSON déjà publiés sur GitHub. Le shell Netlify n'a donc pas besoin d'être redéployé tous les jours.
 
 Quand `SOCIACTUS_DATA_BASE_URL` pointe vers GitHub, le build Netlify ne copie pas `data/` dans `dist` afin d'éviter de servir une ancienne copie locale.
