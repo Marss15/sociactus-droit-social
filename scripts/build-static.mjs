@@ -9,8 +9,13 @@ await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 
 const dataBaseUrl = process.env.SOCIACTUS_DATA_BASE_URL || "data";
+const buildItems = ["index.html", "styles.css", "app.js", ".nojekyll"];
 
-for (const item of ["index.html", "styles.css", "app.js", ".nojekyll", "data"]) {
+if (dataBaseUrl === "data") {
+  buildItems.push("data");
+}
+
+for (const item of buildItems) {
   await cp(resolve(root, item), resolve(dist, item), { recursive: true });
 }
 

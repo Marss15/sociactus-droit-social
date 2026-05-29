@@ -41,3 +41,5 @@ Le site n'a pas besoin de base de données ni de serveur payant.
 Le workflow `.github/workflows/daily-curation.yml` est prévu pour lancer `npm run curate` tous les jours à 09:00 en heure de Paris. GitHub cron étant en UTC, le workflow est déclenché aux deux heures UTC possibles puis garde uniquement l'exécution qui tombe réellement à 09:00 à Paris.
 
 Sur Netlify, un rafraîchissement utilisateur ne relance pas la curation : le site statique relit seulement les fichiers JSON déjà publiés sur GitHub. Le shell Netlify n'a donc pas besoin d'être redéployé tous les jours.
+
+Quand `SOCIACTUS_DATA_BASE_URL` pointe vers GitHub, le build Netlify ne copie pas `data/` dans `dist` afin d'éviter de servir une ancienne copie locale.
