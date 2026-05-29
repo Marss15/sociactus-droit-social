@@ -1,0 +1,42 @@
+# Sociactus
+
+Sociactus est un site statique personnel pour curer chaque jour les informations de droit social français : actualités, projets de loi, textes publiés au Journal officiel et jurisprudence sociale.
+
+## Fonctionnement
+
+- `npm run curate` interroge les sources publiques, filtre les contenus de droit social, les classe et génère `data/YYYY-MM-DD.json`.
+- `npm run serve` lance un serveur local sur `http://127.0.0.1:4173`.
+- Le site est statique : `index.html`, `styles.css`, `app.js` et les fichiers `data/*.json`.
+- GitHub Actions peut lancer la curation quotidienne et publier le site gratuitement avec GitHub Pages.
+
+## Sources gratuites intégrées
+
+- DILA JORFSIMPLE : textes quotidiens du Journal officiel, sans clé API, depuis `https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/`.
+- DILA CASS : arrêts publiés de la Cour de cassation, dont la chambre sociale, décrits sur `https://www.data.gouv.fr/fr/datasets/cass/`.
+- Vie-publique.fr : flux actualités et panorama des lois.
+- Service-Public.fr : flux d'actualités particuliers et professionnels.
+- Conseil d'État : flux RSS actualités et avis.
+
+## MCP et API de l'Etat
+
+Le serveur MCP officiel `data.gouv.fr` existe et permet à un agent de rechercher des jeux de données ou API du catalogue public : `https://github.com/datagouv/datagouv-mcp`. Pour ce site, il n'est pas nécessaire au fonctionnement quotidien : les flux ouverts et archives DILA sont plus simples à automatiser dans GitHub Actions.
+
+Les API Légifrance et Judilibre existent via PISTE, accessibles gratuitement après inscription, mais avec jeton et quotas. Elles sont utiles pour enrichir plus tard la recherche plein texte et les métadonnées fines :
+
+- API Légifrance : `https://www.data.gouv.fr/dataservices/legifrance/`.
+- API Judilibre : `https://www.data.gouv.fr/fr/datasets/api-judilibre/`.
+- Présentation DILA open data et API : `https://www.dila.gouv.fr/home/open-data-et-api`.
+
+## Publication gratuite
+
+1. Pousser ce depot sur GitHub.
+2. Activer GitHub Pages avec GitHub Actions.
+3. Laisser les workflows `.github/workflows/daily-curation.yml` et `.github/workflows/pages.yml` actifs.
+
+Le site n'a pas besoin de base de données ni de serveur payant.
+
+## Curation automatique
+
+Le workflow `.github/workflows/daily-curation.yml` est prévu pour lancer `npm run curate` tous les jours à 09:00 en heure de Paris. GitHub cron étant en UTC, le workflow est déclenché aux deux heures UTC possibles puis garde uniquement l'exécution qui tombe réellement à 09:00 à Paris.
+
+Sur Netlify, un rafraîchissement utilisateur ne relance pas la curation : le site statique relit seulement les fichiers JSON déjà publiés. Pour mettre à jour Netlify automatiquement chaque matin, connecter le dépôt Git au site Netlify ou ajouter un déploiement Netlify au workflow CI.

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sociactus, journal quotidien de veille et de curation du droit social en France."
+    />
+    <title>Sociactus - Journal du droit social</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Veille sociale française</p>
+        <h1>Sociactus</h1>
+      </div>
+      <div class="run-status" id="run-status">Chargement du journal...</div>
+    </header>
+
+    <main class="shell">
+      <aside class="sidebar" aria-label="Jours de veille">
+        <div class="panel">
+          <div class="panel-title">Journal</div>
+          <div id="day-list" class="day-list"></div>
+        </div>
+        <div class="panel source-panel">
+          <div class="panel-title">Sources</div>
+          <ul id="source-list"></ul>
+        </div>
+      </aside>
+
+      <section class="workspace">
+        <section class="summary-band" aria-labelledby="journal-title">
+          <div>
+            <p class="eyebrow">Edition du jour</p>
+            <h2 id="journal-title">Journal de veille</h2>
+          </div>
+          <div class="metrics" id="metrics"></div>
+        </section>
+
+        <section class="toolbar" aria-label="Filtres de veille">
+          <label class="search-box">
+            <span>Rechercher</span>
+            <input id="search-input" type="search" placeholder="ex. CSE, SMIC, licenciement" />
+          </label>
+          <div class="segments" role="tablist" aria-label="Type d'information">
+            <button class="segment active" data-filter="all" type="button">Tout</button>
+            <button class="segment" data-filter="regle" type="button">Règles</button>
+            <button class="segment" data-filter="jurisprudence" type="button">Jurisprudence</button>
+            <button class="segment" data-filter="projet-loi" type="button">Projets</button>
+            <button class="segment" data-filter="actualite" type="button">Actualités</button>
+          </div>
+        </section>
+
+        <section id="entry-list" class="entry-list" aria-live="polite"></section>
+      </section>
+    </main>
+
+    <template id="entry-template">
+      <article class="entry-card">
+        <div class="entry-head">
+          <div>
+            <div class="entry-meta"></div>
+            <h3></h3>
+          </div>
+          <span class="impact"></span>
+        </div>
+        <p class="summary"></p>
+        <div class="detail-grid">
+          <div>
+            <span class="field-label">Application</span>
+            <p class="application"></p>
+          </div>
+          <div>
+            <span class="field-label">Point de vigilance</span>
+            <p class="watch"></p>
+          </div>
+        </div>
+        <div class="themes"></div>
+        <div class="entry-actions">
+          <a class="source-link" target="_blank" rel="noreferrer">Source officielle</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="config.js"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

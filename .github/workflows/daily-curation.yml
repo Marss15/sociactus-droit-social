@@ -1,0 +1,47 @@
+name: Daily social law curation
+
+on:
+  schedule:
+    # 09:00 Europe/Paris. GitHub cron is UTC, so run at both possible UTC hours
+    # and keep only the invocation that is 09:00 in Paris, including DST changes.
+    - cron: "0 7,8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Paris
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - id: paris_time
+        name: Check 09:00 Europe/Paris window
+        run: |
+          HOUR=$(TZ=Europe/Paris date +%H)
+          if [ "$HOUR" != "09" ]; then
+            echo "Skipping: current Europe/Paris hour is $HOUR, expected 09."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Generate daily journal
+        if: steps.paris_time.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
+        run: npm run curate
+      - name: Commit updated journal
+        if: steps.paris_time.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No curation changes to commit."
+          else
+            git commit -m "Update daily social law curation"
+            git push
+          fi

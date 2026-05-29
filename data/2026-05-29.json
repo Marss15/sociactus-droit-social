@@ -1,0 +1,3180 @@
+{
+  "generatedAt": "2026-05-29T08:11:37.166Z",
+  "date": "2026-05-29",
+  "stats": {
+    "total": 115,
+    "regles": 37,
+    "jurisprudence": 28,
+    "projets": 5,
+    "actualites": 45
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "eafcf56ba65ec8fc",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-411 du 28 mai 2026 portant dérogation temporaire au délai mentionné au II de l'article D. 6332-78-1 du code du travail",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/5/28/TRSD2613579D/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "Publics concernés : France compétences, branches professionnelles, commissions paritaires nationales de l'emploi, commissions paritaires de la branche professionnelle, opérateurs de compétences, centres de formation d'apprenti.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "extra": {
+        "id": "JORFTEXT000054149049",
+        "nor": "TRSD2613579D",
+        "nature": "DECRET",
+        "textDate": "2026-05-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "07d1374fd46dd69d",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "regle",
+      "title": "Quelle évolution pour l’aide à l’embauche des apprentis depuis le 8 mars 2026 ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18837?xtor=RSS-112",
+      "publishedAt": "2026-03-09",
+      "summary": "Un décret indique les modalités de versement de l’aide à l’apprentissage versée aux employeurs d’apprentis. Ces nouveaux montants s’appliquent aux contrats d’apprentissage conclus à partir du 8 mars 2026 et débutant avant le 1 er janvier 2027..",
+      "application": {
+        "date": "2026-03-09",
+        "label": "Date de référence : 09 mars 2026.",
+        "basis": "Source officielle."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Formation"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "extra": {}
+    },
+    {
+      "id": "689c86d56444283d",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "regle",
+      "title": "Quel est le salaire minimum applicable selon votre convention collective ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18444?xtor=RSS-112",
+      "publishedAt": "2025-09-04",
+      "summary": "Le Code du travail numérique est le site officiel consacré aux questions liées au droit du travail. Vous pouvez y découvrir le salaire minimum de la convention collective dont vous dépendez..",
+      "application": {
+        "date": "2025-09-04",
+        "label": "Date de référence : 04 septembre 2025.",
+        "basis": "Source officielle."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Conventions collectives"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "extra": {}
+    },
+    {
+      "id": "a75fafcef5891ff8",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "regle",
+      "title": "L'employeur peut-il faire travailler ses salariés le 1er mai ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18232?xtor=RSS-112",
+      "publishedAt": "2026-04-20",
+      "summary": "À l'approche du 1 er mai, il est essentiel de connaître les règles applicables en entreprise ce jour-là. Rappel..",
+      "application": {
+        "date": "2026-04-20",
+        "label": "Date de référence : 20 avril 2026.",
+        "basis": "Source officielle."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "extra": {}
+    },
+    {
+      "id": "d6c99b1aa4f0561c",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "regle",
+      "title": "Financement du CPF : évolution du montant de la participation obligatoire",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18873?xtor=RSS-112",
+      "publishedAt": "2026-04-09",
+      "summary": "Le décret n° 2026-234 du 30 mars 2026 relève la participation obligatoire au compte CPF à 150 € . Cette participation peut être prise en charge par l’employeur..",
+      "application": {
+        "date": "2026-04-09",
+        "label": "Date de référence : 09 avril 2026.",
+        "basis": "Source officielle."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "extra": {}
+    },
+    {
+      "id": "72a38a2209fe2004",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "regle",
+      "title": "Du nouveau pour les salariés engagés dans un parcours de PMA ou d'adoption",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18383?xtor=RSS-112",
+      "publishedAt": "2025-07-01",
+      "summary": "La loi publiée au Journal officiel du 1 er juillet 2025 vise à protéger d'éventuelles discriminations au travail les personnes engagées dans un projet parental de PMA ou d'adoption. Désormais, des autorisations d'absence viennent faciliter leur quotidien. Service-Public.fr vous explique..",
+      "application": {
+        "date": "2025-07-01",
+        "label": "Date de référence : 01 juillet 2025.",
+        "basis": "Source officielle."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "extra": {}
+    },
+    {
+      "id": "c97af8a9557602b0",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Critère d’ancienneté et CSE : prolongation du délai de mise en conformité",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18665?xtor=RSS-112",
+      "publishedAt": "2025-12-21",
+      "summary": "Suite à un arrêt de la Cour de cassation, l’Urssaf interdit désormais que l’accès aux prestations du comité social économique (CSE) soit soumis à une condition d’ancienneté. Le délai laissé aux CSE pour se mettre en conformité vient d’être prolongé d’un an.",
+      "application": {
+        "date": "2025-12-21",
+        "label": "Décision ou avis du 21 décembre 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Comparer avec la pratique actuelle : un changement de position peut imposer une mise à jour rapide.",
+      "themes": [
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "high",
+      "priority": 56,
+      "extra": {}
+    },
+    {
+      "id": "13a3b4fc95e3426a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Calcul des heures supplémentaires hebdomadaires : les congés payés doivent-ils être pris en compte ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18461?xtor=RSS-112",
+      "publishedAt": "2025-09-18",
+      "summary": "La Cour de cassation affirme que le salarié soumis à un décompte hebdomadaire de son temps de travail peut désormais obtenir le paiement d’heures supplémentaires sur la semaine au cours de laquelle il a posé un ou plusieurs jours de congés payés..",
+      "application": {
+        "date": "2025-09-18",
+        "label": "Décision ou avis du 18 septembre 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Comparer avec la pratique actuelle : un changement de position peut imposer une mise à jour rapide.",
+      "themes": [
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "high",
+      "priority": 56,
+      "extra": {}
+    },
+    {
+      "id": "81c0cc5006658c65",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "L’obligation de l’employeur s’étend-elle aux locaux des sociétés où intervient le salarié ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18393?xtor=RSS-112",
+      "publishedAt": "2025-07-16",
+      "summary": "La Cour de cassation, dans un arrêt du 11 juin 2025 publié au bulletin, précise les contours de l’obligation de sécurité de l’employeur vis-à-vis de son salarié..",
+      "application": {
+        "date": "2025-07-16",
+        "label": "Décision ou avis du 16 juillet 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Comparer avec la pratique actuelle : un changement de position peut imposer une mise à jour rapide.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 55,
+      "extra": {}
+    },
+    {
+      "id": "1507c1a75aa4ba63",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 mai 2026 portant extension d'un avenant conclu dans le cadre de la convention collective nationale du négoce et prestations de services dans les domaines médico-techniques (n° 1982)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149339",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 18 mai 2026 portant extension d'un avenant conclu dans le cadre de la convention collective nationale du négoce et prestations de services dans les domaines médico-techniques (n° 1982). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149339",
+        "nor": "TRST2612635A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "6625ac621945f65f",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 mai 2026 portant extension d'un protocole d'accord conclu dans le cadre de la convention collective nationale du personnel des entreprises de transport en navigation intérieure (n° 3229)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149359",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 18 mai 2026 portant extension d'un protocole d'accord conclu dans le cadre de la convention collective nationale du personnel des entreprises de transport en navigation intérieure (n° 3229). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149359",
+        "nor": "TRST2612639A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "387cbe83ef21b297",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 mai 2026 portant extension d'un avenant à la convention collective nationale métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et activités connexes dite SDLM (n° 1404)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149369",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 18 mai 2026 portant extension d'un avenant à la convention collective nationale métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et activités connexes dite SDLM (n° 1404).",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149369",
+        "nor": "TRST2612649A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "50231a83a18aabba",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant extension d'avenants à la convention collective nationale des entreprises d'expédition et d'exportation de fruits et légumes (n° 1405)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149405",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant extension d'avenants à la convention collective nationale des entreprises d'expédition et d'exportation de fruits et légumes (n° 1405). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149405",
+        "nor": "TRST2612633A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "df0d6caff4ccb963",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale relative aux conditions de travail du personnel des industries céramiques de France (n° 1558)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149415",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale relative aux conditions de travail du personnel des industries céramiques de France (n° 1558). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149415",
+        "nor": "TRST2612637A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "f89d1dd82c2cc33a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant extension d'accords régionaux (Occitanie) conclus dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à 10 salariés et entreprises occupant plus de 10 salariés) (nos 1596 et 1597) et de la convention collective nationale des employés, techniciens et agents de maîtrise du bâtiment (n° 2609)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149425",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant extension d'accords régionaux (Occitanie) conclus dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à 10 salariés et entreprises occupant plus de 10 salariés) (nos 1596 et 1597) et de...",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149425",
+        "nor": "TRST2612648A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "fad01798afa1072f",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale de la miroiterie, de la transformation et du négoce du verre (n° 1499)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149457",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale de la miroiterie, de la transformation et du négoce du verre (n° 1499). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149457",
+        "nor": "TRST2612670A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "83943dfc667090c5",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des pâtes alimentaires sèches et du couscous non préparé (n° 1987)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149468",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 20 mai 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des pâtes alimentaires sèches et du couscous non préparé (n° 1987). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149468",
+        "nor": "TRST2612634A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "229207d16ebaf48d",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant extension d'un avenant à la convention collective nationale des industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes (n° 1607)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149498",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 20 mai 2026 portant extension d'un avenant à la convention collective nationale des industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes (n° 1607). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149498",
+        "nor": "TRST2612672A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "9f83f548f17b4750",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant extension d'accords territoriaux (Bretagne - Rhône-Alpes) conclus dans le cadre de la convention collective nationale des entreprises d'architecture (n° 2332)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149508",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 20 mai 2026 portant extension d'accords territoriaux (Bretagne - Rhône-Alpes) conclus dans le cadre de la convention collective nationale des entreprises d'architecture (n° 2332). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149508",
+        "nor": "TRST2612673A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "b540077f1ef45ef4",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant extension d'un avenant à la convention collective nationale des distributeurs conseils hors domicile (n° 1536)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149518",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 20 mai 2026 portant extension d'un avenant à la convention collective nationale des distributeurs conseils hors domicile (n° 1536). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149518",
+        "nor": "TRST2612674A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "aa2435cedd4c8f0c",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 mai 2026 portant extension d'accords territoriaux (Centre-Val de Loire, Nouvelle-Aquitaine, Ile-de-France, Hauts-de-France) conclus dans le cadre de la convention collective nationale des industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149528",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 21 mai 2026 portant extension d'accords territoriaux (Centre-Val de Loire, Nouvelle-Aquitaine, Ile-de-France, Hauts-de-France) conclus dans le cadre de la convention collective nationale des industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249).",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149528",
+        "nor": "TRST2612645A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "46693e5c0209dec2",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance de l'emploi de directeur régional adjoint de l'alimentation, de l'agriculture et de la forêt de Corse",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149808",
+      "publishedAt": "2026-05-29",
+      "summary": "AVIS. Avis de vacance de l'emploi de directeur régional adjoint de l'alimentation, de l'agriculture et de la forêt de Corse. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Publié le 29 mai 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "extra": {
+        "id": "JORFTEXT000054149808",
+        "nor": "AGRS2614324V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "bf5281b70d9274fa",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 mai 2026 portant extension d'accords régionaux (Auvergne-Rhône-Alpes) conclus dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à 10 salariés et entreprises occupant plus de 10 salariés) (nos 1596 et 1597)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149317",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 12 mai 2026 portant extension d'accords régionaux (Auvergne-Rhône-Alpes) conclus dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à 10 salariés et entreprises occupant plus de 10 salariés) (nos 1596 et...",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "extra": {
+        "id": "JORFTEXT000054149317",
+        "nor": "TRST2612643A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "857855fad508ebad",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 mai 2026 portant extension d'un avenant à la convention collective nationale des commissaires de justice et sociétés de ventes volontaires (n° 3250)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149329",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 18 mai 2026 portant extension d'un avenant à la convention collective nationale des commissaires de justice et sociétés de ventes volontaires (n° 3250). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "extra": {
+        "id": "JORFTEXT000054149329",
+        "nor": "TRST2612628A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "1be3dd76da47fc3a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 mai 2026 portant extension d'un avenant à la convention collective nationale des sociétés d'expertises et d'évaluations (n° 915)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149349",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 18 mai 2026 portant extension d'un avenant à la convention collective nationale des sociétés d'expertises et d'évaluations (n° 915). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "extra": {
+        "id": "JORFTEXT000054149349",
+        "nor": "TRST2612636A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "4050f272e05c1fc8",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 mai 2026 portant extension d'accords territoriaux (Avesnes - Eure - Limousin - Loire et arrondissement d'Yssingeaux) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149379",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 18 mai 2026 portant extension d'accords territoriaux (Avesnes - Eure - Limousin - Loire et arrondissement d'Yssingeaux) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "extra": {
+        "id": "JORFTEXT000054149379",
+        "nor": "TRST2612650A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "903ab7ba7b43ed1e",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 mai 2026 portant extension d'un accord départemental (Drôme-Ardèche) conclu dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 modifié (entreprises occupant jusqu'à 10 salariés et de plus de 10 salariés) (nos 1596 et 1597)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149395",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 18 mai 2026 portant extension d'un accord départemental (Drôme-Ardèche) conclu dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 modifié (entreprises occupant jusqu'à 10 salariés et de plus de 10 salariés) (nos 1596 et 1597).",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "extra": {
+        "id": "JORFTEXT000054149395",
+        "nor": "TRST2612652A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "e584fb3d4d640758",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant extension d'un accord départemental (Loire) conclu dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 modifié (entreprises occupant jusqu'à 10 salariés et de plus de 10 salariés) (nos 1596 et 1597)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149437",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant extension d'un accord départemental (Loire) conclu dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 modifié (entreprises occupant jusqu'à 10 salariés et de plus de 10 salariés) (nos 1596 et 1597).",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "extra": {
+        "id": "JORFTEXT000054149437",
+        "nor": "TRST2612651A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "7b3f8f8add2516da",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant extension d'un accord territorial (Isère et Hautes-Alpes) conclu dans le cadre de la convention collective nationale de la métallurgie (n° 3248)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149447",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant extension d'un accord territorial (Isère et Hautes-Alpes) conclu dans le cadre de la convention collective nationale de la métallurgie (n° 3248). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "extra": {
+        "id": "JORFTEXT000054149447",
+        "nor": "TRST2612654A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "2b78c7729718c844",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant extension d'accords territoriaux (Belfort-Montbéliard - Doubs - Finistère - Haute-Saône - Valenciennes et Cambrai) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149480",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 20 mai 2026 portant extension d'accords territoriaux (Belfort-Montbéliard - Doubs - Finistère - Haute-Saône - Valenciennes et Cambrai) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "extra": {
+        "id": "JORFTEXT000054149480",
+        "nor": "TRST2612669A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "adb26ada636eeb6a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes pour le recrutement d'ingénieurs d'études de classe normale à l'Institut de recherche pour le développement (IRD)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149686",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes pour le recrutement d'ingénieurs d'études de classe normale à l'Institut de recherche pour le développement (IRD). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "extra": {
+        "id": "JORFTEXT000054149686",
+        "nor": "IRDH2613315A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "f8f76c05293e2561",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 portant agrément de l'accord d'intéressement de la branche France Travail du 18 mars 2026",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/26/TRST2612836A/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 portant agrément de l'accord d'intéressement de la branche France Travail du 18 mars 2026. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "extra": {
+        "id": "JORFTEXT000054149059",
+        "nor": "TRST2612836A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "5bbd41ad12b220ad",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 relatif aux mentions obligatoires imposées pour toute promotion d'une action de formation professionnelle, financée par des fonds publics et émanant de personnes physiques ou morales exerçant l'activité d'influence commerciale",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/26/TRSD2613311A/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 relatif aux mentions obligatoires imposées pour toute promotion d'une action de formation professionnelle, financée par des fonds publics et émanant de personnes physiques ou morales exerçant l'activité d'influence commerciale. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "extra": {
+        "id": "JORFTEXT000054149068",
+        "nor": "TRSD2613311A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "5a9a069369a7b3b8",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'accord relatif au dialogue social dans la branche des industries électriques et gazières 2026-2030",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149540",
+      "publishedAt": "2026-05-29",
+      "summary": "AVIS. Avis relatif à l'accord relatif au dialogue social dans la branche des industries électriques et gazières 2026-2030. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Publié le 29 mai 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "extra": {
+        "id": "JORFTEXT000054149540",
+        "nor": "ECOR2613919V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "0f94e64948c154fb",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "regle",
+      "title": "Cotisation SPSTI : quel montant pour l’année 2026 ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18555?xtor=RSS-112",
+      "publishedAt": "2025-10-16",
+      "summary": "Un arrêté du 25 septembre 2025 fixe le montant pour l’année 2026 des cotisations SPSTI (services de prévention et de santé au travail interentreprises) versées par les entreprises adhérentes pour chaque salarié..",
+      "application": {
+        "date": "2025-10-16",
+        "label": "Date de référence : 16 octobre 2025.",
+        "basis": "Source officielle."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Santé au travail"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "extra": {}
+    },
+    {
+      "id": "dfb7d78178fa672b",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 portant agrément de l'accord de branche relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/26/TRST2613372A/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 portant agrément de l'accord de branche relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149078",
+        "nor": "TRST2613372A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "f99add41a7506d5a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 portant agrément de l'accord de branche relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/26/TRST2613374A/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 portant agrément de l'accord de branche relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149087",
+        "nor": "TRST2613374A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "e31efc7261951c8c",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 28 mai 2026 relatif à l'agrément de certains accords de travail applicables dans les établissements et services du secteur social et médico-social privé à but non lucratif",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/28/SFHA2614036A/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 28 mai 2026 relatif à l'agrément de certains accords de travail applicables dans les établissements et services du secteur social et médico-social privé à but non lucratif. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149228",
+        "nor": "SFHA2614036A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "d00c2ed0cc2d1e37",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 mai 2026 portant changement de corps sur liste d'aptitude (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149265",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 21 mai 2026 portant changement de corps sur liste d'aptitude (inspection du travail). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149265",
+        "nor": "TRSR2614176A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "55e2ea9e23d38a34",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Commissions et organes de contrôle",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149750",
+      "publishedAt": "2026-05-29",
+      "summary": "INFORMATIONS_PARLEMENTAIRES. Commissions et organes de contrôle. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Publié le 29 mai 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149750",
+        "nor": "INPA2614415X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "3425cfd367f6c045",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 13 mai 2026, 25-20.816, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054110142",
+      "publishedAt": "2026-05-13",
+      "summary": "LA COUR DE CASSATION, CHAMBRE SOCIALE, a rendu l'arrêt suivant : SOC. COUR DE CASSATION AJ1 ______________________ QUESTION PRIORITAIRE de CONSTITUTIONNALITÉ ______________________ Arrêt du 13 mai 2026 IRRECEVABILITE M.",
+      "application": {
+        "date": "2026-05-13",
+        "label": "Décision rendue le 13 mai 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 48,
+      "extra": {
+        "id": "JURITEXT000054110142",
+        "ecli": "ECLI:FR:CCASS:2026:SO00536",
+        "solution": "Qpc incidente - irrecevabilité",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "ba3718d13b975209",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 6 mai 2026, 24-13.880, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054060989",
+      "publishedAt": "2026-05-06",
+      "summary": "STATUT COLLECTIF DU TRAVAIL - Conventions collectives - Dispositions générales - Contenu - Date d'entrée en vigueur - Date fixée en fonction de l'adoption de l'arrêté d'extension - Convention ou accord de branche - Dispositions - Effet obligatoire - Domaine d'application - Détermination - Portée STATUT COLLECTIF DU TRAVAIL - Conventions collectives - Dispositions générales -...",
+      "application": {
+        "date": "2026-05-06",
+        "label": "Décision rendue le 06 mai 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 47,
+      "extra": {
+        "id": "JURITEXT000054060989",
+        "ecli": "ECLI:FR:CCASS:2026:SO00421",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "3d5a894a67fa419f",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 6 mai 2026, 24-21.493, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054060974",
+      "publishedAt": "2026-05-06",
+      "summary": "STATUT COLLECTIF DU TRAVAIL - Conventions et accords collectifs - Accords d'entreprise - Sociétés Europe 1 télécompagnie, Europe news et Europe communication services - Protocole d'accord sur l'aménagement et la réduction du temps de travail du 22 décembre 2000 - Article 8 - Indemnité de récupération - Nature - Détermination - Portée L'indemnité de récupération, calculée en...",
+      "application": {
+        "date": "2026-05-06",
+        "label": "Décision rendue le 06 mai 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "extra": {
+        "id": "JURITEXT000054060974",
+        "ecli": "ECLI:FR:CCASS:2026:SO00418",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "0b23aa0d450984fd",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre civile 1, 15 avril 2026, 24-15.373, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000053915804",
+      "publishedAt": "2026-04-15",
+      "summary": "AUTORITE PARENTALE - Exercice - Exercice par les parents séparés - Contribution à l'entretien et à l'éducation des enfants - Paiement - Intermédiation financière - Chef de dispositif constatant sa mise en place - Recours (non) ALIMENTS - Pension alimentaire - Contribution à l'entretien et à l'éducation - Paiement - Intermédiation financière - Chef de dispositif constatant sa...",
+      "application": {
+        "date": "2026-04-15",
+        "label": "Décision rendue le 15 avril 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "extra": {
+        "id": "JURITEXT000053915804",
+        "ecli": "ECLI:FR:CCASS:2026:C100276",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_CIVILE_1",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "e9c99b29b1ae116e",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 15 avril 2026, 24-19.018, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000053915814",
+      "publishedAt": "2026-04-15",
+      "summary": "CONTRAT DE TRAVAIL, RUPTURE - Licenciement économique - Reclassement - Obligation de l'employeur - Périmètre de l'obligation - Groupe de sociétés - Groupe de reclassement - Périmètre - Entreprise dominante et entreprises contrôlées - Détermination - Portée CONTRAT DE TRAVAIL, RUPTURE - Licenciement économique - Reclassement - Obligation de l'employeur - Périmètre de...",
+      "application": {
+        "date": "2026-04-15",
+        "label": "Décision rendue le 15 avril 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "extra": {
+        "id": "JURITEXT000053915814",
+        "ecli": "ECLI:FR:CCASS:2026:SO00392",
+        "solution": "Cassation partielle",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "0ec17e8a9e6fdb7f",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 15 avril 2026, 24-22.028 24-22.030 24-22.031 24-22.032, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000053915820",
+      "publishedAt": "2026-04-15",
+      "summary": "CONTRAT DE TRAVAIL, RUPTURE - Retraite - Avantage de retraite - Définition - Exclusion - Cas - Contrat d'assurance-groupe souscrit par l'employeur à l'égard de ses salariés en activité - Conditions tarifaires préférentielles d'adhésion à la garantie dépendance - Maintien au profit d'anciens salariés devenus retraités - Portée Ne constitue pas un avantage de retraite le maintien...",
+      "application": {
+        "date": "2026-04-15",
+        "label": "Décision rendue le 15 avril 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "extra": {
+        "id": "JURITEXT000053915820",
+        "ecli": "ECLI:FR:CCASS:2026:SO00393",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "83cbb7e0979172d0",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 15 avril 2026, 23-22.437, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000053915827",
+      "publishedAt": "2026-04-15",
+      "summary": "TRAVAIL REGLEMENTATION, SANTE ET SECURITE - Services de santé au travail - Personnels concourant aux services de santé au travail - Médecin du travail - Protection - Protection exceptionnelle et exorbitante du droit commun - Exclusion - Exclusion à compter de la loi n° 2018-217 du 29 mars 2018 - Cas - Contrat à durée déterminée - Contrat arrivant à son terme sans clause de...",
+      "application": {
+        "date": "2026-04-15",
+        "label": "Décision rendue le 15 avril 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Santé au travail"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "extra": {
+        "id": "JURITEXT000053915827",
+        "ecli": "ECLI:FR:CCASS:2026:SO00402",
+        "solution": "Cassation partielle",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "743d40ef6157f6d4",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 15 avril 2026, 26-70.002, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000053915846",
+      "publishedAt": "2026-04-15",
+      "summary": "FORMATION PROFESSIONNELLE - Apprentissage - Contrat - Rupture - Rupture par l'apprenti - Conditions - Détermination - Portée FORMATION PROFESSIONNELLE - Apprentissage - Contrat - Rupture - Rupture par l'apprenti - Conditions - Manquements graves de l'employeur - Appréciation - Office du juge - Détermination - Portée",
+      "application": {
+        "date": "2026-04-15",
+        "label": "Décision rendue le 15 avril 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "extra": {
+        "id": "JURITEXT000053915846",
+        "ecli": "ECLI:FR:CCASS:2026:SO15004",
+        "solution": "Avis sur saisine",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "f7d36ada6c32688a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "La Cour de cassation confirme la prise en compte des congés pour le calcul des heures supplémentaires",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18756?xtor=RSS-112",
+      "publishedAt": "2026-01-13",
+      "summary": "Le salarié dont le temps de travail est calculé sur deux semaines peut-il demander le paiement d’heures supplémentaires obtenues durant une période comprenant des congés payés ? La Cour de cassation consolide sa jurisprudence en la matière..",
+      "application": {
+        "date": "2026-01-13",
+        "label": "Décision ou avis du 13 janvier 2026.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "extra": {}
+    },
+    {
+      "id": "e7bdcd2b86cd065c",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 13 mai 2026, 25-10.127, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054110138",
+      "publishedAt": "2026-05-13",
+      "summary": "TRAVAIL TEMPORAIRE Il résulte de l'article 22 de l'accord du 3 mars 2017 relatif à la santé et à la sécurité au travail dans la branche du travail temporaire que l'entreprise de travail temporaire a l'obligation d'informer chaque année son comité social et économique, lorsque celui-ci en fait la demande, sur le suivi des clients les plus accidentogènes et les actions associées.",
+      "application": {
+        "date": "2026-05-13",
+        "label": "Décision rendue le 13 mai 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {
+        "id": "JURITEXT000054110138",
+        "ecli": "ECLI:FR:CCASS:2026:SO00437",
+        "solution": "Cassation partielle",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "8a59fe155e6705a0",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 13 mai 2026, 24-17.951, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054110140",
+      "publishedAt": "2026-05-13",
+      "summary": "REPRESENTATION DES SALARIES En application de l'article L. 2411-5, dans sa rédaction antérieure à l'ordonnance n° 2017-1386 du 22 septembre 2017, du code du travail, le salarié protégé, licencié sans autorisation préalable, qui demande sa réintégration pendant la période de protection, a droit au titre de la méconnaissance du statut protecteur à une indemnité égale à la...",
+      "application": {
+        "date": "2026-05-13",
+        "label": "Décision rendue le 13 mai 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {
+        "id": "JURITEXT000054110140",
+        "ecli": "ECLI:FR:CCASS:2026:SO00441",
+        "solution": "Cassation",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "5b74de5775541042",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 6 mai 2026, 24-13.599, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054060968",
+      "publishedAt": "2026-05-06",
+      "summary": "STATUT COLLECTIF DU TRAVAIL - Conventions et accords collectifs - Conventions diverses - Convention collective nationale des entreprises de propreté et services associés du 26 juillet 2011 - Article 3.4 - Maladie ou accident non professionnel - Arrêt de travail - Visite de reprise - Obligation de l'employeur - Durée minimale de l'absence - Dispositions réglementaires...",
+      "application": {
+        "date": "2026-05-06",
+        "label": "Décision rendue le 06 mai 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {
+        "id": "JURITEXT000054060968",
+        "ecli": "ECLI:FR:CCASS:2026:SO00407",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "b46775c95472cb3a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 6 mai 2026, 25-12.673, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054060970",
+      "publishedAt": "2026-05-06",
+      "summary": "CONTRAT DE TRAVAIL, RUPTURE - Licenciement - Indemnités - Indemnité pour licenciement sans cause réelle et sérieuse - Cumul avec l'indemnité pour inobservation de la procédure de licenciement - Impossibilité - Ancienneté du salarié et taille de l'entreprise - Absence d'influence Il résulte de l'article L.",
+      "application": {
+        "date": "2026-05-06",
+        "label": "Décision rendue le 06 mai 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {
+        "id": "JURITEXT000054060970",
+        "ecli": "ECLI:FR:CCASS:2026:SO00414",
+        "solution": "Cassation partielle sans renvoi",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "af9b7f14b85a51f6",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 6 mai 2026, 25-12.049, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054060985",
+      "publishedAt": "2026-05-06",
+      "summary": "STATUTS PROFESSIONNELS PARTICULIERS - Journaliste professionnel - Contrat de travail - Résiliation - Indemnité - Attribution - Commission arbitrale des journalistes - Compétence - Etendue - Détermination PRESSE - Journal - Journaliste professionnel - Commission arbitrale des journalistes - Compétence - Indemnité de licenciement - Octroi - Critères - Détermination - Portée Il...",
+      "application": {
+        "date": "2026-05-06",
+        "label": "Décision rendue le 06 mai 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {
+        "id": "JURITEXT000054060985",
+        "ecli": "ECLI:FR:CCASS:2026:SO00419",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz"
+      }
+    },
+    {
+      "id": "2767a59a56065104",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Rupture de la période d'essai et grossesse : une jurisprudence change la donne",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18876?xtor=RSS-112",
+      "publishedAt": "2026-04-13",
+      "summary": "Dans un arrêt rendu le 25 mars 2026, la Cour de cassation donne des précisions sur la validité d’une rupture de contrat durant la période d’essai d’une salariée enceinte. Explications..",
+      "application": {
+        "date": "2026-04-13",
+        "label": "Décision ou avis du 13 avril 2026.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "a8377bfe3677d8d1",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Un employeur viole-t-il le droit à la déconnexion du salarié qui se connecte spontanément ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18871?xtor=RSS-112",
+      "publishedAt": "2026-04-12",
+      "summary": "Dans un arrêt du 25 mars 2026, la Cour de cassation indique qu’il n’y a pas de violation au droit à la déconnexion du salarié dès lors qu’il prend spontanément la décision de se connecter en dehors de ses heures de travail..",
+      "application": {
+        "date": "2026-04-12",
+        "label": "Décision ou avis du 12 avril 2026.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "2228f72e9b81dcc0",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Le véhicule de service peut-il être considéré comme un avantage en nature ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18865?xtor=RSS-112",
+      "publishedAt": "2026-04-02",
+      "summary": "Un avantage en nature est un bien, un produit ou un service qui est fourni par l’employeur à son salarié gratuitement ou à un prix inférieur à sa valeur réelle et qui correspondrait normalement à une dépense personnelle du salarié. De fait, un véhicule de service peut-il correspondre à cette définition ?",
+      "application": {
+        "date": "2026-04-02",
+        "label": "Décision ou avis du 02 avril 2026.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "38781b686ef74f8a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Est-il possible d'effectuer plusieurs stages successifs sur un même poste ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18777?xtor=RSS-112",
+      "publishedAt": "2026-01-22",
+      "summary": "Dans un arrêt du 7 janvier 2026, la Cour de cassation a statué sur la possible requalification en contrat de travail de stages successifs pour un même poste..",
+      "application": {
+        "date": "2026-01-22",
+        "label": "Décision ou avis du 22 janvier 2026.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "9c241250094847c0",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Un employeur a-t-il le droit de contacter le médecin traitant d’un salarié ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18710?xtor=RSS-112",
+      "publishedAt": "2025-12-17",
+      "summary": "Dans un arrêt rendu le 10 décembre, la Cour de cassation se prononce sur la possibilité ou non pour un employeur de contacter le médecin traitant d’un salarié..",
+      "application": {
+        "date": "2025-12-17",
+        "label": "Décision ou avis du 17 décembre 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "64431aac614821bf",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Inaptitude : un nouvel avis médical est exigé si le salarié refuse le reclassement proposé",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18681?xtor=RSS-112",
+      "publishedAt": "2025-12-07",
+      "summary": "La Cour de cassation précise dans un arrêt du 22 octobre 2025 les formalités que doit accomplir l’employeur pour reclasser un salarié déclaré inapte à son poste par le médecin du travail..",
+      "application": {
+        "date": "2025-12-07",
+        "label": "Décision ou avis du 07 décembre 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "b71078dcbb241ea2",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Un salarié en télétravail doit-il bénéficier de titres-restaurant ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18552?xtor=RSS-112",
+      "publishedAt": "2025-10-15",
+      "summary": "Dans deux arrêts du 8 octobre 2025, la Cour de cassation s’est prononcée sur la possibilité pour l’employeur de supprimer l’attribution de titres-restaurant aux salariés effectuant du télétravail..",
+      "application": {
+        "date": "2025-10-15",
+        "label": "Décision ou avis du 15 octobre 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "b607bed2a7b88f90",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Remboursement d'une indemnité de congés payés : quel est le point de départ de la prescription ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18506?xtor=RSS-112",
+      "publishedAt": "2025-10-14",
+      "summary": "Dans un arrêt du 10 septembre 2025, la Cour de cassation précise le point de départ ainsi que le délai accordé à l’employeur pour agir en justice afin d’obtenir le remboursement de l’indemnité de congés payés versée à tort au salarié..",
+      "application": {
+        "date": "2025-10-14",
+        "label": "Décision ou avis du 14 octobre 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "56ec717ccf4ed99c",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Le salarié malade durant ses vacances peut reporter ces jours",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18456?xtor=RSS-112",
+      "publishedAt": "2025-09-15",
+      "summary": "La Cour de cassation vient de confirmer dans un arrêt que le salarié malade pendant ses congés payés a le droit de les reporter..",
+      "application": {
+        "date": "2025-09-15",
+        "label": "Décision ou avis du 15 septembre 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "3fbe2f4dacdf7eee",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Tenue vestimentaire au travail : quelles sont les règles ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18391?xtor=RSS-112",
+      "publishedAt": "2025-07-22",
+      "summary": "Puis-je porter un short sur mon lieu de travail durant une canicule ? Mon employeur peut-il m’imposer une tenue ? En principe, la tenue vestimentaire relève de la liberté individuelle du salarié. Mais selon le Code du travail, l’employeur peut l’imposer si le poste de travail le justifie.",
+      "application": {
+        "date": "2025-07-22",
+        "label": "Décision ou avis du 22 juillet 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "e907a29068dcfd07",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "jurisprudence",
+      "title": "Obligation de sécurité : l'employeur doit réagir dès qu'il a connaissance du mal-être du salarié",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18380?xtor=RSS-112",
+      "publishedAt": "2025-06-29",
+      "summary": "L’employeur qui prend les mesures appropriées pour protéger la santé de son salarié dès qu’il a pris connaissance de ses difficultés ne manque pas à son obligation de sécurité. C’est ce que la Cour de cassation indique dans un arrêt rendu le 9 avril 2025..",
+      "application": {
+        "date": "2025-06-29",
+        "label": "Décision ou avis du 29 juin 2025.",
+        "basis": "Jurisprudence ou avis."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "extra": {}
+    },
+    {
+      "id": "7be5df8e3c60c4bb",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Vie-publique - lois",
+      "sourceType": "rss",
+      "category": "projet-loi",
+      "title": "Projet de loi portant approbation des comptes de la sécurité sociale de l'année 2025",
+      "url": "https://www.vie-publique.fr/loi/303384-projet-de-loi-approbation-comptes-de-la-securite-sociale-deficit-2025?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+      "publishedAt": "2026-05-27",
+      "summary": "Projet de loi portant approbation des comptes de la sécurité sociale de l'année 2025",
+      "application": {
+        "date": null,
+        "label": "Non applicable à ce stade : suivre la navette et les décrets d'application.",
+        "basis": "Projet ou proposition de loi."
+      },
+      "watch": "Surveiller l'étape parlementaire suivante et les décrets d'application éventuels.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "watch",
+      "priority": 27,
+      "extra": {}
+    },
+    {
+      "id": "e2fc0a06f35cd51d",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Vie-publique - lois",
+      "sourceType": "rss",
+      "category": "projet-loi",
+      "title": "Projet de loi portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage",
+      "url": "https://www.vie-publique.fr/loi/302566-accord-assurance-chomage-rupture-conventionnelle-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+      "publishedAt": "2026-05-19",
+      "summary": "Projet de loi portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage",
+      "application": {
+        "date": null,
+        "label": "Non applicable à ce stade : suivre la navette et les décrets d'application.",
+        "basis": "Projet ou proposition de loi."
+      },
+      "watch": "Surveiller l'étape parlementaire suivante et les décrets d'application éventuels.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "watch",
+      "priority": 27,
+      "extra": {}
+    },
+    {
+      "id": "7e1b6420bc8b9e01",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Vie-publique - lois",
+      "sourceType": "rss",
+      "category": "projet-loi",
+      "title": "Projet de loi de sécurisation du travail le 1er mai des salariés volontaires des boulangers pâtissiers artisanaux et des artisans fleuristes grâce au dialogue social de branche",
+      "url": "https://www.vie-publique.fr/loi/303041-travail-le-1er-mai-boulangeries-fleuristes-projet-de-loi-du-gouvernement?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+      "publishedAt": "2026-04-30",
+      "summary": "Projet de loi de sécurisation du travail le 1er mai des salariés volontaires des boulangers pâtissiers artisanaux et des artisans fleuristes grâce au dialogue social de branche",
+      "application": {
+        "date": null,
+        "label": "Non applicable à ce stade : suivre la navette et les décrets d'application.",
+        "basis": "Projet ou proposition de loi."
+      },
+      "watch": "Surveiller l'étape parlementaire suivante et les décrets d'application éventuels.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "watch",
+      "priority": 27,
+      "extra": {}
+    },
+    {
+      "id": "646dcdb91325df1d",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Vie-publique - lois",
+      "sourceType": "rss",
+      "category": "projet-loi",
+      "title": "Proposition de loi visant à garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels sur leur temps de travail",
+      "url": "https://www.vie-publique.fr/loi/301915-gratuite-des-parkings-des-hopitaux-publics-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+      "publishedAt": "2026-02-04",
+      "summary": "Proposition de loi visant à garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels sur leur temps de travail",
+      "application": {
+        "date": null,
+        "label": "Non applicable à ce stade : suivre la navette et les décrets d'application.",
+        "basis": "Projet ou proposition de loi."
+      },
+      "watch": "Surveiller l'étape parlementaire suivante et les décrets d'application éventuels.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "watch",
+      "priority": 27,
+      "extra": {}
+    },
+    {
+      "id": "e6bc8357c9943c57",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Vie-publique - lois",
+      "sourceType": "rss",
+      "category": "projet-loi",
+      "title": "Loi du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+      "url": "https://www.vie-publique.fr/loi/300445-loi-de-financement-de-la-securite-sociale-2026-retraites-lfss?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+      "publishedAt": "2026-01-06",
+      "summary": "Loi du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+      "application": {
+        "date": null,
+        "label": "Non applicable à ce stade : suivre la navette et les décrets d'application.",
+        "basis": "Projet ou proposition de loi."
+      },
+      "watch": "Surveiller l'étape parlementaire suivante et les décrets d'application éventuels.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "watch",
+      "priority": 27,
+      "extra": {}
+    },
+    {
+      "id": "a8ab7b7444fd4ca3",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Ce qui change en juillet 2025",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18377?xtor=RSS-112",
+      "publishedAt": "2025-07-08",
+      "summary": "Éco-PTZ, allocations d'assurance chômage, interdiction de fumer, taux d’intérêt légal, financement de l'apprentissage... Service-Public.fr vous informe sur tous les changements qui interviennent au mois de juillet..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "1f24e9f79c38f416",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Les heures d'astreinte constituent-elles du temps de travail effectif ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18352?xtor=RSS-112",
+      "publishedAt": "2025-06-16",
+      "summary": "Monsieur C., engagé en tant qu’employé d’exploitation, doit assurer en moyenne 4 nuits d’astreinte, du vendredi soir au mardi matin, au sein de l’hôtel où il travaille et loge dans une chambre de fonction réservée à cet effet.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "be3597ec5a46f03a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Solde de la taxe d'apprentissage : quand déclarer et payer ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18179?xtor=RSS-112",
+      "publishedAt": "2026-04-28",
+      "summary": "Le solde de la taxe d'apprentissage (TA) doit être déclaré et payé dans la DSN d’avril exigible le 5 ou le 15 mai 2026 selon la date de versement de la paie..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie",
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "extra": {}
+    },
+    {
+      "id": "2c095acb4e60a481",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Déclaration et paiement de la CSA : quelles dates ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18180?xtor=RSS-112",
+      "publishedAt": "2026-03-24",
+      "summary": "Les entreprises de plus de 250 salariés doivent déclarer et payer la contribution supplémentaire à l’apprentissage (CSA) due pour l’année 2025 dans la DSN de mars qui sera exigible le 7 ou le 15 avril 2026 ..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie",
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "extra": {}
+    },
+    {
+      "id": "f90db6b9ea37e6b0",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Revalorisation du montant minimal des allocations d'activité partielle",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17907?xtor=RSS-112",
+      "publishedAt": "2026-03-08",
+      "summary": "Les montants minimaux de l'allocation d'activité partielle, de l'allocation d'activité partielle de longue durée et de l’allocation d’activité partielle de longue durée rebond sont revalorisés. Ces nouveaux montants concernent les heures chômées par les salariés à compter du 1 er janvier 2026..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "extra": {}
+    },
+    {
+      "id": "7ee691b16f9aa26e",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Remboursement des frais de télétravail : quel barème en 2026 ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18043?xtor=RSS-112",
+      "publishedAt": "2026-01-06",
+      "summary": "Les plafonds relatifs à l'allocation forfaitaire de télétravail ont été mis à jour. Cette allocation, versée par l'employeur au salarié en télétravail, est exonérée de cotisations et de contributions sociales..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "extra": {}
+    },
+    {
+      "id": "6d7840eda203d972",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Sécurité sociale : quel sera le plafond annuel en 2026 ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15386?xtor=RSS-112",
+      "publishedAt": "2025-12-22",
+      "summary": "Le plafond annuel de la Sécurité sociale (PASS) sert de base pour calculer le montant des indemnités journalières pour maladie, accident du travail ou maternité, les pensions d'invalidité, les retraites, etc. Il est réévalué chaque année au 1 er janvier.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Santé au travail",
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "extra": {}
+    },
+    {
+      "id": "b2934a9b15f326f1",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Urssaf : évolution du service Tese",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18600?xtor=RSS-112",
+      "publishedAt": "2025-12-14",
+      "summary": "Le Tese (Titre emploi service entreprise) est un dispositif instauré par l’Urssaf afin de simplifier les formalités sociales liées à l’emploi de salariés. Ce service évolue au 1 er janvier 2026. Présentation..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "extra": {}
+    },
+    {
+      "id": "c7f9aa735f5cdc12",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Un nouveau mode de calcul pour les aides aux contrats d'apprentissage",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18570?xtor=RSS-112",
+      "publishedAt": "2025-11-17",
+      "summary": "Vous employez un ou plusieurs apprentis ? Vous bénéficiez d’une aide à cet effet ? De nouvelles modalités de versement s’appliquent aux aides allouées aux employeurs d'apprentis..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Contrat",
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "extra": {}
+    },
+    {
+      "id": "117211c95fcb1eb7",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - particuliers",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Chaleur : quelles obligations pour l'employeur ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18326?xtor=RSS-111",
+      "publishedAt": "2026-05-26",
+      "summary": "Afin de protéger les salariés exposés aux risques de la chaleur, l'employeur doit mettre en place de nouvelles mesures de prévention depuis 2025. Explications..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "079b6183aca4da54",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Chaleur : quelles obligations pour l'employeur ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18326?xtor=RSS-112",
+      "publishedAt": "2026-05-26",
+      "summary": "Afin de protéger les salariés exposés aux risques de la chaleur, l'employeur doit mettre en place de nouvelles mesures de prévention depuis 2025. Explications..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "afeee6d50b882f67",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Le Smic va augmenter le 1er juin",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18916?xtor=RSS-112",
+      "publishedAt": "2026-05-17",
+      "summary": "Le Smic (salaire minimum interprofessionnel de croissance) augmente chaque année le 1 er janvier. Il est par ailleurs automatiquement revalorisé en cours d’année, en cas de forte inflation. Le Smic augmentera ainsi de 2,41 % le 1 er juin, du fait notamment de la forte hausse des prix de l’énergie..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "ec9a53bdf84cc9d1",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Affectation du solde de la taxe d’apprentissage sur SOLTéA : ouverture de la campagne 2026",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18267?xtor=RSS-112",
+      "publishedAt": "2026-05-17",
+      "summary": "Le solde de la taxe d’apprentissage (TA), déclaré et versé par l’employeur dans la DSN d'avril, vise à développer les formations initiales technologiques et professionnelles ainsi que l'insertion professionnelle. La 1 ère campagne de répartition de ce solde débute le 26 mai..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "94c63af735d1b2b9",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Peut-on reporter ses congés payés non pris après le 31 mai ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15702?xtor=RSS-112",
+      "publishedAt": "2026-04-29",
+      "summary": "Vous êtes salarié du secteur privé ? S'il vous reste des congés acquis au titre de la période de référence allant du 1 er juin au 31 mai, vous devez les prendre avant le 31 mai 2026. Service Public vous rappelle les règles de prise de congés..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "406b60d46522f0c4",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Conflit au Moyen-Orient : possibilité d'avoir recours à l'activité partielle",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18869?xtor=RSS-112",
+      "publishedAt": "2026-04-07",
+      "summary": "Dans un contexte difficile lié au conflit au Moyen-Orient, le ministère du Travail donne la possibilité aux entreprises impactées d’avoir recours à l’activité partielle. Explications..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "65bd44053aba1e81",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Un salarié peut-il être licencié pour un motif lié à sa vie privée ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18782?xtor=RSS-112",
+      "publishedAt": "2026-04-01",
+      "summary": "Un employeur découvre qu’un de ses salariés est marié avec une ancienne employée avec laquelle il a un différend judiciaire. Il estime que le salarié aurait dû l’en informer et le licencie « pour cause réelle et sérieuse ». En a-t-il le droit ?.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "ee0cd6f643770347",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "CPF : la participation forfaitaire obligatoire augmente",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17364?xtor=RSS-112",
+      "publishedAt": "2026-04-01",
+      "summary": "Vous envisagez de suivre une formation en vue d'une évolution professionnelle et vous souhaitez utiliser votre compte personnel de formation (CPF) ? La participation financière obligatoire des salariés augmente à partir du 2 avril. Service Public fait le point..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "4da375f1e4c0ff2a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Vérification du permis de conduire des salariés : une nouvelle tarification à compter du 1er avril",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17375?xtor=RSS-112",
+      "publishedAt": "2026-03-19",
+      "summary": "Vous êtes un employeur du transport public routier de voyageurs ou de marchandises ? Vous pouvez connaître la validité du permis de conduire des personnes que vous employez comme conducteurs grâce au portail Vérif Permis . À compter d’avril 2026, le modèle tarifaire de ce portail évolue..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "782e9daf4f457b49",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Un guide pour lutter contre le harcèlement sexuel au travail",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18845?xtor=RSS-112",
+      "publishedAt": "2026-03-17",
+      "summary": "Le ministère du Travail et des Solidarités a mis en ligne un guide pratique et juridique pour mieux lutter contre le harcèlement sexuel et les agissements sexistes au travail. Il s’inscrit dans la continuité de la loi pour choisir librement son avenir professionnel, promulguée le 5 septembre 2018..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Santé au travail"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "f7ab039c70fc00b2",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Bonus-malus d'assurance chômage : nouveaux taux de séparation médians et évolution du dispositif",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A15776?xtor=RSS-112",
+      "publishedAt": "2026-03-01",
+      "summary": "Le dispositif de bonus-malus d’assurance chômage, dont l’objectif est de lutter contre la précarité de l'emploi, évolue. Ainsi, de nouveaux taux de séparation médians s’appliquent..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "bb9fda0b94f7d502",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Dans quels cas le permis de conduire peut-il encore être pris en charge par le CPF ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17164?xtor=RSS-112",
+      "publishedAt": "2026-02-26",
+      "summary": "Les modalités du compte personnel de formation ont évolué le 21 février. Vous pouvez encore l’utiliser pour financer les apprentissages permettant de passer le permis de conduire, à condition de respecter certaines règles d’éligibilité. Service Public vous présente ces nouvelles conditions..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "7deb74ea7b730b56",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Saisie sur salaire : le barème 2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15377?xtor=RSS-112",
+      "publishedAt": "2026-02-09",
+      "summary": "La saisie des rémunérations, ou saisie sur salaire, permet à un créancier de récupérer des sommes dues grâce à l'intermédiaire de l'employeur. Celui-ci peut procéder à une retenue sur la fraction saisissable du salaire de son employé. En conséquence, le salarié ne reçoit qu'une partie de son salaire.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "6a5e95537fc0af1f",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Une nouvelle obligation d'affichage dans les salles de sport",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18276?xtor=RSS-112",
+      "publishedAt": "2026-01-25",
+      "summary": "Les établissements d'activités physiques ou sportives (privés ou publics) ont l'obligation d'informer leurs clients des dispositifs de prévention, de signalement et d'accompagnement des victimes (ou des témoins) de violences ou de discrimination..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "1432ab1d104d4894",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Effectuez votre déclaration de départ des seniors",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17108?xtor=RSS-112",
+      "publishedAt": "2026-01-18",
+      "summary": "Chaque employeur doit communiquer dans la DSN les informations concernant les départs de leurs salariés seniors..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "8de3c04aab4023d2",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Déclaration annuelle de liquidation et paiement de la taxe sur les salaires avant le 15 janvier",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17059?xtor=RSS-112",
+      "publishedAt": "2026-01-08",
+      "summary": "Chaque entreprise doit souscrire une déclaration annuelle de liquidation de la taxe sur les salaires avant le 15 janvier inclus. Selon le montant payé par votre entreprise l'année dernière, vous devez également la payer à cette date.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "b48dc67302a8b266",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Prolongation du contrat de sécurisation professionnelle (CSP) jusqu'au 31 décembre 2026",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A16643?xtor=RSS-112",
+      "publishedAt": "2026-01-06",
+      "summary": "Afin de garantir une indemnisation spécifique et un accompagnement optimal pour les salariés dont le licenciement économique est envisagé, le contrat de sécurisation professionnelle (CSP) a été créé en 2015. Ce dispositif vient d’être prolongé pour l’année 2026..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "8d0ecc8b4025c1f3",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Ce qui change au 1er janvier 2026",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18714?xtor=RSS-112",
+      "publishedAt": "2026-01-06",
+      "summary": "Modification de la réduction générale des cotisations patronales, revalorisation du Smic, nouveaux seuils de marchés publics, nouveaux taux de versement mobilité... Entreprendre Service Public vous informe des changements ayant lieu en janvier 2026..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "11176a45cbcdf06f",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Indemnité de frais de repas : relèvement des seuils d'exonération",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17991?xtor=RSS-112",
+      "publishedAt": "2026-01-05",
+      "summary": "Le plafond d’exonération de cotisations sociales des indemnités de repas versées aux salariés en mission est revalorisé pour l'année 2026..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "6a59dabf0473a7af",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Maintien du taux de la cotisation AGS à 0,25 % au 1er janvier 2026",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17906?xtor=RSS-112",
+      "publishedAt": "2025-12-30",
+      "summary": "Le taux de la cotisation d'assurance garantie des salaires (AGS) reste fixé à 0,25 % au 1er janvier 2026. Cette contribution vise à financer le risque de non-paiement des rémunérations dues aux salariés en cas de procédure collective.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "3270b978cc7450b7",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Quand opter pour le paiement trimestriel des cotisations en 2026 ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17932?xtor=RSS-112",
+      "publishedAt": "2025-12-21",
+      "summary": "Les entreprises de moins de 11 salariés peuvent opter jusqu'au 31 décembre 2025 inclus pour le paiement trimestriel de leurs cotisations sociales en 2026..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "175214d4ca71cbb7",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Le montant de l'indemnité minimale de stage va augmenter",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18709?xtor=RSS-112",
+      "publishedAt": "2025-12-16",
+      "summary": "Les étudiants ou élèves effectuant un stage en milieu professionnel d'une durée supérieure à 2 mois (consécutifs ou non) peuvent bénéficier, au cours d'une même année scolaire ou universitaire, d'un gratification mensuelle. Son montant minimal est fixé à 15 % du plafond horaire de la Sécurité sociale.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "653e940b15c39d12",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Quelle revalorisation pour le Smic à compter du 1er janvier ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17008?xtor=RSS-112",
+      "publishedAt": "2025-12-14",
+      "summary": "Le Smic (salaire minimum interprofessionnel de croissance) est revalorisé chaque année au 1 er janvier afin de préserver le pouvoir d’achat des salariés concernés. Nouveaux montants en 2026, critères de calcul pour son évolution... Service Public vous informe..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "be7b06c4b384f616",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Évaluation professionnelle : quels sont les critères interdits ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18671?xtor=RSS-112",
+      "publishedAt": "2025-12-04",
+      "summary": "Un syndicat attaque un employeur en justice en raison de son dispositif d’évaluation, appelé « procédure d’entretien de développement individuel », qui comporte des éléments de la personnalité des salariés. Quels sont les critères autorisés lors d’une évaluation professionnelle ?.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "4c363f95de96bf49",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Comment limiter les accidents du travail graves et mortels ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18675?xtor=RSS-112",
+      "publishedAt": "2025-12-03",
+      "summary": "Afin de réduire le nombre d’accidents dans le cadre du travail, le ministère du Travail et de l’Emploi lance une campagne de prévention. L'objectif est de sensibiliser employeurs et salariés sur les risques d’accidents..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "980694a093d4c322",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Paiement de la CFE 2025 au plus tard le 15 décembre 2025",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17831?xtor=RSS-112",
+      "publishedAt": "2025-11-23",
+      "summary": "Vous exercez une activité professionnelle non salariée ? Dans ce cas, sauf exonération, vous devez consulter l'avis d'impôt de cotisation foncière des entreprises (CFE) puis procéder au paiement. Cet avis est consultable en ligne sur impots.gouv.fr..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "c9e902778f1a570e",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Transparence des salaires : ce qui va changer",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18526?xtor=RSS-112",
+      "publishedAt": "2025-10-09",
+      "summary": "La directive européenne sur la transparence salariale adoptée le 10 mai 2023 doit être obligatoirement transposée dans le droit français avant le 7 juin 2026.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "b29127fd457ab63e",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Quelle est la recevabilité d'une enquête interne réalisée par l'employeur ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18455?xtor=RSS-112",
+      "publishedAt": "2025-09-29",
+      "summary": "Monsieur A. est directeur associé au sein d’une société. Il est accusé de comportements déplacés de nature sexiste ou à connotation sexuelle envers ses collaboratrices. Une enquête interne est diligentée par son employeur. Elle entraîne sa mise à pied conservatoire puis son licenciement pour faute.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "ac698f072986e5cf",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Un livret destiné aux employeurs pour aider les travailleurs pauvres",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18441?xtor=RSS-112",
+      "publishedAt": "2025-09-02",
+      "summary": "Afin de lutter efficacement contre la précarité dont peuvent souffrir certains salariés en situation de pauvreté, un livret destiné aux entreprises présente les actions à mettre en œuvre pour améliorer leur prise en charge..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "b1d7e4fe3a91091a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Mayotte : suspension du recouvrement et du paiement des cotisations et contributions sociales",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18440?xtor=RSS-112",
+      "publishedAt": "2025-09-01",
+      "summary": "En raison des conséquences du cyclone Chido, la période de suspension des obligations de paiement des cotisations sociales a été prolongée pour les employeurs du département de Mayotte..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "837c8f8bf44925f4",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Le dirigeant peut désormais protéger les informations relatives à son domicile personnel",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18435?xtor=RSS-112",
+      "publishedAt": "2025-08-26",
+      "summary": "Les dirigeants de sociétés peuvent dorénavant demander la confidentialité des informations relatives à leur domicile personnel. Cette mesure vise à protéger les dirigeants contre les risques d’agressions physiques, de harcèlement ou de cyberattaques..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Santé au travail"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "c01b78c978310894",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Connaissez-vous la « fraude au virement de salaire » ?",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18407?xtor=RSS-112",
+      "publishedAt": "2025-08-06",
+      "summary": "Depuis plusieurs mois, une nouvelle escroquerie prend de l’ampleur : la fraude au virement de salaire. Face au nombre croissant de cas, salariés comme entreprises doivent prendre des précautions..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "912e9e3a1fe42077",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Quels changements pour la procédure de saisie sur salaire ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18366?xtor=RSS-112",
+      "publishedAt": "2025-06-24",
+      "summary": "La saisie sur salaire, aussi appelée saisie sur rémunération, fait l'objet d'une réforme à compter du 1 er juillet 2025. Service-Public.fr vous informe..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "4feeaab6e20d6f22",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Guide apprentissage et handicap : l'édition 2025 est en ligne !",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18375?xtor=RSS-112",
+      "publishedAt": "2025-06-24",
+      "summary": "Afin de développer et d'encourager le recrutement d'apprentis en situation de handicap, le ministère du Travail publie l'édition 2025 du Guide apprentissage et handicap ..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "051a6e701bb7ea26",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Apprentissage : des changements au 1er juillet",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18329?xtor=RSS-112",
+      "publishedAt": "2025-06-05",
+      "summary": "À compter du 1 er juillet 2025, de nouvelles modalités de financement de l'apprentissage s'appliqueront. Ces changements impliquent une participation plus importante de l'employeur..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    },
+    {
+      "id": "1c6d6f89b4aff264",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Congés payés en cas de maladie non professionnelle : les changements en exemples",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17308?xtor=RSS-112",
+      "publishedAt": "2024-06-18",
+      "summary": "La loi du 22 avril 2024 portant diverses dispositions d'adaptation au droit de l'Union européenne (DDADUE) met en conformité le code du travail en matière d’acquisition de congés payés pour maladie non professionnelle. Ces nouvelles dispositions sont entrées en vigueur le 24 avril 2024.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "extra": {}
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "sociactus",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Journal personnel de curation du droit social francais.",
+  "scripts": {
+    "build": "node scripts/build-static.mjs",
+    "build:with-data": "npm run curate && npm run build",
+    "curate": "node scripts/curate.mjs",
+    "curate:dry": "node scripts/curate.mjs --dry-run",
+    "serve": "node scripts/dev-server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
