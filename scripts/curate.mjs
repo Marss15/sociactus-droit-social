@@ -217,6 +217,7 @@ const pressTerms = [
 const exclusionTerms = [
   "vacance d'un emploi",
   "nomination sur l'emploi",
+  "portant nomination",
   "directeurs d'hopital",
   "produits et prestations remboursables",
   "allogreffon",
@@ -502,6 +503,8 @@ function makeEntry({
   const normalizedUrl = url || extra.archiveUrl || "";
   const id = hash(`${normalizedUrl}|${normalizedTitle}`);
   const themes = detectThemes(text || normalizedTitle);
+  const priority = priorityFor(category, impact, themes.length);
+  const priorityRank = priorityRankFor({ category, impact, priority, text: text || normalizedTitle });
   return {
     id,
     date: runDate,
@@ -517,7 +520,10 @@ function makeEntry({
     watch: watchFor(category, impact),
     themes,
     impact,
-    priority: priorityFor(category, impact, themes.length),
+    priority,
+    priorityRank: priorityRank.rank,
+    priorityLabel: priorityRank.label,
+    priorityReason: priorityRank.reason,
     extra,
   };
 }
@@ -557,6 +563,59 @@ function priorityFor(category, impact, themeCount) {
   const impactScore = { high: 30, medium: 20, watch: 12, low: 6 }[impact] || 0;
   const categoryScore = { regle: 30, jurisprudence: 24, "projet-loi": 14, presse: 10, actualite: 8 }[category] || 0;
   return categoryScore + impactScore + Math.min(themeCount, 4);
+}
+
+function priorityRankFor({ category, impact, priority, text }) {
+  const normalized = fold(text);
+
+  if (category === "regle" && impact === "high" && isEssentialRuleSignal(normalized)) {
+    return {
+      rank: "p1",
+      label: "Priorité 1",
+      reason: "Texte applicable ou changement normatif à traiter en premier.",
+    };
+  }
+
+  if (category === "jurisprudence" && impact === "high") {
+    return {
+      rank: "p1",
+      label: "Priorité 1",
+      reason: "Décision ou signal de jurisprudence à fort impact.",
+    };
+  }
+
+  if (category === "regle" || category === "jurisprudence" || category === "projet-loi") {
+    return {
+      rank: "p2",
+      label: "Priorité 2",
+      reason: "Information juridique à lire après les urgences P1.",
+    };
+  }
+
+  if (
+    category === "presse" &&
+    /smic|licenciement|rupture conventionnelle|assurance chomage|retraite|syndicat|plan de departs|chomage technique|code du travail/.test(
+      normalized
+    )
+  ) {
+    return {
+      rank: "p2",
+      label: "Priorité 2",
+      reason: "Signal presse relié à un sujet social à impact pratique.",
+    };
+  }
+
+  return {
+    rank: "p3",
+    label: "Priorité 3",
+    reason: "Veille de contexte ou lecture de fond.",
+  };
+}
+
+function isEssentialRuleSignal(normalizedText) {
+  return /code du travail|employeur|salarie|apprenti|apprentissage|formation professionnelle|cpf|smic|salaire minimum|cse|convention collective|accord collectif|cotisation|urssaf|chomage|assurance chomage|conge|pma|adoption|temps de travail|licenciement|rupture/.test(
+    normalizedText
+  );
 }
 
 function applicationFor(category, text, date) {
@@ -834,6 +893,9 @@ function buildStats(entries) {
     projets: entries.filter((entry) => entry.category === "projet-loi").length,
     actualites: entries.filter((entry) => entry.category === "actualite").length,
     presse: entries.filter((entry) => entry.category === "presse").length,
+    priorite1: entries.filter((entry) => entry.priorityRank === "p1").length,
+    priorite2: entries.filter((entry) => entry.priorityRank === "p2").length,
+    priorite3: entries.filter((entry) => entry.priorityRank === "p3").length,
   };
 }
 
@@ -850,6 +912,9 @@ async function updateIndex(journal) {
       jurisprudence: journal.stats.jurisprudence,
       projets: journal.stats.projets,
       presse: journal.stats.presse,
+      priorite1: journal.stats.priorite1,
+      priorite2: journal.stats.priorite2,
+      priorite3: journal.stats.priorite3,
     },
     ...withoutToday,
   ]

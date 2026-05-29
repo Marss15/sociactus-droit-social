@@ -2,6 +2,7 @@ const state = {
   index: null,
   day: null,
   filter: "all",
+  priorityFilter: "p1",
   query: "",
 };
 
@@ -24,6 +25,12 @@ const impactLabels = {
   low: "Veille",
 };
 
+const priorityLabels = {
+  p1: "P1",
+  p2: "P2",
+  p3: "P3",
+};
+
 const els = {
   runStatus: document.querySelector("#run-status"),
   dayList: document.querySelector("#day-list"),
@@ -34,6 +41,8 @@ const els = {
   entryList: document.querySelector("#entry-list"),
   template: document.querySelector("#entry-template"),
   segments: document.querySelectorAll(".segment"),
+  categorySegments: document.querySelectorAll("[data-filter]"),
+  prioritySegments: document.querySelectorAll("[data-priority]"),
 };
 
 boot();
@@ -59,10 +68,19 @@ async function boot() {
     renderEntries();
   });
 
-  els.segments.forEach((button) => {
+  els.categorySegments.forEach((button) => {
     button.addEventListener("click", () => {
       state.filter = button.dataset.filter;
-      els.segments.forEach((segment) => segment.classList.remove("active"));
+      els.categorySegments.forEach((segment) => segment.classList.remove("active"));
+      button.classList.add("active");
+      renderEntries();
+    });
+  });
+
+  els.prioritySegments.forEach((button) => {
+    button.addEventListener("click", () => {
+      state.priorityFilter = button.dataset.priority;
+      els.prioritySegments.forEach((segment) => segment.classList.remove("active"));
       button.classList.add("active");
       renderEntries();
     });
@@ -132,10 +150,10 @@ function renderDay(day) {
 
 function renderMetrics(stats = {}) {
   const metrics = [
+    ["P1", stats.priorite1 || 0],
+    ["P2", stats.priorite2 || 0],
+    ["P3", stats.priorite3 || 0],
     ["Total", stats.total || 0],
-    ["Règles", stats.regles || 0],
-    ["Jurisprudence", stats.jurisprudence || 0],
-    ["Projets", stats.projets || 0],
     ["Presse", stats.presse || 0],
   ];
 
@@ -160,17 +178,21 @@ function renderEntries() {
 
   const entries = (state.day.entries || []).filter((entry) => {
     const matchesFilter = state.filter === "all" || entry.category === state.filter;
+    const matchesPriority =
+      state.priorityFilter === "all" || (entry.priorityRank || "p3") === state.priorityFilter;
     const haystack = [
       entry.title,
       entry.summary,
       entry.watch,
+      entry.priorityLabel,
+      entry.priorityReason,
       entry.application?.label,
       ...(entry.themes || []),
     ]
       .join(" ")
       .toLowerCase();
     const matchesQuery = !state.query || haystack.includes(state.query);
-    return matchesFilter && matchesQuery;
+    return matchesFilter && matchesPriority && matchesQuery;
   });
 
   els.entryList.innerHTML = "";
@@ -190,6 +212,9 @@ function renderEntries() {
     node.querySelector("h3").textContent = entry.title;
     node.querySelector(".impact").className = `impact ${entry.impact || "low"}`;
     node.querySelector(".impact").textContent = impactLabels[entry.impact] || "Veille";
+    node.querySelector(".priority-badge").className = `priority-badge ${entry.priorityRank || "p3"}`;
+    node.querySelector(".priority-badge").textContent = priorityLabels[entry.priorityRank] || "P3";
+    node.querySelector(".priority-badge").title = entry.priorityReason || "";
     node.querySelector(".summary").textContent = entry.summary;
     node.querySelector(".application").textContent = entry.application?.label || "Date à confirmer dans la source.";
     node.querySelector(".watch").textContent = entry.watch || "Vérifier la source avant toute décision.";

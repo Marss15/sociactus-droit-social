@@ -249,6 +249,10 @@ h1 {
   gap: 6px;
 }
 
+.priority-segments {
+  justify-content: center;
+}
+
 .segment {
   min-height: 38px;
   border: 1px solid var(--line);
@@ -285,6 +289,13 @@ h1 {
   align-items: start;
 }
 
+.entry-flags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
 .entry-meta {
   display: flex;
   flex-wrap: wrap;
@@ -297,6 +308,7 @@ h1 {
 
 .badge,
 .impact,
+.priority-badge,
 .theme {
   display: inline-flex;
   align-items: center;
@@ -306,6 +318,21 @@ h1 {
   font-size: 0.78rem;
   font-weight: 850;
   line-height: 1.2;
+}
+
+.priority-badge.p1 {
+  background: #1f2937;
+  color: #fffdfa;
+}
+
+.priority-badge.p2 {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.priority-badge.p3 {
+  background: #f0ebe3;
+  color: #4f5560;
 }
 
 .badge.regle,

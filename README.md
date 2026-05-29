@@ -46,3 +46,13 @@ Le workflow `.github/workflows/daily-curation.yml` est prévu pour lancer `npm r
 Sur Netlify, un rafraîchissement utilisateur ne relance pas la curation : le site statique relit seulement les fichiers JSON déjà publiés sur GitHub. Le shell Netlify n'a donc pas besoin d'être redéployé tous les jours.
 
 Quand `SOCIACTUS_DATA_BASE_URL` pointe vers GitHub, le build Netlify ne copie pas `data/` dans `dist` afin d'éviter de servir une ancienne copie locale.
+
+## Priorisation
+
+Chaque entrée reçoit un rang de lecture :
+
+- `P1` : lecture prioritaire du jour, limitée aux textes directement applicables et signaux jurisprudentiels forts.
+- `P2` : information juridique importante à lire après P1.
+- `P3` : veille de contexte, presse ou information de fond.
+
+L'interface démarre sur `P1` pour éviter d'imposer la lecture de tout le journal quotidien.
