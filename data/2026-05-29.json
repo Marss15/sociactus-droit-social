@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-05-29T08:11:37.166Z",
+  "generatedAt": "2026-05-29T08:43:58.942Z",
   "date": "2026-05-29",
   "stats": {
-    "total": 115,
-    "regles": 37,
+    "total": 157,
+    "regles": 45,
     "jurisprudence": 28,
-    "projets": 5,
-    "actualites": 45
+    "projets": 6,
+    "actualites": 45,
+    "presse": 33
   },
   "sources": [
     {
@@ -40,6 +41,36 @@
       "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
     },
     {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
       "name": "DILA JORFSIMPLE",
       "status": "archive ouverte sans clé",
       "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
@@ -48,6 +79,11 @@
       "name": "DILA CASS",
       "status": "archive ouverte sans clé",
       "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
     }
   ],
   "research": {
@@ -60,7 +96,7 @@
   },
   "entries": [
     {
-      "id": "eafcf56ba65ec8fc",
+      "id": "17ee969cef6714ed",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -93,7 +129,7 @@
       }
     },
     {
-      "id": "07d1374fd46dd69d",
+      "id": "898809789aedeb29",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -118,7 +154,7 @@
       "extra": {}
     },
     {
-      "id": "689c86d56444283d",
+      "id": "b595332519c11c4f",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -143,7 +179,37 @@
       "extra": {}
     },
     {
-      "id": "a75fafcef5891ff8",
+      "id": "7d9f9b538ee2085f",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 27 mai 2026 portant nomination (inspection générale des affaires culturelles)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149307",
+      "publishedAt": "2026-05-29",
+      "summary": "DECRET. Décret du 27 mai 2026 portant nomination (inspection générale des affaires culturelles). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "extra": {
+        "id": "JORFTEXT000054149307",
+        "nor": "MICB2610255D",
+        "nature": "DECRET",
+        "textDate": "2026-05-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "e6128237c1c3fe6a",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -167,7 +233,7 @@
       "extra": {}
     },
     {
-      "id": "d6c99b1aa4f0561c",
+      "id": "c66a8dd70b6bd6a2",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -191,7 +257,7 @@
       "extra": {}
     },
     {
-      "id": "72a38a2209fe2004",
+      "id": "753b882004d0ae19",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -215,7 +281,7 @@
       "extra": {}
     },
     {
-      "id": "c97af8a9557602b0",
+      "id": "1168a14b3a727ea1",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -240,7 +306,7 @@
       "extra": {}
     },
     {
-      "id": "13a3b4fc95e3426a",
+      "id": "e515a1daf7071b56",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -265,7 +331,7 @@
       "extra": {}
     },
     {
-      "id": "81c0cc5006658c65",
+      "id": "973765cbf1df7399",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -289,7 +355,7 @@
       "extra": {}
     },
     {
-      "id": "1507c1a75aa4ba63",
+      "id": "8e34d3d48e101c31",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -322,7 +388,7 @@
       }
     },
     {
-      "id": "6625ac621945f65f",
+      "id": "ea66878c76fee3a7",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -355,7 +421,7 @@
       }
     },
     {
-      "id": "387cbe83ef21b297",
+      "id": "05bc97ea2a7aacd2",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -388,7 +454,7 @@
       }
     },
     {
-      "id": "50231a83a18aabba",
+      "id": "1afbe9b1ed6342d4",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -421,7 +487,7 @@
       }
     },
     {
-      "id": "df0d6caff4ccb963",
+      "id": "9823b852f4b352a6",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -454,7 +520,7 @@
       }
     },
     {
-      "id": "f89d1dd82c2cc33a",
+      "id": "6a4947e6402719fa",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -487,7 +553,7 @@
       }
     },
     {
-      "id": "fad01798afa1072f",
+      "id": "e16b63a84e988fa2",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -520,7 +586,7 @@
       }
     },
     {
-      "id": "83943dfc667090c5",
+      "id": "30ddab74ce1a202b",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -554,7 +620,7 @@
       }
     },
     {
-      "id": "229207d16ebaf48d",
+      "id": "7a5c6a04e00ab567",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -587,7 +653,7 @@
       }
     },
     {
-      "id": "9f83f548f17b4750",
+      "id": "175bdb557c9cdd6b",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -620,7 +686,7 @@
       }
     },
     {
-      "id": "b540077f1ef45ef4",
+      "id": "c1918f88e607074f",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -653,7 +719,7 @@
       }
     },
     {
-      "id": "aa2435cedd4c8f0c",
+      "id": "d2dd53c40815edfd",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -686,7 +752,7 @@
       }
     },
     {
-      "id": "46693e5c0209dec2",
+      "id": "ba4475cd6b136b2d",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -719,7 +785,7 @@
       }
     },
     {
-      "id": "bf5281b70d9274fa",
+      "id": "f6d7831d02e6e7f6",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -751,7 +817,7 @@
       }
     },
     {
-      "id": "857855fad508ebad",
+      "id": "4a6b8b06cd375137",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -783,7 +849,7 @@
       }
     },
     {
-      "id": "1be3dd76da47fc3a",
+      "id": "f470bcd98fd7ed5d",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -815,7 +881,7 @@
       }
     },
     {
-      "id": "4050f272e05c1fc8",
+      "id": "9eb321fc0cd38114",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -847,7 +913,7 @@
       }
     },
     {
-      "id": "903ab7ba7b43ed1e",
+      "id": "955798ea65137651",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -879,7 +945,7 @@
       }
     },
     {
-      "id": "e584fb3d4d640758",
+      "id": "0cce572f9825cd1a",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -911,7 +977,7 @@
       }
     },
     {
-      "id": "7b3f8f8add2516da",
+      "id": "e2593232fdafc6a1",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -943,7 +1009,7 @@
       }
     },
     {
-      "id": "2b78c7729718c844",
+      "id": "58ecaa0bd6b168ce",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -975,7 +1041,7 @@
       }
     },
     {
-      "id": "adb26ada636eeb6a",
+      "id": "fae285e6576d52ec",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -1007,7 +1073,7 @@
       }
     },
     {
-      "id": "f8f76c05293e2561",
+      "id": "5bda0418df957402",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -1038,7 +1104,7 @@
       }
     },
     {
-      "id": "5bbd41ad12b220ad",
+      "id": "6608ba8e2838e911",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -1069,7 +1135,7 @@
       }
     },
     {
-      "id": "5a9a069369a7b3b8",
+      "id": "8aa19be22524837d",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -1100,7 +1166,7 @@
       }
     },
     {
-      "id": "0f94e64948c154fb",
+      "id": "ea4d9e1dbd8a595b",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1125,7 +1191,97 @@
       "extra": {}
     },
     {
-      "id": "dfb7d78178fa672b",
+      "id": "6b0c153a25bbe644",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 mai 2026 autorisant au titre de l'année 2026 l'ouverture d'un concours interne pour l'accès au grade de contrôleur spécialisé de classe normale du corps des contrôleurs spécialisés de la direction générale de la sécurité extérieure",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/21/ARME2613795A/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 21 mai 2026 autorisant au titre de l'année 2026 l'ouverture d'un concours interne pour l'accès au grade de contrôleur spécialisé de classe normale du corps des contrôleurs spécialisés de la direction générale de la sécurité extérieure. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054148996",
+        "nor": "ARME2613795A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "221c5e9a6db02d70",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 22 mai 2026 fixant le nombre de places offertes à l'examen professionnel ouvert au titre de l'année 2027 pour l'avancement au grade de secrétaire administratif spécialisé de classe supérieure du corps des secrétaires administratifs spécialisés de la direction générale de la sécurité extérieure",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/22/ARME2614111A/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 22 mai 2026 fixant le nombre de places offertes à l'examen professionnel ouvert au titre de l'année 2027 pour l'avancement au grade de secrétaire administratif spécialisé de classe supérieure du corps des secrétaires administratifs spécialisés de la direction générale de la sécurité extérieure.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149018",
+        "nor": "ARME2614111A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-22",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "67f22939234d7797",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 22 mai 2026 fixant le nombre de places offertes à l'examen professionnel ouvert au titre de l'année 2027 pour l'avancement au grade de contrôleur spécialisé de classe supérieure du corps des contrôleurs spécialisés de la direction générale de la sécurité extérieure",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/22/ARME2614114A/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 22 mai 2026 fixant le nombre de places offertes à l'examen professionnel ouvert au titre de l'année 2027 pour l'avancement au grade de contrôleur spécialisé de classe supérieure du corps des contrôleurs spécialisés de la direction générale de la sécurité extérieure. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149033",
+        "nor": "ARME2614114A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-22",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "07397c6453f353cb",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -1155,7 +1311,7 @@
       }
     },
     {
-      "id": "f99add41a7506d5a",
+      "id": "e910f6c67efeb032",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -1185,7 +1341,37 @@
       }
     },
     {
-      "id": "e31efc7261951c8c",
+      "id": "39f38e8561a0c0e7",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 28 mai 2026 autorisant au titre de l'année 2027 l'ouverture d'un examen professionnel pour l'accès au grade de chargé d'études documentaires principal du corps interministériel des chargés d'études documentaires",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/28/TECK2614325A/jo/texte",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 28 mai 2026 autorisant au titre de l'année 2027 l'ouverture d'un examen professionnel pour l'accès au grade de chargé d'études documentaires principal du corps interministériel des chargés d'études documentaires. Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149099",
+        "nor": "TECK2614325A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "a5a3ee3832f7cf2f",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -1215,7 +1401,7 @@
       }
     },
     {
-      "id": "d00c2ed0cc2d1e37",
+      "id": "e59ec318979b619d",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -1245,7 +1431,97 @@
       }
     },
     {
-      "id": "55e2ea9e23d38a34",
+      "id": "8c05edd319c2e5f3",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes pour le recrutement d'assistants ingénieur à l'Institut de recherche pour le développement (IRD)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149667",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes pour le recrutement d'assistants ingénieur à l'Institut de recherche pour le développement (IRD). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149667",
+        "nor": "IRDH2613313A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "8023091da10b7e57",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes pour le recrutement d'ingénieurs de recherche à l'Institut de recherche pour le développement (IRD)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149706",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes pour le recrutement d'ingénieurs de recherche à l'Institut de recherche pour le développement (IRD). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149706",
+        "nor": "IRDH2613317A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "2e855b23e521f4b7",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes pour le recrutement de techniciens de la recherche de classe normale à l'Institut de recherche pour le développement (IRD)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054149725",
+      "publishedAt": "2026-05-29",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes pour le recrutement de techniciens de la recherche de classe normale à l'Institut de recherche pour le développement (IRD). Texte publié au Journal officiel le 2026-05-29.",
+      "application": {
+        "date": "2026-05-30",
+        "label": "Par défaut, applicable le 30 mai 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "extra": {
+        "id": "JORFTEXT000054149725",
+        "nor": "IRDH2613333A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260529-012442.tar.gz"
+      }
+    },
+    {
+      "id": "960ecefc62eb3a34",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA JORFSIMPLE",
@@ -1275,7 +1551,7 @@
       }
     },
     {
-      "id": "3425cfd367f6c045",
+      "id": "a78d18ba799fae03",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1309,7 +1585,7 @@
       }
     },
     {
-      "id": "ba3718d13b975209",
+      "id": "534d539ca78d0be2",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1341,7 +1617,7 @@
       }
     },
     {
-      "id": "3d5a894a67fa419f",
+      "id": "57a6fb4f17df9707",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1372,7 +1648,7 @@
       }
     },
     {
-      "id": "0b23aa0d450984fd",
+      "id": "9b9c21c9345dfafc",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1403,7 +1679,7 @@
       }
     },
     {
-      "id": "e9c99b29b1ae116e",
+      "id": "32cdc40a64cb4f08",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1434,7 +1710,7 @@
       }
     },
     {
-      "id": "0ec17e8a9e6fdb7f",
+      "id": "6b3d2e7063020912",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1465,7 +1741,7 @@
       }
     },
     {
-      "id": "83cbb7e0979172d0",
+      "id": "1e0d899f19c53b05",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1496,7 +1772,7 @@
       }
     },
     {
-      "id": "743d40ef6157f6d4",
+      "id": "43cd4ea55707ae9f",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1527,7 +1803,7 @@
       }
     },
     {
-      "id": "f7d36ada6c32688a",
+      "id": "42392832c14b2b22",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1552,7 +1828,7 @@
       "extra": {}
     },
     {
-      "id": "e7bdcd2b86cd065c",
+      "id": "9c9e025c9b365f7d",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1582,7 +1858,7 @@
       }
     },
     {
-      "id": "8a59fe155e6705a0",
+      "id": "3d068c45fda84548",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1612,7 +1888,7 @@
       }
     },
     {
-      "id": "5b74de5775541042",
+      "id": "84575c02d6d7c2a9",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1642,7 +1918,7 @@
       }
     },
     {
-      "id": "b46775c95472cb3a",
+      "id": "8cca1a9a0d00146f",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1672,7 +1948,7 @@
       }
     },
     {
-      "id": "af9b7f14b85a51f6",
+      "id": "5c4dafba21d48800",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "DILA CASS",
@@ -1702,7 +1978,7 @@
       }
     },
     {
-      "id": "2767a59a56065104",
+      "id": "e53b211b749fde12",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1726,7 +2002,7 @@
       "extra": {}
     },
     {
-      "id": "a8377bfe3677d8d1",
+      "id": "45cb27a976e37807",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1750,7 +2026,7 @@
       "extra": {}
     },
     {
-      "id": "2228f72e9b81dcc0",
+      "id": "373967170d325988",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1774,7 +2050,7 @@
       "extra": {}
     },
     {
-      "id": "38781b686ef74f8a",
+      "id": "949e7054465ab5cc",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1798,7 +2074,7 @@
       "extra": {}
     },
     {
-      "id": "9c241250094847c0",
+      "id": "a97c6ae0a22a46b0",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1822,7 +2098,7 @@
       "extra": {}
     },
     {
-      "id": "64431aac614821bf",
+      "id": "da0c699064bb5cc6",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1846,7 +2122,7 @@
       "extra": {}
     },
     {
-      "id": "b71078dcbb241ea2",
+      "id": "1655daa45f2ce9b2",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1870,7 +2146,7 @@
       "extra": {}
     },
     {
-      "id": "b607bed2a7b88f90",
+      "id": "7ba569a07351de68",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1894,7 +2170,7 @@
       "extra": {}
     },
     {
-      "id": "56ec717ccf4ed99c",
+      "id": "3aceaf6defb15bb2",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1918,7 +2194,7 @@
       "extra": {}
     },
     {
-      "id": "3fbe2f4dacdf7eee",
+      "id": "2c7027a65ecfbbdf",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1942,7 +2218,7 @@
       "extra": {}
     },
     {
-      "id": "e907a29068dcfd07",
+      "id": "64e1d79670fa4493",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -1966,7 +2242,7 @@
       "extra": {}
     },
     {
-      "id": "7be5df8e3c60c4bb",
+      "id": "a499cb7d8fd0b759",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Vie-publique - lois",
@@ -1990,7 +2266,7 @@
       "extra": {}
     },
     {
-      "id": "e2fc0a06f35cd51d",
+      "id": "bd8eb4ed9d8e6a9b",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Vie-publique - lois",
@@ -2014,7 +2290,7 @@
       "extra": {}
     },
     {
-      "id": "7e1b6420bc8b9e01",
+      "id": "b0f4c0824034644c",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Vie-publique - lois",
@@ -2038,7 +2314,31 @@
       "extra": {}
     },
     {
-      "id": "646dcdb91325df1d",
+      "id": "d9063d3066506a4d",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Vie-publique - lois",
+      "sourceType": "rss",
+      "category": "projet-loi",
+      "title": "Projet de loi portant diverses mesures urgentes de sécurisation du droit de la fonction publique",
+      "url": "https://www.vie-publique.fr/loi/302246-droit-de-la-fonction-publique-mesures-urgentes-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+      "publishedAt": "2026-02-26",
+      "summary": "Projet de loi portant diverses mesures urgentes de sécurisation du droit de la fonction publique",
+      "application": {
+        "date": null,
+        "label": "Non applicable à ce stade : suivre la navette et les décrets d'application.",
+        "basis": "Projet ou proposition de loi."
+      },
+      "watch": "Surveiller l'étape parlementaire suivante et les décrets d'application éventuels.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "watch",
+      "priority": 27,
+      "extra": {}
+    },
+    {
+      "id": "cec1ad267f468fc6",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Vie-publique - lois",
@@ -2062,7 +2362,7 @@
       "extra": {}
     },
     {
-      "id": "e6bc8357c9943c57",
+      "id": "c610633a0e5ae4fe",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Vie-publique - lois",
@@ -2086,7 +2386,808 @@
       "extra": {}
     },
     {
-      "id": "a8ab7b7444fd4ca3",
+      "id": "1be49c5813fd2dda",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "«Je ne sais même pas qui m’a invité ni pourquoi» : où va la conférence «travail, emploi, retraite» ?",
+      "url": "https://www.lefigaro.fr/social/je-ne-sais-meme-pas-qui-m-a-invite-ni-pourquoi-ou-va-la-conference-travail-emploi-retraite-20260505",
+      "publishedAt": "2026-05-05",
+      "summary": "Repéré dans Le Figaro - social. DÉCRYPTAGE - Alors qu’une séance plénière est prévue le 22 mai prochain, plusieurs organisations patronales et syndicales s’interrogent sur leur participation à cette conférence sociale lancée par le ministère du Travail...",
+      "application": {
+        "date": "2026-05-05",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 19,
+      "extra": {}
+    },
+    {
+      "id": "aef6298e661700b0",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Emploi : IA et tech, la grande reconfiguration des métiers et des salaires est en marche",
+      "url": "https://www.leparisien.fr/economie/entreprise/emploi-ia-et-tech-la-grande-reconfiguration-des-metiers-et-des-salaires-est-en-marche-28-05-2026-ESEDKMLIL5BUDAPRSA5YDROVKE.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - économie. Emploi : IA et tech, la grande reconfiguration des métiers et des salaires est en marche",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "extra": {}
+    },
+    {
+      "id": "413506edfa479da2",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Ruptures conventionnelles : ce qui va changer pour les salariés et les employeurs avec le texte adopté par les députés",
+      "url": "https://www.lefigaro.fr/social/ruptures-conventionnelles-ce-qui-va-changer-pour-les-salaries-et-les-employeurs-20260527",
+      "publishedAt": "2026-05-28",
+      "summary": "Repéré dans Le Figaro - social. Les députés ont approuvé mardi 26 mai le projet de loi du gouvernement transposant l’avenant à la convention d’assurance chômage. Dans les faits, ce texte touche surtout aux ruptures conventionnelles.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "extra": {}
+    },
+    {
+      "id": "39c765801ac5becd",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Pouvoir d'achat : huit syndicats demandent dans un courrier au Premier ministre \"une augmentation du point d'indice\" des agents publics",
+      "url": "https://www.franceinfo.fr/economie/emploi/recherche-d-emploi/fonction-publique/pouvoir-d-achat-huit-syndicats-demandent-dans-un-courrier-au-premier-ministre-une-augmentation-du-point-d-indice-des-agents-publics_8034047.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-05-28",
+      "summary": "Repéré dans franceinfo - emploi. Dans cette lettre envoyée mercredi à Matignon, les syndicats demandent à réunir le plus tôt possible le groupe de travail sur les rémunérations, initialement prévu cette semaine.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "extra": {}
+    },
+    {
+      "id": "1635027710e02f61",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Alternance : le combat des étudiants pour décrocher un contrat avec la réduction des aides",
+      "url": "https://www.franceinfo.fr/economie/emploi/carriere/formation/alternance/alternance-le-combat-des-etudiants-pour-decrocher-un-contrat-avec-la-reduction-des-aides_8031677.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-05-27",
+      "summary": "Repéré dans franceinfo - emploi. C'est une des conséquences de la baisse des aides aux entreprises pour les apprentis : les embauches reculent et cela devrait s'accentuer dans les mois qui viennent.",
+      "application": {
+        "date": "2026-05-27",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat",
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "extra": {}
+    },
+    {
+      "id": "6561c8b496d3d37e",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Ordonnances travail, aides à l’apprentissage, assurance-chômage… Comment les réformes ont fluidifié le marché du travail depuis 10 ans",
+      "url": "https://www.lefigaro.fr/economie/ordonnances-travail-aides-a-l-apprentissage-assurance-chomage-comment-les-reformes-ont-fluidifie-le-marche-du-travail-depuis-10-ans-20260518",
+      "publishedAt": "2026-05-18",
+      "summary": "Repéré dans Le Figaro - social. DÉCRYPTAGE - Dans un rapport publié ce mardi, la Banque de France évalue positivement les effets sur le chômage structurel des décisions prises depuis 2015.",
+      "application": {
+        "date": "2026-05-18",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "extra": {}
+    },
+    {
+      "id": "100e486dadd85ac2",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Nouveaux jours fériés, 6e semaine de congés payés, congé parental rallongé... Ces idées à contre-courant du «travailler plus»",
+      "url": "https://www.lefigaro.fr/social/nouveaux-jours-feries-6e-semaine-de-conges-payes-conge-parental-rallonge-ces-idees-a-contre-courant-du-travailler-plus-20260508",
+      "publishedAt": "2026-05-08",
+      "summary": "Repéré dans Le Figaro - social. Si la France est dans le peloton de tête des pays européens avec le plus grand nombre de journées chômées, certains partis politiques et syndicats plaident pour aller plus loin.",
+      "application": {
+        "date": "2026-05-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail",
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "extra": {}
+    },
+    {
+      "id": "94c85ef25ae6f695",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "«Jusqu’au 4 mai, c’est “Nicolas” qui paie» : deux économistes créent une date symbolique pour mesurer le coût des retraités",
+      "url": "https://www.lefigaro.fr/social/jusqu-au-4-mai-c-est-nicolas-qui-paie-deux-economistes-creent-une-date-symbolique-pour-mesurer-le-cout-des-retraites-20260503",
+      "publishedAt": "2026-05-03",
+      "summary": "Repéré dans Le Figaro - social. À partir du «Jour de Libération des Actifs», les salariés français ont symboliquement fini de financer les pensions et la santé des retraités pour le reste de l’année. Cette année, il tombe le 4 mai.",
+      "application": {
+        "date": "2026-05-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "extra": {}
+    },
+    {
+      "id": "ad03328165739c60",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Jusqu’à 1 500 postes sur trois ans » : le groupe Michelin annonce un plan de départs volontaires en France",
+      "url": "https://www.leparisien.fr/economie/emploi/jusqua-1-500-postes-sur-trois-ans-le-groupe-michelin-annonce-un-plan-de-departs-volontaires-en-france-28-05-2026-RYD6UN3T6FFB3KYHSPVMXCZMTI.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - économie. « Jusqu’à 1 500 postes sur trois ans » : le groupe Michelin annonce un plan de départs volontaires en France",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "f5336d70bcc887d7",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Pour continuer à mal payer les gens » : au 1er juin, 126 branches auront une grille de salaires qui démarre sous le smic",
+      "url": "https://www.leparisien.fr/economie/emploi/pour-continuer-a-mal-payer-les-gens-au-1er-juin-128-banches-auront-une-grille-de-salaires-qui-demarre-sous-le-smic-27-05-2026-B54BCOPPTJBTDA62RW7KDDV2CI.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - économie. « Pour continuer à mal payer les gens » : au 1er juin, 126 branches auront une grille de salaires qui démarre sous le smic",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "b6aa0420de547f99",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "A-t-on le droit de venir travailler en short ou en débardeur lorsque la chaleur grimpe ? Ce que dit le Code du travail",
+      "url": "https://www.leparisien.fr/economie/entreprise/a-t-on-le-droit-de-venir-travailler-en-short-ou-en-debardeur-lorsque-la-chaleur-grimpe-ce-que-dit-le-code-du-travail-25-05-2026-DH2QN5RWQRGFVKH76V6DQVECVU.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - économie. A-t-on le droit de venir travailler en short ou en débardeur lorsque la chaleur grimpe ? Ce que dit le Code du travail",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "198b98f27e2c694b",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Dans les Yvelines, une semaine de chômage technique pour Stellantis… et ses sous-traitants",
+      "url": "https://www.leparisien.fr/yvelines-78/dans-les-yvelines-une-semaine-de-chomage-technique-pour-stellantis-et-ses-sous-traitants-25-05-2026-DHFP7BLJINDQ7IYQEWZYD63O4E.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - économie. Dans les Yvelines, une semaine de chômage technique pour Stellantis… et ses sous-traitants",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "37ba3c3af3203c43",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Au-delà du smic, pas un centime de hausse » : les entreprises ulcérées de passer à la caisse pour la crise des carburants",
+      "url": "https://www.leparisien.fr/economie/au-dela-du-smic-pas-un-centime-de-hausse-les-entreprises-ulcerees-de-passer-a-la-caisse-pour-la-crise-des-carburants-23-05-2026-GA6TLQCSM5EFRNWL6SZVJQJ4AM.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - économie. « Au-delà du smic, pas un centime de hausse » : les entreprises ulcérées de passer à la caisse pour la crise des carburants",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "d6396f4cb265b050",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Jean-Pierre Farandou : « Chaque chef d’entreprise déterminera ce qu’il peut faire ou pas en matière de salaire »",
+      "url": "https://www.leparisien.fr/economie/jean-pierre-farandou-chaque-chef-dentreprise-determinera-ce-quil-peut-faire-ou-pas-en-matiere-de-salaire-22-05-2026-OIWW3ZOCTJCF3JMVFP3SUM5QCM.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - économie. Jean-Pierre Farandou : « Chaque chef d’entreprise déterminera ce qu’il peut faire ou pas en matière de salaire »",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "e05b0a048d9eaf00",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Livreurs clandestins, clients harcelés, vols… À Melun, la guerre des enseignes contre les « pirates » des parkings",
+      "url": "https://www.leparisien.fr/seine-et-marne-77/livreurs-clandestins-clients-harceles-vols-a-melun-la-guerre-des-enseignes-contre-les-pirates-des-parkings-22-05-2026-GI4MHWDO6ZF6JGEKUP2FNXKYEY.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - économie. Livreurs clandestins, clients harcelés, vols… À Melun, la guerre des enseignes contre les « pirates » des parkings",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "c43718eb46240b6f",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Des subventions d’équilibre » : Bercy veut mettre en lumière le vrai déficit des retraites des fonctionnaires",
+      "url": "https://www.leparisien.fr/economie/retraites/des-subventions-dequilibre-bercy-veut-mettre-en-lumiere-le-vrai-deficit-des-retraites-des-fonctionnaires-22-05-2026-KR3QB2ZJL5BTPFZGFZEAWMYC3U.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - économie. « Des subventions d’équilibre » : Bercy veut mettre en lumière le vrai déficit des retraites des fonctionnaires",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "67a74e25c46bf559",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Parisien - politique",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "École, salaires, frontières et IA : les quatre « chantiers capitaux » du candidat Gabriel Attal",
+      "url": "https://www.leparisien.fr/elections/presidentielle/ecole-salaires-frontieres-et-ia-les-quatre-chantiers-capitaux-du-candidat-gabriel-attal-23-05-2026-KQHVSEFFBNDK7NVMWESFYRMKLU.php",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Parisien - politique. École, salaires, frontières et IA : les quatre « chantiers capitaux » du candidat Gabriel Attal",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "f2cd4eb9b189ca09",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "«Tout le monde est déçu» : entre salariés résignés et clients nostalgiques, l’enseigne Minelli vit ses ultimes heures",
+      "url": "https://www.lefigaro.fr/societes/tout-le-monde-est-decu-entre-salaries-resignes-et-clients-nostalgiques-l-enseigne-minelli-vit-ses-ultimes-heures-20260529",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans Le Figaro - économie. REPORTAGE - Entre rayons clairsemés, promotions à -70% et vendeuses désemparées, les magasins parisiens de Minelli attirent encore de nombreux clients avant leur fermeture définitive prévue ce week-end.",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "01326a200601f519",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Plan de départs volontaires chez Michelin : \"C'est l'incompréhension qui domine\", réagit la CFE-CGC du groupe",
+      "url": "https://www.franceinfo.fr/economie/emploi/plans-sociaux/plan-de-departs-volontaires-chez-michelin-c-est-l-incomprehension-qui-domine-reagit-la-cfe-cgc-du-groupe_8035196.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-05-29",
+      "summary": "Repéré dans franceinfo - emploi. Le groupe Michelin a annoncé la suppression de 1 500 postes en France d'ici trois ans. L'annonce fait bondir les syndicats.",
+      "application": {
+        "date": "2026-05-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "d4e486d5c0668147",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Aides à domicile : le gouvernement donne son feu vert à la hausse des salaires dans l’associatif et à une aide pérenne pour le carburant",
+      "url": "https://www.lemonde.fr/societe/article/2026/05/28/aides-a-domicile-le-gouvernement-donne-son-feu-vert-a-la-hausse-des-salaires-dans-l-associatif-et-a-une-aide-perenne-pour-le-carburant_6694491_3224.html",
+      "publishedAt": "2026-05-28",
+      "summary": "Repéré dans Le Monde - économie. Alors que les conseils départementaux, cofinanceurs, s’opposaient à l’augmentation des salaires depuis plus d’un an, les ministères concernés se sont désolidarisés et ont donné leur accord, jeudi matin, lors d’une...",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "58703bcad4649a29",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Un sentiment bien réel de déclassement social » : comment l’augmentation du smic engloutit les bas salaires",
+      "url": "https://www.lefigaro.fr/social/un-sentiment-bien-reel-de-declassement-social-comment-l-augmentation-du-smic-engloutit-les-bas-salaires-20260527",
+      "publishedAt": "2026-05-28",
+      "summary": "Repéré dans Le Figaro - social. DÉCRYPTAGE - Alors que le salaire minimum doit augmenter ce lundi 1er juin, plusieurs salariés se retrouvent, malgré eux, rattrapés par le smic.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "4814e84cabeb686c",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Un robot humanoïde bientôt fin prêt pour rejoindre les rangs des ouvriers de Renault",
+      "url": "https://www.franceinfo.fr/economie/automobile/un-robot-humanoide-bientot-fin-pret-pour-rejoindre-les-rangs-des-ouvriers-de-renault_8034566.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-05-28",
+      "summary": "Repéré dans franceinfo - emploi. Les salariés de l'usine Renault de Douai vont avoir des collègues d'un nouveau genre. Le premier robot humanoïde est arrivé chez le constructeur automobile, après plus de 10 ans de recherche.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "72707799313919d1",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Michelin annonce un plan de départs volontaires en France, \"jusqu'à 1 500 postes\" supprimés",
+      "url": "https://www.franceinfo.fr/economie/michelin-annonce-un-plan-de-departs-volontaires-en-france-jusqu-a-1-500-postes-supprimes_8033726.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-05-28",
+      "summary": "Repéré dans franceinfo - emploi. Le groupe avait déjà supprimé 1 246 emplois en 2024, avec la fermeture des sites de Vannes (Morbihan) et Cholet (Maine-et-Loire). Ce leader mondial des pneus emploie actuellement 17 000 personnes en France.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "9f61abd596d8ff90",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Plan de départs volontaires chez Michelin : la CFDT dénonce \"un souci de gestion des effectifs dans le tertiaire\", la CGT \"des départs forcés\"",
+      "url": "https://www.franceinfo.fr/economie/emploi/plans-sociaux/plan-de-departs-volontaires-chez-michelin-la-cfdt-denonce-un-souci-de-gestion-des-effectifs-dans-le-tertiaire-la-cgt-des-departs-forces_8033492.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-05-28",
+      "summary": "Repéré dans franceinfo - emploi. Le leader mondial des pneus a annoncé jeudi un dispositif de départs volontaires en France portant sur \"jusqu'à 1 500 postes sur trois ans\".",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "7f67d8e648900e99",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Marché du travail : \"Jeunes et seniors, c'est la complémentarité qui va faire la force d'une entreprise\", assure Jean-Jacques Richard, auteur de \"Je suis vieux et je vous emmerde\"",
+      "url": "https://www.franceinfo.fr/replay-jt/franceinfo/12-13-info/marche-du-travail-jeunes-et-seniors-c-est-la-complementarite-qui-va-faire-la-force-d-une-entreprise-assure-jean-jacques-richard-auteur-de-je-suis-vieux-et-je-vous-emmerde_8031404.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-05-27",
+      "summary": "Repéré dans franceinfo - emploi. Jean-Jacques Richard, expert en sûreté et en gestion de crise, ainsi qu'auteur de \"Je suis vieux et je vous emmerde\", était l'invité du 11/13 de franceinfo, mercredi 27 mai 2026.",
+      "application": {
+        "date": "2026-05-27",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "63acc88e1afa5440",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Le lundi de Pentecôte, ce jour férié devenu très inégalement chômé",
+      "url": "https://www.lefigaro.fr/social/le-lundi-de-pentecote-ce-jour-ferie-devenu-tres-inegalement-chome-20260525",
+      "publishedAt": "2026-05-25",
+      "summary": "Repéré dans Le Figaro - social. Pour des millions de Français, ce 25 mai 2026 est une journée de travail comme les autres. Un cas particulier qui rapporte des milliards aux caisses de la sécurité sociale.",
+      "application": {
+        "date": "2026-05-25",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "b341044a10da852a",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Une épée de Damoclès au-dessus de leur tête » : le modèle économique des plateformes de VTC et de livraison sérieusement menacé",
+      "url": "https://www.lefigaro.fr/social/une-epee-de-damocles-au-dessus-de-leur-tete-le-modele-economique-des-plateformes-de-vtc-et-de-livraison-serieusement-menace-20260515",
+      "publishedAt": "2026-05-15",
+      "summary": "Repéré dans Le Figaro - social. DÉCRYPTAGE - La France doit transposer d’ici à décembre 2026 une directive européenne visant à améliorer les conditions des travailleurs.",
+      "application": {
+        "date": "2026-05-15",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "7f6fea7437ff8a77",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Livreurs et VTC : ces centaines de millions d’euros de fraude sociale qui échappent à la Sécu",
+      "url": "https://www.lefigaro.fr/social/livreurs-et-vtc-ces-centaines-de-millions-d-euros-de-fraude-sociale-qui-echappent-a-la-secu-20260515",
+      "publishedAt": "2026-05-15",
+      "summary": "Repéré dans Le Figaro - social. DÉCRYPTAGE - Sous la bannière des plateformes comme Uber Eats ou Deliveroo, de nombreux travailleurs précaires ne paient pas de cotisations sociales sur leur salaire, entraînant ainsi un important manque à gagner pour...",
+      "application": {
+        "date": "2026-05-15",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "93f3259960d80869",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Sans argent, il faut des idées » : le gouvernement s’attaque au chômage des jeunes",
+      "url": "https://www.lefigaro.fr/social/sans-argent-il-faut-des-idees-le-gouvernement-s-attaque-au-chomage-des-jeunes-20260508",
+      "publishedAt": "2026-05-08",
+      "summary": "Repéré dans Le Figaro - social. L’exécutif a présenté ce jeudi 7 mai son nouveau « plan pour l’accélération de l’emploi des jeunes ». Ces nouvelles mesures « ne nécessitent ni évolution législative ni budget supplémentaire », affirme le gouvernement.",
+      "application": {
+        "date": "2026-05-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "a83364e97fd47c79",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "1er Mai : à Paris, la gauche dénonce «la casse du système social» à un an de la présidentielle",
+      "url": "https://www.lefigaro.fr/politique/1er-mai-a-paris-la-gauche-denonce-la-casse-du-systeme-social-a-un-an-de-la-presidentielle-20260501",
+      "publishedAt": "2026-05-01",
+      "summary": "Repéré dans Le Figaro - social. REPORTAGE - Cette année, travailleurs, syndicats et politiques de gauche ont célébré la fête des travailleurs dans une ambiance inquiète à l’approche de la présidentielle et face à la possible libéralisation du travail...",
+      "application": {
+        "date": "2026-05-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "1bdc82d46a635bfe",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "1er Mai : les syndicats se placent en vue de l’élection présidentielle",
+      "url": "https://www.lefigaro.fr/social/1er-mai-les-syndicats-se-placent-en-vue-de-l-election-presidentielle-20260501",
+      "publishedAt": "2026-05-01",
+      "summary": "Repéré dans Le Figaro - social. RÉCIT - À moins d’un an de l’échéance, les organisations de salariés, CGT et CFDT en tête, veulent peser dans les débats.",
+      "application": {
+        "date": "2026-05-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "52dc596f7421afa9",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Projet de loi de lutte contre les fraudes : les députés et les sénateurs parviennent à un accord",
+      "url": "https://www.lefigaro.fr/conjoncture/projet-de-loi-de-lutte-contre-les-fraudes-les-deputes-et-les-senateurs-parviennent-a-un-accord-20260428",
+      "publishedAt": "2026-04-28",
+      "summary": "Repéré dans Le Figaro - social. Le texte final espère récupérer jusqu’à 1,5 milliard d’euros grâce à des mesures renforcées contre la fraude sociale. Mais il ne s’attaque pas suffisamment à la fraude fiscale.",
+      "application": {
+        "date": "2026-04-28",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "3739d1b7ecba7b4b",
+      "date": "2026-05-29",
+      "firstSeenDate": "2026-05-29",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Baisser le déficit sans s’attaquer aux dépenses sociales : une mission impossible",
+      "url": "https://www.lefigaro.fr/conjoncture/baisser-le-deficit-sans-s-attaquer-aux-depenses-sociales-une-mission-impossible-20260424",
+      "publishedAt": "2026-04-24",
+      "summary": "Repéré dans Le Figaro - social. ANALYSE - Plusieurs leviers pouvant enrayer l’essor du déficit public sont connus de longue date, en agissant notamment sur les retraites (désindexation des pensions, report de l’âge légal), mais la volonté politique de...",
+      "application": {
+        "date": "2026-04-24",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "extra": {}
+    },
+    {
+      "id": "c9dda61bc3fd6087",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2112,7 +3213,7 @@
       "extra": {}
     },
     {
-      "id": "1f24e9f79c38f416",
+      "id": "54320bf1588d9b52",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2138,7 +3239,7 @@
       "extra": {}
     },
     {
-      "id": "be3597ec5a46f03a",
+      "id": "a46d76b8efae5796",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2163,7 +3264,7 @@
       "extra": {}
     },
     {
-      "id": "2c095acb4e60a481",
+      "id": "c1a774b707e1eb98",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2188,7 +3289,7 @@
       "extra": {}
     },
     {
-      "id": "f90db6b9ea37e6b0",
+      "id": "567bad1ee14b12b7",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2213,7 +3314,7 @@
       "extra": {}
     },
     {
-      "id": "7ee691b16f9aa26e",
+      "id": "fd50d74aa9571694",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2238,7 +3339,7 @@
       "extra": {}
     },
     {
-      "id": "6d7840eda203d972",
+      "id": "54d91aa18fb10ddc",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2263,7 +3364,7 @@
       "extra": {}
     },
     {
-      "id": "b2934a9b15f326f1",
+      "id": "af55b8d06dbf3bc8",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2288,7 +3389,7 @@
       "extra": {}
     },
     {
-      "id": "c7f9aa735f5cdc12",
+      "id": "1bd1f91056af257c",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2313,7 +3414,7 @@
       "extra": {}
     },
     {
-      "id": "117211c95fcb1eb7",
+      "id": "c2372edbb5f9d7df",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - particuliers",
@@ -2337,7 +3438,7 @@
       "extra": {}
     },
     {
-      "id": "079b6183aca4da54",
+      "id": "8fb9751351bdbfc2",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2361,7 +3462,7 @@
       "extra": {}
     },
     {
-      "id": "afeee6d50b882f67",
+      "id": "33ad555dba71968f",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2385,7 +3486,7 @@
       "extra": {}
     },
     {
-      "id": "ec9a53bdf84cc9d1",
+      "id": "17766d017cdd7171",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2409,7 +3510,7 @@
       "extra": {}
     },
     {
-      "id": "94c63af735d1b2b9",
+      "id": "bbd8946278197dcf",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2433,7 +3534,7 @@
       "extra": {}
     },
     {
-      "id": "406b60d46522f0c4",
+      "id": "1e7c27df8ae17ea8",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2457,7 +3558,7 @@
       "extra": {}
     },
     {
-      "id": "65bd44053aba1e81",
+      "id": "3b25484c67701c84",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2481,7 +3582,7 @@
       "extra": {}
     },
     {
-      "id": "ee0cd6f643770347",
+      "id": "6a1c5719fe96fa78",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2505,7 +3606,7 @@
       "extra": {}
     },
     {
-      "id": "4da375f1e4c0ff2a",
+      "id": "cfb8ae8dbc79fcf9",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2529,7 +3630,7 @@
       "extra": {}
     },
     {
-      "id": "782e9daf4f457b49",
+      "id": "8296b1ed6d54af76",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2553,7 +3654,7 @@
       "extra": {}
     },
     {
-      "id": "f7ab039c70fc00b2",
+      "id": "a3f884b97d7ca43f",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2577,7 +3678,7 @@
       "extra": {}
     },
     {
-      "id": "bb9fda0b94f7d502",
+      "id": "42becca4b1306d8c",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2601,7 +3702,7 @@
       "extra": {}
     },
     {
-      "id": "7deb74ea7b730b56",
+      "id": "c7e4d33519106ad4",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2625,7 +3726,7 @@
       "extra": {}
     },
     {
-      "id": "6a5e95537fc0af1f",
+      "id": "ddeaa8a674f0dcac",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2649,7 +3750,7 @@
       "extra": {}
     },
     {
-      "id": "1432ab1d104d4894",
+      "id": "2aa887a50539641b",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2673,7 +3774,7 @@
       "extra": {}
     },
     {
-      "id": "8de3c04aab4023d2",
+      "id": "69d2bca413c88c8a",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2697,7 +3798,7 @@
       "extra": {}
     },
     {
-      "id": "b48dc67302a8b266",
+      "id": "846854ed7c6aff7b",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2721,7 +3822,7 @@
       "extra": {}
     },
     {
-      "id": "8d0ecc8b4025c1f3",
+      "id": "de7fbb3b5dc620e4",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2745,7 +3846,7 @@
       "extra": {}
     },
     {
-      "id": "11176a45cbcdf06f",
+      "id": "c6396d58eda8552f",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2769,7 +3870,7 @@
       "extra": {}
     },
     {
-      "id": "6a59dabf0473a7af",
+      "id": "4acd3d8aa41dddaa",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2793,7 +3894,7 @@
       "extra": {}
     },
     {
-      "id": "3270b978cc7450b7",
+      "id": "4f3aa0bd3577af41",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2817,7 +3918,7 @@
       "extra": {}
     },
     {
-      "id": "175214d4ca71cbb7",
+      "id": "8b62e5ce1910c30c",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2841,7 +3942,7 @@
       "extra": {}
     },
     {
-      "id": "653e940b15c39d12",
+      "id": "92c9e8f33c4d877e",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2865,7 +3966,7 @@
       "extra": {}
     },
     {
-      "id": "be7b06c4b384f616",
+      "id": "8364ae322dfca5f8",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2889,7 +3990,7 @@
       "extra": {}
     },
     {
-      "id": "4c363f95de96bf49",
+      "id": "85339eba84d03fb2",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2913,7 +4014,7 @@
       "extra": {}
     },
     {
-      "id": "980694a093d4c322",
+      "id": "344c4e8e90110101",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2937,7 +4038,7 @@
       "extra": {}
     },
     {
-      "id": "c9e902778f1a570e",
+      "id": "a6474b3156214d64",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2961,7 +4062,7 @@
       "extra": {}
     },
     {
-      "id": "b29127fd457ab63e",
+      "id": "fced53fe5467f51d",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -2985,7 +4086,7 @@
       "extra": {}
     },
     {
-      "id": "ac698f072986e5cf",
+      "id": "4b293af53f73c86f",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -3009,7 +4110,7 @@
       "extra": {}
     },
     {
-      "id": "b1d7e4fe3a91091a",
+      "id": "2f46f446293d7f5c",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -3033,7 +4134,7 @@
       "extra": {}
     },
     {
-      "id": "837c8f8bf44925f4",
+      "id": "d156d696c465a2c6",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -3057,7 +4158,7 @@
       "extra": {}
     },
     {
-      "id": "c01b78c978310894",
+      "id": "598322bb030e7c21",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -3081,7 +4182,7 @@
       "extra": {}
     },
     {
-      "id": "912e9e3a1fe42077",
+      "id": "b473694a901d4316",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -3105,7 +4206,7 @@
       "extra": {}
     },
     {
-      "id": "4feeaab6e20d6f22",
+      "id": "c4d3da633fbc7238",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -3129,7 +4230,7 @@
       "extra": {}
     },
     {
-      "id": "051a6e701bb7ea26",
+      "id": "6c808e1314ef5e62",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",
@@ -3153,7 +4254,7 @@
       "extra": {}
     },
     {
-      "id": "1c6d6f89b4aff264",
+      "id": "f547a4e75db360d0",
       "date": "2026-05-29",
       "firstSeenDate": "2026-05-29",
       "sourceName": "Service-Public - professionnels",

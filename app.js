@@ -14,6 +14,7 @@ const categoryLabels = {
   jurisprudence: "Jurisprudence",
   "projet-loi": "Projet de loi",
   actualite: "Actualité",
+  presse: "Presse",
 };
 
 const impactLabels = {
@@ -135,6 +136,7 @@ function renderMetrics(stats = {}) {
     ["Règles", stats.regles || 0],
     ["Jurisprudence", stats.jurisprudence || 0],
     ["Projets", stats.projets || 0],
+    ["Presse", stats.presse || 0],
   ];
 
   els.metrics.innerHTML = metrics
@@ -196,7 +198,12 @@ function renderEntries() {
       .join("");
     const link = node.querySelector(".source-link");
     link.href = entry.url;
-    link.textContent = entry.sourceName.includes("Archive") ? "Archive officielle" : "Source officielle";
+    link.textContent =
+      entry.category === "presse"
+        ? "Lire l'article"
+        : entry.sourceName.includes("Archive")
+          ? "Archive officielle"
+          : "Source officielle";
     els.entryList.append(node);
   }
 }

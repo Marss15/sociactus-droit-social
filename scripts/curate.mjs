@@ -51,6 +51,48 @@ const rssSources = [
     url: "https://www.conseil-etat.fr/outils/flux-rss/avis-rss",
     defaultCategory: "projet-loi",
   },
+  {
+    name: "Le Monde - économie",
+    status: "flux RSS presse",
+    url: "https://www.lemonde.fr/economie/rss_full.xml",
+    defaultCategory: "presse",
+    kind: "press",
+  },
+  {
+    name: "Le Parisien - économie",
+    status: "flux RSS presse",
+    url: "https://feeds.leparisien.fr/leparisien/rss/economie",
+    defaultCategory: "presse",
+    kind: "press",
+  },
+  {
+    name: "Le Parisien - politique",
+    status: "flux RSS presse",
+    url: "https://feeds.leparisien.fr/leparisien/rss/politique",
+    defaultCategory: "presse",
+    kind: "press",
+  },
+  {
+    name: "Le Figaro - économie",
+    status: "flux RSS presse",
+    url: "https://www.lefigaro.fr/rss/figaro_economie.xml",
+    defaultCategory: "presse",
+    kind: "press",
+  },
+  {
+    name: "Le Figaro - social",
+    status: "flux RSS presse",
+    url: "https://www.lefigaro.fr/rss/figaro_social.xml",
+    defaultCategory: "presse",
+    kind: "press",
+  },
+  {
+    name: "franceinfo - emploi",
+    status: "flux RSS presse",
+    url: "https://www.francetvinfo.fr/economie/emploi.rss",
+    defaultCategory: "presse",
+    kind: "press",
+  },
 ];
 
 const archiveSources = [
@@ -74,7 +116,13 @@ const sourceRegister = [...rssSources, ...archiveSources].map(({ name, status, u
   name,
   status,
   url: url || indexUrl,
-}));
+})).concat([
+  {
+    name: "Les Échos",
+    status: "non intégré : les flux RSS testés répondent 403",
+    url: "https://www.lesechos.fr/",
+  },
+]);
 
 const socialTerms = [
   "droit du travail",
@@ -117,6 +165,53 @@ const socialTerms = [
   "activite partielle",
   "inspection du travail",
   "branche professionnelle",
+  "retraite",
+  "greve",
+  "fonction publique",
+  "plan social",
+  "pse",
+  "conditions de travail",
+];
+
+const pressTerms = [
+  ["droit du travail", 3],
+  ["code du travail", 3],
+  ["contrat de travail", 3],
+  ["conditions de travail", 3],
+  ["accident du travail", 3],
+  ["sante au travail", 3],
+  ["prud'hom", 3],
+  ["prudhom", 3],
+  ["conseil de prud'hommes", 3],
+  ["cse", 3],
+  ["licenciement", 3],
+  ["rupture conventionnelle", 3],
+  ["assurance chomage", 3],
+  ["salari", 2],
+  ["employeur", 2],
+  ["travailleur", 2],
+  ["salaire", 2],
+  ["smic", 2],
+  ["conge", 2],
+  ["conges payes", 2],
+  ["retraite", 2],
+  ["chomage", 2],
+  ["syndicat", 2],
+  ["greve", 2],
+  ["apprentissage", 2],
+  ["alternance", 2],
+  ["fonction publique", 2],
+  ["agent public", 2],
+  ["cotisation", 2],
+  ["securite sociale", 2],
+  ["fraude sociale", 2],
+  ["marche du travail", 2],
+  ["depart volontaire", 2],
+  ["plan de departs", 2],
+  ["ouvrier", 2],
+  ["livreur", 2],
+  ["vtc", 2],
+  ["jour ferie", 1],
 ];
 
 const exclusionTerms = [
@@ -128,6 +223,14 @@ const exclusionTerms = [
   "assurance recolte",
   "medicament",
   "code rural",
+];
+
+const pressExclusionTerms = [
+  "en inde",
+  "aux etats-unis",
+  "au royaume-uni",
+  "en chine",
+  "en russie",
 ];
 
 const themeRules = [
@@ -244,15 +347,18 @@ function parseRss(xml, source) {
         cleanText(tag(item, "pubDate") || tag(item, "dc:date") || tag(item, "updated"))
       );
       const corpus = `${title} ${description}`;
-      const score = socialScore(corpus);
-      if (score < 2 || isExcluded(corpus)) {
+      const score = source.kind === "press" ? pressScore(corpus) : socialScore(corpus);
+      if (score < 2 || isExcluded(corpus) || (source.kind === "press" && isPressExcluded(corpus))) {
         return null;
       }
-      const category = classifyCategory(corpus, source.defaultCategory);
-      const summary = summarize(description || title, 310);
+      const category = source.kind === "press" ? "presse" : classifyCategory(corpus, source.defaultCategory);
+      const summary =
+        source.kind === "press"
+          ? pressSummary(source.name, description || title)
+          : summarize(description || title, 310);
       return makeEntry({
         sourceName: source.name,
-        sourceType: "rss",
+        sourceType: source.kind === "press" ? "press-rss" : "rss",
         category,
         title,
         url,
@@ -394,7 +500,7 @@ function makeEntry({
 }) {
   const normalizedTitle = title || "Sans titre";
   const normalizedUrl = url || extra.archiveUrl || "";
-  const id = hash(`${sourceName}|${normalizedUrl}|${normalizedTitle}`);
+  const id = hash(`${normalizedUrl}|${normalizedTitle}`);
   const themes = detectThemes(text || normalizedTitle);
   return {
     id,
@@ -441,16 +547,26 @@ function impactFor(category, text) {
   if (category === "projet-loi") {
     return "watch";
   }
+  if (category === "presse") {
+    return "low";
+  }
   return "low";
 }
 
 function priorityFor(category, impact, themeCount) {
   const impactScore = { high: 30, medium: 20, watch: 12, low: 6 }[impact] || 0;
-  const categoryScore = { regle: 30, jurisprudence: 24, "projet-loi": 14, actualite: 8 }[category] || 0;
+  const categoryScore = { regle: 30, jurisprudence: 24, "projet-loi": 14, presse: 10, actualite: 8 }[category] || 0;
   return categoryScore + impactScore + Math.min(themeCount, 4);
 }
 
 function applicationFor(category, text, date) {
+  if (category === "presse") {
+    return {
+      date,
+      label: "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+      basis: "Veille presse.",
+    };
+  }
   if (category === "projet-loi") {
     return {
       date: null,
@@ -565,6 +681,9 @@ function watchFor(category, impact) {
   if (category === "projet-loi") {
     return "Surveiller l'étape parlementaire suivante et les décrets d'application éventuels.";
   }
+  if (category === "presse") {
+    return "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.";
+  }
   return "Conserver en veille et confirmer par une source normative si une action est envisagée.";
 }
 
@@ -585,9 +704,21 @@ function socialScore(text) {
   return score;
 }
 
+function pressScore(text) {
+  const normalized = fold(text);
+  return pressTerms.reduce((score, [term, weight]) => {
+    return normalized.includes(fold(term)) ? score + weight : score;
+  }, 0);
+}
+
 function isExcluded(text) {
   const normalized = fold(text);
   return exclusionTerms.some((term) => normalized.includes(fold(term)));
+}
+
+function isPressExcluded(text) {
+  const normalized = fold(text);
+  return pressExclusionTerms.some((term) => normalized.includes(fold(term)));
 }
 
 function summarize(text, maxLength) {
@@ -604,6 +735,13 @@ function summarize(text, maxLength) {
     return sentence[1];
   }
   return `${slice.slice(0, slice.lastIndexOf(" ")).trim()}...`;
+}
+
+function pressSummary(sourceName, text) {
+  const excerpt = summarize(text, 220);
+  return excerpt
+    ? `Repéré dans ${sourceName}. ${excerpt}`
+    : `Repéré dans ${sourceName}. Lire l'article source pour le détail.`;
 }
 
 function cleanText(value = "") {
@@ -695,6 +833,7 @@ function buildStats(entries) {
     jurisprudence: entries.filter((entry) => entry.category === "jurisprudence").length,
     projets: entries.filter((entry) => entry.category === "projet-loi").length,
     actualites: entries.filter((entry) => entry.category === "actualite").length,
+    presse: entries.filter((entry) => entry.category === "presse").length,
   };
 }
 
@@ -710,6 +849,7 @@ async function updateIndex(journal) {
       regles: journal.stats.regles,
       jurisprudence: journal.stats.jurisprudence,
       projets: journal.stats.projets,
+      presse: journal.stats.presse,
     },
     ...withoutToday,
   ]

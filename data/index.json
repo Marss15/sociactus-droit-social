@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-05-29T08:11:37.166Z",
+  "generatedAt": "2026-05-29T08:43:58.942Z",
   "latestDate": "2026-05-29",
   "days": [
     {
       "date": "2026-05-29",
       "file": "data/2026-05-29.json",
-      "total": 115,
-      "regles": 37,
+      "total": 157,
+      "regles": 45,
       "jurisprudence": 28,
-      "projets": 5
+      "projets": 6,
+      "presse": 33
     }
   ]
 }

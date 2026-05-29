@@ -332,6 +332,11 @@ h1 {
   color: var(--accent-ink);
 }
 
+.badge.presse {
+  background: #ece6fa;
+  color: #4a347e;
+}
+
 .entry-card h3 {
   margin-bottom: 10px;
   font-size: clamp(1.2rem, 2vw, 1.55rem);

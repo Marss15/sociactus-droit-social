@@ -16,6 +16,9 @@ Sociactus est un site statique personnel pour curer chaque jour les informations
 - Vie-publique.fr : flux actualités et panorama des lois.
 - Service-Public.fr : flux d'actualités particuliers et professionnels.
 - Conseil d'État : flux RSS actualités et avis.
+- Presse : flux publics de veille journalistique depuis Le Monde, Le Parisien, Le Figaro et franceinfo, filtrés sur le droit social, l'emploi, les retraites, les salaires, la santé au travail et la négociation collective.
+
+Les flux presse sont utilisés comme signaux de veille personnelle : le site affiche un court extrait de flux et renvoie toujours vers l'article original. Les flux Les Échos testés répondent actuellement `403`, ils ne sont donc pas intégrés sans accès ou autorisation spécifique.
 
 ## MCP et API de l'Etat
 
