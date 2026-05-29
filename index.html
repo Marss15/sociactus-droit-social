@@ -20,16 +20,12 @@
     </header>
 
     <main class="shell">
-      <aside class="sidebar" aria-label="Jours de veille">
+      <aside class="sidebar" aria-label="Volet latéral de veille">
         <div class="panel">
           <div class="panel-title">Journal</div>
           <div id="day-list" class="day-list"></div>
         </div>
-        <div class="panel source-panel">
-          <div class="panel-title">Sources</div>
-          <ul id="source-list"></ul>
-        </div>
-        <div class="panel convention-panel">
+        <div class="panel convention-panel side-admin-panel">
           <div class="panel-title">Conventions collectives</div>
           <p id="convention-status" class="panel-note">Chargement...</p>
           <label class="admin-token">
@@ -38,6 +34,10 @@
           </label>
           <div id="convention-list" class="convention-list"></div>
           <button id="save-conventions" class="admin-save" type="button">Enregistrer les priorités</button>
+        </div>
+        <div class="panel source-panel">
+          <div class="panel-title">Sources</div>
+          <ul id="source-list"></ul>
         </div>
       </aside>
 

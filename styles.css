@@ -86,15 +86,21 @@ h1 {
 
 .shell {
   display: grid;
-  grid-template-columns: minmax(230px, 300px) minmax(0, 1fr);
+  grid-template-columns: minmax(300px, 380px) minmax(0, 1fr);
   gap: 22px;
   padding: 24px clamp(16px, 4vw, 52px) 52px;
+  align-items: start;
 }
 
 .sidebar {
   display: grid;
   gap: 16px;
   align-content: start;
+  max-height: calc(100vh - 132px);
+  overflow: auto;
+  padding-right: 4px;
+  position: sticky;
+  top: 112px;
 }
 
 .panel,
@@ -109,6 +115,11 @@ h1 {
 .panel {
   border-radius: 8px;
   padding: 16px;
+}
+
+.side-admin-panel {
+  border-color: rgba(15, 118, 110, 0.38);
+  background: #fff;
 }
 
 .panel-title {
@@ -154,6 +165,8 @@ h1 {
 .source-panel ul {
   display: grid;
   gap: 10px;
+  max-height: 260px;
+  overflow: auto;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -196,7 +209,7 @@ h1 {
 .convention-list {
   display: grid;
   gap: 8px;
-  max-height: 420px;
+  max-height: min(42vh, 520px);
   overflow: auto;
   padding-right: 2px;
 }
@@ -647,6 +660,14 @@ h1 {
 
   .sidebar {
     grid-template-columns: 1fr 1fr;
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+    position: static;
+  }
+
+  .side-admin-panel {
+    grid-row: span 2;
   }
 
   .metrics {
@@ -679,6 +700,10 @@ h1 {
   .detail-grid,
   .entry-head {
     grid-template-columns: 1fr;
+  }
+
+  .side-admin-panel {
+    grid-row: auto;
   }
 
   .entry-flags {
