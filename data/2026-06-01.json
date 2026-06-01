@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-01T20:30:45.095Z",
+  "generatedAt": "2026-06-01T20:44:41.694Z",
   "date": "2026-06-01",
   "stats": {
-    "total": 16,
+    "total": 32,
     "regles": 2,
-    "jurisprudence": 0,
+    "jurisprudence": 16,
     "projets": 0,
     "actualites": 4,
     "presse": 10,
     "priorite1": 2,
-    "priorite2": 2,
+    "priorite2": 18,
     "priorite3": 12
   },
   "sources": [
@@ -98,8 +98,8 @@
     "dailyMode": {
       "strict": true,
       "date": "2026-06-01",
-      "collected": 183,
-      "rejectedByDate": 160
+      "collected": 178,
+      "rejectedByDate": 139
     },
     "errors": []
   },
@@ -174,6 +174,581 @@
         "nature": "DECRET",
         "textDate": "2026-05-30",
         "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "fb7a807ecbf6eda8",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 25 mars 2026, 24-22.717, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167279",
+      "publishedAt": "2026-06-01",
+      "summary": "CONTRAT DE TRAVAIL, EXECUTION - Maladie du salarié - Accident du travail ou maladie professionnelle - Indemnité complémentaire - Versement - Conditions - Ancienneté - Calcul - Périodes de suspension d'exécution du contrat de travail - Prise en compte - Nécessité Les articles L. 1226-1 et D.",
+      "application": {
+        "date": "2026-03-25",
+        "label": "Décision rendue le 25 mars 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Santé au travail",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 48,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167279",
+        "ecli": "ECLI:FR:CCASS:2026:SO00321",
+        "solution": "Cassation partielle",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-03-25",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "21682e470d8d2a62",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-19.575, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167528",
+      "publishedAt": "2026-06-01",
+      "summary": "STATUT COLLECTIF DU TRAVAIL - Négociation collective - Accord de performance collective - Effet substitutif - Domaine d'application - Etendue - Limites - Détermination - Portée STATUT COLLECTIF DU TRAVAIL - Négociation collective - Accord de performance collective - Objet - Thèmes légaux - Clauses étrangères - Sanction - Nullité (non) Il résulte des articles L. 2221-1, L.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 48,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167528",
+        "ecli": "ECLI:FR:CCASS:2026:SO00476",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "fbe12ca52b1d166e",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 22-21.562 22-24.197, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167547",
+      "publishedAt": "2026-06-01",
+      "summary": "CONTRAT DE TRAVAIL, RUPTURE Les termes de l'article L. 2242-23 du code du travail, alors en vigueur, selon lesquels, lorsqu'un ou plusieurs salariés refusent l'application à leur contrat de travail des stipulations de l'accord relatives à la mobilité interne, leur licenciement repose sur un motif économique et est prononcé selon les modalités d'un licenciement individuel, ont...",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 48,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167547",
+        "ecli": "ECLI:FR:CCASS:2026:SO00480",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "ba91a09237610cb6",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-19.461 24-19.462 24-19.463 24-19.464 24-19.465 24-19.466 24-19.467 24-19.468 24-19.469 24-19.470, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167543",
+      "publishedAt": "2026-06-01",
+      "summary": "STATUT COLLECTIF DU TRAVAIL Il résulte des articles L.2254-1 et L. 2254-2 du code du travail que l'effet substitutif aux clauses contraires et incompatibles du contrat de travail d'un accord de performance collective ne s'applique qu'à ses dispositions tendant à aménager la durée du travail, ses modalités d'organisation et de répartition, à aménager la rémunération au sens de...",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 47,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167543",
+        "ecli": "ECLI:FR:CCASS:2026:SO00477",
+        "solution": "Cassation partielle",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "065eb068c55e07fd",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-22.754, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167545",
+      "publishedAt": "2026-06-01",
+      "summary": "CONTRAT DE TRAVAIL, EXECUTION Il résulte de l'article L. 1153-1,1° du code du travail, dans sa rédaction antérieure à la loi n° 2022-401 du 21 mars 2022, que des propos à connotation sexuelle ou sexiste adressés à plusieurs salariés, ou de tels comportements adoptés devant plusieurs salariés, sont susceptibles d'être subis par chacun d'entre eux.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Santé au travail"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167545",
+        "ecli": "ECLI:FR:CCASS:2026:SO00479",
+        "solution": "Cassation partielle",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "4f81030ee66139fd",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-19.041, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167568",
+      "publishedAt": "2026-06-01",
+      "summary": "REPRESENTATION DES SALARIES L'article L. 2411-3 du code du travail, applicable au représentant de section syndicale, dispose que le licenciement d'un délégué syndical ne peut intervenir qu'après autorisation de l'inspecteur du travail.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167568",
+        "ecli": "ECLI:FR:CCASS:2026:SO00492",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "8b5f1a5d19609901",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 6 mai 2026, 24-10.699, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054060972",
+      "publishedAt": "2026-06-01",
+      "summary": "TRAVAIL REGLEMENTATION, DUREE DU TRAVAIL - Convention de forfait - Convention de forfait sur l'année - Convention de forfait en jours sur l'année - Validité - Conditions - Garantie du respect de durées raisonnables de travail ainsi que des repos, journaliers et hebdomadaires - Obligation - Détermination - Portée TRAVAIL REGLEMENTATION, DUREE DU TRAVAIL - Convention de forfait -...",
+      "application": {
+        "date": "2026-05-06",
+        "label": "Décision rendue le 06 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Temps de travail",
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054060972",
+        "ecli": "ECLI:FR:CCASS:2026:SO00417",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-06",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "3d068c45fda84548",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 13 mai 2026, 24-17.951, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054110140",
+      "publishedAt": "2026-06-01",
+      "summary": "REPRESENTATION DES SALARIES - Règles communes - Contrat de travail - Licenciement - Mesures spéciales - Inobservation - Indemnisation - Etendue - Détermination - Cas - Salarié protégé licencié sans autorisation préalable - Demande de réintégration formulée après l'expiration de la période de protection en cours pour des raisons non imputables au salarié - Agissements fautifs du...",
+      "application": {
+        "date": "2026-05-13",
+        "label": "Décision rendue le 13 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Contrat",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 46,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054110140",
+        "ecli": "ECLI:FR:CCASS:2026:SO00441",
+        "solution": "Cassation",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-13",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "8080bfaf13ace485",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-17.311, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167557",
+      "publishedAt": "2026-06-01",
+      "summary": "STATUT COLLECTIF DU TRAVAIL - Conventions et accords collectifs - Dispositions générales - Accords collectifs - Dénonciation - Possibilité - Cas - Organisation syndicale de salariés - Organisation représentative majoritaire à l'issue des dernières élections professionnelles - Organisation signataire ayant perdu sa représentativité lors de la même échéance électorale - Portée Il...",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167557",
+        "ecli": "ECLI:FR:CCASS:2026:SO00490",
+        "solution": "Cassation partielle",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "92dda4634410be6f",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-19.849 24-20.034, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167549",
+      "publishedAt": "2026-06-01",
+      "summary": "STATUT COLLECTIF DU TRAVAIL Il résulte des dispositions de l'article L.2262-14 du code du travail et de l'article 15 de l'ordonnance n°2017-1385 du 22 septembre 2017, que les dispositions de l'article L.2262-14 s'appliquent à tout accord collectif conclu postérieurement au 27 septembre 2017, date de publication de l'ordonnance du 22 septembre 2017, peu important le contenu...",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167549",
+        "ecli": "ECLI:FR:CCASS:2026:SO00481",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "49b807f10e2dc221",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-14.344, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167551",
+      "publishedAt": "2026-06-01",
+      "summary": "REPRESENTATION DES SALARIES Le mandat du délégué au comité social et économique central cesse à l'expiration de sa durée légale prévue à l'article L.2316-10 du code du travail ou en cas de cessation du mandat d'élu à la délégation du personnel du comité social et économique d'établissement.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167551",
+        "ecli": "ECLI:FR:CCASS:2026:SO00484",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "0e5146395d1c62e7",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-22.914, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167553",
+      "publishedAt": "2026-06-01",
+      "summary": "REPRESENTATION DES SALARIES 1er moyen : Sauf dans les cas de fin anticipée de mandat énumérés à l'article L.2314-33 du code du travail, le comité social et économique ne peut procéder au remplacement des membres d'une commission santé, sécurité et conditions de travail initialement désignés avant avant le terme du mandat des membres élus du comité.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167553",
+        "ecli": "ECLI:FR:CCASS:2026:SO00485",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "97cda7cca504be12",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-16.560, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167555",
+      "publishedAt": "2026-06-01",
+      "summary": "STATUTS PROFESSIONNELS PARTICULIERS En l'absence de toute disposition légale particulière au titre I « Journalistes professionnels » en excluant l'application, les dispositions des articles L. 2314-2 et L. 2314-19 du code du travail leur sont applicables, y compris lorsqu'ils sont rémunérés à la pige.",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167555",
+        "ecli": "ECLI:FR:CCASS:2026:SO00489",
+        "solution": "Cassation sans renvoi",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "3a3ed82febbbe172",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 28 mai 2026, 24-17.361, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054167566",
+      "publishedAt": "2026-06-01",
+      "summary": "STATUT COLLECTIF DU TRAVAIL Il résulte des articles L. 2315-7 et R. 2314-1 du code du travail que, dans une entreprise de plus de cinquante salariés divisée en établissements distincts, le nombre d'heures de délégation des membres du comité social et économique d'établissement s'apprécie en fonction de l'effectif de l'établissement",
+      "application": {
+        "date": "2026-05-28",
+        "label": "Décision rendue le 28 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054167566",
+        "ecli": "ECLI:FR:CCASS:2026:SO00491",
+        "solution": "Rejet",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-28",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "9c9e025c9b365f7d",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 13 mai 2026, 25-10.127, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054110138",
+      "publishedAt": "2026-06-01",
+      "summary": "TRAVAIL TEMPORAIRE - Entreprise de travail temporaire - Cas - Demande du comité social et économique - Information - Obligation - Etendue - Determination - Portée REPRESENTATION DES SALARIES - Comité social et économique - Attributions - Cas - Affectation de travail temporaire dans les locaux de l'entreprise utilisatrice - Demande de mise à jour document unique d'évaluation des...",
+      "application": {
+        "date": "2026-05-13",
+        "label": "Décision rendue le 13 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054110138",
+        "ecli": "ECLI:FR:CCASS:2026:SO00437",
+        "solution": "Cassation partielle",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-13",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "a78d18ba799fae03",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA CASS",
+      "sourceType": "archive",
+      "category": "jurisprudence",
+      "title": "Cour de cassation, civile, Chambre sociale, 13 mai 2026, 25-20.816, Publié au bulletin",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000054110142",
+      "publishedAt": "2026-06-01",
+      "summary": "QUESTION PRIORITAIRE DE CONSTITUTIONNALITE - Action de groupe fondée sur une discrimination collective - Preuve - Office du juge - Etendue - Injonction de communiquer des pièces - Article 92, II, de la loi n° 2016-1547 du 18 novembre 2016 de modernisation de la justice du XXIème siècle - Arrêt de la Cour de cassation du 5 novembre 2025, pourvoi n° 24-15.269 - Absence de...",
+      "application": {
+        "date": "2026-05-13",
+        "label": "Décision rendue le 13 mai 2026, repérée dans l'archive publiée le 01 juin 2026. Portée à qualifier avant mise en pratique.",
+        "basis": "Arrêt publié au bulletin."
+      },
+      "watch": "Qualifier la portée exacte de la solution et rechercher les décisions rapprochées.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 45,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JURITEXT000054110142",
+        "ecli": "ECLI:FR:CCASS:2026:SO00536",
+        "solution": "Qpc incidente - irrecevabilité",
+        "formation": "CHAMBRE_SOCIALE",
+        "decisionDate": "2026-05-13",
+        "archiveDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz"
       }
     },
     {

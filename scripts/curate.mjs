@@ -419,6 +419,7 @@ async function parseArchiveSource(source) {
     throw new Error("aucune archive trouvée");
   }
   const archiveUrl = `${source.indexUrl}${latest}`;
+  const archiveDate = archiveDateFromName(latest);
   const buffer = await fetchBuffer(archiveUrl);
   const xmlFiles = readTarGzXml(buffer);
 
@@ -427,7 +428,7 @@ async function parseArchiveSource(source) {
   }
 
   if (source.kind === "cass") {
-    return xmlFiles.map((file) => parseCass(file, source, archiveUrl)).filter(Boolean);
+    return xmlFiles.map((file) => parseCass(file, source, archiveUrl, archiveDate)).filter(Boolean);
   }
 
   return [];
@@ -483,10 +484,10 @@ function parseJorf(file, source, archiveUrl) {
   });
 }
 
-function parseCass(file, source, archiveUrl) {
+function parseCass(file, source, archiveUrl, archiveDate) {
   const title = cleanText(tag(file.xml, "TITRE"));
   const formation = cleanText(tag(file.xml, "FORMATION"));
-  const date = cleanText(tag(file.xml, "DATE_DEC")) || runDate;
+  const decisionDate = cleanText(tag(file.xml, "DATE_DEC")) || runDate;
   const solution = cleanText(tag(file.xml, "SOLUTION"));
   const id = cleanText(tag(file.xml, "ID"));
   const ecli = cleanText(tag(file.xml, "ECLI"));
@@ -494,7 +495,7 @@ function parseCass(file, source, archiveUrl) {
   const corpus = `${title} ${formation} ${solution} ${summaryText}`;
   const isSocialChamber = /chambre sociale|CHAMBRE_SOCIALE/i.test(`${title} ${formation}`);
 
-  if (!isSocialChamber && (socialScore(corpus) < 3 || isExcluded(corpus))) {
+  if (!isSocialChamber || isExcluded(corpus)) {
     return null;
   }
 
@@ -505,13 +506,13 @@ function parseCass(file, source, archiveUrl) {
     category: "jurisprudence",
     title,
     url: `https://www.legifrance.gouv.fr/juri/id/${id}`,
-    publishedAt: date,
+    publishedAt: archiveDate || decisionDate,
     summary: summarize(summaryText || `${solution}. Décision de la chambre sociale publiée au bulletin.`, 380),
     text: corpus,
     impact: revirement ? "high" : "medium",
     application: {
-      date,
-      label: `Décision rendue le ${formatFrenchDate(date)}. Portée à qualifier avant mise en pratique.`,
+      date: decisionDate,
+      label: `Décision rendue le ${formatFrenchDate(decisionDate)}, repérée dans l'archive publiée le ${formatFrenchDate(archiveDate || decisionDate)}. Portée à qualifier avant mise en pratique.`,
       basis: revirement ? "Indice de revirement détecté dans le texte." : "Arrêt publié au bulletin.",
     },
     extra: {
@@ -519,6 +520,8 @@ function parseCass(file, source, archiveUrl) {
       ecli,
       solution,
       formation,
+      decisionDate,
+      archiveDate,
       archiveUrl,
     },
   });
@@ -1293,6 +1296,11 @@ function addDays(value, days) {
   const date = new Date(`${value}T12:00:00Z`);
   date.setUTCDate(date.getUTCDate() + days);
   return date.toISOString().slice(0, 10);
+}
+
+function archiveDateFromName(name) {
+  const match = String(name || "").match(/_(\d{4})(\d{2})(\d{2})-/);
+  return match ? `${match[1]}-${match[2]}-${match[3]}` : "";
 }
 
 function fold(value) {
