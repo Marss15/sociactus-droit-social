@@ -136,6 +136,9 @@ const socialTerms = [
   "rupture conventionnelle",
   "salari",
   "employeur",
+  "agent public",
+  "agents publics",
+  "cadre professionnel",
   "cse",
   "syndic",
   "representant du personnel",
@@ -171,6 +174,8 @@ const socialTerms = [
   "plan social",
   "pse",
   "conditions de travail",
+  "violences au travail",
+  "violences dans le cadre professionnel",
 ];
 
 const pressTerms = [
@@ -248,6 +253,8 @@ const pressExclusionTerms = [
   "au royaume-uni",
   "en chine",
   "en russie",
+  "taxe d'habitation",
+  "big bang fiscal",
 ];
 
 const themeRules = [
@@ -850,7 +857,17 @@ function isExcluded(text) {
 
 function isPressExcluded(text) {
   const normalized = fold(text);
-  return pressExclusionTerms.some((term) => normalized.includes(fold(term)));
+  return pressExclusionTerms.some((term) => normalized.includes(fold(term))) || isBusinessPressOnly(normalized);
+}
+
+function isBusinessPressOnly(normalizedText) {
+  const businessSignal = /redressement judiciaire|tensions de tresorerie|cessation de paiement|banque de france|construction de la monnaie unique/.test(
+    normalizedText
+  );
+  const laborSignal = /licenciement|plan social|pse|depart volontaire|chomage technique|reprise des salaries|suppression de postes|syndicat/.test(
+    normalizedText
+  );
+  return businessSignal && !laborSignal;
 }
 
 function isProtectionSocialOnly(normalizedText) {
@@ -1027,12 +1044,38 @@ function readTarGzXml(buffer) {
 function dedupe(entries) {
   const map = new Map();
   for (const entry of entries) {
-    const existing = map.get(entry.id);
-    if (!existing || entry.priority > existing.priority) {
-      map.set(entry.id, entry);
+    const key = dedupeKey(entry);
+    const existing = map.get(key);
+    if (!existing || shouldReplaceDuplicate(existing, entry)) {
+      map.set(key, entry);
     }
   }
   return [...map.values()];
+}
+
+function dedupeKey(entry) {
+  if (entry.sourceType === "rss" || entry.sourceType === "press-rss") {
+    return `${entry.category}|${fold(entry.title)}`;
+  }
+  return entry.id;
+}
+
+function shouldReplaceDuplicate(existing, candidate) {
+  const sourcePreference = sourceDedupPreference(candidate) - sourceDedupPreference(existing);
+  if (sourcePreference !== 0) {
+    return sourcePreference > 0;
+  }
+  return candidate.priority > existing.priority;
+}
+
+function sourceDedupPreference(entry) {
+  if (/professionnels/i.test(entry.sourceName || "")) {
+    return 3;
+  }
+  if (/particuliers/i.test(entry.sourceName || "")) {
+    return 2;
+  }
+  return 1;
 }
 
 function buildStats(entries) {

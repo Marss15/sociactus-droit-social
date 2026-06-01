@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-01T20:44:41.694Z",
+  "generatedAt": "2026-06-01T20:50:55.255Z",
   "date": "2026-06-01",
   "stats": {
-    "total": 32,
+    "total": 29,
     "regles": 2,
     "jurisprudence": 16,
     "projets": 0,
-    "actualites": 4,
-    "presse": 10,
+    "actualites": 3,
+    "presse": 8,
     "priorite1": 2,
     "priorite2": 18,
-    "priorite3": 12
+    "priorite3": 9
   },
   "sources": [
     {
@@ -98,7 +98,7 @@
     "dailyMode": {
       "strict": true,
       "date": "2026-06-01",
-      "collected": 178,
+      "collected": 176,
       "rejectedByDate": 139
     },
     "errors": []
@@ -862,33 +862,6 @@
       "extra": {}
     },
     {
-      "id": "5181f97db9a5eeee",
-      "date": "2026-06-01",
-      "firstSeenDate": "2026-06-01",
-      "sourceName": "Le Monde - économie",
-      "sourceType": "press-rss",
-      "category": "presse",
-      "title": "Duralex placée en procédure de redressement judiciaire en raison de « tensions de trésorerie »",
-      "url": "https://www.lemonde.fr/economie/article/2026/06/01/duralex-place-en-procedure-de-redressement-judiciaire-en-raison-de-tensions-de-tresorerie_6695990_3234.html",
-      "publishedAt": "2026-06-01",
-      "summary": "Repéré dans Le Monde - économie. L’entreprise, qui inventé le verre trempé et ses verres réputés incassables, emploie 243 salariés dans son usine de La Chapelle-Saint-Mesmin, près d’Orléans.",
-      "application": {
-        "date": "2026-06-01",
-        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
-        "basis": "Veille presse."
-      },
-      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
-      "themes": [
-        "Emploi"
-      ],
-      "impact": "low",
-      "priority": 17,
-      "priorityRank": "p3",
-      "priorityLabel": "Priorité 3",
-      "priorityReason": "Veille de contexte ou lecture de fond.",
-      "extra": {}
-    },
-    {
       "id": "f67744295edc780e",
       "date": "2026-06-01",
       "firstSeenDate": "2026-06-01",
@@ -970,33 +943,6 @@
       "extra": {}
     },
     {
-      "id": "d7a9d62f8f50cb8f",
-      "date": "2026-06-01",
-      "firstSeenDate": "2026-06-01",
-      "sourceName": "Le Parisien - économie",
-      "sourceType": "press-rss",
-      "category": "presse",
-      "title": "Retour de la taxe d’habitation, baisse des cotisations salariales… Le big bang fiscal proposé par un macroniste historique",
-      "url": "https://www.leparisien.fr/elections/presidentielle/retour-de-la-taxe-dhabitation-baisse-des-cotisations-salariales-le-big-bang-fiscal-propose-par-un-macroniste-historique-30-05-2026-KRPMZMXWRBAXTONTZOJ2X5JSFA.php",
-      "publishedAt": "2026-06-01",
-      "summary": "Repéré dans Le Parisien - économie. Retour de la taxe d’habitation, baisse des cotisations salariales… Le big bang fiscal proposé par un macroniste historique",
-      "application": {
-        "date": "2026-06-01",
-        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
-        "basis": "Veille presse."
-      },
-      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
-      "themes": [
-        "Paie"
-      ],
-      "impact": "low",
-      "priority": 17,
-      "priorityRank": "p3",
-      "priorityLabel": "Priorité 3",
-      "priorityReason": "Veille de contexte ou lecture de fond.",
-      "extra": {}
-    },
-    {
       "id": "d08748bbe92cc326",
       "date": "2026-06-01",
       "firstSeenDate": "2026-06-01",
@@ -1018,34 +964,6 @@
       ],
       "impact": "low",
       "priority": 17,
-      "priorityRank": "p3",
-      "priorityLabel": "Priorité 3",
-      "priorityReason": "Veille de contexte ou lecture de fond.",
-      "extra": {}
-    },
-    {
-      "id": "669690bd9100807b",
-      "date": "2026-06-01",
-      "firstSeenDate": "2026-06-01",
-      "sourceName": "Service-Public - particuliers",
-      "sourceType": "rss",
-      "category": "actualite",
-      "title": "Recrutement d’un apprenti : ce qui change",
-      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17983?xtor=RSS-111",
-      "publishedAt": "2026-06-01",
-      "summary": "Le montant maximum de l’aide à l’embauche d’un apprenti a été modifié pour les contrats conclus à partir du 8 mars 2026. Entreprendre Service Public vous présente les aides disponibles selon la date de conclusion du contrat d’apprentissage..",
-      "application": {
-        "date": null,
-        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
-        "basis": "Actualité institutionnelle."
-      },
-      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
-      "themes": [
-        "Contrat",
-        "Formation"
-      ],
-      "impact": "low",
-      "priority": 16,
       "priorityRank": "p3",
       "priorityLabel": "Priorité 3",
       "priorityReason": "Veille de contexte ou lecture de fond.",
@@ -1080,16 +998,16 @@
       "extra": {}
     },
     {
-      "id": "1cb2d7cd3a59662f",
+      "id": "8ac661cde34d6c4c",
       "date": "2026-06-01",
       "firstSeenDate": "2026-06-01",
-      "sourceName": "Service-Public - particuliers",
+      "sourceName": "Vie-publique - actualités",
       "sourceType": "rss",
       "category": "actualite",
-      "title": "Simplification des formalités relatives à l’apprentissage",
-      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18931?xtor=RSS-111",
+      "title": "Violences dans le cadre professionnel : les agents publics plus exposés que les salariés du privé",
+      "url": "https://www.vie-publique.fr/en-bref/303415-violences-dans-le-cadre-professionnel-les-agents-publics-plus-exposes?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
       "publishedAt": "2026-06-01",
-      "summary": "La loi de simplification de la vie économique du 26 mai 2026 réduit les formalités des employeurs relatives à l’apprentissage et supprime définitivement la déclaration d’apprentissage..",
+      "summary": "Violences dans le cadre professionnel : les agents publics plus exposés que les salariés du privé",
       "application": {
         "date": null,
         "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
@@ -1097,7 +1015,7 @@
       },
       "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
       "themes": [
-        "Formation"
+        "Droit social"
       ],
       "impact": "low",
       "priority": 15,
