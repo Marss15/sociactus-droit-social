@@ -41,9 +41,9 @@ Le site n'a pas besoin de base de données ni de serveur payant.
 
 ## Curation automatique
 
-Le workflow `.github/workflows/daily-curation.yml` est prévu pour lancer `npm run curate` tous les jours à 09:00 en heure de Paris. GitHub cron étant en UTC, le workflow est déclenché aux deux heures UTC possibles puis garde uniquement l'exécution qui tombe réellement à 09:00 à Paris.
+Le workflow `.github/workflows/daily-curation.yml` est prévu pour lancer `npm run curate` tous les jours autour de 09:00 en heure de Paris. GitHub cron étant en UTC et pouvant être retardé, le workflow accepte les exécutions tardives et génère quand même l'édition du jour.
 
-Par défaut, l'édition est strictement journalière : un élément n'est conservé que si sa date de publication, de décision ou de parution au Journal officiel correspond à la date du journal. Les éléments collectés mais datés d'un autre jour sont rejetés et comptabilisés dans `research.dailyMode.rejectedByDate`. Pour faire une veille historique ponctuelle, lancer la curation avec `SOCIACTUS_STRICT_DAILY_MODE=false`.
+Par défaut, l'édition est strictement journalière : un article ou une actualité n'est conservé que si sa date de publication correspond à la date du journal. Pour les textes officiels, l'édition conserve aussi les textes publiés antérieurement mais dont la date d'application détectée correspond au jour du journal. Les éléments collectés mais datés d'un autre jour et sans application le jour même sont rejetés et comptabilisés dans `research.dailyMode.rejectedByDate`. Pour faire une veille historique ponctuelle, lancer la curation avec `SOCIACTUS_STRICT_DAILY_MODE=false`.
 
 La curation écarte les éléments de protection sociale générale lorsqu'ils ne touchent pas directement la relation de travail : assurance maladie, prestations, remboursement de soins, retraite isolée, nominations ou gestion interne de corps administratifs. Les conventions collectives sont classées via `data/convention-priorities.json` et, en production, via l'endpoint Netlify `/api/convention-priorities` : les IDCC ou libellés suivis y gardent leur rang `p1`, `p2` ou `p3` d'un jour à l'autre, et les nouvelles conventions détectées sont ajoutées en `p3` par défaut.
 

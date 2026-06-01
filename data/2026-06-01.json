@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-01T20:21:48.605Z",
+  "generatedAt": "2026-06-01T20:30:45.095Z",
   "date": "2026-06-01",
   "stats": {
-    "total": 14,
-    "regles": 0,
+    "total": 16,
+    "regles": 2,
     "jurisprudence": 0,
     "projets": 0,
     "actualites": 4,
     "presse": 10,
-    "priorite1": 0,
+    "priorite1": 2,
     "priorite2": 2,
     "priorite3": 12
   },
@@ -98,12 +98,84 @@
     "dailyMode": {
       "strict": true,
       "date": "2026-06-01",
-      "collected": 205,
-      "rejectedByDate": 184
+      "collected": 183,
+      "rejectedByDate": 160
     },
     "errors": []
   },
   "entries": [
+    {
+      "id": "ac70ad1496e5f6f5",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-419 du 30 mai 2026 relatif au congé supplémentaire de naissance",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/5/30/TRST2612422D/jo/texte",
+      "publishedAt": "2026-05-31",
+      "summary": "Publics concernés : employeurs, salariés ayant droit au de congé de maternité, de paternité et d'accueil de l'enfant ou d'adoption. Objet : détermination des modalités de mise en œuvre du congé supplémentaire de naissance.",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Par défaut, applicable le 01 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054153815",
+        "nor": "TRST2612422D",
+        "nature": "DECRET",
+        "textDate": "2026-05-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260601-220831.tar.gz"
+      }
+    },
+    {
+      "id": "d40cbe0f252ae48c",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-428 du 30 mai 2026 portant diverses dispositions relatives au congé supplémentaire de naissance des agents publics",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/5/30/CPPF2604492D/jo/texte",
+      "publishedAt": "2026-05-31",
+      "summary": "Publics concernés : agents relevant des trois versants de la fonction publique, militaires, personnels médicaux, odontologistes et pharmaceutiques des établissements publics de santé et étudiants de deuxième et troisième cycle des études de médecine, odontologie, pharmacie et maïeutique.",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Par défaut, applicable le 01 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 63,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054154567",
+        "nor": "CPPF2604492D",
+        "nature": "DECRET",
+        "textDate": "2026-05-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260601-220831.tar.gz"
+      }
+    },
     {
       "id": "79e2326576915bec",
       "date": "2026-06-01",

@@ -221,6 +221,11 @@ const exclusionTerms = [
   "changement de corps",
   "liste d'aptitude",
   "commissions et organes de controle",
+  "comites sociaux d'administration",
+  "comite social d'administration",
+  "commissions administratives paritaires",
+  "commissions consultatives paritaires",
+  "election des representants des personnels",
   "corps des controleurs",
   "corps des secretaires administratifs",
   "directeurs d'hopital",
@@ -228,6 +233,10 @@ const exclusionTerms = [
   "allogreffon",
   "activite physique adaptee",
   "influence commerciale",
+  "professions liberales",
+  "declaration mentionnee a l'article l. 613-2 du code de la securite sociale",
+  "conventions de mandat conclues par l'etat",
+  "brevet professionnel de la jeunesse",
   "assurance recolte",
   "medicament",
   "code rural",
@@ -331,7 +340,10 @@ async function main() {
 }
 
 function isTodayEntry(entry) {
-  return dateOnly(entry.publishedAt || entry.date) === runDate;
+  if (dateOnly(entry.publishedAt || entry.date) === runDate) {
+    return true;
+  }
+  return entry.category === "regle" && dateOnly(entry.application?.date) === runDate;
 }
 
 async function fetchText(url) {
@@ -529,7 +541,7 @@ function makeEntry({
   const normalizedUrl = url || extra.archiveUrl || "";
   const id = hash(`${normalizedUrl}|${normalizedTitle}`);
   const themes = detectThemes(text || normalizedTitle);
-  const collectiveAgreement = category === "regle" ? classifyCollectiveAgreement(text || normalizedTitle) : null;
+  const collectiveAgreement = category === "regle" ? classifyCollectiveAgreement(normalizedTitle) : null;
   const priority = priorityFor(category, impact, themes.length, collectiveAgreement);
   const priorityRank = priorityRankFor({ category, impact, priority, text: text || normalizedTitle, collectiveAgreement });
   const nextExtra = collectiveAgreement ? { ...extra, collectiveAgreement } : extra;
@@ -667,7 +679,7 @@ function isEssentialRuleSignal(normalizedText) {
   if (isInstitutionalTrainingGovernance(normalizedText)) {
     return false;
   }
-  return /contrat de travail|employeur|salarie|smic|salaire minimum|cse|accord collectif|temps de travail|duree du travail|repos|conge|licenciement|rupture conventionnelle|inaptitude|harcelement|discrimination|teletravail|inspection du travail/.test(
+  return /contrat de travail|employeur|salarie|smic|salaire minimum|cse|accord collectif|temps de travail|duree du travail|repos|conge|conges|conge de naissance|conge supplementaire de naissance|licenciement|rupture conventionnelle|inaptitude|harcelement|discrimination|teletravail|inspection du travail/.test(
     normalizedText
   );
 }
@@ -840,11 +852,11 @@ function isPressExcluded(text) {
 
 function isProtectionSocialOnly(normalizedText) {
   const protectionSocialSignal =
-    /securite sociale|assurance maladie|prestations sociales|allocations|remboursement|prise en charge|cancer|soins|patient|activite physique adaptee|apa|pension de retraite|retraites des fonctionnaires/.test(
+    /securite sociale|assurance maladie|assurance vieillesse|assurance invalidite|prestations complementaires|prestations sociales|allocations|remboursement|prise en charge|cancer|soins|patient|activite physique adaptee|apa|pension de retraite|retraites des fonctionnaires|professions liberales/.test(
       normalizedText
     );
   const laborSignal =
-    /contrat de travail|employeur|salarie|paie|bulletin de paie|cotisation patronale|urssaf|accident du travail|maladie professionnelle|sante au travail|inaptitude|licenciement|cse|temps de travail|harcelement|discrimination/.test(
+    /contrat de travail|employeur|salarie|paie|bulletin de paie|cotisation patronale|urssaf|accident du travail|maladie professionnelle|sante au travail|inaptitude|licenciement|cse|temps de travail|harcelement|discrimination|conge de naissance|conge supplementaire de naissance|conge parental/.test(
       normalizedText
     );
   return protectionSocialSignal && !laborSignal;
