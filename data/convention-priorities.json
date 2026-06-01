@@ -63,6 +63,7 @@
     {
       "label": "Commerce de détail et de gros",
       "rank": "p2",
+      "idcc": [],
       "match": [
         "commerce de detail",
         "commerce de gros"
@@ -204,7 +205,7 @@
     },
     "name-06c9ed04c793": {
       "label": "relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail et des solidarités, V",
-      "idcc": null,
+      "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
@@ -212,7 +213,7 @@
     },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
-      "idcc": null,
+      "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
@@ -220,7 +221,7 @@
     },
     "name-8fb5e0614f6f": {
       "label": "France Travail du 18 mars 2026 Le ministre du travail et des solidarités, Vu le code du travail, notamment ses articles L",
-      "idcc": null,
+      "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
@@ -228,7 +229,7 @@
     },
     "name-9143d35a36ea": {
       "label": "Bâtiment et travaux publics",
-      "idcc": null,
+      "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
@@ -236,7 +237,7 @@
     },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
-      "idcc": null,
+      "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
@@ -244,7 +245,7 @@
     },
     "name-cf9a5fa602f5": {
       "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail",
-      "idcc": null,
+      "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
@@ -252,7 +253,7 @@
     },
     "name-ee1a0060264e": {
       "label": "Bâtiment et travaux publics",
-      "idcc": null,
+      "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",

@@ -1,0 +1,490 @@
+{
+  "generatedAt": "2026-06-01T20:21:48.605Z",
+  "date": "2026-06-01",
+  "stats": {
+    "total": 14,
+    "regles": 0,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 4,
+    "presse": 10,
+    "priorite1": 0,
+    "priorite2": 2,
+    "priorite3": 12
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-01",
+      "collected": 205,
+      "rejectedByDate": 184
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "79e2326576915bec",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Augmentation du smic, aide carburant, congé parental… Tout ce qui change au 1er juin",
+      "url": "https://www.leparisien.fr/economie/consommation/augmentation-du-smic-aide-carburant-conge-parental-tout-ce-qui-change-au-1er-juin-31-05-2026-2ACC2Q6JNJABXCQMFRXHSIMHTU.php",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans Le Parisien - économie. Augmentation du smic, aide carburant, congé parental… Tout ce qui change au 1er juin",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {}
+    },
+    {
+      "id": "bb7d38db875331ea",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Fonction publique : 862 000 agents bénéficieront d’une indemnité en raison de la revalorisation du Smic",
+      "url": "https://www.leparisien.fr/economie/fonction-publique-862-000-agents-beneficieront-dune-indemnite-en-raison-de-la-revalorisation-du-smic-01-06-2026-LAHHUD77DBDUTIOLBVPSD7YP2Q.php",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans Le Parisien - économie. Fonction publique : 862 000 agents bénéficieront d’une indemnité en raison de la revalorisation du Smic",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {}
+    },
+    {
+      "id": "a14932156c8c5b4d",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Un allocataire de l'assurance-chômage sur cinq retravaille avant de toucher des indemnités, selon une étude de l'Unédic",
+      "url": "https://www.franceinfo.fr/economie/emploi/chomage/un-allocataire-de-l-assurance-chomage-sur-cinq-retravaille-avant-de-toucher-des-indemnites-selon-une-etude-de-l-unedic_8039774.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans franceinfo - emploi. La reprise d'emploi s'effectue en grande partie dans les premiers mois, même si ce retour au travail passe souvent par des contrats courts, note l'étude basée sur 1,7 million d'allocataires dont l'indemnisation a débuté...",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "37a047ecaadb6412",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Mobilités professionnelles public-privé : des hauts fonctionnaires appellent à « ne plus voir le départ vers le privé comme une démission »",
+      "url": "https://www.lemonde.fr/politique/article/2026/06/01/mobilites-professionnelles-public-prive-des-hauts-fonctionnaires-appellent-a-ne-plus-voir-le-depart-vers-le-prive-comme-une-demission_6696005_823448.html",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans Le Monde - économie. Alors que la réforme de la haute fonction publique était censée favoriser et valoriser les parcours entre les secteurs public et privé, les passerelles demeurent limitées, regrettent des hauts fonctionnaires.",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "5181f97db9a5eeee",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Duralex placée en procédure de redressement judiciaire en raison de « tensions de trésorerie »",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/01/duralex-place-en-procedure-de-redressement-judiciaire-en-raison-de-tensions-de-tresorerie_6695990_3234.html",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans Le Monde - économie. L’entreprise, qui inventé le verre trempé et ses verres réputés incassables, emploie 243 salariés dans son usine de La Chapelle-Saint-Mesmin, près d’Orléans.",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "f67744295edc780e",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Le mythe du « chômeur oisif » battu en brèche par une étude de l’Unédic",
+      "url": "https://www.lemonde.fr/societe/article/2026/06/01/le-mythe-du-chomeur-oisif-battu-en-breche-par-une-etude-de-l-unedic_6695970_3224.html",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans Le Monde - économie. La reprise d’activité est une priorité immédiate pour une majorité des inscrits à France Travail, selon une étude de l’organisme paritaire qui gère l’assurance-chômage publiée lundi 1ᵉʳ juin.",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "7e25f6f95ab9ce1a",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Congé de naissance : les réponses à vos questions, à un mois de l’entrée en vigueur",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/06/01/conge-de-naissance-les-reponses-a-vos-questions-a-un-mois-de-l-entree-en-vigueur_6695968_4355770.html",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans Le Monde - économie. Si le nouveau congé supplémentaire de naissance entre en vigueur dans moins d’un mois, certains détails pratiques n’ont été fixés par décret que dimanche. Qui y a droit ? Quand faut-il prévenir son employeur ?",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "10b92b3d7189caa5",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Chômage : un allocataire sur cinq retravaille avant de toucher des indemnités, selon une étude",
+      "url": "https://www.leparisien.fr/economie/chomage-un-allocataire-sur-cinq-retravaille-avant-de-toucher-des-indemnites-selon-une-etude-01-06-2026-EEBQMHPSSBFH3FJCTDZNHPPPCE.php",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans Le Parisien - économie. Chômage : un allocataire sur cinq retravaille avant de toucher des indemnités, selon une étude",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "d7a9d62f8f50cb8f",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Retour de la taxe d’habitation, baisse des cotisations salariales… Le big bang fiscal proposé par un macroniste historique",
+      "url": "https://www.leparisien.fr/elections/presidentielle/retour-de-la-taxe-dhabitation-baisse-des-cotisations-salariales-le-big-bang-fiscal-propose-par-un-macroniste-historique-30-05-2026-KRPMZMXWRBAXTONTZOJ2X5JSFA.php",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans Le Parisien - économie. Retour de la taxe d’habitation, baisse des cotisations salariales… Le big bang fiscal proposé par un macroniste historique",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "d08748bbe92cc326",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Le Figaro - social",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Durée, indemnisation, parents éligibles... Les modalités du nouveau congé de naissance se précisent",
+      "url": "https://www.lefigaro.fr/conjoncture/duree-indemnisation-parents-eligibles-les-modalites-du-nouveau-conge-de-naissance-se-precisent-20260601",
+      "publishedAt": "2026-06-01",
+      "summary": "Repéré dans Le Figaro - social. À partir du 1er juillet 2026, les parents pourront bénéficier d’un nouveau congé indemnisé, d’une durée d’un à deux mois, après une naissance ou une adoption, en complément des congés existants.",
+      "application": {
+        "date": "2026-06-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "669690bd9100807b",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Service-Public - particuliers",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Recrutement d’un apprenti : ce qui change",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17983?xtor=RSS-111",
+      "publishedAt": "2026-06-01",
+      "summary": "Le montant maximum de l’aide à l’embauche d’un apprenti a été modifié pour les contrats conclus à partir du 8 mars 2026. Entreprendre Service Public vous présente les aides disponibles selon la date de conclusion du contrat d’apprentissage..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Contrat",
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "93797b98eaf6e4c2",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Recrutement d’un apprenti : ce qui change",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A17983?xtor=RSS-112",
+      "publishedAt": "2026-06-01",
+      "summary": "Le montant maximum de l’aide à l’embauche d’un apprenti a été modifié pour les contrats conclus à partir du 8 mars 2026. Entreprendre Service Public vous présente les aides disponibles selon la date de conclusion du contrat d’apprentissage..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Contrat",
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "1cb2d7cd3a59662f",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Service-Public - particuliers",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Simplification des formalités relatives à l’apprentissage",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18931?xtor=RSS-111",
+      "publishedAt": "2026-06-01",
+      "summary": "La loi de simplification de la vie économique du 26 mai 2026 réduit les formalités des employeurs relatives à l’apprentissage et supprime définitivement la déclaration d’apprentissage..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "bd96003f9abc83bf",
+      "date": "2026-06-01",
+      "firstSeenDate": "2026-06-01",
+      "sourceName": "Service-Public - professionnels",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Simplification des formalités relatives à l’apprentissage",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A18931?xtor=RSS-112",
+      "publishedAt": "2026-06-01",
+      "summary": "La loi de simplification de la vie économique du 26 mai 2026 réduit les formalités des employeurs relatives à l’apprentissage et supprime définitivement la déclaration d’apprentissage..",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 15,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    }
+  ]
+}

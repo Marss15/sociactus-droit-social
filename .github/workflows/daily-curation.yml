@@ -21,21 +21,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - id: paris_time
-        name: Check 09:00 Europe/Paris window
-        run: |
-          HOUR=$(TZ=Europe/Paris date +%H)
-          if [ "$HOUR" != "09" ]; then
-            echo "Skipping: current Europe/Paris hour is $HOUR, expected 09."
-            echo "should_run=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
-          fi
       - name: Generate daily journal
-        if: steps.paris_time.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
         run: npm run curate
       - name: Commit updated journal
-        if: steps.paris_time.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
