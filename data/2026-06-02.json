@@ -1,0 +1,813 @@
+{
+  "generatedAt": "2026-06-02T11:14:06.485Z",
+  "date": "2026-06-02",
+  "stats": {
+    "total": 19,
+    "regles": 15,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 4,
+    "priorite1": 3,
+    "priorite2": 9,
+    "priorite3": 7
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-02",
+      "collected": 130,
+      "rejectedByDate": 102
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "8c363bc777ea1420",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'avenants territoriaux (Centre-Val de Loire) conclus dans le cadre de la convention collective nationale des ouvriers employés par les entreprises du bâtiment non visées par le décret du 1er mars 1962 (entreprises occupant plus de 10 salariés)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172131",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'avenants territoriaux (Centre-Val de Loire) conclus dans le cadre de la convention collective nationale des ouvriers employés par les entreprises du bâtiment non visées par le décret du 1er mars 1962 (entreprises occupant plus de 10 salariés). Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 84,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Bâtiment et travaux publics.",
+      "extra": {
+        "id": "JORFTEXT000054172131",
+        "nor": "TRST2614265V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-de110b76107b",
+          "idcc": null,
+          "label": "Bâtiment et travaux publics",
+          "rank": "p1",
+          "source": "rule"
+        }
+      }
+    },
+    {
+      "id": "8f9e2670f4d6a064",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'avenants territoriaux (Hautes-Pyrénées) et d'un accord territorial (Cher) conclus dans le cadre de la convention collective nationale de la métallurgie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172126",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'avenants territoriaux (Hautes-Pyrénées) et d'un accord territorial (Cher) conclus dans le cadre de la convention collective nationale de la métallurgie. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054172126",
+        "nor": "TRST2614264V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-7a2a61d7bdda",
+          "idcc": null,
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "rule"
+        }
+      }
+    },
+    {
+      "id": "1d9fc8610548d5c0",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord territorial (Bas-Rhin) conclu dans le cadre de la convention collective nationale de la métallurgie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172141",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'un accord territorial (Bas-Rhin) conclu dans le cadre de la convention collective nationale de la métallurgie. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054172141",
+        "nor": "TRST2614267V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-c3fa8c96d7ef",
+          "idcc": null,
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "rule"
+        }
+      }
+    },
+    {
+      "id": "f1f4a3d0c711d137",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale du commerce de détail et de gros à prédominance alimentaire",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172136",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale du commerce de détail et de gros à prédominance alimentaire. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 64,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Commerce de détail et de gros.",
+      "extra": {
+        "id": "JORFTEXT000054172136",
+        "nor": "TRST2614266V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-b99f419e7928",
+          "idcc": null,
+          "label": "Commerce de détail et de gros",
+          "rank": "p2",
+          "source": "rule"
+        }
+      }
+    },
+    {
+      "id": "8b9e0a4ef799aeb4",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale du commerce de détail alimentaire non spécialisé",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172166",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale du commerce de détail alimentaire non spécialisé. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 63,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Commerce de détail et de gros.",
+      "extra": {
+        "id": "JORFTEXT000054172166",
+        "nor": "TRST2614304V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-c3fcaa652887",
+          "idcc": null,
+          "label": "Commerce de détail et de gros",
+          "rank": "p2",
+          "source": "rule"
+        }
+      }
+    },
+    {
+      "id": "24423a8ccb003bad",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 1er juin 2026 portant délégation de signature (direction générale de l'administration pénitentiaire)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/6/1/JUSK2614211S/jo/texte",
+      "publishedAt": "2026-06-02",
+      "summary": "DECISION. Décision du 1er juin 2026 portant délégation de signature (direction générale de l'administration pénitentiaire). Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054171598",
+        "nor": "JUSK2614211S",
+        "nature": "DECISION",
+        "textDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz"
+      }
+    },
+    {
+      "id": "5b9f263e254b0ce5",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Délibération n° 2026-102 du 13 mai 2026 portant décision relative à la tarification des prestations annexes réalisées à titre exclusif par le gestionnaire du réseau public de transport d'électricité",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172177",
+      "publishedAt": "2026-06-02",
+      "summary": "DECISION. Délibération n° 2026-102 du 13 mai 2026 portant décision relative à la tarification des prestations annexes réalisées à titre exclusif par le gestionnaire du réseau public de transport d'électricité. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054172177",
+        "nor": "CREE2614489S",
+        "nature": "DECISION",
+        "textDate": "2026-05-13",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz"
+      }
+    },
+    {
+      "id": "5d7de3963897d132",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 28 mai 2026 relatif au comité d'évaluation interministériel compétent à l'égard des secrétaires généraux, directeurs généraux et directeurs d'administration centrale, délégués ministériels et interministériels et personnes occupant des emplois assimilés",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/28/PRME2613749A/jo/texte",
+      "publishedAt": "2026-06-02",
+      "summary": "ARRETE. Arrêté du 28 mai 2026 relatif au comité d'évaluation interministériel compétent à l'égard des secrétaires généraux, directeurs généraux et directeurs d'administration centrale, délégués ministériels et interministériels et personnes occupant des emplois assimilés. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Par défaut, applicable le 03 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054171165",
+        "nor": "PRME2613749A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz"
+      }
+    },
+    {
+      "id": "13d856c47ec7d340",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Délibération n° 2026-107 du 26 mai 2026 portant décision sur trois tarifs non péréqués d'utilisation des réseaux publics de distribution de gaz naturel concédés à GRDF",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172190",
+      "publishedAt": "2026-06-02",
+      "summary": "DECISION. Délibération n° 2026-107 du 26 mai 2026 portant décision sur trois tarifs non péréqués d'utilisation des réseaux publics de distribution de gaz naturel concédés à GRDF. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054172190",
+        "nor": "CREE2614475S",
+        "nature": "DECISION",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz"
+      }
+    },
+    {
+      "id": "3f8027de33b2a6d1",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 modifiant l'arrêté du 14 août 2012 relatif aux conditions de mesurage des niveaux d'empoussièrement, aux conditions de contrôle du respect de la valeur limite d'exposition professionnelle aux fibres d'amiante et aux conditions d'accréditation des organismes procédant à ces mesurages",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/26/TRST2608290A/jo/texte",
+      "publishedAt": "2026-06-02",
+      "summary": "Publics concernés : organismes chargés du mesurage des niveaux d'empoussièrement et du contrôle du respect de la valeur limite d'exposition professionnelle aux fibres d'amiante, entreprises et travailleurs en charge de travaux exposant ou susceptibles d'exposer aux fibres d'amiante, comité français d'accréditation (COFRAC) ou tout organisme d'accréditation...",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Par défaut, applicable le 03 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054171282",
+        "nor": "TRST2608290A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz"
+      }
+    },
+    {
+      "id": "7509c119553a19c4",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Decathlon : l'intersyndicale appelle les salariés à la mobilisation nationale ce samedi",
+      "url": "https://www.lefigaro.fr/societes/decathlon-l-intersyndicale-appelle-les-salaries-a-la-mobilisation-nationale-ce-samedi-20260602",
+      "publishedAt": "2026-06-02",
+      "summary": "Repéré dans Le Figaro - économie. Les syndicats de l’enseigne spécialisée dans les articles de sport réclament notamment une hausse des salaires, alors que l’entreprise tricolore a enregistré un bénéfice net en hausse en 2025.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {}
+    },
+    {
+      "id": "b7a6559e8e2ec8a4",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Rachats d’actions et plans sociaux, un tour de passe-passe bien connu des entreprises pour avoir la cote sur le marché",
+      "url": "https://www.lemonde.fr/emploi/article/2026/06/02/rachats-d-actions-et-plans-sociaux-un-tour-de-passe-passe-bien-connu-des-entreprises-pour-avoir-la-cote-sur-le-marche_6696334_1698637.html",
+      "publishedAt": "2026-06-02",
+      "summary": "Repéré dans Le Monde - économie. Racheter des actions demeure une pratique courante du capitalisme spéculatif, notamment pour rendre plus flatteuse la valeur générée par l’activité d’une entreprise.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {}
+    },
+    {
+      "id": "29e6ddd169f68e32",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des commerces et services de l'audiovisuel, de l'électronique et de l'équipement ménager",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172156",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des commerces et services de l'audiovisuel, de l'électronique et de l'équipement ménager. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : commerces et services de l'audiovisuel, de l'électronique et de l'équipement ménager. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054172156",
+        "nor": "TRST2614278V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-c3aef5bde9ae",
+          "idcc": null,
+          "label": "commerces et services de l'audiovisuel, de l'électronique et de l'équipement ménager",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "6cc6f9597f95b5b0",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale des exploitations frigorifiques",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172161",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale des exploitations frigorifiques. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : exploitations frigorifiques. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054172161",
+        "nor": "TRST2614295V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-5d0e404cc81a",
+          "idcc": null,
+          "label": "exploitations frigorifiques",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "af16cd920ba301a5",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des menuiseries, des charpentes et constructions industrialisées et des portes planes",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172171",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des menuiseries, des charpentes et constructions industrialisées et des portes planes. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : menuiseries, des charpentes et constructions industrialisées et des portes planes. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054172171",
+        "nor": "TRST2614386V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-e114d38c48fc",
+          "idcc": null,
+          "label": "menuiseries, des charpentes et constructions industrialisées et des portes planes",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "6a53abfc5ee33e21",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale des services de l'automobile",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172146",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale des services de l'automobile. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : services de l'automobile. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054172146",
+        "nor": "TRST2614268V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-e3f9a692b587",
+          "idcc": null,
+          "label": "services de l'automobile",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "3a6e218c6aa22157",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale de la pharmacie d'officine",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054172151",
+      "publishedAt": "2026-06-02",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale de la pharmacie d'officine. Texte publié au Journal officiel le 2026-06-02.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Publié le 02 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la pharmacie d'officine. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054172151",
+        "nor": "TRST2614275V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260602-002405.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-028c54e8a86d",
+          "idcc": null,
+          "label": "la pharmacie d'officine",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "0198a57accd3e7fb",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Le rachat d’Aluminium Dunkerque par Aluminium Bahrain confirmé pour 2,2 milliards de dollars",
+      "url": "https://www.lefigaro.fr/societes/le-rachat-d-aluminium-dunkerque-par-aluminium-bahrain-confirme-pour-2-2-milliards-de-dollars-20260602",
+      "publishedAt": "2026-06-02",
+      "summary": "Repéré dans Le Figaro - économie. L’accord a été signé lundi, en marge du sommet Choose France. Cette opération a reçu le soutien du gouvernement et des salariés de l’ancien fleuron de l’ex-groupe industriel français Pechiney.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "5cfbf5f8e31c39e4",
+      "date": "2026-06-02",
+      "firstSeenDate": "2026-06-02",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "REPORTAGE. \"On cherche une diversification plus stable pour s'assurer un salaire\" : bientôt des grands poulaillers au milieu de la lavande dans les Alpes-de-Haute-Provence",
+      "url": "https://www.franceinfo.fr/economie/emploi/metiers/agriculture/reportage-on-cherche-une-diversification-plus-stable-pour-s-assurer-un-salaire-bientot-des-grands-poulaillers-au-milieu-de-la-lavande-dans-les-alpes-de-haute-provence_8040599.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-06-02",
+      "summary": "Repéré dans franceinfo - emploi. Les Français ont consommé 237 œufs chacun en 2025, un record, et dix de plus qu'un an plus tôt, mais la production n'a pas suivi. De quoi susciter des vocations.",
+      "application": {
+        "date": "2026-06-02",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    }
+  ]
+}
