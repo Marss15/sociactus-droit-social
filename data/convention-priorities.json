@@ -99,12 +99,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1487": {
+      "label": "Commerce de détail et de gros",
+      "idcc": "1487",
+      "rank": "p2",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
+      "seenCount": 1
+    },
     "idcc-1499": {
       "label": "la miroiterie, de la transformation et du négoce du verre (n° 1499)",
       "idcc": "1499",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1501": {
+      "label": "la restauration rapide (n° 1501)",
+      "idcc": "1501",
+      "rank": "p3",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
       "seenCount": 1
     },
     "idcc-1536": {
@@ -152,7 +168,23 @@
       "idcc": "2332",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-05-29",
+      "lastSeen": "2026-06-03",
+      "seenCount": 2
+    },
+    "idcc-2372": {
+      "label": "entreprises de la distribution directe (n° 2372)",
+      "idcc": "2372",
+      "rank": "p3",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
+      "seenCount": 1
+    },
+    "idcc-2528": {
+      "label": "travail des industries de la maroquinerie, articles de voyage, chasse-sellerie, gainerie, bracelets en cuir (n° 2528)",
+      "idcc": "2528",
+      "rank": "p3",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
       "seenCount": 1
     },
     "idcc-2609": {
@@ -184,8 +216,8 @@
       "idcc": "3249",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-05-29",
-      "seenCount": 1
+      "lastSeen": "2026-06-03",
+      "seenCount": 2
     },
     "idcc-3250": {
       "label": "commissaires de justice et sociétés de ventes volontaires (n° 3250)",
@@ -193,6 +225,14 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-3252": {
+      "label": "entreprises au service de la création et de l'événement (n° 3252)",
+      "idcc": "3252",
+      "rank": "p3",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
       "seenCount": 1
     },
     "idcc-915": {
@@ -203,12 +243,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-028c54e8a86d": {
-      "label": "la pharmacie d'officine",
+    "name-00915101c067": {
+      "label": "métiers de l'éducation, de la culture, des loisirs et de l'animation agissant pour l'utilité sociale et environnementale, au service des territoires",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
       "seenCount": 1
     },
     "name-06c9ed04c793": {
@@ -219,6 +259,22 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-1fbfcd8d7132": {
+      "label": "la restauration rapide",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
+      "seenCount": 1
+    },
+    "name-2a60d60b7484": {
+      "label": "Propreté et sécurité privée",
+      "idcc": null,
+      "rank": "p2",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
@@ -227,20 +283,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-5d0e404cc81a": {
-      "label": "exploitations frigorifiques",
+    "name-536dfe12a185": {
+      "label": "travail mécanique du bois, des scieries, du négoce et de l'importation des bois",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
-      "seenCount": 1
-    },
-    "name-7a2a61d7bdda": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -259,6 +307,22 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-93dcbf5519ba": {
+      "label": "Métallurgie",
+      "idcc": null,
+      "rank": "p1",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
+      "seenCount": 1
+    },
+    "name-9635d0aa1bac": {
+      "label": "l'industrie de salaison, charcutière en gros et conserves de viandes",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
+      "seenCount": 1
+    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
@@ -267,36 +331,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-b99f419e7928": {
-      "label": "Commerce de détail et de gros",
-      "idcc": null,
-      "rank": "p2",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
-      "seenCount": 1
-    },
-    "name-c3aef5bde9ae": {
-      "label": "commerces et services de l'audiovisuel, de l'électronique et de l'équipement ménager",
+    "name-b37262bdde77": {
+      "label": "sucreries, sucreries-distilleries et raffineries de sucre",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
       "seenCount": 1
     },
-    "name-c3fa8c96d7ef": {
-      "label": "Métallurgie",
+    "name-cf5f6fe4cbf2": {
+      "label": "industries de la transformation des volailles",
       "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
-      "seenCount": 1
-    },
-    "name-c3fcaa652887": {
-      "label": "Commerce de détail et de gros",
-      "idcc": null,
-      "rank": "p2",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
+      "rank": "p3",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -307,36 +355,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-de110b76107b": {
-      "label": "Bâtiment et travaux publics",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
-      "seenCount": 1
-    },
-    "name-e114d38c48fc": {
-      "label": "menuiseries, des charpentes et constructions industrialisées et des portes planes",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
-      "seenCount": 1
-    },
-    "name-e3f9a692b587": {
-      "label": "services de l'automobile",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-02",
-      "seenCount": 1
-    },
     "name-ee1a0060264e": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-ef9b71985cc2": {
+      "label": "industries chimiques et connexes",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-06-03",
       "seenCount": 1
     }
   }

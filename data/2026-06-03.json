@@ -1,0 +1,1442 @@
+{
+  "generatedAt": "2026-06-03T11:51:53.573Z",
+  "date": "2026-06-03",
+  "stats": {
+    "total": 37,
+    "regles": 29,
+    "jurisprudence": 0,
+    "projets": 1,
+    "actualites": 0,
+    "presse": 7,
+    "priorite1": 1,
+    "priorite2": 18,
+    "priorite3": 18
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-03",
+      "collected": 147,
+      "rejectedByDate": 101
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "20edf494356a160c",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord territorial conclu dans le cadre de la convention collective nationale de la métallurgie (Drôme-Ardèche)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181435",
+      "publishedAt": "2026-06-03",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à un accord territorial conclu dans le cadre de la convention collective nationale de la métallurgie (Drôme-Ardèche). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Publié le 03 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054181435",
+        "nor": "TRST2614460V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-93dcbf5519ba",
+          "idcc": null,
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "rule"
+        }
+      }
+    },
+    {
+      "id": "3d951e66a6e6414c",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 27 mai 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du commerce de détail de l'horlogerie-bijouterie (n° 1487)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181383",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 27 mai 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du commerce de détail de l'horlogerie-bijouterie (n° 1487). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 63,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Commerce de détail et de gros.",
+      "extra": {
+        "id": "JORFTEXT000054181383",
+        "nor": "TRST2613966A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1487",
+          "idcc": "1487",
+          "label": "Commerce de détail et de gros",
+          "rank": "p2",
+          "source": "rule"
+        }
+      }
+    },
+    {
+      "id": "4591ccb478084434",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 27 mai 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du commerce de détail de l'horlogerie-bijouterie (n° 1487)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181392",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 27 mai 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du commerce de détail de l'horlogerie-bijouterie (n° 1487). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 63,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Commerce de détail et de gros.",
+      "extra": {
+        "id": "JORFTEXT000054181392",
+        "nor": "TRST2613971A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1487",
+          "idcc": "1487",
+          "label": "Commerce de détail et de gros",
+          "rank": "p2",
+          "source": "rule"
+        }
+      }
+    },
+    {
+      "id": "71f2b02af93d8466",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale des entreprises de propreté et services associés",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181420",
+      "publishedAt": "2026-06-03",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale des entreprises de propreté et services associés. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Publié le 03 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 63,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Propreté et sécurité privée.",
+      "extra": {
+        "id": "JORFTEXT000054181420",
+        "nor": "TRST2614438V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-2a60d60b7484",
+          "idcc": null,
+          "label": "Propreté et sécurité privée",
+          "rank": "p2",
+          "source": "rule"
+        }
+      }
+    },
+    {
+      "id": "f10bcf035214b02f",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 1er juin 2026 mettant fin aux fonctions d'un directeur des services actifs de police de la préfecture de police - M. GARDON (Fabrice)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181210",
+      "publishedAt": "2026-06-03",
+      "summary": "DECRET. Décret du 1er juin 2026 mettant fin aux fonctions d'un directeur des services actifs de police de la préfecture de police - M. GARDON (Fabrice). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054181210",
+        "nor": "INTC2606350D",
+        "nature": "DECRET",
+        "textDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "419c21353bde0b62",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 mai 2026 fixant les conditions d'organisation du recrutement sans concours d'adjoints administratifs de l'intérieur pour les services localisés au sein de la préfecture du Val-de-Marne et du secrétaire général commun départemental du Val-de-Marne ouvert au titre de l'année 2026",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/29/INTH2605403A/jo/texte",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 29 mai 2026 fixant les conditions d'organisation du recrutement sans concours d'adjoints administratifs de l'intérieur pour les services localisés au sein de la préfecture du Val-de-Marne et du secrétaire général commun départemental du Val-de-Marne ouvert au titre de l'année 2026. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054179869",
+        "nor": "INTH2605403A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "70bca0eea05ee6ae",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 juin 2026 déterminant la part respective de femmes et d'hommes représentés au sein de la commission consultative paritaire de la direction de l'information légale et administrative",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/2/PRMX2613415A/jo/texte",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 2 juin 2026 déterminant la part respective de femmes et d'hommes représentés au sein de la commission consultative paritaire de la direction de l'information légale et administrative. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054179454",
+        "nor": "PRMX2613415A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "4c7adcd2928fa8a4",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 mai 2026 modifiant l'arrêté du 1er juin 2018 portant création d'une commission nationale de recours et de discipline compétente à l'égard de certains ouvriers d'Etat du ministère de l'intérieur",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/29/INTH2614649A/jo/texte",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 29 mai 2026 modifiant l'arrêté du 1er juin 2018 portant création d'une commission nationale de recours et de discipline compétente à l'égard de certains ouvriers d'Etat du ministère de l'intérieur. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054179910",
+        "nor": "INTH2614649A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "99e509e39699fc68",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 portant annulation et report de l'épreuve d'admissibilité des questions de connaissances du concours interne pour le recrutement de professeurs techniques de la protection judiciaire de la jeunesse au titre de l'année 2026",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/26/JUSF2613984A/jo/texte",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 portant annulation et report de l'épreuve d'admissibilité des questions de connaissances du concours interne pour le recrutement de professeurs techniques de la protection judiciaire de la jeunesse au titre de l'année 2026. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054180414",
+        "nor": "JUSF2613984A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "c649d4df7150e968",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 27 mai 2026 fixant le nombre de représentants des maîtres au sein du comité consultatif ministériel des maîtres de l'enseignement privé sous contrat et les parts respectives de femmes et d'hommes composant les effectifs représentés au sein de ce comité",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/27/MENF2613688A/jo/texte",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 27 mai 2026 fixant le nombre de représentants des maîtres au sein du comité consultatif ministériel des maîtres de l'enseignement privé sous contrat et les parts respectives de femmes et d'hommes composant les effectifs représentés au sein de ce comité. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054180790",
+        "nor": "MENF2613688A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "86c6cd0e91b0d8a2",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181176",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054181176",
+        "nor": "PRMG2611792A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "99f4ee308437058f",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181181",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054181181",
+        "nor": "PRMG2609844A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "f6098b5ba64920f9",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181187",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054181187",
+        "nor": "PRMG2609860A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "49ad0308a3823958",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181193",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054181193",
+        "nor": "PRMG2611017A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "414ab1ac4ab75b3b",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181198",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054181198",
+        "nor": "PRMG2611305A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "5d6ca174304ce6ad",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181204",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 19 mai 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054181204",
+        "nor": "PRMG2612302A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz"
+      }
+    },
+    {
+      "id": "bd8eb4ed9d8e6a9b",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "Vie-publique - lois",
+      "sourceType": "rss",
+      "category": "projet-loi",
+      "title": "Projet de loi portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage",
+      "url": "https://www.vie-publique.fr/loi/302566-accord-assurance-chomage-rupture-conventionnelle-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+      "publishedAt": "2026-06-03",
+      "summary": "Projet de loi portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage",
+      "application": {
+        "date": null,
+        "label": "Non applicable à ce stade : suivre la navette et les décrets d'application.",
+        "basis": "Projet ou proposition de loi."
+      },
+      "watch": "Surveiller l'étape parlementaire suivante et les décrets d'application éventuels.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "watch",
+      "priority": 27,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {}
+    },
+    {
+      "id": "d8febeb36b07daaa",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Au congrès de la CGT à Tours, les syndicats « unis », un « ingrédient » indispensable des « victoires », d’après Sophie Binet",
+      "url": "https://www.lemonde.fr/politique/article/2026/06/03/au-congres-de-la-cgt-a-tours-les-syndicats-unis-un-ingredient-indispensable-des-victoires-d-apres-sophie-binet_6696558_823448.html",
+      "publishedAt": "2026-06-03",
+      "summary": "Repéré dans Le Monde - économie. Sept des huit principaux syndicats, à l’exception de Force ouvrière, étaient présents lors de la deuxième journée du congrès de la CGT, mettant en évidence leur volonté de poursuivre les actions communes, après la...",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social",
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {}
+    },
+    {
+      "id": "b047616ace320347",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Ruptures conventionnelles : ce qui va changer pour les salariés et les employeurs avec le texte adopté au Parlement",
+      "url": "https://www.lefigaro.fr/social/ruptures-conventionnelles-ce-qui-va-changer-pour-les-salaries-et-les-employeurs-20260527",
+      "publishedAt": "2026-06-03",
+      "summary": "Repéré dans Le Figaro - économie. Le Parlement a définitivement adopté mardi 2 juin un texte transposant dans la loi un accord conclu entre partenaires sociaux pour réduire la durée d’allocation chômage en cas de rupture conventionnelle.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {}
+    },
+    {
+      "id": "3128887e90198c09",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mai 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181370",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 26 mai 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Sécurité sociale",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181370",
+        "nor": "TRST2613987A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3249",
+          "idcc": "3249",
+          "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
+          "rank": "p3",
+          "source": "memory"
+        }
+      }
+    },
+    {
+      "id": "cb3c91f90622f1ca",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 27 mai 2026 portant extension d'un avenant à un avenant à la convention collective nationale de la restauration rapide (n° 1501)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181401",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 27 mai 2026 portant extension d'un avenant à un avenant à la convention collective nationale de la restauration rapide (n° 1501). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Sécurité sociale",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la restauration rapide (n° 1501). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181401",
+        "nor": "TRST2613989A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1501",
+          "idcc": "1501",
+          "label": "la restauration rapide (n° 1501)",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "eba000bf25a43dc3",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord national professionnel sur les classifications et les salaires dans les industries du bois et de l'importation des bois et à la convention collective nationale du travail mécanique du bois, des scieries, du négoce et de l'importation des bois",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181425",
+      "publishedAt": "2026-06-03",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à un accord national professionnel sur les classifications et les salaires dans les industries du bois et de l'importation des bois et à la convention collective nationale du travail mécanique du bois, des scieries, du négoce et de l'importation des bois. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Publié le 03 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : travail mécanique du bois, des scieries, du négoce et de l'importation des bois. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181425",
+        "nor": "TRST2614443V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-536dfe12a185",
+          "idcc": null,
+          "label": "travail mécanique du bois, des scieries, du négoce et de l'importation des bois",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "6dec6a1dc574fd41",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 mai 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale des entreprises d'architecture (n° 2332)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181342",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 21 mai 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale des entreprises d'architecture (n° 2332). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : entreprises d'architecture (n° 2332). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181342",
+        "nor": "TRST2613970A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-2332",
+          "idcc": "2332",
+          "label": "entreprises d'architecture (n° 2332)",
+          "rank": "p3",
+          "source": "memory"
+        }
+      }
+    },
+    {
+      "id": "8c94754da8b44769",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 mai 2026 portant extension d'un avenant à la convention collective nationale des entreprises au service de la création et de l'événement (n° 3252)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181351",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 21 mai 2026 portant extension d'un avenant à la convention collective nationale des entreprises au service de la création et de l'événement (n° 3252). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : entreprises au service de la création et de l'événement (n° 3252). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181351",
+        "nor": "TRST2613973A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3252",
+          "idcc": "3252",
+          "label": "entreprises au service de la création et de l'événement (n° 3252)",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "c33f629f9692e988",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 mai 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale de travail des industries de la maroquinerie, articles de voyage, chasse-sellerie, gainerie, bracelets en cuir (n° 2528)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181361",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 21 mai 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale de travail des industries de la maroquinerie, articles de voyage, chasse-sellerie, gainerie, bracelets en cuir (n° 2528). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : travail des industries de la maroquinerie, articles de voyage, chasse-sellerie, gainerie, bracelets en cuir (n° 2528). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181361",
+        "nor": "TRST2613975A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-2528",
+          "idcc": "2528",
+          "label": "travail des industries de la maroquinerie, articles de voyage, chasse-sellerie, gainerie, bracelets en cuir (n° 2528)",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "2daf201224438d29",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale de la restauration rapide",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181415",
+      "publishedAt": "2026-06-03",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale de la restauration rapide. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Publié le 03 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la restauration rapide. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181415",
+        "nor": "TRST2614435V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-1fbfcd8d7132",
+          "idcc": null,
+          "label": "la restauration rapide",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "e629e17377703762",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale des métiers de l'éducation, de la culture, des loisirs et de l'animation agissant pour l'utilité sociale et environnementale, au service des territoires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181430",
+      "publishedAt": "2026-06-03",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale des métiers de l'éducation, de la culture, des loisirs et de l'animation agissant pour l'utilité sociale et environnementale, au service des territoires. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Publié le 03 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : métiers de l'éducation, de la culture, des loisirs et de l'animation agissant pour l'utilité sociale et environnementale, au service des territoires. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181430",
+        "nor": "TRST2614448V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-00915101c067",
+          "idcc": null,
+          "label": "métiers de l'éducation, de la culture, des loisirs et de l'animation agissant pour l'utilité sociale et environnementale, au service des territoires",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "d6f8035ab06074fc",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale des industries de la transformation des volailles",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181440",
+      "publishedAt": "2026-06-03",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale des industries de la transformation des volailles. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Publié le 03 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : industries de la transformation des volailles. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181440",
+        "nor": "TRST2614466V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-cf5f6fe4cbf2",
+          "idcc": null,
+          "label": "industries de la transformation des volailles",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "7ae04a9daa557a5f",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension de la convention collective nationale des sucreries, sucreries-distilleries et raffineries de sucre",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181445",
+      "publishedAt": "2026-06-03",
+      "summary": "AVIS. Avis relatif à l'extension de la convention collective nationale des sucreries, sucreries-distilleries et raffineries de sucre. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Publié le 03 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : sucreries, sucreries-distilleries et raffineries de sucre. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181445",
+        "nor": "TRST2614484V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-b37262bdde77",
+          "idcc": null,
+          "label": "sucreries, sucreries-distilleries et raffineries de sucre",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "fcdcc411ede48220",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale de l'industrie de salaison, charcutière en gros et conserves de viandes",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181450",
+      "publishedAt": "2026-06-03",
+      "summary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale de l'industrie de salaison, charcutière en gros et conserves de viandes. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Publié le 03 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'industrie de salaison, charcutière en gros et conserves de viandes. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181450",
+        "nor": "TRST2614492V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-9635d0aa1bac",
+          "idcc": null,
+          "label": "l'industrie de salaison, charcutière en gros et conserves de viandes",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "e6f7e3433cf3d2af",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des industries chimiques et connexes",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054181455",
+      "publishedAt": "2026-06-03",
+      "summary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des industries chimiques et connexes. Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Publié le 03 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : industries chimiques et connexes. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054181455",
+        "nor": "TRST2614494V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-ef9b71985cc2",
+          "idcc": null,
+          "label": "industries chimiques et connexes",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "d03c9610ca266684",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 fixant la liste des organisations professionnelles d'employeurs reconnues représentatives dans la convention collective nationale des entreprises de la distribution directe (n° 2372)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/20/TRST2614557A/jo/texte",
+      "publishedAt": "2026-06-03",
+      "summary": "ARRETE. Arrêté du 20 mai 2026 fixant la liste des organisations professionnelles d'employeurs reconnues représentatives dans la convention collective nationale des entreprises de la distribution directe (n° 2372). Texte publié au Journal officiel le 2026-06-03.",
+      "application": {
+        "date": "2026-06-04",
+        "label": "Par défaut, applicable le 04 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 27,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : entreprises de la distribution directe (n° 2372). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054180283",
+        "nor": "TRST2614557A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260603-005023.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-2372",
+          "idcc": "2372",
+          "label": "entreprises de la distribution directe (n° 2372)",
+          "rank": "p3",
+          "source": "default"
+        }
+      }
+    },
+    {
+      "id": "486fa8bac1808402",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Bénéficier d’un apport de salaire supplémentaire » : la cinquième semaine de congés payés est-elle en sursis ?",
+      "url": "https://www.leparisien.fr/economie/beneficier-dun-apport-de-salaire-supplementaire-la-cinquieme-semaine-de-conges-payes-est-elle-en-sursis-03-06-2026-GGO5S7EAZJGZTNUKTBO5OPLKV4.php",
+      "publishedAt": "2026-06-03",
+      "summary": "Repéré dans Le Parisien - économie. « Bénéficier d’un apport de salaire supplémentaire » : la cinquième semaine de congés payés est-elle en sursis ?",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "efff1f054415f390",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Ruptures conventionnelles : le Parlement valide l’accord des partenaires sociaux réduisant la durée d’allocation chômage",
+      "url": "https://www.leparisien.fr/politique/ruptures-conventionnelles-le-parlement-valide-laccord-des-partenaires-sociaux-reduisant-la-duree-dallocation-chomage-02-06-2026-7YNIT4YR5BH6BPR56FAXUHV2B4.php",
+      "publishedAt": "2026-06-03",
+      "summary": "Repéré dans Le Parisien - économie. Ruptures conventionnelles : le Parlement valide l’accord des partenaires sociaux réduisant la durée d’allocation chômage",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "a7660e9ecc270e65",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "«Un niveau de complexité rarement atteint» : le patronat remonté contre la directive sur la transparence salariale",
+      "url": "https://www.lefigaro.fr/social/un-niveau-de-complexite-rarement-atteint-le-patronat-remonte-contre-la-directive-sur-la-transparence-salariale-20260603",
+      "publishedAt": "2026-06-03",
+      "summary": "Repéré dans Le Figaro - économie. DÉCRYPTAGE - Le texte européen sur la transparence des rémunérations doit être transposé dans le droit français avant le 7 juin. Le gouvernement joue les équilibristes entre les revendications syndicales et patronales.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "a16aba213642aad3",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Nos salaires avant leurs dividendes » : les salariés de Decathlon appelés à se mobiliser samedi 6 juin",
+      "url": "https://www.leparisien.fr/economie/emploi/nos-salaires-avant-leurs-dividendes-les-salaries-de-decathlon-appeles-a-se-mobiliser-samedi-6-juin-02-06-2026-QIGRX4Q45JGUZFCKQHOWWCJ5X4.php",
+      "publishedAt": "2026-06-03",
+      "summary": "Repéré dans Le Parisien - économie. « Nos salaires avant leurs dividendes » : les salariés de Decathlon appelés à se mobiliser samedi 6 juin",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    },
+    {
+      "id": "19ee558c3a9cd0e2",
+      "date": "2026-06-03",
+      "firstSeenDate": "2026-06-03",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Un salarié sur deux en détresse psychologique",
+      "url": "https://www.franceinfo.fr/sante/un-salarie-sur-deux-en-detresse-psychologique_8041097.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-06-03",
+      "summary": "Repéré dans franceinfo - emploi. Un salarié sur deux présente aujourd’hui un signe de détresse psychologique, selon un baromètre réalisé par Empreinte humaine avec Ipso BVA et qui évalue l'état psychologique des travailleurs.",
+      "application": {
+        "date": "2026-06-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    }
+  ]
+}
