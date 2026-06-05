@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-06-04T10:36:09.700Z",
-  "latestDate": "2026-06-04",
+  "generatedAt": "2026-06-05T10:42:44.328Z",
+  "latestDate": "2026-06-05",
   "days": [
+    {
+      "date": "2026-06-05",
+      "file": "data/2026-06-05.json",
+      "total": 49,
+      "regles": 38,
+      "jurisprudence": 0,
+      "projets": 0,
+      "presse": 11,
+      "priorite1": 5,
+      "priorite2": 12,
+      "priorite3": 32
+    },
     {
       "date": "2026-06-04",
       "file": "data/2026-06-04.json",

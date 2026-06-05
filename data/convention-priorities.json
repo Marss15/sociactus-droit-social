@@ -83,6 +83,46 @@
     }
   ],
   "observed": {
+    "idcc-1043": {
+      "label": "gardiens, concierges et employés d'immeubles (n° 1043)",
+      "idcc": "1043",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
+    "idcc-1077": {
+      "label": "entreprises du négoce et de l'industrie des produits du sol, engrais et produits connexes (n° 1077)",
+      "idcc": "1077",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
+    "idcc-1261": {
+      "label": "acteurs du lien social et familial (n° 1261)",
+      "idcc": "1261",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
+    "idcc-1286": {
+      "label": "détaillants et détaillants-fabricants de la confiserie, chocolaterie, biscuiterie (n° 1286)",
+      "idcc": "1286",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
+    "idcc-1351": {
+      "label": "Propreté et sécurité privée",
+      "idcc": "1351",
+      "rank": "p2",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "idcc-1404": {
       "label": "métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et a (n° 1404)",
       "idcc": "1404",
@@ -97,6 +137,14 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1486": {
+      "label": "Bureaux d'études / Syntec",
+      "idcc": "1486",
+      "rank": "p1",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
       "seenCount": 1
     },
     "idcc-1499": {
@@ -115,6 +163,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1555": {
+      "label": "la fabrication et le commerce des produits à usage pharmaceutique, parapharmaceutique et vétérinaire (n° 1555)",
+      "idcc": "1555",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "idcc-1558": {
       "label": "conditions de travail du personnel des industries céramiques de France (n° 1558)",
       "idcc": "1558",
@@ -123,12 +179,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1589": {
+      "label": "mareyeurs-expéditeurs (n° 1589)",
+      "idcc": "1589",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "idcc-1607": {
       "label": "industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes (n° 1607)",
       "idcc": "1607",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-05-29",
+      "lastSeen": "2026-06-05",
+      "seenCount": 2
+    },
+    "idcc-1978": {
+      "label": "fleuristes, de la vente et des services des animaux familiers (n° 1978)",
+      "idcc": "1978",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
       "seenCount": 1
     },
     "idcc-1982": {
@@ -147,12 +219,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1996": {
+      "label": "la pharmacie d'officine (n° 1996)",
+      "idcc": "1996",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "idcc-2332": {
       "label": "entreprises d'architecture (n° 2332)",
       "idcc": "2332",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-2336": {
+      "label": "l'habitat et du logement accompagnés (n° 2336)",
+      "idcc": "2336",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
       "seenCount": 1
     },
     "idcc-2609": {
@@ -163,6 +251,22 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-2691": {
+      "label": "l'enseignement privé indépendant (n° 2691)",
+      "idcc": "2691",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
+    "idcc-3090": {
+      "label": "entreprises du secteur privé du spectacle vivant (n° 3090)",
+      "idcc": "3090",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "idcc-3229": {
       "label": "personnel des entreprises de transport en navigation intérieure (n° 3229)",
       "idcc": "3229",
@@ -171,13 +275,21 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-3245": {
+      "label": "opérateurs de voyages et des guides (n° 3245)",
+      "idcc": "3245",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "idcc-3248": {
       "label": "Métallurgie",
       "idcc": "3248",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-05-29",
-      "seenCount": 1
+      "lastSeen": "2026-06-05",
+      "seenCount": 2
     },
     "idcc-3249": {
       "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
@@ -195,12 +307,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-3254": {
+      "label": "la boucherie, boucherie-charcuterie-traiteur, poissonnerie (n° 3254)",
+      "idcc": "3254",
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "idcc-915": {
       "label": "sociétés d'expertises et d'évaluations (n° 915)",
       "idcc": "915",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-03204c263de4": {
+      "label": "cabinets ou entreprises de géomètres experts, géomètres topographes photogrammètres et experts-fonciers",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
       "seenCount": 1
     },
     "name-06c9ed04c793": {
@@ -211,12 +339,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-229bfaccb003": {
+      "label": "cabinets ou entreprises de géomètres experts, géomètres topographes photogrammètres et experts-fonciers",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-63ab9e8ab29e": {
+      "label": "Transports routiers",
+      "idcc": null,
+      "rank": "p2",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -235,6 +379,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-a5388fbf32bf": {
+      "label": "relatif à l'épargne salariale dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
@@ -243,12 +395,36 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-b265e9569e09": {
+      "label": "industries de la transformation des volailles",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
     "name-cf9a5fa602f5": {
       "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-d720a151b7b4": {
+      "label": "industries de la transformation des volailles",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
+      "seenCount": 1
+    },
+    "name-dacadc17a200": {
+      "label": "vins, cidres, jus de fruits, sirops, spiritueux et liqueurs de France",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-05",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
