@@ -83,14 +83,6 @@
     }
   ],
   "observed": {
-    "idcc-1307": {
-      "label": "l'exploitation cinématographique (n° 1307)",
-      "idcc": "1307",
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
     "idcc-1404": {
       "label": "métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et a (n° 1404)",
       "idcc": "1404",
@@ -107,36 +99,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1483": {
-      "label": "Commerce de détail et de gros",
-      "idcc": "1483",
-      "rank": "p2",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
     "idcc-1499": {
       "label": "la miroiterie, de la transformation et du négoce du verre (n° 1499)",
       "idcc": "1499",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "idcc-1516": {
-      "label": "organismes de formation (n° 1516)",
-      "idcc": "1516",
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
-    "idcc-1534": {
-      "label": "entreprises de l'industrie et des commerces en gros des viandes (n° 1534)",
-      "idcc": "1534",
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
       "seenCount": 1
     },
     "idcc-1536": {
@@ -163,14 +131,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1951": {
-      "label": "cabinets ou entreprises d'expertises en automobile (n° 1951)",
-      "idcc": "1951",
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
     "idcc-1982": {
       "label": "négoce et prestations de services dans les domaines médico-techniques (n° 1982)",
       "idcc": "1982",
@@ -187,22 +147,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2021": {
-      "label": "du golf (n° 2021)",
-      "idcc": "2021",
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
-    "idcc-2098": {
-      "label": "personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098)",
-      "idcc": "2098",
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
     "idcc-2332": {
       "label": "entreprises d'architecture (n° 2332)",
       "idcc": "2332",
@@ -211,21 +155,13 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2511": {
-      "label": "du sport (n° 2511)",
-      "idcc": "2511",
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
     "idcc-2609": {
       "label": "Bâtiment et travaux publics",
       "idcc": "2609",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-06-06",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3229": {
       "label": "personnel des entreprises de transport en navigation intérieure (n° 3229)",
@@ -240,16 +176,16 @@
       "idcc": "3248",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-06-06",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3249": {
       "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
       "idcc": "3249",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-06-06",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3250": {
       "label": "commissaires de justice et sociétés de ventes volontaires (n° 3250)",
@@ -259,21 +195,13 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-669": {
-      "label": "industries de fabrication mécanique du verre (n° 669)",
-      "idcc": "669",
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
     "idcc-915": {
       "label": "sociétés d'expertises et d'évaluations (n° 915)",
       "idcc": "915",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-06-06",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "name-06c9ed04c793": {
       "label": "relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail et des solidarités, V",
@@ -281,22 +209,6 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-29bd7b89ef44": {
-      "label": "travail des journalistes",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
-    "name-3be4a2453f98": {
-      "label": "groupement des armateurs de service de passages d'eau - personnel navigant",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
       "seenCount": 1
     },
     "name-42638c9432f9": {
@@ -331,36 +243,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-ac7428b8908e": {
-      "label": "acteurs du lien social et familial",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
-    "name-cb65e9cc9252": {
-      "label": "la télédiffusion",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
-      "seenCount": 1
-    },
     "name-cf9a5fa602f5": {
       "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-ed81867160c3": {
-      "label": "dans la branche de l'aide, de l'accompagnement, des soins et des services à domicile",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-06",
-      "lastSeen": "2026-06-06",
       "seenCount": 1
     },
     "name-ee1a0060264e": {

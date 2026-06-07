@@ -1,0 +1,759 @@
+{
+  "generatedAt": "2026-06-07T09:57:09.529Z",
+  "date": "2026-06-07",
+  "stats": {
+    "total": 20,
+    "regles": 17,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 3,
+    "priorite1": 0,
+    "priorite2": 19,
+    "priorite3": 1
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-07",
+      "collected": 134,
+      "rejectedByDate": 105
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "e71f8e1764bf4631",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 mars 2026 modifiant l'arrêté du 27 décembre 2016 fixant la liste des emplois ouvrant droit à la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/3/26/INTJ2605352A/jo/texte",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 26 mars 2026 modifiant l'arrêté du 27 décembre 2016 fixant la liste des emplois ouvrant droit à la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054209827",
+        "nor": "INTJ2605352A",
+        "nature": "ARRETE",
+        "textDate": "2026-03-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "9e5d5a7adc210487",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 mai 2026 modifiant les dispositions réglementaires (partie arrêtés) du code du sport",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/21/SPOV2613963A/jo/texte",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 21 mai 2026 modifiant les dispositions réglementaires (partie arrêtés) du code du sport. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210342",
+        "nor": "SPOV2613963A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "422905772be576ba",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 mai 2026 modifiant l'arrêté du 9 mars 2020 modifié fixant la liste des certifications antérieurement inscrites à l'annexe II-1 de l'article A. 212-1 du code du sport permettant l'encadrement des activités physiques ou sportives contre rémunération et modifiant le code du sport (partie réglementaire : arrêtés)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/21/SPOV2613964A/jo/texte",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 21 mai 2026 modifiant l'arrêté du 9 mars 2020 modifié fixant la liste des certifications antérieurement inscrites à l'annexe II-1 de l'article A. 212-1 du code du sport permettant l'encadrement des activités physiques ou sportives contre rémunération et modifiant le code du sport (partie réglementaire : arrêtés).",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210360",
+        "nor": "SPOV2613964A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "407bba9a50cc578e",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision n° DAG 2026-180 du 20 mai 2026 fixant les parts respectives de femmes et d'hommes composant les effectifs pris en compte pour la détermination du nombre de représentants du personnel au sein du commission consultative paritaire du Défenseur des droits",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210609",
+      "publishedAt": "2026-06-07",
+      "summary": "DECISION. Décision n° DAG 2026-180 du 20 mai 2026 fixant les parts respectives de femmes et d'hommes composant les effectifs pris en compte pour la détermination du nombre de représentants du personnel au sein du commission consultative paritaire du Défenseur des droits. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-07",
+        "label": "Publié le 07 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210609",
+        "nor": "DFDX2615257S",
+        "nature": "DECISION",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "2b69184df85bb84e",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 27 mai 2026 modifiant l'arrêté du 3 août 2007 relatif aux formations à l'armement des agents de police municipale et aux certificats de moniteur de police municipale en maniement des armes et de moniteur de police municipale en bâtons et techniques professionnelles d'intervention",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/27/INTD2526444A/jo/texte",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 27 mai 2026 modifiant l'arrêté du 3 août 2007 relatif aux formations à l'armement des agents de police municipale et aux certificats de moniteur de police municipale en maniement des armes et de moniteur de police municipale en bâtons et techniques professionnelles d'intervention. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054209837",
+        "nor": "INTD2526444A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "3bf89a41141b8d30",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er juin 2026 portant création d'un traitement de données à caractère personnel dénommé « Suivi informatisé des affaires juridiques nouvelle génération (SIAJ-NG) module contentieux »",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/1/INTD2536182A/jo/texte",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 1er juin 2026 portant création d'un traitement de données à caractère personnel dénommé « Suivi informatisé des affaires juridiques nouvelle génération (SIAJ-NG) module contentieux ». Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054209866",
+        "nor": "INTD2536182A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "db4c70ead9170e6c",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 juin 2026 modifiant l'arrêté du 14 décembre 2012 portant délégation de pouvoirs du ministre de l'intérieur en matière d'administration et de gestion du personnel militaire de la gendarmerie nationale",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/2/INTJ2614401A/jo/texte",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 2 juin 2026 modifiant l'arrêté du 14 décembre 2012 portant délégation de pouvoirs du ministre de l'intérieur en matière d'administration et de gestion du personnel militaire de la gendarmerie nationale. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054209896",
+        "nor": "INTJ2614401A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "bb42a13f01efec74",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 juin 2026 modifiant l'arrêté du 12 juillet 2010 fixant les conditions d'attribution de la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/5/INTJ2605348A/jo/texte",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 5 juin 2026 modifiant l'arrêté du 12 juillet 2010 fixant les conditions d'attribution de la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054209912",
+        "nor": "INTJ2605348A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "94150880238277d5",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 juin 2026 modifiant l'arrêté du 5 janvier 2026 modifié portant habilitation de la Fédération française de sauvetage et de secourisme pour les formations aux premiers secours",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/5/INTE2615171A/jo/texte",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 5 juin 2026 modifiant l'arrêté du 5 janvier 2026 modifié portant habilitation de la Fédération française de sauvetage et de secourisme pour les formations aux premiers secours. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054209921",
+        "nor": "INTE2615171A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "483b9021104e01b2",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 27 mai 2026 fixant le nombre de représentants par collège en vue des élections des représentants du personnel au comité d'établissement et des conditions de travail de l'établissement public chargé de la conservation et de la restauration de la cathédrale Notre-Dame de Paris dans le cadre du renouvellement général des instances dans la fonction publique en 2026",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/27/MICB2614237A/jo/texte",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 27 mai 2026 fixant le nombre de représentants par collège en vue des élections des représentants du personnel au comité d'établissement et des conditions de travail de l'établissement public chargé de la conservation et de la restauration de la cathédrale Notre-Dame de Paris dans le cadre du renouvellement général des instances dans la...",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210299",
+        "nor": "MICB2614237A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "16eac741cf3e5413",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 juin 2026 portant commissionnement pour effectuer des contrôles au titre de la formation professionnelle",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210440",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 4 juin 2026 portant commissionnement pour effectuer des contrôles au titre de la formation professionnelle. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210440",
+        "nor": "TRSD2614930A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "79bd4cb1fe7acef6",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 juin 2026 portant détachement (Conseil d'Etat) - M. LOMBARD (Pierre)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210450",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 5 juin 2026 portant détachement (Conseil d'Etat) - M. LOMBARD (Pierre). Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210450",
+        "nor": "JUSE2613988A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "5cc56f5e4ed1ef5c",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 juin 2026 modifiant l'arrêté du 11 avril 2024 portant désignation des membres de la Commission nationale de sélection instituée à l'article 15 du décret n° 73-609 du 5 juillet 1973 modifié relatif à la formation professionnelle dans le notariat et aux conditions d'accès aux fonctions de notaire",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210469",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 5 juin 2026 modifiant l'arrêté du 11 avril 2024 portant désignation des membres de la Commission nationale de sélection instituée à l'article 15 du décret n° 73-609 du 5 juillet 1973 modifié relatif à la formation professionnelle dans le notariat et aux conditions d'accès aux fonctions de notaire.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210469",
+        "nor": "JUSC2614597A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "b1f464a31fc205ce",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juin 2026 portant autorisation temporaire d'exercice de la médecine en France",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210486",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 3 juin 2026 portant autorisation temporaire d'exercice de la médecine en France. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210486",
+        "nor": "SFHN2615194A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "354b6cacb0641e54",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des ingénieurs d'études de classe normale du Centre national de la recherche scientifique",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210731",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des ingénieurs d'études de classe normale du Centre national de la recherche scientifique. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210731",
+        "nor": "CNRH2614362A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "b663c885ccf8a297",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des assistants ingénieurs du Centre national de la recherche scientifique",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210751",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des assistants ingénieurs du Centre national de la recherche scientifique. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210751",
+        "nor": "CNRH2614365A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "029048acf1c1a365",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des techniciens de la recherche de classe normale du Centre national de la recherche scientifique",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210771",
+      "publishedAt": "2026-06-07",
+      "summary": "ARRETE. Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des techniciens de la recherche de classe normale du Centre national de la recherche scientifique. Texte publié au Journal officiel le 2026-06-07.",
+      "application": {
+        "date": "2026-06-08",
+        "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054210771",
+        "nor": "CNRH2614368A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+      }
+    },
+    {
+      "id": "236cabf84ee2d648",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Dans l’industrie française, le grand virage vers la guerre",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/07/dans-l-industrie-francaise-le-grand-virage-vers-la-guerre_6698625_3234.html",
+      "publishedAt": "2026-06-07",
+      "summary": "Repéré dans Le Monde - économie. A l’heure où licenciements et fermetures de sites se multiplient dans le secteur automobile, la défense, autrefois montrée du doigt au nom de principes moraux, fait figure de nouvel eldorado pour les industriels comme...",
+      "application": {
+        "date": "2026-06-07",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {}
+    },
+    {
+      "id": "271970f440049456",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "\"C'est un déni de démocratie\" : la Confédération paysanne mobilisée pour la qualité de l'eau en Bretagne",
+      "url": "https://www.franceinfo.fr/economie/crise/blocus-des-agriculteurs/c-est-un-deni-de-democratie-la-confederation-paysanne-mobilisee-pour-la-qualite-de-l-eau-en-bretagne_8048363.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-06-07",
+      "summary": "Repéré dans franceinfo - emploi. Début 2026, le Premier ministre Sébastien Lecornu a annoncé un moratoire sur les questions de l'eau. Un texte destiné à améliorer la qualité de l'eau en Bretagne et dans les Pays de la Loire est donc bloqué depuis des...",
+      "application": {
+        "date": "2026-06-07",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {}
+    },
+    {
+      "id": "86ec908e56a748bf",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "SFR racheté pour plus de 20 milliards d’euros par Bouygues Telecom, Free et Orange ; fortes inquiétudes sur l’emploi",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/07/sfr-rachete-pour-plus-de-20-milliards-d-euros-par-bouygues-telecom-free-et-orange-fortes-inquietudes-sur-l-emploi_6698485_3234.html",
+      "publishedAt": "2026-06-07",
+      "summary": "Repéré dans Le Monde - économie. Patrick Drahi s’est entendu avec ses trois rivaux pour leur céder son groupe. SFR est donc appelé à disparaître si les autorités de concurrence donnent leur aval.",
+      "application": {
+        "date": "2026-06-07",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {}
+    }
+  ]
+}
