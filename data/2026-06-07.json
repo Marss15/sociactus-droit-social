@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-07T09:57:09.529Z",
+  "generatedAt": "2026-06-07T17:06:43.641Z",
   "date": "2026-06-07",
   "stats": {
-    "total": 20,
+    "total": 21,
     "regles": 17,
     "jurisprudence": 0,
     "projets": 0,
     "actualites": 0,
-    "presse": 3,
+    "presse": 4,
     "priorite1": 0,
     "priorite2": 19,
-    "priorite3": 1
+    "priorite3": 2
   },
   "sources": [
     {
@@ -98,8 +98,8 @@
     "dailyMode": {
       "strict": true,
       "date": "2026-06-07",
-      "collected": 134,
-      "rejectedByDate": 105
+      "collected": 133,
+      "rejectedByDate": 102
     },
     "errors": []
   },
@@ -114,7 +114,7 @@
       "title": "Arrêté du 26 mars 2026 modifiant l'arrêté du 27 décembre 2016 fixant la liste des emplois ouvrant droit à la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale",
       "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/3/26/INTJ2605352A/jo/texte",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 26 mars 2026 modifiant l'arrêté du 27 décembre 2016 fixant la liste des emplois ouvrant droit à la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 26 mars 2026 modifiant l'arrêté du 27 décembre 2016 fixant la liste des emplois ouvrant droit à la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -138,7 +138,8 @@
         "nor": "INTJ2605352A",
         "nature": "ARRETE",
         "textDate": "2026-03-26",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 26 mars 2026 modifiant l'arrêté du 27 décembre 2016 fixant la liste des emplois ouvrant droit à la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -151,7 +152,7 @@
       "title": "Arrêté du 21 mai 2026 modifiant les dispositions réglementaires (partie arrêtés) du code du sport",
       "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/21/SPOV2613963A/jo/texte",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 21 mai 2026 modifiant les dispositions réglementaires (partie arrêtés) du code du sport. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 21 mai 2026 modifiant les dispositions réglementaires (partie arrêtés) du code du sport. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -173,7 +174,8 @@
         "nor": "SPOV2613963A",
         "nature": "ARRETE",
         "textDate": "2026-05-21",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 21 mai 2026 modifiant les dispositions réglementaires (partie arrêtés) du code du sport. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -186,7 +188,7 @@
       "title": "Arrêté du 21 mai 2026 modifiant l'arrêté du 9 mars 2020 modifié fixant la liste des certifications antérieurement inscrites à l'annexe II-1 de l'article A. 212-1 du code du sport permettant l'encadrement des activités physiques ou sportives contre rémunération et modifiant le code du sport (partie réglementaire : arrêtés)",
       "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/21/SPOV2613964A/jo/texte",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 21 mai 2026 modifiant l'arrêté du 9 mars 2020 modifié fixant la liste des certifications antérieurement inscrites à l'annexe II-1 de l'article A. 212-1 du code du sport permettant l'encadrement des activités physiques ou sportives contre rémunération et modifiant le code du sport (partie réglementaire : arrêtés).",
+      "summary": "Changement apporté : Arrêté du 21 mai 2026 modifiant l'arrêté du 9 mars 2020 modifié fixant la liste des certifications antérieurement inscrites à l'annexe II-1 de l'article A. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -208,7 +210,8 @@
         "nor": "SPOV2613964A",
         "nature": "ARRETE",
         "textDate": "2026-05-21",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 21 mai 2026 modifiant l'arrêté du 9 mars 2020 modifié fixant la liste des certifications antérieurement inscrites à l'annexe II-1 de l'article A. 212-1 du code du sport permettant l'encadrement des activités physiques ou sportives contre rémunération et modifiant le code du sport (partie réglementaire : arrêtés)."
       }
     },
     {
@@ -221,7 +224,7 @@
       "title": "Décision n° DAG 2026-180 du 20 mai 2026 fixant les parts respectives de femmes et d'hommes composant les effectifs pris en compte pour la détermination du nombre de représentants du personnel au sein du commission consultative paritaire du Défenseur des droits",
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210609",
       "publishedAt": "2026-06-07",
-      "summary": "DECISION. Décision n° DAG 2026-180 du 20 mai 2026 fixant les parts respectives de femmes et d'hommes composant les effectifs pris en compte pour la détermination du nombre de représentants du personnel au sein du commission consultative paritaire du Défenseur des droits. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Décision n° DAG 2026-180 du 20 mai 2026 fixant les parts respectives de femmes et d'hommes composant les effectifs pris en compte pour la détermination du nombre de représentants du personnel au sein du commission consultative paritaire du Défenseur. Applicable ou à intégrer à partir du 07 juin 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
       "application": {
         "date": "2026-06-07",
         "label": "Publié le 07 juin 2026. Applicabilité à vérifier dans le texte.",
@@ -242,7 +245,8 @@
         "nor": "DFDX2615257S",
         "nature": "DECISION",
         "textDate": "2026-05-20",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "DECISION. Décision n° DAG 2026-180 du 20 mai 2026 fixant les parts respectives de femmes et d'hommes composant les effectifs pris en compte pour la détermination du nombre de représentants du personnel au sein du commission consultative paritaire du Défenseur des droits. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -255,7 +259,7 @@
       "title": "Arrêté du 27 mai 2026 modifiant l'arrêté du 3 août 2007 relatif aux formations à l'armement des agents de police municipale et aux certificats de moniteur de police municipale en maniement des armes et de moniteur de police municipale en bâtons et techniques professionnelles d'intervention",
       "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/27/INTD2526444A/jo/texte",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 27 mai 2026 modifiant l'arrêté du 3 août 2007 relatif aux formations à l'armement des agents de police municipale et aux certificats de moniteur de police municipale en maniement des armes et de moniteur de police municipale en bâtons et techniques professionnelles d'intervention. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 27 mai 2026 modifiant l'arrêté du 3 août 2007 relatif aux formations à l'armement des agents de police municipale et aux certificats de moniteur de police municipale en maniement des armes et de moniteur de police municipale en bâtons et. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -275,7 +279,8 @@
         "nor": "INTD2526444A",
         "nature": "ARRETE",
         "textDate": "2026-05-27",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 27 mai 2026 modifiant l'arrêté du 3 août 2007 relatif aux formations à l'armement des agents de police municipale et aux certificats de moniteur de police municipale en maniement des armes et de moniteur de police municipale en bâtons et techniques professionnelles d'intervention. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -288,7 +293,7 @@
       "title": "Arrêté du 1er juin 2026 portant création d'un traitement de données à caractère personnel dénommé « Suivi informatisé des affaires juridiques nouvelle génération (SIAJ-NG) module contentieux »",
       "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/1/INTD2536182A/jo/texte",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 1er juin 2026 portant création d'un traitement de données à caractère personnel dénommé « Suivi informatisé des affaires juridiques nouvelle génération (SIAJ-NG) module contentieux ». Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 1er juin 2026 portant création d'un traitement de données à caractère personnel dénommé « Suivi informatisé des affaires juridiques nouvelle génération (SIAJ-NG) module contentieux ». Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -308,7 +313,8 @@
         "nor": "INTD2536182A",
         "nature": "ARRETE",
         "textDate": "2026-06-01",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 1er juin 2026 portant création d'un traitement de données à caractère personnel dénommé « Suivi informatisé des affaires juridiques nouvelle génération (SIAJ-NG) module contentieux ». Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -321,7 +327,7 @@
       "title": "Arrêté du 2 juin 2026 modifiant l'arrêté du 14 décembre 2012 portant délégation de pouvoirs du ministre de l'intérieur en matière d'administration et de gestion du personnel militaire de la gendarmerie nationale",
       "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/2/INTJ2614401A/jo/texte",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 2 juin 2026 modifiant l'arrêté du 14 décembre 2012 portant délégation de pouvoirs du ministre de l'intérieur en matière d'administration et de gestion du personnel militaire de la gendarmerie nationale. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 2 juin 2026 modifiant l'arrêté du 14 décembre 2012 portant délégation de pouvoirs du ministre de l'intérieur en matière d'administration et de gestion du personnel militaire de la gendarmerie nationale. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -341,7 +347,8 @@
         "nor": "INTJ2614401A",
         "nature": "ARRETE",
         "textDate": "2026-06-02",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 juin 2026 modifiant l'arrêté du 14 décembre 2012 portant délégation de pouvoirs du ministre de l'intérieur en matière d'administration et de gestion du personnel militaire de la gendarmerie nationale. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -354,7 +361,7 @@
       "title": "Arrêté du 5 juin 2026 modifiant l'arrêté du 12 juillet 2010 fixant les conditions d'attribution de la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale",
       "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/5/INTJ2605348A/jo/texte",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 5 juin 2026 modifiant l'arrêté du 12 juillet 2010 fixant les conditions d'attribution de la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 5 juin 2026 modifiant l'arrêté du 12 juillet 2010 fixant les conditions d'attribution de la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -374,7 +381,8 @@
         "nor": "INTJ2605348A",
         "nature": "ARRETE",
         "textDate": "2026-06-05",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 juin 2026 modifiant l'arrêté du 12 juillet 2010 fixant les conditions d'attribution de la nouvelle bonification indiciaire pour les fonctionnaires du ministère de l'intérieur occupant certains postes relevant de la gendarmerie nationale. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -387,7 +395,7 @@
       "title": "Arrêté du 5 juin 2026 modifiant l'arrêté du 5 janvier 2026 modifié portant habilitation de la Fédération française de sauvetage et de secourisme pour les formations aux premiers secours",
       "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/5/INTE2615171A/jo/texte",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 5 juin 2026 modifiant l'arrêté du 5 janvier 2026 modifié portant habilitation de la Fédération française de sauvetage et de secourisme pour les formations aux premiers secours. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 5 juin 2026 modifiant l'arrêté du 5 janvier 2026 modifié portant habilitation de la Fédération française de sauvetage et de secourisme pour les formations aux premiers secours. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -407,7 +415,8 @@
         "nor": "INTE2615171A",
         "nature": "ARRETE",
         "textDate": "2026-06-05",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 juin 2026 modifiant l'arrêté du 5 janvier 2026 modifié portant habilitation de la Fédération française de sauvetage et de secourisme pour les formations aux premiers secours. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -420,7 +429,7 @@
       "title": "Arrêté du 27 mai 2026 fixant le nombre de représentants par collège en vue des élections des représentants du personnel au comité d'établissement et des conditions de travail de l'établissement public chargé de la conservation et de la restauration de la cathédrale Notre-Dame de Paris dans le cadre du renouvellement général des instances dans la fonction publique en 2026",
       "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/27/MICB2614237A/jo/texte",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 27 mai 2026 fixant le nombre de représentants par collège en vue des élections des représentants du personnel au comité d'établissement et des conditions de travail de l'établissement public chargé de la conservation et de la restauration de la cathédrale Notre-Dame de Paris dans le cadre du renouvellement général des instances dans la...",
+      "summary": "Changement apporté : Arrêté du 27 mai 2026 fixant le nombre de représentants par collège en vue des élections des représentants du personnel au comité d'établissement et des conditions de travail de l'établissement public chargé de la conservation et de la restauration de. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -440,7 +449,8 @@
         "nor": "MICB2614237A",
         "nature": "ARRETE",
         "textDate": "2026-05-27",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 27 mai 2026 fixant le nombre de représentants par collège en vue des élections des représentants du personnel au comité d'établissement et des conditions de travail de l'établissement public chargé de la conservation et de la restauration de la cathédrale Notre-Dame de Paris dans le cadre du renouvellement général des instances dans la..."
       }
     },
     {
@@ -453,7 +463,7 @@
       "title": "Arrêté du 4 juin 2026 portant commissionnement pour effectuer des contrôles au titre de la formation professionnelle",
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210440",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 4 juin 2026 portant commissionnement pour effectuer des contrôles au titre de la formation professionnelle. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 4 juin 2026 portant commissionnement pour effectuer des contrôles au titre de la formation professionnelle. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -473,7 +483,8 @@
         "nor": "TRSD2614930A",
         "nature": "ARRETE",
         "textDate": "2026-06-04",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 juin 2026 portant commissionnement pour effectuer des contrôles au titre de la formation professionnelle. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -486,7 +497,7 @@
       "title": "Arrêté du 5 juin 2026 portant détachement (Conseil d'Etat) - M. LOMBARD (Pierre)",
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210450",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 5 juin 2026 portant détachement (Conseil d'Etat) - M. LOMBARD (Pierre). Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 5 juin 2026 portant détachement (Conseil d'Etat) - M. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -506,7 +517,8 @@
         "nor": "JUSE2613988A",
         "nature": "ARRETE",
         "textDate": "2026-06-05",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 juin 2026 portant détachement (Conseil d'Etat) - M. LOMBARD (Pierre). Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -519,7 +531,7 @@
       "title": "Arrêté du 5 juin 2026 modifiant l'arrêté du 11 avril 2024 portant désignation des membres de la Commission nationale de sélection instituée à l'article 15 du décret n° 73-609 du 5 juillet 1973 modifié relatif à la formation professionnelle dans le notariat et aux conditions d'accès aux fonctions de notaire",
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210469",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 5 juin 2026 modifiant l'arrêté du 11 avril 2024 portant désignation des membres de la Commission nationale de sélection instituée à l'article 15 du décret n° 73-609 du 5 juillet 1973 modifié relatif à la formation professionnelle dans le notariat et aux conditions d'accès aux fonctions de notaire.",
+      "summary": "Changement apporté : Arrêté du 5 juin 2026 modifiant l'arrêté du 11 avril 2024 portant désignation des membres de la Commission nationale de sélection instituée à l'article 15 du décret n° 73-609 du 5 juillet 1973 modifié relatif à la formation professionnelle dans le. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -539,7 +551,8 @@
         "nor": "JUSC2614597A",
         "nature": "ARRETE",
         "textDate": "2026-06-05",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 juin 2026 modifiant l'arrêté du 11 avril 2024 portant désignation des membres de la Commission nationale de sélection instituée à l'article 15 du décret n° 73-609 du 5 juillet 1973 modifié relatif à la formation professionnelle dans le notariat et aux conditions d'accès aux fonctions de notaire."
       }
     },
     {
@@ -552,7 +565,7 @@
       "title": "Arrêté du 3 juin 2026 portant autorisation temporaire d'exercice de la médecine en France",
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210486",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 3 juin 2026 portant autorisation temporaire d'exercice de la médecine en France. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 3 juin 2026 portant autorisation temporaire d'exercice de la médecine en France. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -572,7 +585,8 @@
         "nor": "SFHN2615194A",
         "nature": "ARRETE",
         "textDate": "2026-06-03",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juin 2026 portant autorisation temporaire d'exercice de la médecine en France. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -585,7 +599,7 @@
       "title": "Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des ingénieurs d'études de classe normale du Centre national de la recherche scientifique",
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210731",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des ingénieurs d'études de classe normale du Centre national de la recherche scientifique. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des ingénieurs d'études de classe normale du Centre national de la recherche scientifique. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -605,7 +619,8 @@
         "nor": "CNRH2614362A",
         "nature": "ARRETE",
         "textDate": "2026-06-03",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des ingénieurs d'études de classe normale du Centre national de la recherche scientifique. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -618,7 +633,7 @@
       "title": "Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des assistants ingénieurs du Centre national de la recherche scientifique",
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210751",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des assistants ingénieurs du Centre national de la recherche scientifique. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des assistants ingénieurs du Centre national de la recherche scientifique. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -638,7 +653,8 @@
         "nor": "CNRH2614365A",
         "nature": "ARRETE",
         "textDate": "2026-06-03",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des assistants ingénieurs du Centre national de la recherche scientifique. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -651,7 +667,7 @@
       "title": "Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des techniciens de la recherche de classe normale du Centre national de la recherche scientifique",
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054210771",
       "publishedAt": "2026-06-07",
-      "summary": "ARRETE. Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des techniciens de la recherche de classe normale du Centre national de la recherche scientifique. Texte publié au Journal officiel le 2026-06-07.",
+      "summary": "Changement apporté : Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des techniciens de la recherche de classe normale du Centre national de la recherche scientifique. Applicable ou à intégrer à partir du 08 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-08",
         "label": "Par défaut, applicable le 08 juin 2026 sauf disposition contraire du texte.",
@@ -671,7 +687,8 @@
         "nor": "CNRH2614368A",
         "nature": "ARRETE",
         "textDate": "2026-06-03",
-        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz"
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260607-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juin 2026 autorisant au titre de l'année 2026 l'ouverture de concours externes sur titres et travaux pour le recrutement dans le grade des techniciens de la recherche de classe normale du Centre national de la recherche scientifique. Texte publié au Journal officiel le 2026-06-07."
       }
     },
     {
@@ -684,7 +701,7 @@
       "title": "Dans l’industrie française, le grand virage vers la guerre",
       "url": "https://www.lemonde.fr/economie/article/2026/06/07/dans-l-industrie-francaise-le-grand-virage-vers-la-guerre_6698625_3234.html",
       "publishedAt": "2026-06-07",
-      "summary": "Repéré dans Le Monde - économie. A l’heure où licenciements et fermetures de sites se multiplient dans le secteur automobile, la défense, autrefois montrée du doigt au nom de principes moraux, fait figure de nouvel eldorado pour les industriels comme...",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. A l’heure où licenciements et fermetures de sites se multiplient dans le secteur automobile, la défense, autrefois montrée du doigt au nom de principes moraux, fait figure de nouvel eldorado pour les industriels comme. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques sécuriser les procédures de rupture, les motifs et les consultations obligatoires.",
       "application": {
         "date": "2026-06-07",
         "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
@@ -699,7 +716,9 @@
       "priorityRank": "p2",
       "priorityLabel": "Priorité 2",
       "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
-      "extra": {}
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. A l’heure où licenciements et fermetures de sites se multiplient dans le secteur automobile, la défense, autrefois montrée du doigt au nom de principes moraux, fait figure de nouvel eldorado pour les industriels comme..."
+      }
     },
     {
       "id": "271970f440049456",
@@ -711,7 +730,7 @@
       "title": "\"C'est un déni de démocratie\" : la Confédération paysanne mobilisée pour la qualité de l'eau en Bretagne",
       "url": "https://www.franceinfo.fr/economie/crise/blocus-des-agriculteurs/c-est-un-deni-de-democratie-la-confederation-paysanne-mobilisee-pour-la-qualite-de-l-eau-en-bretagne_8048363.html#xtor=RSS-3-%5Bgeneral%5D",
       "publishedAt": "2026-06-07",
-      "summary": "Repéré dans franceinfo - emploi. Début 2026, le Premier ministre Sébastien Lecornu a annoncé un moratoire sur les questions de l'eau. Un texte destiné à améliorer la qualité de l'eau en Bretagne et dans les Pays de la Loire est donc bloqué depuis des...",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Début 2026, le Premier ministre Sébastien Lecornu a annoncé un moratoire sur les questions de l'eau. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-07",
         "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
@@ -726,7 +745,9 @@
       "priorityRank": "p2",
       "priorityLabel": "Priorité 2",
       "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
-      "extra": {}
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Début 2026, le Premier ministre Sébastien Lecornu a annoncé un moratoire sur les questions de l'eau. Un texte destiné à améliorer la qualité de l'eau en Bretagne et dans les Pays de la Loire est donc bloqué depuis des..."
+      }
     },
     {
       "id": "86ec908e56a748bf",
@@ -738,7 +759,7 @@
       "title": "SFR racheté pour plus de 20 milliards d’euros par Bouygues Telecom, Free et Orange ; fortes inquiétudes sur l’emploi",
       "url": "https://www.lemonde.fr/economie/article/2026/06/07/sfr-rachete-pour-plus-de-20-milliards-d-euros-par-bouygues-telecom-free-et-orange-fortes-inquietudes-sur-l-emploi_6698485_3234.html",
       "publishedAt": "2026-06-07",
-      "summary": "Repéré dans Le Monde - économie. Patrick Drahi s’est entendu avec ses trois rivaux pour leur céder son groupe. SFR est donc appelé à disparaître si les autorités de concurrence donnent leur aval.",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Patrick Drahi s’est entendu avec ses trois rivaux pour leur céder son groupe. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
       "application": {
         "date": "2026-06-07",
         "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
@@ -753,7 +774,38 @@
       "priorityRank": "p3",
       "priorityLabel": "Priorité 3",
       "priorityReason": "Veille de contexte ou lecture de fond.",
-      "extra": {}
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Patrick Drahi s’est entendu avec ses trois rivaux pour leur céder son groupe. SFR est donc appelé à disparaître si les autorités de la concurrence donnent leur aval."
+      }
+    },
+    {
+      "id": "8991d9ba3ad2f635",
+      "date": "2026-06-07",
+      "firstSeenDate": "2026-06-07",
+      "sourceName": "Le Parisien - politique",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Transparence des salaires : la France ne respectera pas la date butoir du 7 juin",
+      "url": "https://www.leparisien.fr/politique/transparence-des-salaires-la-france-ne-respectera-pas-la-date-butoir-du-7-juin-07-06-2026-SLRFDSFSYVAUXJKF2RTIGFHY2U.php",
+      "publishedAt": "2026-06-07",
+      "summary": "Signal de veille : Le Parisien - politique signale : Repéré dans Le Parisien - politique. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-07",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - politique. Transparence des salaires : la France ne respectera pas la date butoir du 7 juin"
+      }
     }
   ]
 }

@@ -554,7 +554,23 @@ function makeEntry({
   const collectiveAgreement = category === "regle" ? classifyCollectiveAgreement(normalizedTitle) : null;
   const priority = priorityFor(category, impact, themes.length, collectiveAgreement);
   const priorityRank = priorityRankFor({ category, impact, priority, text: text || normalizedTitle, collectiveAgreement });
-  const nextExtra = collectiveAgreement ? { ...extra, collectiveAgreement } : extra;
+  const sourceSummary = summary || "Synthèse indisponible. Lire la source officielle.";
+  const resolvedApplication = application || applicationFor(category, text || "", publishedAt);
+  const impactSummary = impactSummaryFor({
+    category,
+    title: normalizedTitle,
+    sourceName,
+    sourceType,
+    sourceSummary,
+    text: text || normalizedTitle,
+    application: resolvedApplication,
+    impact,
+  });
+  const nextExtra = {
+    ...extra,
+    ...(collectiveAgreement ? { collectiveAgreement } : {}),
+    sourceSummary,
+  };
   return {
     id,
     date: runDate,
@@ -565,8 +581,8 @@ function makeEntry({
     title: normalizedTitle,
     url: normalizedUrl,
     publishedAt: publishedAt || runDate,
-    summary: summary || "Synthèse indisponible. Lire la source officielle.",
-    application: application || applicationFor(category, text || "", publishedAt),
+    summary: impactSummary,
+    application: resolvedApplication,
     watch: watchFor(category, impact),
     themes,
     impact,
@@ -692,6 +708,138 @@ function isEssentialRuleSignal(normalizedText) {
   return /contrat de travail|employeur|salarie|smic|salaire minimum|cse|accord collectif|temps de travail|duree du travail|repos|conge|conges|conge de naissance|conge supplementaire de naissance|licenciement|rupture conventionnelle|inaptitude|harcelement|discrimination|teletravail|inspection du travail/.test(
     normalizedText
   );
+}
+
+function impactSummaryFor({ category, title, sourceName, sourceType, sourceSummary, text, application, impact }) {
+  const normalized = fold(`${title} ${sourceSummary} ${text}`);
+  const normalizedTitle = fold(title);
+  const sourcePoint = sourcePointFor(sourceSummary, title);
+  const normalizedSourcePoint = fold(sourcePoint);
+  const topic =
+    impactTopicFor(normalizedTitle, false) ||
+    impactTopicFor(normalizedSourcePoint, false) ||
+    (category === "jurisprudence" || category === "presse" ? impactTopicFor(normalized, false) : "") ||
+    impactTopicFor("", true);
+  const applicationDate = application?.date ? formatFrenchDate(application.date) : null;
+
+  if (category === "regle") {
+    const change = ruleChangeFor(normalizedTitle, title, sourcePoint) || ruleChangeFor(normalized, title, sourcePoint);
+    const timing = applicationDate ? ` Applicable ou à intégrer à partir du ${applicationDate}.` : "";
+    return `Changement apporté : ${change}.${timing} Impact pratique : ${topic}`;
+  }
+
+  if (category === "jurisprudence") {
+    const point = sourcePoint ? lowerFirst(sourcePoint) : "la portée exacte de la solution doit être qualifiée à partir de l'arrêt";
+    const timing = applicationDate ? ` Décision rendue le ${applicationDate}.` : "";
+    return `Impact pratique : la chambre sociale précise que ${point}.${timing} Vérifier les dossiers concernés et les pratiques ${topic}`;
+  }
+
+  if (category === "projet-loi") {
+    return `Changement potentiel : ${sourcePoint || title}. Impact pratique : surveiller la suite du texte avant toute mise en œuvre opérationnelle.`;
+  }
+
+  if (category === "presse") {
+    const signal = pressImpactFor(normalized, title, sourceName, sourcePoint);
+    return `Signal de veille : ${signal} Impact pratique : recouper avec une source officielle avant d'adapter les pratiques ${topic}`;
+  }
+
+  const prefix = sourceType === "rss" ? "Actualité institutionnelle" : "Information de veille";
+  return `${prefix} : ${sourcePoint || title}. Impact pratique : ${topic}`;
+}
+
+function impactTopicFor(normalizedText, allowDefault = true) {
+  if (/conge supplementaire de naissance|conge de naissance|conge parental|maternite|paternite|adoption/.test(normalizedText)) {
+    return "mettre à jour les règles d'absence, les contrôles RH et l'information des salariés ou agents.";
+  }
+  if (/apprenti|apprentissage|alternance|formation professionnelle|cfa/.test(normalizedText)) {
+    return "adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.";
+  }
+  if (/smic|salaire minimum|paie|indemnite|minimum conventionnel|minima/.test(normalizedText)) {
+    return "vérifier les seuils de paie, les minima et les éventuelles régularisations.";
+  }
+  if (/accord de performance collective|accord collectif|negociation collective|statut collectif|convention collective/.test(normalizedText)) {
+    return "contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.";
+  }
+  if (/licenciement|rupture|motif economique|depart volontaire|pse/.test(normalizedText)) {
+    return "sécuriser les procédures de rupture, les motifs et les consultations obligatoires.";
+  }
+  if (/harcelement|sexuel|sexiste|violence|risques psychosociaux|sante au travail/.test(normalizedText)) {
+    return "renforcer la prévention, le traitement des signalements et la traçabilité des mesures prises.";
+  }
+  if (/representant|syndical|cse|inspection du travail|representants du personnel/.test(normalizedText)) {
+    return "vérifier les protections, autorisations et règles de représentation du personnel.";
+  }
+  if (/chomage|unedic|france travail|allocataire/.test(normalizedText)) {
+    return "suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.";
+  }
+  if (/fonction publique|agent public|agents publics|fonctionnaire|fonctionnaires|personnel militaire/.test(normalizedText)) {
+    return "identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.";
+  }
+  return allowDefault ? "identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour." : "";
+}
+
+function ruleChangeFor(normalizedText, title, sourcePoint) {
+  if (/conge supplementaire de naissance|conge de naissance/.test(normalizedText)) {
+    return "le régime du congé supplémentaire de naissance est précisé ou rendu opérationnel";
+  }
+  if (/smic|salaire minimum/.test(normalizedText)) {
+    return "un seuil de rémunération ou une indemnité liée au salaire minimum évolue";
+  }
+  if (/apprenti|apprentissage/.test(normalizedText)) {
+    return "les formalités ou conditions liées à l'apprentissage évoluent";
+  }
+  if (/convention collective|accord de branche|accord collectif/.test(normalizedText)) {
+    return "un accord collectif ou une convention collective devient opposable dans son champ";
+  }
+  return sourcePoint || title;
+}
+
+function pressImpactFor(normalizedText, title, sourceName, sourcePoint) {
+  if (/smic|salaire minimum/.test(normalizedText)) {
+    return "la presse signale un effet possible sur les minima de rémunération ou les indemnités.";
+  }
+  if (/conge de naissance|conge parental/.test(normalizedText)) {
+    return "la presse signale les modalités pratiques d'un nouveau congé familial.";
+  }
+  if (/chomage|unedic/.test(normalizedText)) {
+    return "la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi.";
+  }
+  if (/mobilites professionnelles public-prive|depart vers le prive/.test(normalizedText)) {
+    return "la presse signale un débat RH sur les mobilités entre secteur public et privé.";
+  }
+  return `${sourceName} signale : ${sourcePoint || title}.`;
+}
+
+function sourcePointFor(sourceSummary, title) {
+  const cleaned = summarize(sourceSummary || title, 260);
+  const object = cleaned.match(/Objet\s*:\s*([^.]*(?:\.[^.]*)?)/i);
+  if (object?.[1]) {
+    return trimSentence(object[1]);
+  }
+  const scopeRemoved = cleaned.replace(/^Publics concernés\s*:\s*[^.]+\.\s*/i, "");
+  return trimSentence(stripLegalHeadings(scopeRemoved || cleaned));
+}
+
+function stripLegalHeadings(value) {
+  return String(value || "")
+    .replace(/^(?:ARRETE|DÉCRET|DECRET|DECISION|AVIS|LOI|ORDONNANCE)\.\s*/i, "")
+    .replace(/^[A-ZÉÈÀÙÂÊÎÔÛÄËÏÖÜÇ0-9 ,;:'’()\-]+ - /, "")
+    .replace(/^[A-ZÉÈÀÙÂÊÎÔÛÄËÏÖÜÇ0-9 ,;:'’()\-]{18,}\s+/, "")
+    .trim();
+}
+
+function trimSentence(value) {
+  const cleaned = cleanText(value).replace(/\s+/g, " ").trim();
+  if (!cleaned) {
+    return "";
+  }
+  const sentence = cleaned.match(/^(.{35,260}?[.!?])\s/)?.[1] || cleaned.slice(0, 260);
+  return sentence.replace(/[.;,\s]+$/, "");
+}
+
+function lowerFirst(value) {
+  const text = String(value || "").trim();
+  return text ? `${text.charAt(0).toLowerCase()}${text.slice(1)}` : text;
 }
 
 function applicationFor(category, text, date) {
