@@ -2,13 +2,18 @@ name: Daily social law curation
 
 on:
   schedule:
-    # 09:00 Europe/Paris. GitHub cron is UTC, so run at both possible UTC hours
-    # and keep only the invocation that is 09:00 in Paris, including DST changes.
-    - cron: "0 7,8 * * *"
+    # GitHub scheduled workflows are best-effort and are often delayed at the
+    # top of the hour. Run after 09:00 Europe/Paris, with a 10:09 backup slot.
+    - cron: "9 9,10 * * *"
+      timezone: "Europe/Paris"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily-curation-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   curate:
@@ -21,9 +26,34 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Refresh checkout
+        run: git pull --ff-only origin "$GITHUB_REF_NAME"
+      - id: curation_guard
+        name: Check daily curation window
+        run: |
+          TODAY=$(TZ=Europe/Paris date +%F)
+          HOUR=$(TZ=Europe/Paris date +%H)
+          HOUR_NUM=$((10#$HOUR))
+
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ -f "data/$TODAY.json" ]; then
+            echo "Journal $TODAY already exists. Skipping scheduled backup run."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$HOUR_NUM" -lt 9 ]; then
+            echo "Paris time is before 09:00. Skipping scheduled run."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Generating journal $TODAY."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Generate daily journal
+        if: steps.curation_guard.outputs.should_run == 'true'
+        env:
+          CURATION_DATE: ${{ steps.curation_guard.outputs.today }}
         run: npm run curate
       - name: Commit updated journal
+        if: steps.curation_guard.outputs.should_run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
