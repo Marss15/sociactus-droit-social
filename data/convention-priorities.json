@@ -107,6 +107,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1512": {
+      "label": "la promotion immobilière (n° 1512)",
+      "idcc": "1512",
+      "rank": "p3",
+      "firstSeen": "2026-06-09",
+      "lastSeen": "2026-06-09",
+      "seenCount": 1
+    },
     "idcc-1536": {
       "label": "distributeurs conseils hors domicile (n° 1536)",
       "idcc": "1536",
@@ -211,12 +219,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-2f64905cf452": {
+      "label": "personnel des agences générales d'assurances",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-09",
+      "lastSeen": "2026-06-09",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-8aa5d0e7aebb": {
+      "label": "personnel des entreprises de transport de marchandises de la navigation intérieure",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-09",
+      "lastSeen": "2026-06-09",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -241,6 +265,38 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-b08f2b069fb9": {
+      "label": "Métallurgie",
+      "idcc": null,
+      "rank": "p1",
+      "firstSeen": "2026-06-09",
+      "lastSeen": "2026-06-09",
+      "seenCount": 1
+    },
+    "name-bdf135d548d0": {
+      "label": "cabinets dentaires",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-09",
+      "lastSeen": "2026-06-09",
+      "seenCount": 1
+    },
+    "name-c026fe6952b9": {
+      "label": "la télédiffusion",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-09",
+      "lastSeen": "2026-06-09",
+      "seenCount": 1
+    },
+    "name-cb65e9cc9252": {
+      "label": "la télédiffusion",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-09",
+      "lastSeen": "2026-06-09",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {

@@ -1,0 +1,642 @@
+{
+  "generatedAt": "2026-06-09T10:38:20.702Z",
+  "date": "2026-06-09",
+  "stats": {
+    "total": 14,
+    "regles": 10,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 4,
+    "priorite1": 1,
+    "priorite2": 5,
+    "priorite3": 8
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-09",
+      "collected": 122,
+      "rejectedByDate": 100
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "bbb4ab45d737f3fb",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord territorial conclu dans le cadre de la convention collective nationale de la métallurgie (Manche)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054219167",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Publié le 09 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054219167",
+        "nor": "TRST2615068V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-b08f2b069fb9",
+          "idcc": null,
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "rule"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord territorial conclu dans le cadre de la convention collective nationale de la métallurgie (Manche). Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "3b110a0012dd6a8f",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision n° DAG 2026-185 du 21 mai 2026 portant création de la commission consultative paritaire du Défenseur des droits",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054219178",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : Décision n° DAG 2026-185 du 21 mai 2026 portant création de la commission consultative paritaire du Défenseur des droits. Applicable ou à intégrer à partir du 09 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Publié le 09 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054219178",
+        "nor": "DFDA2615261S",
+        "nature": "DECISION",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "sourceSummary": "DECISION. Décision n° DAG 2026-185 du 21 mai 2026 portant création de la commission consultative paritaire du Défenseur des droits. Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "c9a5fe404d6f6cd5",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Commissions / organes temporaires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054219235",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Applicable ou à intégrer à partir du 09 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Publié le 09 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054219235",
+        "nor": "INPS2615413X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "61fdfd051a822962",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 juin 2026 fixant les programmes d'enseignement de sciences et technologie du cycle des apprentissages fondamentaux (cycle 2) et du cycle de consolidation (cycle 3)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/5/MENE2611650A/jo/texte",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : les formalités ou conditions liées à l'apprentissage évoluent. Applicable ou à intégrer à partir du 10 juin 2026. Impact pratique : adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Par défaut, applicable le 10 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054218988",
+        "nor": "MENE2611650A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 juin 2026 fixant les programmes d'enseignement de sciences et technologie du cycle des apprentissages fondamentaux (cycle 2) et du cycle de consolidation (cycle 3). Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "f4a83f3318244392",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "SNCF : en pleine « crise existentielle », les cheminots sont appelés à la grève",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/09/sncf-en-pleine-crise-existentielle-les-cheminots-sont-appeles-a-la-greve_6700096_3234.html",
+      "publishedAt": "2026-06-09",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Les syndicats CGT, CFDT, SUD-Rail et UNSA, qui dénoncent les conditions de travail et les salaires, appellent le personnel à débrayer le 10 juin. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Les syndicats CGT, CFDT, SUD-Rail et UNSA, qui dénoncent les conditions de travail et les salaires, appellent le personnel à débrayer le 10 juin."
+      }
+    },
+    {
+      "id": "21f267e394a7e5ca",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Un syndicat peut-il publier des informations confidentielles discutées en CSE ?",
+      "url": "https://www.lemonde.fr/emploi/article/2026/06/09/un-syndicat-peut-il-publier-des-informations-confidentielles-discutees-en-cse_6700093_1698637.html",
+      "publishedAt": "2026-06-09",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. La Cour de cassation a récemment validé le retrait d’informations confidentielles publiées sur le site du syndicat d’une entreprise d’intérim, explique le juriste Jean-Emmanuel Ray dans sa chronique. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. La Cour de cassation a récemment validé le retrait d’informations confidentielles publiées sur le site du syndicat d’une entreprise d’intérim, explique le juriste Jean-Emmanuel Ray dans sa chronique."
+      }
+    },
+    {
+      "id": "861a19f323606957",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant extension d'un avenant à la convention collective nationale de la promotion immobilière (n° 1512)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054219138",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 10 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Par défaut, applicable le 10 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la promotion immobilière (n° 1512). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054219138",
+        "nor": "TRST2612781A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1512",
+          "idcc": "1512",
+          "label": "la promotion immobilière (n° 1512)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 20 mai 2026 portant extension d'un avenant à la convention collective nationale de la promotion immobilière (n° 1512). Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "6544d8ec1cca3bb8",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du personnel des agences générales d'assurances",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054219147",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Publié le 09 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : personnel des agences générales d'assurances. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054219147",
+        "nor": "TRST2614985V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-2f64905cf452",
+          "idcc": null,
+          "label": "personnel des agences générales d'assurances",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du personnel des agences générales d'assurances. Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "7ab70411ff7302cf",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord collectif national conclu dans le cadre de la convention collective nationale de la télédiffusion",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054219157",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Publié le 09 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la télédiffusion. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054219157",
+        "nor": "TRST2615023V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-c026fe6952b9",
+          "idcc": null,
+          "label": "la télédiffusion",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord collectif national conclu dans le cadre de la convention collective nationale de la télédiffusion. Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "4b552ef4362cbdbb",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale de la télédiffusion",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054219162",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Publié le 09 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la télédiffusion. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054219162",
+        "nor": "TRST2615053V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-cb65e9cc9252",
+          "idcc": null,
+          "label": "la télédiffusion",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale de la télédiffusion. Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "3048755b7b7f9cfa",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des cabinets dentaires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054219172",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Publié le 09 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : cabinets dentaires. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054219172",
+        "nor": "TRST2615075V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-bdf135d548d0",
+          "idcc": null,
+          "label": "cabinets dentaires",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des cabinets dentaires. Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "a2a5ab20439d6c84",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'accords conclus dans le cadre de la convention collective nationale du personnel des entreprises de transport de marchandises de la navigation intérieure",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054219152",
+      "publishedAt": "2026-06-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Publié le 09 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : personnel des entreprises de transport de marchandises de la navigation intérieure. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054219152",
+        "nor": "TRST2614987V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260609-002018.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-8aa5d0e7aebb",
+          "idcc": null,
+          "label": "personnel des entreprises de transport de marchandises de la navigation intérieure",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'accords conclus dans le cadre de la convention collective nationale du personnel des entreprises de transport de marchandises de la navigation intérieure. Texte publié au Journal officiel le 2026-06-09."
+      }
+    },
+    {
+      "id": "a75562ed85154052",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« L’absentéisme s’installe à un niveau élevé » : près d’un tiers des salariés a été absent au moins une fois en 2025",
+      "url": "https://www.leparisien.fr/economie/labsenteisme-sinstalle-a-un-niveau-eleve-pres-dun-tiers-des-salaries-a-ete-absent-au-moins-une-fois-en-2025-09-06-2026-Z3MRTV5BUZEYBBX5JMA6PMXFKI.php",
+      "publishedAt": "2026-06-09",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. « L’absentéisme s’installe à un niveau élevé » : près d’un tiers des salariés a été absent au moins une fois en 2025. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « L’absentéisme s’installe à un niveau élevé » : près d’un tiers des salariés a été absent au moins une fois en 2025"
+      }
+    },
+    {
+      "id": "0e630965e312e048",
+      "date": "2026-06-09",
+      "firstSeenDate": "2026-06-09",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Grève à la SNCF : TGV, RER, Transilien... les prévisions de trafic pour la journée de mercredi, avec de fortes perturbations à prévoir",
+      "url": "https://www.leparisien.fr/economie/emploi/greve-a-la-sncf-tgv-rer-transilien-les-previsions-de-trafic-pour-la-journee-de-mercredi-avec-de-fortes-perturbations-a-prevoir-08-06-2026-GBXDI6XJRVAVZD3JMXHFFCSTUY.php",
+      "publishedAt": "2026-06-09",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. Grève à la SNCF : TGV, RER, Transilien. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Grève à la SNCF : TGV, RER, Transilien... les prévisions de trafic pour la journée de mercredi, avec de fortes perturbations à prévoir"
+      }
+    }
+  ]
+}
