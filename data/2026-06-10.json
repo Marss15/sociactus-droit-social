@@ -1,0 +1,495 @@
+{
+  "generatedAt": "2026-06-10T11:01:35.311Z",
+  "date": "2026-06-10",
+  "stats": {
+    "total": 12,
+    "regles": 5,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 1,
+    "presse": 6,
+    "priorite1": 0,
+    "priorite2": 6,
+    "priorite3": 6
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-10",
+      "collected": 117,
+      "rejectedByDate": 97
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "3d815e59b0a54027",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 juin 2026 portant extension d'un avenant et d'un avenant audit avenant à la convention collective nationale des entreprises de propreté et services associés (n° 3043)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054224181",
+      "publishedAt": "2026-06-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-11",
+        "label": "Par défaut, applicable le 11 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 63,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Propreté et sécurité privée.",
+      "extra": {
+        "id": "JORFTEXT000054224181",
+        "nor": "TRST2606658A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260610-010628.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3043",
+          "idcc": "3043",
+          "label": "Propreté et sécurité privée",
+          "rank": "p2",
+          "source": "rule"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 5 juin 2026 portant extension d'un avenant et d'un avenant audit avenant à la convention collective nationale des entreprises de propreté et services associés (n° 3043). Texte publié au Journal officiel le 2026-06-10."
+      }
+    },
+    {
+      "id": "dac98966a8876a05",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Commissions / organes temporaires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054224225",
+      "publishedAt": "2026-06-10",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Applicable ou à intégrer à partir du 10 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Publié le 10 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Dialogue social",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054224225",
+        "nor": "INPS2615587X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260610-010628.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Texte publié au Journal officiel le 2026-06-10."
+      }
+    },
+    {
+      "id": "15001232bd402f37",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 8 juin 2026 portant ouverture de crédits de fonds de concours",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/8/CPPB2615320A/jo/texte",
+      "publishedAt": "2026-06-10",
+      "summary": "Changement apporté : Arrêté du 8 juin 2026 portant ouverture de crédits de fonds de concours. Applicable ou à intégrer à partir du 11 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-11",
+        "label": "Par défaut, applicable le 11 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054224130",
+        "nor": "CPPB2615320A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-08",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260610-010628.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 8 juin 2026 portant ouverture de crédits de fonds de concours. Texte publié au Journal officiel le 2026-06-10."
+      }
+    },
+    {
+      "id": "d7213f3f49842d66",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 juin 2026 fixant le montant de la rémunération due au titre de l'approbation et de l'autorisation de mise sur le marché des substances et produits biocides",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/4/TECP2609881A/jo/texte",
+      "publishedAt": "2026-06-10",
+      "summary": "Changement apporté : Publics concernés : titulaires et demandeurs d'autorisations de mise sur le marché de substances et de produits biocides. Applicable ou à intégrer à partir du 11 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-11",
+        "label": "Par défaut, applicable le 11 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054223593",
+        "nor": "TECP2609881A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260610-010628.tar.gz",
+        "sourceSummary": "Publics concernés : titulaires et demandeurs d'autorisations de mise sur le marché de substances et de produits biocides. Objet : modification des dispositions relatives à la rémunération due à l'Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail dans le domaine des substances et produits biocides."
+      }
+    },
+    {
+      "id": "9145ceb500115d05",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de recrutement de 14 travailleurs en situation de handicap par la voie contractuelle dans le corps des conseillers pénitentiaires d'insertion et de probation au titre de l'année 2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054224284",
+      "publishedAt": "2026-06-10",
+      "summary": "Changement apporté : Avis de recrutement de 14 travailleurs en situation de handicap par la voie contractuelle dans le corps des conseillers pénitentiaires d'insertion et de probation au titre de l'année 2026. Applicable ou à intégrer à partir du 10 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Publié le 10 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054224284",
+        "nor": "JUSK2535957V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260610-010628.tar.gz",
+        "sourceSummary": "AVIS. Avis de recrutement de 14 travailleurs en situation de handicap par la voie contractuelle dans le corps des conseillers pénitentiaires d'insertion et de probation au titre de l'année 2026. Texte publié au Journal officiel le 2026-06-10."
+      }
+    },
+    {
+      "id": "27424ac4c0df8a8a",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Succession à la CFE-CGC : François Hommeril laisse à Christelle Thieffinne un syndicat en pleine dynamique",
+      "url": "https://www.lemonde.fr/politique/article/2026/06/10/succession-a-la-cfe-cgc-francois-hommeril-laisse-a-christelle-thieffinne-un-syndicat-en-pleine-dynamique_6700427_823448.html",
+      "publishedAt": "2026-06-10",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. La centrale des cadres voit son audience électorale et ses effectifs d’adhérents progresser malgré des dissensions internes qui l’ont ébranlée, à la suite d’une manifestation organisée par un de ses syndicats à laquelle. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. La centrale des cadres voit son audience électorale et ses effectifs d’adhérents progresser malgré des dissensions internes qui l’ont ébranlée, à la suite d’une manifestation organisée par un de ses syndicats à laquelle..."
+      }
+    },
+    {
+      "id": "3d7b3286e004dfd4",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Vous êtes un ou une jeune salarié(e), comment vous habillez-vous pour aller au bureau ?",
+      "url": "https://www.lemonde.fr/campus/appel-temoignages/2026/06/10/vous-etes-un-e-jeune-salarie-e-comment-vous-habillez-vous-pour-aller-au-bureau_6700436_4401467.html",
+      "publishedAt": "2026-06-10",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Les épisodes récents de canicule interrogent nos façons de nous vêtir au travail, mais aussi les normes vestimentaires en vigueur dans les secteurs professionnels. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Les épisodes récents de canicule interrogent nos façons de nous vêtir au travail, mais aussi les normes vestimentaires en vigueur dans les secteurs professionnels. Faut-il privilégier le confort ou respecter les codes ?"
+      }
+    },
+    {
+      "id": "a1ae1c3a75d2562b",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Grève à la SNCF : le trafic régional fortement perturbé et un TGV sur trois annulé",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/10/greve-a-la-sncf-le-trafic-regional-est-fortement-perturbe-et-un-tgv-sur-trois-est-annule_6700426_3234.html",
+      "publishedAt": "2026-06-10",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Les cheminots font grève, mercredi, et demandent un moratoire sur l’ouverture à la concurrence ainsi que des hausses de salaire pour faire face à l’inflation. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Les cheminots font grève, mercredi, et demandent un moratoire sur l’ouverture à la concurrence ainsi que des hausses de salaire pour faire face à l’inflation."
+      }
+    },
+    {
+      "id": "2529b2eb94f657da",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Comment Bolloré achève Prisma, le roi de la presse magazine, qui a tardé à prendre le virage du numérique",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/10/comment-bollore-acheve-prisma-le-roi-de-la-presse-magazine-qui-a-tarde-a-prendre-le-virage-du-numerique_6700402_3234.html",
+      "publishedAt": "2026-06-10",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Le plan de sauvegarde de l’emploi qui menace les 650 salariés du groupe Prisma (« Télé Loisirs », « Voici », « Femme actuelle », « Capital », etc.) devrait déboucher sur le départ de 40 % des effectifs. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Le plan de sauvegarde de l’emploi qui menace les 650 salariés du groupe Prisma (« Télé Loisirs », « Voici », « Femme actuelle », « Capital », etc.) devrait déboucher sur le départ de 40 % des effectifs."
+      }
+    },
+    {
+      "id": "5f74148294922bc7",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Burn-out », « management toxique »… Pourquoi les cheminots de la SNCF sont en grève ce mercredi",
+      "url": "https://www.leparisien.fr/economie/burn-out-management-toxique-pourquoi-les-cheminots-de-la-sncf-seront-en-greve-ce-mercredi-10-06-2026-XE2KKPAXUBBRTGQ462YJKOXH4E.php",
+      "publishedAt": "2026-06-10",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. « Burn-out », « management toxique »… Pourquoi les cheminots de la SNCF sont en grève ce mercredi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « Burn-out », « management toxique »… Pourquoi les cheminots de la SNCF sont en grève ce mercredi"
+      }
+    },
+    {
+      "id": "90eb4547f1ec5e35",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Grève à la SNCF : TGV, TER, RER… à quoi s’attendre pour la journée de mercredi ?",
+      "url": "https://www.leparisien.fr/economie/greve-a-la-sncf-tgv-ter-rer-a-quoi-sattendre-pour-la-journee-de-mercredi-09-06-2026-3Z4KMOZ4KNHETEECPNNO5XGEIE.php",
+      "publishedAt": "2026-06-10",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. Grève à la SNCF : TGV, TER, RER… à quoi s’attendre pour la journée de mercredi ?. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-10",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Grève à la SNCF : TGV, TER, RER… à quoi s’attendre pour la journée de mercredi ?"
+      }
+    },
+    {
+      "id": "fd3d3495ff86f6a7",
+      "date": "2026-06-10",
+      "firstSeenDate": "2026-06-10",
+      "sourceName": "Service-Public - particuliers",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Combien de temps devez-vous conserver vos documents de la vie courante ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17655?xtor=RSS-111",
+      "publishedAt": "2026-06-10",
+      "summary": "Actualité institutionnelle : Il peut s’agir d’un contrat d’assurance, du certificat de cession d’un véhicule, des relevés de votre compte courant ou encore de vos bulletins de paie… Certains papiers doivent être gardés, car ils vous permettent notamment de faire valoir un droit. Impact pratique : vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Contrat",
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Il peut s’agir d’un contrat d’assurance, du certificat de cession d’un véhicule, des relevés de votre compte courant ou encore de vos bulletins de paie… Certains papiers doivent être gardés, car ils vous permettent notamment de faire valoir un droit."
+      }
+    }
+  ]
+}
