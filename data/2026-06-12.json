@@ -1,0 +1,1325 @@
+{
+  "generatedAt": "2026-06-12T11:06:42.151Z",
+  "date": "2026-06-12",
+  "stats": {
+    "total": 34,
+    "regles": 29,
+    "jurisprudence": 0,
+    "projets": 1,
+    "actualites": 0,
+    "presse": 4,
+    "priorite1": 3,
+    "priorite2": 24,
+    "priorite3": 7
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-12",
+      "collected": 135,
+      "rejectedByDate": 94
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "8073b0ea29d81226",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-483 du 10 juin 2026 modifiant le statut particulier du cadre d'emplois des administrateurs territoriaux",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/10/ATDB2517721D/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : le décret modifie le statut particulier des administrateurs territoriaux pour la mise en œuvre de la réforme de l'encadrement supérieur dans la fonction publique territoriale. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054238344",
+        "nor": "ATDB2517721D",
+        "nature": "DECRET",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "Publics concernés : administrateurs territoriaux. Objet : le décret modifie le statut particulier des administrateurs territoriaux pour la mise en œuvre de la réforme de l'encadrement supérieur dans la fonction publique territoriale. Entrée en vigueur : le décret entre en vigueur le 1 er juillet 2026. Application : le décret est un décret autonome. ."
+      }
+    },
+    {
+      "id": "c23a5ab93ad75fca",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-484 du 10 juin 2026 portant dispositions statutaires applicables aux emplois fonctionnels administratifs de direction des collectivités territoriales et des établissements publics locaux assimilés",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/10/ATDB2517722D/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Publics concernés : fonctionnaires et agents contractuels occupant un emploi fonctionnel administratif de direction dans la fonction publique territoriale. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054238391",
+        "nor": "ATDB2517722D",
+        "nature": "DECRET",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "Publics concernés : fonctionnaires et agents contractuels occupant un emploi fonctionnel administratif de direction dans la fonction publique territoriale. Objet : le décret met en œuvre la réforme de l'encadrement supérieur dans la fonction publique territoriale en précisant les conditions d'application aux emplois fonctionnels."
+      }
+    },
+    {
+      "id": "6520e9388d493123",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-488 du 10 juin 2026 organisant l'entrée en vigueur progressive des obligations prévues à l'article L. 613-6-1 du code de la sécurité sociale auprès des opérateurs de plateforme volontaires",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/10/CPPS2533577D/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Décret n° 2026-488 du 10 juin 2026 organisant l'entrée en vigueur progressive des obligations prévues à l'article L. 613-6-1 du code de la sécurité sociale auprès des opérateurs de plateforme volontaires. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054238585",
+        "nor": "CPPS2533577D",
+        "nature": "DECRET",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "Publics concernés : vendeurs et prestataires de plateformes numériques exerçant sous le régime de la micro-entreprise, opérateurs de plateforme numérique, Agence centrale des organismes de sécurité sociale (ACOSS), Unions pour le recouvrement des cotisations de sécurité sociale et d'allocations familiales (URSSAF)."
+      }
+    },
+    {
+      "id": "639208aa17e265f1",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-490 du 11 juin 2026 portant annulation de crédits",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/11/CPPB2610880D/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Décret n° 2026-490 du 11 juin 2026 portant annulation de crédits. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238633",
+        "nor": "CPPB2610880D",
+        "nature": "DECRET",
+        "textDate": "2026-06-11",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "DECRET. Décret n° 2026-490 du 11 juin 2026 portant annulation de crédits. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "7fc7568d016175ec",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er juin 2026 portant extension d'un avenant à la convention collective nationale des entreprises de propreté et services associés (n° 3043)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238852",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 64,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Propreté et sécurité privée.",
+      "extra": {
+        "id": "JORFTEXT000054238852",
+        "nor": "TRST2606691A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3043",
+          "idcc": "3043",
+          "label": "Propreté et sécurité privée",
+          "rank": "p2",
+          "source": "rule"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 1er juin 2026 portant extension d'un avenant à la convention collective nationale des entreprises de propreté et services associés (n° 3043). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "980eee7902b33cf1",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-489 du 11 juin 2026 portant ouverture et annulation de crédits à titre d'avance",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/11/CPPB2612341D/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Décret n° 2026-489 du 11 juin 2026 portant ouverture et annulation de crédits à titre d'avance. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 63,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238617",
+        "nor": "CPPB2612341D",
+        "nature": "DECRET",
+        "textDate": "2026-06-11",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "DECRET. Décret n° 2026-489 du 11 juin 2026 portant ouverture et annulation de crédits à titre d'avance. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "a64f6b7d768ff2be",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-486 du 10 juin 2026 relatif à l'échelonnement indiciaire des emplois administratifs de direction des collectivités territoriales de moins de 40 000 habitants et des établissements publics locaux assimilés",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/10/ATDB2517725D/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Publics concernés : agents occupant des emplois administratifs de direction dans les collectivités territoriales de moins de 40 000 habitants et les établissements publics locaux assimilés. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238533",
+        "nor": "ATDB2517725D",
+        "nature": "DECRET",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "Publics concernés : agents occupant des emplois administratifs de direction dans les collectivités territoriales de moins de 40 000 habitants et les établissements publics locaux assimilés."
+      }
+    },
+    {
+      "id": "efa57abe4edb1f68",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-487 du 10 juin 2026 relatif au régime indemnitaire des agents nommés ou recrutés dans certains emplois administratifs supérieurs de la fonction publique territoriale",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/10/ATDB2528703D/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Décret n° 2026-487 du 10 juin 2026 relatif au régime indemnitaire des agents nommés ou recrutés dans certains emplois administratifs supérieurs de la fonction publique territoriale. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238550",
+        "nor": "ATDB2528703D",
+        "nature": "DECRET",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "Publics concernés : fonctionnaires et agents contractuels de droit public de la fonction publique territoriale nommés ou recrutés dans certains emplois administratifs supérieurs des collectivités territoriales de plus de 40 000 habitants et des établissements publics locaux assimilés."
+      }
+    },
+    {
+      "id": "d025723fa0bdc8f0",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "LOI n° 2026-470 du 11 juin 2026 portant transposition de l'avenant n° 3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage (1)",
+      "url": "https://www.legifrance.gouv.fr/eli/loi/2026/6/11/TRSD2606801L/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : LOI n° 2026-470 du 11 juin 2026 portant transposition de l'avenant n° 3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage (1). Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054237287",
+        "nor": "TRSD2606801L",
+        "nature": "LOI",
+        "textDate": "2026-06-11",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "LOI. LOI n° 2026-470 du 11 juin 2026 portant transposition de l'avenant n° 3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage (1). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "54d94f7ada7977be",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-477 du 10 juin 2026 portant création d'une aide financière pour l'acquisition de gazole non routier utilisé pour la réalisation de travaux agricoles et forestiers",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/10/AGRS2614547D/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : 312-60 et L. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054237615",
+        "nor": "AGRS2614547D",
+        "nature": "DECRET",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "Publics concernés : entreprises bénéficiaires du tarif réduit d'accise sur le gazole non routier prévu aux articles L. 312-60 et L."
+      }
+    },
+    {
+      "id": "8aa5c12bb667d0bc",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-485 du 10 juin 2026 modifiant l'échelonnement indiciaire des administrateurs territoriaux",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/10/ATDB2517723D/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : le décret a pour objet de fixer la grille indiciaire des administrateurs territoriaux selon des modalités identiques à celles des administrateurs de l'Etat. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238521",
+        "nor": "ATDB2517723D",
+        "nature": "DECRET",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "Publics concernés : administrateurs territoriaux. Objet : le décret a pour objet de fixer la grille indiciaire des administrateurs territoriaux selon des modalités identiques à celles des administrateurs de l'Etat. Elle comporte de la même manière trois grades, ainsi qu'un grade transitoire, dotés des mêmes échelons."
+      }
+    },
+    {
+      "id": "5311d9a9f797075e",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant création de la spécialité « Facture de pianos » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/20/MENE2608839A/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Arrêté du 20 mai 2026 portant création de la spécialité « Facture de pianos » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054237905",
+        "nor": "MENE2608839A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 20 mai 2026 portant création de la spécialité « Facture de pianos » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "935c2132a2c3b07b",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant création de la spécialité « Facture d'instruments à vent » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/20/MENE2608840A/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Arrêté du 20 mai 2026 portant création de la spécialité « Facture d'instruments à vent » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054237961",
+        "nor": "MENE2608840A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 20 mai 2026 portant création de la spécialité « Facture d'instruments à vent » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "aa5b242415764a35",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant création de la spécialité « Facture d'accordéons » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/20/MENE2610272A/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Arrêté du 20 mai 2026 portant création de la spécialité « Facture d'accordéons » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238027",
+        "nor": "MENE2610272A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 20 mai 2026 portant création de la spécialité « Facture d'accordéons » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "248de7e503184027",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Rapport relatif au décret n° 2026-490 du 11 juin 2026 portant annulation de crédits",
+      "url": "https://www.legifrance.gouv.fr/eli/rapport/2026/6/12/CPPB2610880P/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : RAPPORT. Rapport relatif au décret n° 2026-490 du 11 juin 2026 portant annulation de crédits. Applicable ou à intégrer à partir du 12 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Publié le 12 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Paie",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238629",
+        "nor": "CPPB2610880P",
+        "nature": "RAPPORT",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "RAPPORT. Rapport relatif au décret n° 2026-490 du 11 juin 2026 portant annulation de crédits. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "977f5d95b1ee41a9",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juin 2026 portant extension d'un avenant à un accord conclu dans le cadre des conventions collectives nationales des journalistes (n° 1480) et de la radiodiffusion (n° 1922)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238896",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Arrêté du 3 juin 2026 portant extension d'un avenant à un accord conclu dans le cadre des conventions collectives nationales des journalistes (n° 1480) et de la radiodiffusion (n° 1922). Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238896",
+        "nor": "TRST2612735A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juin 2026 portant extension d'un avenant à un accord conclu dans le cadre des conventions collectives nationales des journalistes (n° 1480) et de la radiodiffusion (n° 1922). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "7078b2f0119b265d",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Délibération n° 2026-104 du 21 mai 2026 portant décision sur l'évolution au 1er août 2026 de la grille tarifaire des tarifs d'utilisation des réseaux publics d'électricité dans le domaine de tension HTB",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238989",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : DELIBERATION. Délibération n° 2026-104 du 21 mai 2026 portant décision sur l'évolution au 1er août 2026 de la grille tarifaire des tarifs d'utilisation des réseaux publics d'électricité dans le domaine de tension HTB. Applicable ou à intégrer à partir du 12 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Publié le 12 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238989",
+        "nor": "CRER2614876X",
+        "nature": "DELIBERATION",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "DELIBERATION. Délibération n° 2026-104 du 21 mai 2026 portant décision sur l'évolution au 1er août 2026 de la grille tarifaire des tarifs d'utilisation des réseaux publics d'électricité dans le domaine de tension HTB. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "3b1db2facb8d01f3",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Délibération n° 2026-105 du 21 mai 2026 portant décision sur l'évolution au 1er août 2026 de la grille tarifaire des tarifs d'utilisation des réseaux publics d'électricité dans les domaines de tension HTA et BT et sur l'évolution du paramètre Rf",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054239005",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : DELIBERATION. Délibération n° 2026-105 du 21 mai 2026 portant décision sur l'évolution au 1er août 2026 de la grille tarifaire des tarifs d'utilisation des réseaux publics d'électricité dans les domaines de tension HTA et BT et sur l'évolution du paramètre Rf. Applicable ou à intégrer à partir du 12 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Publié le 12 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054239005",
+        "nor": "CRER2614877X",
+        "nature": "DELIBERATION",
+        "textDate": "2026-05-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "DELIBERATION. Délibération n° 2026-105 du 21 mai 2026 portant décision sur l'évolution au 1er août 2026 de la grille tarifaire des tarifs d'utilisation des réseaux publics d'électricité dans les domaines de tension HTA et BT et sur l'évolution du paramètre Rf. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "8072b6a85874c4c8",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Commissions / organes temporaires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054239031",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Applicable ou à intégrer à partir du 12 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Publié le 12 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054239031",
+        "nor": "INPS2615863X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "d61126a8c96e7af5",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à la publication d'un arrêté fixant la liste des organisations d'employeurs représentatives dans le périmètre utile à la négociation d'un accord relatif à la formation professionnelle dans le secteur de l'aérien",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054239165",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Avis relatif à la publication d'un arrêté fixant la liste des organisations d'employeurs représentatives dans le périmètre utile à la négociation d'un accord relatif à la formation professionnelle dans le secteur de l'aérien. Applicable ou à intégrer à partir du 12 juin 2026. Impact pratique : adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Publié le 12 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054239165",
+        "nor": "TRST2615750V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif à la publication d'un arrêté fixant la liste des organisations d'employeurs représentatives dans le périmètre utile à la négociation d'un accord relatif à la formation professionnelle dans le secteur de l'aérien. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "34b06e98e012ae55",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 8 juin 2026 modifiant l'arrêté du 9 mai 2017 fixant le salaire minimum des journalistes professionnels auteurs d'images fixes rémunérés à la pige",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/8/MICE2615164A/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : un seuil de rémunération ou une indemnité liée au salaire minimum évolue. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238329",
+        "nor": "MICE2615164A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-08",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 8 juin 2026 modifiant l'arrêté du 9 mai 2017 fixant le salaire minimum des journalistes professionnels auteurs d'images fixes rémunérés à la pige. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "5973cfce25f104cb",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Rapport au décret n° 2026-489 du 11 juin 2026 portant ouverture et annulation de crédits à titre d'avance",
+      "url": "https://www.legifrance.gouv.fr/eli/rapport/2026/6/12/CPPB2612341P/jo/texte",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : RAPPORT. Rapport au décret n° 2026-489 du 11 juin 2026 portant ouverture et annulation de crédits à titre d'avance. Applicable ou à intégrer à partir du 12 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Publié le 12 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238615",
+        "nor": "CPPB2612341P",
+        "nature": "RAPPORT",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "RAPPORT. Rapport au décret n° 2026-489 du 11 juin 2026 portant ouverture et annulation de crédits à titre d'avance. Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "b7cf0818d36bd2a4",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er juin 2026 portant admission à la retraite (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238696",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Arrêté du 1er juin 2026 portant admission à la retraite (inspection du travail). Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238696",
+        "nor": "TRSR2615436A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 1er juin 2026 portant admission à la retraite (inspection du travail). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "32c2172ff28bc626",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juin 2026 portant admission à la retraite (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238698",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Arrêté du 3 juin 2026 portant admission à la retraite (inspection du travail). Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238698",
+        "nor": "TRSR2615438A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juin 2026 portant admission à la retraite (inspection du travail). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "6f33aa4145539364",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 juin 2026 portant admission à la retraite (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238700",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Arrêté du 5 juin 2026 portant admission à la retraite (inspection du travail). Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238700",
+        "nor": "TRSR2615448A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 juin 2026 portant admission à la retraite (inspection du travail). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "9f654ca4ae697d27",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 10 juin 2026 portant réintégration (Conseil d'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238760",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : Arrêté du 10 juin 2026 portant réintégration (Conseil d'Etat). Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054238760",
+        "nor": "JUSE2613642A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 10 juin 2026 portant réintégration (Conseil d'Etat). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "11c3d4df481b1daf",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "Vie-publique - lois",
+      "sourceType": "rss",
+      "category": "projet-loi",
+      "title": "Loi du 11 juin 2026 portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage",
+      "url": "https://www.vie-publique.fr/loi/302566-accord-assurance-chomage-rupture-conventionnelle-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement potentiel : Loi du 11 juin 2026 portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage. Impact pratique : surveiller la suite du texte avant toute mise en œuvre opérationnelle.",
+      "application": {
+        "date": null,
+        "label": "Non applicable à ce stade : suivre la navette et les décrets d'application.",
+        "basis": "Projet ou proposition de loi."
+      },
+      "watch": "Surveiller l'étape parlementaire suivante et les décrets d'application éventuels.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "watch",
+      "priority": 27,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "sourceSummary": "Loi du 11 juin 2026 portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage"
+      }
+    },
+    {
+      "id": "6e676f537057bb87",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er juin 2026 portant extension d'un avenant à la convention collective nationale des activités industrielles de boulangerie et pâtisserie et des professionnels de l'œuf du 1er octobre 2024 (n° 3255)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238882",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Sécurité sociale",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : activités industrielles de boulangerie et pâtisserie et des professionnels de l'œuf du 1er octobre 2024 (n° 3255). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054238882",
+        "nor": "TRST2612747A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3255",
+          "idcc": "3255",
+          "label": "activités industrielles de boulangerie et pâtisserie et des professionnels de l'œuf du 1er octobre 2024 (n° 3255)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 1er juin 2026 portant extension d'un avenant à la convention collective nationale des activités industrielles de boulangerie et pâtisserie et des professionnels de l'œuf du 1er octobre 2024 (n° 3255). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "07bbdf7e63808ea6",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 juin 2026 portant extension d'un avenant à la convention collective nationale des entreprises au service de la création et de l'événement (n° 3252)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238905",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : entreprises au service de la création et de l'événement (n° 3252). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054238905",
+        "nor": "TRST2615101A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3252",
+          "idcc": "3252",
+          "label": "entreprises au service de la création et de l'événement (n° 3252)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 juin 2026 portant extension d'un avenant à la convention collective nationale des entreprises au service de la création et de l'événement (n° 3252). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "023d1462aae1166a",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 juin 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054238921",
+      "publishedAt": "2026-06-12",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Par défaut, applicable le 13 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054238921",
+        "nor": "TRST2613977A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260612-005031.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-2098",
+          "idcc": "2098",
+          "label": "personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 5 juin 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098). Texte publié au Journal officiel le 2026-06-12."
+      }
+    },
+    {
+      "id": "65c9bd70433e24d3",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Après les ponts du mois de mai, le Mondial de football crispe sérieusement les employeurs",
+      "url": "https://www.lefigaro.fr/decideurs/management/apres-les-ponts-du-mois-de-mai-le-mondial-de-football-crispe-serieusement-les-employeurs-20260612",
+      "publishedAt": "2026-06-12",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. L’avalanche de matches prévue va déchaîner les passions devant le petit écran. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. L’avalanche de matches prévue va déchaîner les passions devant le petit écran. Jusqu’à quel point les salariés vont-ils en oublier de devoir travailler ?"
+      }
+    },
+    {
+      "id": "7c7111c1bccb6465",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Pas de Suisse à 10 millions! »: la confédération se prononce dimanche pour ou contre l’immigration",
+      "url": "https://www.lefigaro.fr/conjoncture/pas-de-suisse-a-10-millions-la-confederation-se-prononce-dimanche-pour-ou-contre-l-immigration-20260612",
+      "publishedAt": "2026-06-12",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. DÉCRYPTAGE - Le vote du 14 juin pourrait décider de limiter la population et instaurer des mesures à partir de 9,5 millions de personnes. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. DÉCRYPTAGE - Le vote du 14 juin pourrait décider de limiter la population et instaurer des mesures à partir de 9,5 millions de personnes."
+      }
+    },
+    {
+      "id": "b1f060d93b90cf1f",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "«Ils concentrent tous les risques» : qui sont ces salariés irremplaçables que les entreprises assurent à prix d’or ?",
+      "url": "https://www.lefigaro.fr/vie-professionnelle/ils-concentrent-tous-les-risques-qui-sont-ces-salaries-irremplacables-que-les-entreprises-assurent-a-prix-d-or-20260612",
+      "publishedAt": "2026-06-12",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. DÉCRYPTAGE - La perte brutale d’un profil peut fragiliser une société au point d’en compromettre la survie. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. DÉCRYPTAGE - La perte brutale d’un profil peut fragiliser une société au point d’en compromettre la survie. Certaines entreprises prennent les devants en souscrivant à une assurance homme-clé."
+      }
+    },
+    {
+      "id": "9bbb276e0afd9a6c",
+      "date": "2026-06-12",
+      "firstSeenDate": "2026-06-12",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Divonne, Gex, Saint-Julien-en-Genevois... Ces Français qui s’installent à la frontière suisse pour devenir riches",
+      "url": "https://www.lefigaro.fr/conjoncture/divonne-gex-saint-julien-en-genevois-ces-francais-qui-s-installent-a-la-frontiere-suisse-pour-devenir-riches-20260611",
+      "publishedAt": "2026-06-12",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. REPORTAGE - Entre salaires suisses et cadre de vie français, des milliers d’actifs franchissent chaque jour la frontière pour aller travailler à Genève. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-12",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. REPORTAGE - Entre salaires suisses et cadre de vie français, des milliers d’actifs franchissent chaque jour la frontière pour aller travailler à Genève."
+      }
+    }
+  ]
+}

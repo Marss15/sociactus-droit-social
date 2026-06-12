@@ -147,6 +147,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-2098": {
+      "label": "personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098)",
+      "idcc": "2098",
+      "rank": "p3",
+      "firstSeen": "2026-06-12",
+      "lastSeen": "2026-06-12",
+      "seenCount": 1
+    },
     "idcc-2332": {
       "label": "entreprises d'architecture (n° 2332)",
       "idcc": "2332",
@@ -161,6 +169,14 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-3043": {
+      "label": "Propreté et sécurité privée",
+      "idcc": "3043",
+      "rank": "p2",
+      "firstSeen": "2026-06-12",
+      "lastSeen": "2026-06-12",
       "seenCount": 1
     },
     "idcc-3229": {
@@ -193,6 +209,22 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-3252": {
+      "label": "entreprises au service de la création et de l'événement (n° 3252)",
+      "idcc": "3252",
+      "rank": "p3",
+      "firstSeen": "2026-06-12",
+      "lastSeen": "2026-06-12",
+      "seenCount": 1
+    },
+    "idcc-3255": {
+      "label": "activités industrielles de boulangerie et pâtisserie et des professionnels de l'œuf du 1er octobre 2024 (n° 3255)",
+      "idcc": "3255",
+      "rank": "p3",
+      "firstSeen": "2026-06-12",
+      "lastSeen": "2026-06-12",
       "seenCount": 1
     },
     "idcc-915": {
