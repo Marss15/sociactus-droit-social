@@ -1,0 +1,820 @@
+{
+  "generatedAt": "2026-06-13T10:06:35.106Z",
+  "date": "2026-06-13",
+  "stats": {
+    "total": 19,
+    "regles": 17,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 2,
+    "priorite1": 3,
+    "priorite2": 8,
+    "priorite3": 8
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-13",
+      "collected": 122,
+      "rejectedByDate": 96
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "4dbacf7a101ac880",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-502 du 10 juin 2026 relatif à la sécurité et à l'interopérabilité ferroviaires de la partie française de la liaison fixe trans-Manche",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/10/TRAT2429358D/jo/texte",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Décret n° 2026-502 du 10 juin 2026 relatif à la sécurité et à l'interopérabilité ferroviaires de la partie française de la liaison fixe trans-Manche. Applicable ou à intégrer à partir du 14 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-14",
+        "label": "Par défaut, applicable le 14 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Formation",
+        "Emploi",
+        "Santé au travail"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054245722",
+        "nor": "TRAT2429358D",
+        "nature": "DECRET",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "Publics concernés : acteurs du système ferroviaire (entreprises ferroviaires de transport de personnes et de fret, Eurotunnel, fabricants), organismes d'évaluation, entités en charge de l'entretien des véhicules, personnels affectés aux tâches de sécurité, établissement public de sécurité ferroviaire."
+      }
+    },
+    {
+      "id": "1566da5a659c4fba",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "LOI n° 2026-492 du 12 juin 2026 visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap (1)",
+      "url": "https://www.legifrance.gouv.fr/eli/loi/2026/6/12/SFHX2433183L/jo/texte",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : LOI n° 2026-492 du 12 juin 2026 visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap (1). Applicable ou à intégrer à partir du 14 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-14",
+        "label": "Par défaut, applicable le 14 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 63,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054245251",
+        "nor": "SFHX2433183L",
+        "nature": "LOI",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "LOI. LOI n° 2026-492 du 12 juin 2026 visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap (1). Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "5285328b975b594d",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-496 du 12 juin 2026 modifiant le décret n° 2025-748 du 1er août 2025 précisant les modalités de déclaration des formations en santé et sécurité au travail par les organismes de formation et les employeurs dans le passeport de prévention",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/12/TRST2612774D/jo/texte",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Publics concernés : employeurs, organismes de formation, organismes certificateurs, titulaires d'un compte personnel de formation, Caisse des dépôts et consignations. Applicable ou à intégrer à partir du 14 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-14",
+        "label": "Par défaut, applicable le 14 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054245439",
+        "nor": "TRST2612774D",
+        "nature": "DECRET",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "Publics concernés : employeurs, organismes de formation, organismes certificateurs, titulaires d'un compte personnel de formation, Caisse des dépôts et consignations."
+      }
+    },
+    {
+      "id": "2be90e71162bb914",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 11 juin 2026 portant admission à la retraite et maintien en fonction (magistrature) - Mme ATZORI-NORMAND (Fabienne)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246026",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Décret du 11 juin 2026 portant admission à la retraite et maintien en fonction (magistrature) - Mme ATZORI-NORMAND (Fabienne). Applicable ou à intégrer à partir du 14 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-14",
+        "label": "Par défaut, applicable le 14 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054246026",
+        "nor": "JUSB2608688D",
+        "nature": "DECRET",
+        "textDate": "2026-06-11",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "DECRET. Décret du 11 juin 2026 portant admission à la retraite et maintien en fonction (magistrature) - Mme ATZORI-NORMAND (Fabienne). Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "f64b1ba7d7663b50",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant ouverture des épreuves de vérification des connaissances mentionnées aux articles L. 4111-2-I et L. 4221-12 du code de la santé publique",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/12/SFHH2615937A/jo/texte",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Arrêté du 12 juin 2026 portant ouverture des épreuves de vérification des connaissances mentionnées aux articles L. Applicable ou à intégrer à partir du 14 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-14",
+        "label": "Par défaut, applicable le 14 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Santé au travail"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054245644",
+        "nor": "SFHH2615937A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant ouverture des épreuves de vérification des connaissances mentionnées aux articles L. 4111-2-I et L. 4221-12 du code de la santé publique. Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "1ecc3d3822bdaeef",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à l'accord de prévoyance complémentaire des salariés non-cadres des exploitations de production agricole du Calvados",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246229",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Avis relatif à l'extension d'un avenant à l'accord de prévoyance complémentaire des salariés non-cadres des exploitations de production agricole du Calvados. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Publié le 13 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054246229",
+        "nor": "AGRS2615613V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à l'accord de prévoyance complémentaire des salariés non-cadres des exploitations de production agricole du Calvados. Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "bab9dae5e7abe729",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Commissions / organes temporaires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246488",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Publié le 13 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054246488",
+        "nor": "INPS2615984X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "a145dd67a819f4d0",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Documents publiés",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246492",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Documents publiés. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Publié le 13 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054246492",
+        "nor": "INPS2615998X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Documents publiés. Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "ebf6c82588c8860f",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 juin 2026 relatif à l'utilisation des véhicules pour la formation à l'obtention du permis de conduire et aux qualifications professionnelles du groupe lourd au sein des corps de la sécurité routière",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/5/INTS2614154A/jo/texte",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Arrêté du 5 juin 2026 relatif à l'utilisation des véhicules pour la formation à l'obtention du permis de conduire et aux qualifications professionnelles du groupe lourd au sein des corps de la sécurité routière. Applicable ou à intégrer à partir du 14 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-14",
+        "label": "Par défaut, applicable le 14 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054245341",
+        "nor": "INTS2614154A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 juin 2026 relatif à l'utilisation des véhicules pour la formation à l'obtention du permis de conduire et aux qualifications professionnelles du groupe lourd au sein des corps de la sécurité routière. Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "99a5aece749a068b",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 11 juin 2026 portant délégation de signature (direction de la transformation numérique)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/6/11/INTG2615840S/jo/texte",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Décision du 11 juin 2026 portant délégation de signature (direction de la transformation numérique). Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Publié le 13 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054245399",
+        "nor": "INTG2615840S",
+        "nature": "DECISION",
+        "textDate": "2026-06-11",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "sourceSummary": "DECISION. Décision du 11 juin 2026 portant délégation de signature (direction de la transformation numérique). Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "4648bd980ed589d1",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Le rachat de Warner Bros par Paramount approuvé par le ministère de la justice américain",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/13/le-rachat-de-warner-bros-par-paramount-approuve-par-le-ministere-de-la-justice-americain_6701167_3234.html",
+      "publishedAt": "2026-06-13",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Le conglomérat Paramount Skydance acquiert le studio hollywoodien Warner Bros Discovery pour 111 milliards de dollars. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques sécuriser les procédures de rupture, les motifs et les consultations obligatoires.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Le conglomérat Paramount Skydance acquiert le studio hollywoodien Warner Bros Discovery pour 111 milliards de dollars. Cette fusion n’est « pas susceptible de nuire à la concurrence ni aux consommateurs américains »,..."
+      }
+    },
+    {
+      "id": "2730e98e25ad0e44",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 10 juin 2026 portant extension d'un accord conclu dans le cadre de la branche ferroviaire (n° 3217)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246166",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Arrêté du 10 juin 2026 portant extension d'un accord conclu dans le cadre de la branche ferroviaire (n° 3217). Applicable ou à intégrer à partir du 14 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-14",
+        "label": "Par défaut, applicable le 14 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : ferroviaire (n° 3217). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054246166",
+        "nor": "TRST2606676A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3217",
+          "idcc": "3217",
+          "label": "ferroviaire (n° 3217)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 10 juin 2026 portant extension d'un accord conclu dans le cadre de la branche ferroviaire (n° 3217). Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "47e9c4d8d208f7ee",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 10 juin 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des réseaux de transports publics urbains de voyageurs (n° 1424)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246184",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 14 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-14",
+        "label": "Par défaut, applicable le 14 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : réseaux de transports publics urbains de voyageurs (n° 1424). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054246184",
+        "nor": "TRST2606693A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1424",
+          "idcc": "1424",
+          "label": "réseaux de transports publics urbains de voyageurs (n° 1424)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 10 juin 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des réseaux de transports publics urbains de voyageurs (n° 1424). Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "4e50d6bbf9c4c691",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale des personnels des activités hippiques",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246223",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Publié le 13 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : personnels des activités hippiques. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054246223",
+        "nor": "AGRS2615610V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-dca073358a40",
+          "idcc": null,
+          "label": "personnels des activités hippiques",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale des personnels des activités hippiques. Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "c6af2060e515f6a2",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord régional concernant l'amélioration du régime de retraite supplémentaire des salariés non cadres de la production agricole et CUMA de Normandie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246241",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Avis relatif à l'extension d'un accord régional concernant l'amélioration du régime de retraite supplémentaire des salariés non cadres de la production agricole et CUMA de Normandie. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Publié le 13 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054246241",
+        "nor": "AGRS2615621V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-8ae18c4189c6",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord régional concernant l'amélioration du régime de retraite supplémentaire des salariés non cadres de la production agricole et CUMA de Normandie. Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "0c1a8ba2042c550f",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant relatif à la mise en place d'un régime de prévoyance de branche des coopératives agricoles, unions de coopératives agricoles et SICA de fleurs, fruits et légumes frais, transformés et conserveries, de teillage de lin-chanvre et de déshydratation",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246217",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Avis relatif à l'extension d'un avenant relatif à la mise en place d'un régime de prévoyance de branche des coopératives agricoles, unions de coopératives agricoles et SICA de fleurs, fruits et légumes frais, transformés et conserveries, de teillage de. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Publié le 13 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 27,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : des coopératives agricoles, unions de coopératives agricoles et SICA de fleurs, fruits et légumes frais, transformés et conserveries, de teillage de lin-chanvre. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054246217",
+        "nor": "AGRS2615607V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-4d54d836b3b1",
+          "idcc": null,
+          "label": "des coopératives agricoles, unions de coopératives agricoles et SICA de fleurs, fruits et légumes frais, transformés et conserveries, de teillage de lin-chanvre",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant relatif à la mise en place d'un régime de prévoyance de branche des coopératives agricoles, unions de coopératives agricoles et SICA de fleurs, fruits et légumes frais, transformés et conserveries, de teillage de lin-chanvre et de déshydratation. Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "df64b7a424c18a47",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à l'accord collectif de prévoyance interprofessionnel concernant les salariés des exploitations de polyculture, de viticulture, d'élevage, de maraîchage, d'horticulture, de pépinières, des champignonnières, des entreprises de travaux agricoles et des coopératives d'utilisation de matériel agricole de la Sarthe",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246235",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Publié le 13 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 27,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054246235",
+        "nor": "AGRS2615620V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-49484b82ce56",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à l'accord collectif de prévoyance interprofessionnel concernant les salariés des exploitations de polyculture, de viticulture, d'élevage, de maraîchage, d'horticulture, de pépinières, des champignonnières, des entreprises de travaux agricoles et des coopératives d'utilisation de matériel agricole de la Sarthe."
+      }
+    },
+    {
+      "id": "7782b91157308d58",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord national de l'interbranche agricole pour de meilleures conditions de travail et d'emploi en agriculture",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054246247",
+      "publishedAt": "2026-06-13",
+      "summary": "Changement apporté : Avis relatif à l'extension d'un accord national de l'interbranche agricole pour de meilleures conditions de travail et d'emploi en agriculture. Applicable ou à intégrer à partir du 13 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Publié le 13 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 27,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : agricole pour de meilleures conditions de travail et d'emploi en agriculture. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054246247",
+        "nor": "AGRS2615622V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260613-010126.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-abf2f7de9c60",
+          "idcc": null,
+          "label": "agricole pour de meilleures conditions de travail et d'emploi en agriculture",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord national de l'interbranche agricole pour de meilleures conditions de travail et d'emploi en agriculture. Texte publié au Journal officiel le 2026-06-13."
+      }
+    },
+    {
+      "id": "395c2d22bda5f5f2",
+      "date": "2026-06-13",
+      "firstSeenDate": "2026-06-13",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Être un «bon père» empêche-t-il de faire carrière ?",
+      "url": "https://www.lefigaro.fr/actualite-france/conge-de-naissance-teletravail-journees-ecourtees-les-bons-peres-peuvent-ils-encore-faire-carriere-20260613",
+      "publishedAt": "2026-06-13",
+      "summary": "Signal de veille : la presse signale les modalités pratiques d'un nouveau congé familial. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques mettre à jour les règles d'absence, les contrôles RH et l'information des salariés ou agents.",
+      "application": {
+        "date": "2026-06-13",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. ENQUÊTE - Avec le nouveau congé de naissance, les pères pourront bientôt s’absenter jusqu’à trois mois après l’arrivée d’un enfant."
+      }
+    }
+  ]
+}

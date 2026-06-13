@@ -99,6 +99,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1424": {
+      "label": "réseaux de transports publics urbains de voyageurs (n° 1424)",
+      "idcc": "1424",
+      "rank": "p3",
+      "firstSeen": "2026-06-13",
+      "lastSeen": "2026-06-13",
+      "seenCount": 1
+    },
     "idcc-1499": {
       "label": "la miroiterie, de la transformation et du négoce du verre (n° 1499)",
       "idcc": "1499",
@@ -147,14 +155,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2098": {
-      "label": "personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098)",
-      "idcc": "2098",
-      "rank": "p3",
-      "firstSeen": "2026-06-12",
-      "lastSeen": "2026-06-12",
-      "seenCount": 1
-    },
     "idcc-2332": {
       "label": "entreprises d'architecture (n° 2332)",
       "idcc": "2332",
@@ -171,12 +171,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-3043": {
-      "label": "Propreté et sécurité privée",
-      "idcc": "3043",
-      "rank": "p2",
-      "firstSeen": "2026-06-12",
-      "lastSeen": "2026-06-12",
+    "idcc-3217": {
+      "label": "ferroviaire (n° 3217)",
+      "idcc": "3217",
+      "rank": "p3",
+      "firstSeen": "2026-06-13",
+      "lastSeen": "2026-06-13",
       "seenCount": 1
     },
     "idcc-3229": {
@@ -211,22 +211,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-3252": {
-      "label": "entreprises au service de la création et de l'événement (n° 3252)",
-      "idcc": "3252",
-      "rank": "p3",
-      "firstSeen": "2026-06-12",
-      "lastSeen": "2026-06-12",
-      "seenCount": 1
-    },
-    "idcc-3255": {
-      "label": "activités industrielles de boulangerie et pâtisserie et des professionnels de l'œuf du 1er octobre 2024 (n° 3255)",
-      "idcc": "3255",
-      "rank": "p3",
-      "firstSeen": "2026-06-12",
-      "lastSeen": "2026-06-12",
-      "seenCount": 1
-    },
     "idcc-915": {
       "label": "sociétés d'expertises et d'évaluations (n° 915)",
       "idcc": "915",
@@ -249,6 +233,30 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-49484b82ce56": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-13",
+      "lastSeen": "2026-06-13",
+      "seenCount": 1
+    },
+    "name-4d54d836b3b1": {
+      "label": "des coopératives agricoles, unions de coopératives agricoles et SICA de fleurs, fruits et légumes frais, transformés et conserveries, de teillage de lin-chanvre",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-13",
+      "lastSeen": "2026-06-13",
+      "seenCount": 1
+    },
+    "name-8ae18c4189c6": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-13",
+      "lastSeen": "2026-06-13",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -275,12 +283,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-abf2f7de9c60": {
+      "label": "agricole pour de meilleures conditions de travail et d'emploi en agriculture",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-13",
+      "lastSeen": "2026-06-13",
+      "seenCount": 1
+    },
     "name-cf9a5fa602f5": {
       "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-dca073358a40": {
+      "label": "personnels des activités hippiques",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-13",
+      "lastSeen": "2026-06-13",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
