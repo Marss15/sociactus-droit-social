@@ -99,14 +99,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1424": {
-      "label": "réseaux de transports publics urbains de voyageurs (n° 1424)",
-      "idcc": "1424",
-      "rank": "p3",
-      "firstSeen": "2026-06-13",
-      "lastSeen": "2026-06-13",
-      "seenCount": 1
-    },
     "idcc-1499": {
       "label": "la miroiterie, de la transformation et du négoce du verre (n° 1499)",
       "idcc": "1499",
@@ -171,14 +163,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-3217": {
-      "label": "ferroviaire (n° 3217)",
-      "idcc": "3217",
-      "rank": "p3",
-      "firstSeen": "2026-06-13",
-      "lastSeen": "2026-06-13",
-      "seenCount": 1
-    },
     "idcc-3229": {
       "label": "personnel des entreprises de transport en navigation intérieure (n° 3229)",
       "idcc": "3229",
@@ -227,6 +211,38 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-088b774aa60b": {
+      "label": "industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
+      "seenCount": 1
+    },
+    "name-0e1ae50192e2": {
+      "label": "Métallurgie",
+      "idcc": null,
+      "rank": "p1",
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
+      "seenCount": 1
+    },
+    "name-1950c8b4b7b4": {
+      "label": "personnel sédentaire des entreprises de navigation",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
+      "seenCount": 1
+    },
+    "name-3c2a021bc26f": {
+      "label": "maisons à succursales de vente au détail d'habillement",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
@@ -235,28 +251,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-49484b82ce56": {
-      "label": "Convention collective",
+    "name-4c22b17cc381": {
+      "label": "fleuristes, de la vente et des services des animaux familiers",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-06-13",
-      "lastSeen": "2026-06-13",
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
       "seenCount": 1
     },
-    "name-4d54d836b3b1": {
-      "label": "des coopératives agricoles, unions de coopératives agricoles et SICA de fleurs, fruits et légumes frais, transformés et conserveries, de teillage de lin-chanvre",
+    "name-8caea3699689": {
+      "label": "instituant des garanties collectives de prévoyance au profit des salariés intermittents du spectacle",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-06-13",
-      "lastSeen": "2026-06-13",
-      "seenCount": 1
-    },
-    "name-8ae18c4189c6": {
-      "label": "Convention collective",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-13",
-      "lastSeen": "2026-06-13",
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -275,20 +283,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-922912e02bd6": {
+      "label": "Transports routiers",
+      "idcc": null,
+      "rank": "p2",
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
+      "seenCount": 1
+    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-abf2f7de9c60": {
-      "label": "agricole pour de meilleures conditions de travail et d'emploi en agriculture",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-13",
-      "lastSeen": "2026-06-13",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -299,20 +307,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-dca073358a40": {
-      "label": "personnels des activités hippiques",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-13",
-      "lastSeen": "2026-06-13",
-      "seenCount": 1
-    },
     "name-ee1a0060264e": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-f643485a2288": {
+      "label": "la charcuterie de détail",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
+      "seenCount": 1
+    },
+    "name-fa986f2b7a14": {
+      "label": "opérateurs de voyages et des guides",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
       "seenCount": 1
     }
   }
