@@ -1,0 +1,917 @@
+{
+  "generatedAt": "2026-06-18T11:15:22.123Z",
+  "date": "2026-06-18",
+  "stats": {
+    "total": 24,
+    "regles": 18,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 6,
+    "priorite1": 0,
+    "priorite2": 19,
+    "priorite3": 5
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-18",
+      "collected": 127,
+      "rejectedByDate": 98
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "7449e40d503d6e15",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 17 juin 2026 portant cessation de fonctions de la sous-préfète chargée de mission auprès du préfet de la région Provence-Alpes-Côte d'Azur, préfet de la zone de défense et de sécurité Sud, préfet des Bouches-du-Rhône - Mme PLAZA (Marie-Pervenche)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054268893",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Décret du 17 juin 2026 portant cessation de fonctions de la sous-préfète chargée de mission auprès du préfet de la région Provence-Alpes-Côte d'Azur, préfet de la zone de défense et de sécurité Sud, préfet des Bouches-du-Rhône - Mme PLAZA. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268893",
+        "nor": "INTP2611807D",
+        "nature": "DECRET",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "DECRET. Décret du 17 juin 2026 portant cessation de fonctions de la sous-préfète chargée de mission auprès du préfet de la région Provence-Alpes-Côte d'Azur, préfet de la zone de défense et de sécurité Sud, préfet des Bouches-du-Rhône - Mme PLAZA (Marie-Pervenche). Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "65a42a8841b6da3f",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 17 juin 2026 portant cessation de fonctions de la directrice de cabinet du préfet du Gard - Mme EUVRARD (Marie-Charlotte)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054268885",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Décret du 17 juin 2026 portant cessation de fonctions de la directrice de cabinet du préfet du Gard - Mme EUVRARD (Marie-Charlotte). Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268885",
+        "nor": "INTP2612832D",
+        "nature": "DECRET",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "DECRET. Décret du 17 juin 2026 portant cessation de fonctions de la directrice de cabinet du préfet du Gard - Mme EUVRARD (Marie-Charlotte). Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "e35a5cf1604a8385",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 17 juin 2026 portant cessation de fonctions du sous-préfet d'Istres (groupe II) - M. BORGUS (Christophe)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054268901",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Décret du 17 juin 2026 portant cessation de fonctions du sous-préfet d'Istres (groupe II) - M. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268901",
+        "nor": "INTP2612132D",
+        "nature": "DECRET",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "DECRET. Décret du 17 juin 2026 portant cessation de fonctions du sous-préfet d'Istres (groupe II) - M. BORGUS (Christophe). Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "3de73995b4595300",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 17 juin 2026 portant cessation de fonctions du sous-préfet de Lunéville - M. GAUBERT (Adrien)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054268909",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Décret du 17 juin 2026 portant cessation de fonctions du sous-préfet de Lunéville - M. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268909",
+        "nor": "INTP2608347D",
+        "nature": "DECRET",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "DECRET. Décret du 17 juin 2026 portant cessation de fonctions du sous-préfet de Lunéville - M. GAUBERT (Adrien). Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "b98541d8609fdd8a",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 17 juin 2026 portant cessation de fonctions du sous-préfet de Saint-Quentin - M. ABOUBACAR (Anthmane)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054268917",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Décret du 17 juin 2026 portant cessation de fonctions du sous-préfet de Saint-Quentin - M. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268917",
+        "nor": "INTP2615013D",
+        "nature": "DECRET",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "DECRET. Décret du 17 juin 2026 portant cessation de fonctions du sous-préfet de Saint-Quentin - M. ABOUBACAR (Anthmane). Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "5b9a2183d62700fd",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 17 juin 2026 portant cessation de fonctions de la cheffe des subdivisions administratives des îles du Vent et des îles Sous-le-Vent en Polynésie française - Mme NGUYEN (Anna)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054268924",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Décret du 17 juin 2026 portant cessation de fonctions de la cheffe des subdivisions administratives des îles du Vent et des îles Sous-le-Vent en Polynésie française - Mme NGUYEN (Anna). Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268924",
+        "nor": "INTP2611241D",
+        "nature": "DECRET",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "DECRET. Décret du 17 juin 2026 portant cessation de fonctions de la cheffe des subdivisions administratives des îles du Vent et des îles Sous-le-Vent en Polynésie française - Mme NGUYEN (Anna). Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "861b398d176e17d1",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 mai 2026 portant création de la spécialité « Lutherie guitare » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/20/MENE2608838A/jo/texte",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Arrêté du 20 mai 2026 portant création de la spécialité « Lutherie guitare » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268543",
+        "nor": "MENE2608838A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 20 mai 2026 portant création de la spécialité « Lutherie guitare » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance. Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "17046a8d552c5878",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 17 juin 2026 portant délégation de signature (direction des services judiciaires)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/6/17/JUSB2536332S/jo/texte",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Décision du 17 juin 2026 portant délégation de signature (direction des services judiciaires). Applicable ou à intégrer à partir du 18 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Publié le 18 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268433",
+        "nor": "JUSB2536332S",
+        "nature": "DECISION",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "DECISION. Décision du 17 juin 2026 portant délégation de signature (direction des services judiciaires). Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "16fa31a9915c81b2",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de la Guadeloupe en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/9/TRSD2611344A/jo/texte",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de la Guadeloupe en application de l'article L. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268306",
+        "nor": "TRSD2611344A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-09",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de la Guadeloupe en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile. Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "f1874001f051fb6c",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de la Guyane en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/9/TRSD2611451A/jo/texte",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de la Guyane en application de l'article L. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268321",
+        "nor": "TRSD2611451A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-09",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de la Guyane en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile. Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "2a5dd0fdb88d519f",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de La Réunion en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/9/TRSD2611454A/jo/texte",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de La Réunion en application de l'article L. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268336",
+        "nor": "TRSD2611454A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-09",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de La Réunion en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile. Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "7e72506c22aa3f09",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de la Martinique en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/9/TRSD2611455A/jo/texte",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de la Martinique en application de l'article L. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268351",
+        "nor": "TRSD2611455A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-09",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 9 juin 2026 fixant la liste des métiers caractérisés par des difficultés de recrutement sur le territoire de la Martinique en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile. Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "4c8a4f839c0b2b3e",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 juin 2026 portant composition du dossier de demande d'agrément de l'instance paritaire nationale prévu à l'article L. 6323-17-5-1 du code du travail",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/16/TRSD2613292A/jo/texte",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Arrêté du 16 juin 2026 portant composition du dossier de demande d'agrément de l'instance paritaire nationale prévu à l'article L. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054268366",
+        "nor": "TRSD2613292A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 juin 2026 portant composition du dossier de demande d'agrément de l'instance paritaire nationale prévu à l'article L. 6323-17-5-1 du code du travail. Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "5408b457471ae251",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Documents et publications",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054269274",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Documents et publications. Applicable ou à intégrer à partir du 18 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Publié le 18 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054269274",
+        "nor": "INPA2616460X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Documents et publications. Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "3e4295a8b835d3c6",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 juin 2026 portant détachement (Conseil d'Etat) - M. SABY (Olivier)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054269102",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Arrêté du 16 juin 2026 portant détachement (Conseil d'Etat) - M. Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054269102",
+        "nor": "JUSE2609751A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 juin 2026 portant détachement (Conseil d'Etat) - M. SABY (Olivier). Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "fe52019724715ea0",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 juin 2026 portant maintien en détachement (Conseil d'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054269113",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : Arrêté du 16 juin 2026 portant maintien en détachement (Conseil d'Etat). Applicable ou à intégrer à partir du 19 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-19",
+        "label": "Par défaut, applicable le 19 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054269113",
+        "nor": "JUSE2611827A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 juin 2026 portant maintien en détachement (Conseil d'Etat). Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "0336c49fd175103a",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Documents publiés",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054269281",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Documents publiés. Applicable ou à intégrer à partir du 18 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Publié le 18 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054269281",
+        "nor": "INPS2616458X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Documents publiés. Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "4b2c763089e87d31",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Les entreprises sommées de s’adapter à la multiplication des vagues de chaleur",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/18/les-entreprises-sommees-de-s-adapter-a-la-multiplication-des-vagues-de-chaleur_6704492_3234.html",
+      "publishedAt": "2026-06-18",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Le code du travail ne prévoit pas de température au-delà de laquelle il conviendrait de suspendre l’activité, mais les employeurs, responsables de la santé de leurs salariés, sont tenus d’évaluer et de prévenir les. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Le code du travail ne prévoit pas de température au-delà de laquelle il conviendrait de suspendre l’activité, mais les employeurs, responsables de la santé de leurs salariés, sont tenus d’évaluer et de prévenir les..."
+      }
+    },
+    {
+      "id": "b6799bcebf181956",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Rachat de SFR : \"Aucun licenciement dans les deux prochaines années\", garantit la maison-mère de Free",
+      "url": "https://www.franceinfo.fr/economie/telecom/rachat-de-sfr/rachat-de-sfr-aucun-licenciement-dans-les-deux-prochaines-annees-garantit-la-maison-mere-de-free_8067113.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-06-18",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. C'est \"un engagement très fort, assez inédit\", pris auprès des 8 000 collaborateurs de SFR, souligne Thomas Reynaud, directeur général du groupe Iliad. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques sécuriser les procédures de rupture, les motifs et les consultations obligatoires.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. C'est \"un engagement très fort, assez inédit\", pris auprès des 8 000 collaborateurs de SFR, souligne Thomas Reynaud, directeur général du groupe Iliad."
+      }
+    },
+    {
+      "id": "75182dc3149ef14e",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale des industries de la transformation des volailles",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054269167",
+      "publishedAt": "2026-06-18",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 18 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Publié le 18 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : industries de la transformation des volailles. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054269167",
+        "nor": "TRST2616356V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260618-002647.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-cf5f6fe4cbf2",
+          "idcc": null,
+          "label": "industries de la transformation des volailles",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale des industries de la transformation des volailles. Texte publié au Journal officiel le 2026-06-18."
+      }
+    },
+    {
+      "id": "f8f193ab1fc67951",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Présidentielle 2027 : « Les candidats ne doivent pas oublier que l’emploi des jeunes est une priorité absolue »",
+      "url": "https://www.lemonde.fr/idees/article/2026/06/18/presidentielle-2027-les-candidats-ne-doivent-pas-oublier-que-l-emploi-des-jeunes-est-une-priorite-absolue_6704519_3232.html",
+      "publishedAt": "2026-06-18",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Dans une tribune au « Monde », le président du Conseil d’orientation des politiques de jeunesse, Hugo Huet, rappelle combien le chômage des jeunes est élevé en France, avec de sérieuses conséquences économiques."
+      }
+    },
+    {
+      "id": "9fd39fb412935473",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Les ménages accusent le coup » : pouvoir d’achat en baisse et chômage en hausse pour les Français en 2026",
+      "url": "https://www.leparisien.fr/economie/les-menages-accusent-le-coup-pouvoir-dachat-en-baisse-et-chomage-en-hausse-pour-les-francais-en-2026-17-06-2026-2VMG3HJ5YFG7VHNWDTUXHIQQIA.php",
+      "publishedAt": "2026-06-18",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « Les ménages accusent le coup » : pouvoir d’achat en baisse et chômage en hausse pour les Français en 2026"
+      }
+    },
+    {
+      "id": "ba76b5dcee02aacb",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Canicule : quelles sont les obligations des employeurs pour protéger leurs salariés ?",
+      "url": "https://www.lefigaro.fr/social/fortes-chaleurs-quelles-sont-les-obligations-des-employeurs-pour-proteger-leurs-salaries-20250611",
+      "publishedAt": "2026-06-18",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Les entreprises doivent respecter de nombreux impératifs en cas de fortes chaleurs. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Les entreprises doivent respecter de nombreux impératifs en cas de fortes chaleurs. Le Figaro fait le point sur la loi."
+      }
+    },
+    {
+      "id": "af1d572da29e2aa7",
+      "date": "2026-06-18",
+      "firstSeenDate": "2026-06-18",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Écarts de rémunération, égalité hommes-femmes... Ce nouveau texte sur la transparence salariale qui exaspère les chefs d’entreprise",
+      "url": "https://www.lefigaro.fr/conjoncture/ecarts-de-remuneration-egalite-hommes-femmes-ce-nouveau-texte-sur-la-transparence-salariale-qui-exaspere-les-chefs-d-entreprise-20260617",
+      "publishedAt": "2026-06-18",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. DÉCRYPTAGE - Alors que cette nouvelle directive prévoit plusieurs sanctions en cas de son non-respect par les entreprises, le patronat français dénonce un nouveau « monstre de complexité » créé à Bruxelles. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-18",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. DÉCRYPTAGE - Alors que cette nouvelle directive prévoit plusieurs sanctions en cas de son non-respect par les entreprises, le patronat français dénonce un nouveau « monstre de complexité » créé à Bruxelles."
+      }
+    }
+  ]
+}
