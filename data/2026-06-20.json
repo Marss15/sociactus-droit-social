@@ -1,0 +1,1281 @@
+{
+  "generatedAt": "2026-06-20T10:12:28.324Z",
+  "date": "2026-06-20",
+  "stats": {
+    "total": 30,
+    "regles": 28,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 2,
+    "priorite1": 1,
+    "priorite2": 11,
+    "priorite3": 18
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-20",
+      "collected": 133,
+      "rejectedByDate": 96
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "a405e1cfc981b67b",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-524 du 18 juin 2026 relatif à la sûreté portuaire",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/18/TRAT2530416D/jo/texte",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : Décret n° 2026-524 du 18 juin 2026 relatif à la sûreté portuaire. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 63,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054280920",
+        "nor": "TRAT2530416D",
+        "nature": "DECRET",
+        "textDate": "2026-06-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "Publics concernés : services et agents de l'Etat en charge de la sûreté portuaire (notamment agents de la police nationale, de la gendarmerie nationale et des douanes), grands ports (fluvio-)maritimes, autorités portuaires des ports maritimes décentralisés, exploitants d'installations portuaires, usagers et professionnels des ports maritimes (notamment les..."
+      }
+    },
+    {
+      "id": "606e1efafe6fca38",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-522 du 18 juin 2026 fixant pour l'année 2026 le montant des crédits nécessaires à la rémunération de la garantie de l'Etat en application de l'article R. 221-11 du code monétaire et financier",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/18/ECOT2614821D/jo/texte",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : fixation du montant des crédits nécessaires à la rémunération de la garantie de l'Etat. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054280572",
+        "nor": "ECOT2614821D",
+        "nature": "DECRET",
+        "textDate": "2026-06-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "Publics concernés : Caisse des dépôts et consignations. Objet : fixation du montant des crédits nécessaires à la rémunération de la garantie de l'Etat."
+      }
+    },
+    {
+      "id": "5fb1bcdb69800462",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 juin 2026 portant extension d'avenants salariaux à des conventions collectives de travail étendues relatives aux professions agricoles",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281471",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : Arrêté du 18 juin 2026 portant extension d'avenants salariaux à des conventions collectives de travail étendues relatives aux professions agricoles. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054281471",
+        "nor": "AGRS2616168A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 18 juin 2026 portant extension d'avenants salariaux à des conventions collectives de travail étendues relatives aux professions agricoles. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "081d19ca52064e0d",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Délibération n° 2026-115 du 4 juin 2026 portant décision sur les prestations réalisées à titre exclusif par les gestionnaires de réseaux de distribution de gaz naturel",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281598",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : DELIBERATION. Délibération n° 2026-115 du 4 juin 2026 portant décision sur les prestations réalisées à titre exclusif par les gestionnaires de réseaux de distribution de gaz naturel. Applicable ou à intégrer à partir du 20 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Publié le 20 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054281598",
+        "nor": "CREE2615439S",
+        "nature": "DELIBERATION",
+        "textDate": "2026-06-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "DELIBERATION. Délibération n° 2026-115 du 4 juin 2026 portant décision sur les prestations réalisées à titre exclusif par les gestionnaires de réseaux de distribution de gaz naturel. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "ed6c00c65fd2e329",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juin 2026 relatif à l'extension et l'élargissement de l'avenant n° 29 du 15 octobre 2025 à l'accord national interprofessionnel instituant le régime de retraite complémentaire AGIRC-ARRCO",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/17/TRSS2616627A/jo/texte",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : Arrêté du 17 juin 2026 relatif à l'extension et l'élargissement de l'avenant n° 29 du 15 octobre 2025 à l'accord national interprofessionnel instituant le régime de retraite complémentaire AGIRC-ARRCO. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054280433",
+        "nor": "TRSS2616627A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 juin 2026 relatif à l'extension et l'élargissement de l'avenant n° 29 du 15 octobre 2025 à l'accord national interprofessionnel instituant le régime de retraite complémentaire AGIRC-ARRCO. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "9d5a89d2d519cd01",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juin 2026 relatif à l'extension et l'élargissement de l'avenant n° 30 du 15 octobre 2025 à l'accord national interprofessionnel instituant le régime de retraite complémentaire AGIRC-ARRCO",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/17/TRSS2616632A/jo/texte",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : Arrêté du 17 juin 2026 relatif à l'extension et l'élargissement de l'avenant n° 30 du 15 octobre 2025 à l'accord national interprofessionnel instituant le régime de retraite complémentaire AGIRC-ARRCO. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054280445",
+        "nor": "TRSS2616632A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 juin 2026 relatif à l'extension et l'élargissement de l'avenant n° 30 du 15 octobre 2025 à l'accord national interprofessionnel instituant le régime de retraite complémentaire AGIRC-ARRCO. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "04ed7b5f02dc9fe0",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à un accord territorial des exploitations agricoles et des coopératives d'utilisation de matériel agricole de l'Hérault",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281371",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : Arrêté du 12 juin 2026 portant extension d'un avenant à un accord territorial des exploitations agricoles et des coopératives d'utilisation de matériel agricole de l'Hérault. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054281371",
+        "nor": "AGRS2614315A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à un accord territorial des exploitations agricoles et des coopératives d'utilisation de matériel agricole de l'Hérault. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "35210d31ed49634e",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord départemental relatif à l'assurance complémentaire frais de santé des salariés agricoles non-cadres du Gers",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281490",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : Avis relatif à l'extension d'un avenant à un accord départemental relatif à l'assurance complémentaire frais de santé des salariés agricoles non-cadres du Gers. Applicable ou à intégrer à partir du 20 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Publié le 20 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054281490",
+        "nor": "AGRS2616512V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord départemental relatif à l'assurance complémentaire frais de santé des salariés agricoles non-cadres du Gers. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "0f057aaa770c2271",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision n° 2026-1207 QPC du 19 juin 2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281532",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : Décision n° 2026-1207 QPC du 19 juin 2026. Applicable ou à intégrer à partir du 20 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Publié le 20 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054281532",
+        "nor": "CSCX2616644S",
+        "nature": "DECISION",
+        "textDate": "2026-06-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "DECISION. Décision n° 2026-1207 QPC du 19 juin 2026. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "c9a169d23c5fecfb",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Résolutions",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281690",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Résolutions. Applicable ou à intégrer à partir du 20 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Publié le 20 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054281690",
+        "nor": "INPS2616696X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Résolutions. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "728282722112748f",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 16 juin 2026 relative à la liste des Etats dont les brevets conformes à la convention STCW sont reconnus par la France",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/6/16/TECM2616206S/jo/texte",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : Publics concernés : marins professionnels sur navires de commerce, acteurs de l'enseignement et de la formation professionnelle maritime. Applicable ou à intégrer à partir du 20 juin 2026. Impact pratique : adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Publié le 20 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054280529",
+        "nor": "TECM2616206S",
+        "nature": "DECISION",
+        "textDate": "2026-06-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "Publics concernés : marins professionnels sur navires de commerce, acteurs de l'enseignement et de la formation professionnelle maritime."
+      }
+    },
+    {
+      "id": "0cc3e15fa6bc71bc",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Formation de travail",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281556",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : Formation de travail. Texte publié au Journal officiel le 2026-06-20. Applicable ou à intégrer à partir du 20 juin 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Publié le 20 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054281556",
+        "nor": "CESG2616727X",
+        "nature": "",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "sourceSummary": "Formation de travail. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "794225a9c8205f74",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail du département du Tarn-et-Garonne devenue un accord collectif étendu au 1er avril 2021",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281275",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281275",
+        "nor": "AGRS2614288A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-c7d928a61550",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail du département du Tarn-et-Garonne devenue un accord collectif étendu au 1er avril 2021. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "289a9072b773bbdc",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail concernant les travaux d'aménagement et d'entretien forestiers des départements de la Gironde, des Landes et de Lot-et-Garonne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281292",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281292",
+        "nor": "AGRS2614292A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-b7326c4f89c1",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail concernant les travaux d'aménagement et d'entretien forestiers des départements de la Gironde, des Landes et de Lot-et-Garonne. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "48ccb8a58cb2a281",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un accord collectif agricole interdépartemental frais de santé",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281339",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281339",
+        "nor": "AGRS2614309A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-8b388de90ecb",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un accord collectif agricole interdépartemental frais de santé. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "582bfe57b7d3c9d8",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail concernant les exploitations et entreprises agricoles de la région Alsace",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281358",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281358",
+        "nor": "AGRS2614311A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-cc26849c3306",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail concernant les exploitations et entreprises agricoles de la région Alsace. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "5f4c1deca70d7621",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à la convention collective départementale de sylviculture de l'Aube",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281416",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281416",
+        "nor": "AGRS2614358A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-b13c8dab4cf9",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à la convention collective départementale de sylviculture de l'Aube. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "0d4014eb1f58e92d",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail concernant les exploitations et entreprises agricoles du département du Puy-de-Dôme",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281303",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281303",
+        "nor": "AGRS2614296A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-07f70d36a9d0",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail concernant les exploitations et entreprises agricoles du département du Puy-de-Dôme. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "9d8cf58c9dcfc328",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à un accord collectif de prévoyance concernant les salariés non cadres des exploitations agricoles de polyculture, d'élevage, de cultures spécialisées, d'élevages spécialisés, de viticulture, des coopératives d'utilisation de matériel agricole et des entreprises de travaux agricoles et forestiers de la Charente-Maritime",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281328",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281328",
+        "nor": "AGRS2614308A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-ed85379b413e",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à un accord collectif de prévoyance concernant les salariés non cadres des exploitations agricoles de polyculture, d'élevage, de cultures spécialisées, d'élevages spécialisés, de viticulture, des coopératives d'utilisation de matériel agricole et des entreprises de travaux agricoles et forestiers..."
+      }
+    },
+    {
+      "id": "ccf39d740452c745",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail concernant les exploitations agricoles de polyculture, d'élevage, de viticulture, les champignonnières, les coopératives d'utilisation de matériel agricole, les entreprises de travaux agricoles, les maraîchers et les producteurs légumiers du département des Hautes-Pyrénées",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281395",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281395",
+        "nor": "AGRS2614323A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-ec8411a85e3c",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à une convention collective de travail concernant les exploitations agricoles de polyculture, d'élevage, de viticulture, les champignonnières, les coopératives d'utilisation de matériel agricole, les entreprises de travaux agricoles, les maraîchers et les producteurs légumiers du département des..."
+      }
+    },
+    {
+      "id": "5e3386e42bb433ba",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à la convention collective de travail concernant les exploitations forestières de la région Alsace",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281406",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281406",
+        "nor": "AGRS2614354A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-5b74701cf7db",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à la convention collective de travail concernant les exploitations forestières de la région Alsace. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "b016f454e448865f",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à la convention collective de travail concernant les exploitations forestières de la région Champagne-Ardenne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281426",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281426",
+        "nor": "AGRS2614361A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-6c566f553c50",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à la convention collective de travail concernant les exploitations forestières de la région Champagne-Ardenne. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "4261625bfe78b847",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à un accord collectif territorial concernant les entreprises de production agricole et coopératives d'utilisation de matériels agricoles de la Côte-d'Or, du Doubs, du Jura, de la Nièvre, de la Haute-Saône, de l'Yonne et du Territoire de Belfort",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281437",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281437",
+        "nor": "AGRS2614364A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-5e9e0dc62e5f",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à un accord collectif territorial concernant les entreprises de production agricole et coopératives d'utilisation de matériels agricoles de la Côte-d'Or, du Doubs, du Jura, de la Nièvre, de la Haute-Saône, de l'Yonne et du Territoire de Belfort. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "3c61ab31a91f7035",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à un accord collectif territorial concernant les entreprises de travaux et services agricoles, les entreprises de travaux et services ruraux de la Côte-d'Or, du Doubs, du Jura, de la Nièvre, de la Haute-Saône, de l'Yonne et du Territoire de Belfort et les entreprises de travaux et services forestiers de Bourgogne-Franche-Comté",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281449",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281449",
+        "nor": "AGRS2614369A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-f411418461a1",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à un accord collectif territorial concernant les entreprises de travaux et services agricoles, les entreprises de travaux et services ruraux de la Côte-d'Or, du Doubs, du Jura, de la Nièvre, de la Haute-Saône, de l'Yonne et du Territoire de Belfort et les entreprises de travaux et services..."
+      }
+    },
+    {
+      "id": "9f222a3d12bc2421",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 12 juin 2026 portant extension d'un avenant à l'accord collectif concernant les exploitations agricoles, les entreprises de travaux agricoles et ruraux, les coopératives d'utilisation de matériels agricoles du département du Gers",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281461",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 21 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-21",
+        "label": "Par défaut, applicable le 21 juin 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281461",
+        "nor": "AGRS2614372A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-d4cbca297713",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 12 juin 2026 portant extension d'un avenant à l'accord collectif concernant les exploitations agricoles, les entreprises de travaux agricoles et ruraux, les coopératives d'utilisation de matériels agricoles du département du Gers. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "6d32d0d67794f087",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord collectif agricole interdépartemental frais de santé relatif au régime frais de santé pour les salariés non-cadres de la production agricole du Tarn et de la Haute-Garonne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281484",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 20 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Publié le 20 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 27,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281484",
+        "nor": "AGRS2616505V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-ccdb6f88c75e",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord collectif agricole interdépartemental frais de santé relatif au régime frais de santé pour les salariés non-cadres de la production agricole du Tarn et de la Haute-Garonne. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "c462189cf6e3fbfd",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord collectif concernant les exploitations maraîchères et légumières de plein champ du département de la Seine-Maritime",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281496",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 20 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Publié le 20 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 27,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281496",
+        "nor": "AGRS2616513V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-ce684852bbe9",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord collectif concernant les exploitations maraîchères et légumières de plein champ du département de la Seine-Maritime. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "14c7ce98105b696e",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord collectif de travail concernant la production agricole du département du Calvados",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054281502",
+      "publishedAt": "2026-06-20",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 20 juin 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Publié le 20 juin 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 27,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054281502",
+        "nor": "AGRS2616517V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260620-002841.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-36d4f36a90c8",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord collectif de travail concernant la production agricole du département du Calvados. Texte publié au Journal officiel le 2026-06-20."
+      }
+    },
+    {
+      "id": "60597e7369787919",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Un « symbole White Power » : une société condamnée à verser 300 000 euros à un salarié licencié après avoir dénoncé des propos racistes",
+      "url": "https://www.leparisien.fr/economie/un-symbole-white-power-une-societe-condamnee-a-verser-300-000-euros-a-un-salarie-licencie-apres-avoir-denonce-des-propos-racistes-19-06-2026-ZI57A24M2JE73MHVV3VPQM7RVY.php",
+      "publishedAt": "2026-06-20",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. Un « symbole White Power » : une société condamnée à verser 300 000 euros à un salarié licencié après avoir dénoncé des propos racistes. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Un « symbole White Power » : une société condamnée à verser 300 000 euros à un salarié licencié après avoir dénoncé des propos racistes"
+      }
+    },
+    {
+      "id": "6d37d436a0cca0cb",
+      "date": "2026-06-20",
+      "firstSeenDate": "2026-06-20",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Loyers élevés, pénurie de main-d’œuvre… Près de Genève, les effets pervers de l’«eldorado» suisse pour les communes françaises",
+      "url": "https://www.lefigaro.fr/conjoncture/loyers-eleves-penurie-de-main-d-oeuvre-pres-de-geneve-les-effets-pervers-de-l-eldorado-suisse-pour-les-communes-francaises-20260620",
+      "publishedAt": "2026-06-20",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. REPORTAGE - Dans l’Ain, département frontalier du canton de Genève, beaucoup partent travailler côté Suisse afin de profiter des meilleurs salaires. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-20",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. REPORTAGE - Dans l’Ain, département frontalier du canton de Genève, beaucoup partent travailler côté Suisse afin de profiter des meilleurs salaires."
+      }
+    }
+  ]
+}
