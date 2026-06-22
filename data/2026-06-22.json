@@ -1,0 +1,283 @@
+{
+  "generatedAt": "2026-06-22T12:56:42.677Z",
+  "date": "2026-06-22",
+  "stats": {
+    "total": 6,
+    "regles": 1,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 1,
+    "presse": 4,
+    "priorite1": 0,
+    "priorite2": 2,
+    "priorite3": 4
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-22",
+      "collected": 149,
+      "rejectedByDate": 131
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "93fa75a4739ad2fd",
+      "date": "2026-06-22",
+      "firstSeenDate": "2026-06-22",
+      "sourceName": "Service-Public - particuliers",
+      "sourceType": "rss",
+      "category": "regle",
+      "title": "Accident du travail : de nouvelles règles appliquées prochainement pour les indemnités journalières",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18969?xtor=RSS-111",
+      "publishedAt": "2026-06-22",
+      "summary": "Changement apporté : Lorsque vous êtes en arrêt de travail en raison d'une maladie professionnelle ou d’un accident du travail, vous avez droit à des indemnités journalières versées par votre régime d'assurance maladie. Applicable ou à intégrer à partir du 22 juin 2026. Impact pratique : vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": "2026-06-22",
+        "label": "Date de référence : 22 juin 2026.",
+        "basis": "Source officielle."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Santé au travail"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "sourceSummary": "Lorsque vous êtes en arrêt de travail en raison d'une maladie professionnelle ou d’un accident du travail, vous avez droit à des indemnités journalières versées par votre régime d'assurance maladie."
+      }
+    },
+    {
+      "id": "7a20085b6fdb24ec",
+      "date": "2026-06-22",
+      "firstSeenDate": "2026-06-22",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "REPORTAGE. \"Faciliter le renouvellement générationnel du syndicat\" : comment la CFDT tente de rajeunir ses rangs",
+      "url": "https://www.franceinfo.fr/economie/syndicats/reportage-faciliter-le-renouvellement-generationnel-du-syndicat-comment-la-cfdt-tente-de-rajeunir-ses-rangs_8073593.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-06-22",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Le congrès de la CFDT s'ouvre lundi à Bordeaux. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Le congrès de la CFDT s'ouvre lundi à Bordeaux. Alors que seulement 8% de ses adhérents ont moins de 35 ans, le premier syndicat de France lance une expérimentation en ouvrant son bureau national."
+      }
+    },
+    {
+      "id": "6299eae4707ce050",
+      "date": "2026-06-22",
+      "firstSeenDate": "2026-06-22",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« En sortant de l’examen, j’ai fondu en larmes » : le piège des alternances inadaptées",
+      "url": "https://www.leparisien.fr/etudiant/etudes/alternance/en-sortant-de-lexamen-jai-fondu-en-larmes-le-piege-des-alternances-inadaptees-RVAFXIOOEJDKHDCDFA7JU252HE.php",
+      "publishedAt": "2026-06-22",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. « En sortant de l’examen, j’ai fondu en larmes » : le piège des alternances inadaptées. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
+      "application": {
+        "date": "2026-06-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « En sortant de l’examen, j’ai fondu en larmes » : le piège des alternances inadaptées"
+      }
+    },
+    {
+      "id": "b9701ae7c0a2891b",
+      "date": "2026-06-22",
+      "firstSeenDate": "2026-06-22",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Canicule : qu’est-ce que le «congé climatique», ce dispositif espagnol que les Écologistes veulent importer en France ?",
+      "url": "https://www.lefigaro.fr/social/canicule-qu-est-ce-que-le-conge-climatique-ce-dispositif-espagnol-que-les-ecologistes-veulent-importer-en-france-20260622",
+      "publishedAt": "2026-06-22",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. En pleine vague de chaleur, le parti de Marine Tondelier a lancé dimanche une pétition pour réclamer la mise en place d’un «congé climatique», de cinq jours maximum par an. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. En pleine vague de chaleur, le parti de Marine Tondelier a lancé dimanche une pétition pour réclamer la mise en place d’un «congé climatique», de cinq jours maximum par an."
+      }
+    },
+    {
+      "id": "b93cbe2a518e9b5a",
+      "date": "2026-06-22",
+      "firstSeenDate": "2026-06-22",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "«J’abats aujourd’hui le travail de deux salariés d’hier» : dans les cabinets, la révolution de l’IA met les consultants sous pression",
+      "url": "https://www.lefigaro.fr/conjoncture/j-abats-aujourd-hui-le-travail-de-deux-salaries-d-hier-dans-les-cabinets-la-revolution-de-l-ia-met-les-consultants-sous-pression-20260622",
+      "publishedAt": "2026-06-22",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. TÉMOIGNAGES - Derrière la promesse d’un métier libéré des tâches ingrates, une nouvelle forme de pression s’est installée, plus silencieuse et plus exigeante. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. TÉMOIGNAGES - Derrière la promesse d’un métier libéré des tâches ingrates, une nouvelle forme de pression s’est installée, plus silencieuse et plus exigeante."
+      }
+    },
+    {
+      "id": "b07319d0463a45b6",
+      "date": "2026-06-22",
+      "firstSeenDate": "2026-06-22",
+      "sourceName": "Vie-publique - actualités",
+      "sourceType": "rss",
+      "category": "actualite",
+      "title": "Emploi et salaires : la baisse du coût du travail au niveau du SMIC est-elle adaptée ?",
+      "url": "https://www.vie-publique.fr/en-bref/303725-emploi-et-salaires-une-baisse-du-cout-du-travail-au-smic-adaptee?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+      "publishedAt": "2026-06-22",
+      "summary": "Actualité institutionnelle : Emploi et salaires : la baisse du coût du travail au niveau du SMIC est-elle adaptée ?. Impact pratique : vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": null,
+        "label": "Vérifier si une source normative est mentionnée avant d'appliquer.",
+        "basis": "Actualité institutionnelle."
+      },
+      "watch": "Conserver en veille et confirmer par une source normative si une action est envisagée.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 16,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Emploi et salaires : la baisse du coût du travail au niveau du SMIC est-elle adaptée ?"
+      }
+    }
+  ]
+}
