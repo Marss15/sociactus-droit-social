@@ -203,6 +203,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-05311c06318b": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
     "name-06c9ed04c793": {
       "label": "relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail et des solidarités, V",
       "idcc": "",
@@ -211,12 +219,52 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-1acca8270415": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
+    "name-2bb6e30e6282": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
+    "name-3c7792023271": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-4c9a8ec1a407": {
+      "label": "organismes de formation",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
+    "name-804ef24cd244": {
+      "label": "l'enseignement privé indépendant",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -235,6 +283,30 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-927a1998ebbe": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
+    "name-92c015484a63": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
+    "name-998451adeec5": {
+      "label": "Métallurgie",
+      "idcc": null,
+      "rank": "p1",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
@@ -243,20 +315,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-bd9edc831acb": {
+    "name-ba87a0b131bc": {
       "label": "Convention collective",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-06-23",
-      "lastSeen": "2026-06-23",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
       "seenCount": 1
     },
-    "name-cd93afb671ad": {
+    "name-c920d7b7536b": {
       "label": "Convention collective",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-06-23",
-      "lastSeen": "2026-06-23",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -267,6 +339,30 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-d2830891dbb4": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
+    "name-d3b5a3ecb959": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
+    "name-da23c74bf9b4": {
+      "label": "cabinets ou entreprises de géomètres experts, géomètres topographes photogrammètres, experts-fonciers",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "seenCount": 1
+    },
     "name-ee1a0060264e": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
@@ -275,12 +371,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-fd1cb51cc785": {
+    "name-ff0fd3330701": {
       "label": "Convention collective",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-06-23",
-      "lastSeen": "2026-06-23",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
       "seenCount": 1
     }
   }
