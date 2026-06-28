@@ -99,14 +99,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1412": {
-      "label": "entreprises d'installation sans fabrication, y compris entretien, réparation, dépannage de matériel aéraulique, thermique, frigorifique et connexes (n° 1412)",
-      "idcc": "1412",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
     "idcc-1499": {
       "label": "la miroiterie, de la transformation et du négoce du verre (n° 1499)",
       "idcc": "1499",
@@ -131,44 +123,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1580": {
-      "label": "l'industrie de la chaussure et des articles chaussants (n° 1580)",
-      "idcc": "1580",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
     "idcc-1607": {
       "label": "industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes (n° 1607)",
       "idcc": "1607",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "idcc-1760": {
-      "label": "jardineries et graineteries (n° 1760)",
-      "idcc": "1760",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
-    "idcc-1821": {
-      "label": "professions regroupées du cristal, du verre et du vitrail (n° 1821)",
-      "idcc": "1821",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
-    "idcc-1880": {
-      "label": "négoce et de l'ameublement (n° 1880)",
-      "idcc": "1880",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
       "seenCount": 1
     },
     "idcc-1982": {
@@ -187,14 +147,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2120": {
-      "label": "la banque (n° 2120)",
-      "idcc": "2120",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
     "idcc-2332": {
       "label": "entreprises d'architecture (n° 2332)",
       "idcc": "2332",
@@ -203,28 +155,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2494": {
-      "label": "la coopération maritime (n° 2494)",
-      "idcc": "2494",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
     "idcc-2609": {
       "label": "Bâtiment et travaux publics",
       "idcc": "2609",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "idcc-2728": {
-      "label": "sucreries, sucreries-distilleries et raffineries de sucre (n° 2728)",
-      "idcc": "2728",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
       "seenCount": 1
     },
     "idcc-3229": {
@@ -240,16 +176,16 @@
       "idcc": "3248",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-06-27",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3249": {
       "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
       "idcc": "3249",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-06-27",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3250": {
       "label": "commissaires de justice et sociétés de ventes volontaires (n° 3250)",
@@ -257,22 +193,6 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "idcc-573": {
-      "label": "commerces de gros (n° 573)",
-      "idcc": "573",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
-    "idcc-733": {
-      "label": "détaillants en chaussures (n° 733)",
-      "idcc": "733",
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
       "seenCount": 1
     },
     "idcc-915": {
@@ -291,14 +211,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-3097a301b81c": {
-      "label": "Convention collective",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
@@ -307,28 +219,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-6b3a21158088": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
-    "name-73f2029c0b86": {
-      "label": "acteurs du lien social et familial",
+    "name-4bc622e6b20c": {
+      "label": "des industries et commerces de la récupération et du recyclage",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
-      "seenCount": 1
-    },
-    "name-750a8beb9b87": {
-      "label": "sucreries, sucreries-distilleries et raffineries de sucre",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-06-28",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -369,14 +265,6 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-f5041b8d4161": {
-      "label": "Commerce de détail et de gros",
-      "idcc": null,
-      "rank": "p2",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-27",
       "seenCount": 1
     }
   }
