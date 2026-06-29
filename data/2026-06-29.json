@@ -1,0 +1,166 @@
+{
+  "generatedAt": "2026-06-29T12:05:45.351Z",
+  "date": "2026-06-29",
+  "stats": {
+    "total": 2,
+    "regles": 0,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 2,
+    "priorite1": 0,
+    "priorite2": 0,
+    "priorite3": 2
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-29",
+      "collected": 155,
+      "rejectedByDate": 144
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "338bdda486f19752",
+      "date": "2026-06-29",
+      "firstSeenDate": "2026-06-29",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "La transparence des salaires, une attente forte des salariés pour réduire les inégalités femmes-hommes",
+      "url": "https://www.lemonde.fr/emploi/article/2026/06/29/la-transparence-des-salaires-une-attente-forte-des-salaries-pour-reduire-les-inegalites-femmes-hommes_6716910_1698637.html",
+      "publishedAt": "2026-06-29",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Alors que la France, qui avait jusqu’au 7 juin pour transposer la directive européenne qui prévoit, notamment, la possibilité pour un salarié de comparer sa rémunération globale à celle des collègues effectuant un «. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Alors que la France, qui avait jusqu’au 7 juin pour transposer la directive européenne qui prévoit, notamment, la possibilité pour un salarié de comparer sa rémunération globale à celle des collègues effectuant un «..."
+      }
+    },
+    {
+      "id": "eddc01cacf70fdd3",
+      "date": "2026-06-29",
+      "firstSeenDate": "2026-06-29",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Canicule : l’inspection du travail a adressé 227 mises en demeure en un mois",
+      "url": "https://www.lefigaro.fr/social/canicule-l-inspection-du-travail-a-adresse-227-mises-en-demeure-en-un-mois-20260629",
+      "publishedAt": "2026-06-29",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Le ministre du Travail Jean-Pierre Farandou a indiqué que 2600 contrôles avaient été effectués depuis la fin mai pour vérifier que les entreprises protègent bien leurs salariés des fortes chaleurs. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-06-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Le ministre du Travail Jean-Pierre Farandou a indiqué que 2600 contrôles avaient été effectués depuis la fin mai pour vérifier que les entreprises protègent bien leurs salariés des fortes chaleurs."
+      }
+    }
+  ]
+}
