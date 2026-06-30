@@ -1,0 +1,585 @@
+{
+  "generatedAt": "2026-06-30T10:34:54.497Z",
+  "date": "2026-06-30",
+  "stats": {
+    "total": 15,
+    "regles": 7,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 8,
+    "priorite1": 2,
+    "priorite2": 5,
+    "priorite3": 8
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-06-30",
+      "collected": 101,
+      "rejectedByDate": 81
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "d9b003eae97a1f32",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "LOI n° 2026-553 du 29 juin 2026 visant à améliorer l'accès au logement des travailleurs des services publics (1)",
+      "url": "https://www.legifrance.gouv.fr/eli/loi/2026/6/29/VLOC2515640L/jo/texte",
+      "publishedAt": "2026-06-30",
+      "summary": "Changement apporté : LOI n° 2026-553 du 29 juin 2026 visant à améliorer l'accès au logement des travailleurs des services publics (1). Applicable ou à intégrer à partir du 01 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-01",
+        "label": "Par défaut, applicable le 01 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 63,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054340694",
+        "nor": "VLOC2515640L",
+        "nature": "LOI",
+        "textDate": "2026-06-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260630-014711.tar.gz",
+        "sourceSummary": "LOI. LOI n° 2026-553 du 29 juin 2026 visant à améliorer l'accès au logement des travailleurs des services publics (1). Texte publié au Journal officiel le 2026-06-30."
+      }
+    },
+    {
+      "id": "76e632d2b6706fbb",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-568 du 26 juin 2026 relatif au code de déontologie des architectes",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/6/26/MICB2536807D/jo/texte",
+      "publishedAt": "2026-06-30",
+      "summary": "Changement apporté : le décret modifie et modernise le code de déontologie des architectes. Applicable ou à intégrer à partir du 01 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-01",
+        "label": "Par défaut, applicable le 01 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "high",
+      "priority": 63,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054341539",
+        "nor": "MICB2536807D",
+        "nature": "DECRET",
+        "textDate": "2026-06-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260630-014711.tar.gz",
+        "sourceSummary": "Publics concernés : architectes, conseils régionaux de l'ordre des architectes, Conseil national de l'ordre des architectes. Objet : le décret modifie et modernise le code de déontologie des architectes."
+      }
+    },
+    {
+      "id": "bcb267f0ed00c47c",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 juin 2026 modifiant l'arrêté du 18 avril 2013 pris pour l'application de l'article 128 du décret n° 2012-1246 du 7 novembre 2012 relatif à la gestion budgétaire et comptable publique et fixant l'assignation comptable des rémunérations des personnels de l'Etat servies sans ordonnancement préalable ainsi que des titres de perception émis à l'encontre des personnels et relatifs aux indus de rémunération, aux acomptes sur rémunération non régularisés, aux validations de services auxiliaires et aux rachats d'années d'études",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/26/CPPE2617511A/jo/texte",
+      "publishedAt": "2026-06-30",
+      "summary": "Changement apporté : Arrêté du 26 juin 2026 modifiant l'arrêté du 18 avril 2013 pris pour l'application de l'article 128 du décret n° 2012-1246 du 7 novembre 2012 relatif à la gestion budgétaire et comptable publique et fixant l'assignation comptable des rémunérations des. Applicable ou à intégrer à partir du 01 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-01",
+        "label": "Par défaut, applicable le 01 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054341575",
+        "nor": "CPPE2617511A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260630-014711.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 26 juin 2026 modifiant l'arrêté du 18 avril 2013 pris pour l'application de l'article 128 du décret n° 2012-1246 du 7 novembre 2012 relatif à la gestion budgétaire et comptable publique et fixant l'assignation comptable des rémunérations des personnels de l'Etat servies sans ordonnancement préalable ainsi que des titres de perception émis à..."
+      }
+    },
+    {
+      "id": "fd2d1c9627033968",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 juin 2026 portant restriction d'exploitation de l'aérodrome de Toulouse-Blagnac (Haute-Garonne)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/29/TRAA2414764A/jo/texte",
+      "publishedAt": "2026-06-30",
+      "summary": "Changement apporté : Arrêté du 29 juin 2026 portant restriction d'exploitation de l'aérodrome de Toulouse-Blagnac (Haute-Garonne). Applicable ou à intégrer à partir du 01 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-01",
+        "label": "Par défaut, applicable le 01 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054341715",
+        "nor": "TRAA2414764A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260630-014711.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 29 juin 2026 portant restriction d'exploitation de l'aérodrome de Toulouse-Blagnac (Haute-Garonne). Texte publié au Journal officiel le 2026-06-30."
+      }
+    },
+    {
+      "id": "a25fc95057889713",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 juin 2026 fixant les parts respectives de femmes et d'hommes composant les effectifs représentés au sein des collèges des sections de la Commission nationale des enseignants chercheurs relevant du ministre chargé de l'agriculture",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/26/AGRS2613831A/jo/texte",
+      "publishedAt": "2026-06-30",
+      "summary": "Changement apporté : Arrêté du 26 juin 2026 fixant les parts respectives de femmes et d'hommes composant les effectifs représentés au sein des collèges des sections de la Commission nationale des enseignants chercheurs relevant du ministre chargé de l'agriculture. Applicable ou à intégrer à partir du 01 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-01",
+        "label": "Par défaut, applicable le 01 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054341372",
+        "nor": "AGRS2613831A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260630-014711.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 26 juin 2026 fixant les parts respectives de femmes et d'hommes composant les effectifs représentés au sein des collèges des sections de la Commission nationale des enseignants chercheurs relevant du ministre chargé de l'agriculture. Texte publié au Journal officiel le 2026-06-30."
+      }
+    },
+    {
+      "id": "0cf0c1112c939bad",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 juin 2026 portant désignation des auditeurs de la 6e session nationale de l'Institut des hautes études de défense nationale (cycle 2026-2027)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054341768",
+      "publishedAt": "2026-06-30",
+      "summary": "Changement apporté : Arrêté du 29 juin 2026 portant désignation des auditeurs de la 6e session nationale de l'Institut des hautes études de défense nationale (cycle 2026-2027). Applicable ou à intégrer à partir du 01 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-01",
+        "label": "Par défaut, applicable le 01 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054341768",
+        "nor": "PRMX2617612A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260630-014711.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 29 juin 2026 portant désignation des auditeurs de la 6e session nationale de l'Institut des hautes études de défense nationale (cycle 2026-2027). Texte publié au Journal officiel le 2026-06-30."
+      }
+    },
+    {
+      "id": "46fd7f1f5108381c",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 25 juin 2026 portant autorisation temporaire d'exercice de la médecine en France",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054341824",
+      "publishedAt": "2026-06-30",
+      "summary": "Changement apporté : Arrêté du 25 juin 2026 portant autorisation temporaire d'exercice de la médecine en France. Applicable ou à intégrer à partir du 01 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-01",
+        "label": "Par défaut, applicable le 01 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054341824",
+        "nor": "SFHN2617575A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260630-014711.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 25 juin 2026 portant autorisation temporaire d'exercice de la médecine en France. Texte publié au Journal officiel le 2026-06-30."
+      }
+    },
+    {
+      "id": "30504193ab90fac9",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Dans les quartiers prioritaires, créer son entreprise comme réponse à un marché du travail verrouillé : « Il y a une vraie énergie, une envie de s’en sortir »",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/30/dans-les-quartiers-prioritaires-creer-son-entreprise-comme-reponse-a-un-marche-du-travail-verrouille-il-y-a-une-vraie-energie-une-envie-de-s-en-sortir_6717251_3234.html",
+      "publishedAt": "2026-06-30",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Confrontés à des difficultés d’accès à l’emploi et à l’alternance, de plus en plus de jeunes des quartiers populaires lancent leur propre activité. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
+      "application": {
+        "date": "2026-06-30",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Confrontés à des difficultés d’accès à l’emploi et à l’alternance, de plus en plus de jeunes des quartiers populaires lancent leur propre activité."
+      }
+    },
+    {
+      "id": "4e43ca372423735f",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Les salariés d’EDF mènent une action en justice pour connaître les rémunérations de leurs dirigeants",
+      "url": "https://www.lemonde.fr/economie/article/2026/06/30/les-salaries-d-edf-menent-une-action-en-justice-pour-connaitre-les-remunerations-de-leurs-dirigeants_6717236_3234.html",
+      "publishedAt": "2026-06-30",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Une instance représentative du personnel a annoncé qu’une audience était fixée le 2 juillet devant le tribunal judiciaire de Paris. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-30",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Une instance représentative du personnel a annoncé qu’une audience était fixée le 2 juillet devant le tribunal judiciaire de Paris."
+      }
+    },
+    {
+      "id": "08c48dfd2e568f12",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Discriminations à l’emploi des habitants des quartiers populaires : plusieurs études rappellent l’ampleur du chantier à mener",
+      "url": "https://www.lemonde.fr/societe/article/2026/06/30/discriminations-a-l-emploi-des-habitants-des-quartiers-populaires-plusieurs-etudes-rappellent-l-ampleur-du-chantier-a-mener_6717224_3224.html",
+      "publishedAt": "2026-06-30",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Dans les quartiers prioritaires de la politique de la ville, 40 % des habitants sont en situation d’inactivité. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-30",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Dans les quartiers prioritaires de la politique de la ville, 40 % des habitants sont en situation d’inactivité. Parmi les habitants en emploi, 65,1 % sont ouvriers ou employés."
+      }
+    },
+    {
+      "id": "777519b92234b109",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Les salariés d’EDF attaquent l’entreprise en justice sur « l’opacité » des rémunérations de ses dirigeants",
+      "url": "https://www.leparisien.fr/economie/les-salaries-dedf-attaquent-lentreprise-en-justice-sur-lopacite-des-remunerations-de-ses-dirigeants-30-06-2026-73JXFL3VRRAPLIPAT6EGHUBCDQ.php",
+      "publishedAt": "2026-06-30",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. Les salariés d’EDF attaquent l’entreprise en justice sur « l’opacité » des rémunérations de ses dirigeants. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-30",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Les salariés d’EDF attaquent l’entreprise en justice sur « l’opacité » des rémunérations de ses dirigeants"
+      }
+    },
+    {
+      "id": "83abed094bf28684",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« J’ai posé deux bons mois… » Ces entreprises vont encore plus loin que le nouveau congé supplémentaire de naissance",
+      "url": "https://www.leparisien.fr/economie/jai-pose-deux-bons-mois-ces-entreprises-vont-encore-plus-loin-que-le-nouveau-conge-supplementaire-de-naissance-30-06-2026-OHIV7FK7P5AVPMFZEAO5MPUQRA.php",
+      "publishedAt": "2026-06-30",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. « J’ai posé deux bons mois… » Ces entreprises vont encore plus loin que le nouveau congé supplémentaire de naissance. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques mettre à jour les règles d'absence, les contrôles RH et l'information des salariés ou agents.",
+      "application": {
+        "date": "2026-06-30",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « J’ai posé deux bons mois… » Ces entreprises vont encore plus loin que le nouveau congé supplémentaire de naissance"
+      }
+    },
+    {
+      "id": "09db67cf12bbad73",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "+2,7% : en un an, les frais bancaires ont augmenté trois fois plus vite que l’inflation",
+      "url": "https://www.lefigaro.fr/conso/2-7-en-un-an-les-frais-bancaires-ont-augmente-trois-fois-plus-vite-que-l-inflation-20260630",
+      "publishedAt": "2026-06-30",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Le rapport «confirme la trajectoire maîtrisée dans le temps des prix des services bancaires», estime la Fédération bancaire française (FBF), qui met en avant les coûts croissants pour les banques des salaires et de. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-30",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Le rapport «confirme la trajectoire maîtrisée dans le temps des prix des services bancaires», estime la Fédération bancaire française (FBF), qui met en avant les coûts croissants pour les banques des salaires et de..."
+      }
+    },
+    {
+      "id": "f519409be95c9f40",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "EDF : pour connaître la rémunération des cadres dirigeants, les représentants des salariés attaquent l’entreprise en justice",
+      "url": "https://www.lefigaro.fr/societes/edf-pour-connaitre-la-remuneration-des-cadres-dirigeants-les-representants-des-salaries-attaquent-l-entreprise-en-justice-20260630",
+      "publishedAt": "2026-06-30",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Le Comité social et économique central de l’entreprise regrette l’«opacité» de l’entreprise sur ce sujet. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-06-30",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Le Comité social et économique central de l’entreprise regrette l’«opacité» de l’entreprise sur ce sujet. Une audience est fixée le 2 juillet devant le tribunal judiciaire de Paris."
+      }
+    },
+    {
+      "id": "e71860955a70aefa",
+      "date": "2026-06-30",
+      "firstSeenDate": "2026-06-30",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "REPORTAGE. \"On essaie de trouver la faille de son job actuel\" : comment les recruteurs dénichent les ouvriers qualifiés les plus convoités",
+      "url": "https://www.franceinfo.fr/economie/emploi/reportage-on-essaie-de-trouver-la-faille-de-son-job-actuel-comment-les-recruteurs-denichent-les-ouvriers-qualifies-les-plus-convoites_8085737.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-06-30",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Maçons, des électriciens, des opérateurs de production, des soudeurs. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-06-30",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Maçons, des électriciens, des opérateurs de production, des soudeurs... Les profils recherchés pour ces métiers en pénurie de main-d'œuvre sont très nombreux."
+      }
+    }
+  ]
+}
