@@ -1,0 +1,402 @@
+{
+  "generatedAt": "2026-07-02T10:13:29.898Z",
+  "date": "2026-07-02",
+  "stats": {
+    "total": 9,
+    "regles": 6,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 3,
+    "priorite1": 0,
+    "priorite2": 7,
+    "priorite3": 2
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-02",
+      "collected": 93,
+      "rejectedByDate": 80
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "e24daed6b7cc287d",
+      "date": "2026-07-02",
+      "firstSeenDate": "2026-07-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 1er juillet 2026 portant cessation de fonctions et nomination d'un directeur à l'administration centrale du ministère des armées et des anciens combattants - M. BARBRY (Frédéric)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054371914",
+      "publishedAt": "2026-07-02",
+      "summary": "Changement apporté : Décret du 1er juillet 2026 portant cessation de fonctions et nomination d'un directeur à l'administration centrale du ministère des armées et des anciens combattants - M. Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Par défaut, applicable le 03 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054371914",
+        "nor": "ARMB2617187D",
+        "nature": "DECRET",
+        "textDate": "2026-07-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260702-003141.tar.gz",
+        "sourceSummary": "DECRET. Décret du 1er juillet 2026 portant cessation de fonctions et nomination d'un directeur à l'administration centrale du ministère des armées et des anciens combattants - M. BARBRY (Frédéric). Texte publié au Journal officiel le 2026-07-02."
+      }
+    },
+    {
+      "id": "38a9560941783659",
+      "date": "2026-07-02",
+      "firstSeenDate": "2026-07-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis du 27 avril 2026 relatif à la surpopulation carcérale",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054372606",
+      "publishedAt": "2026-07-02",
+      "summary": "Changement apporté : Avis du 27 avril 2026 relatif à la surpopulation carcérale. Applicable ou à intégrer à partir du 02 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-02",
+        "label": "Publié le 02 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054372606",
+        "nor": "CPLX2617010V",
+        "nature": "AVIS",
+        "textDate": "2026-04-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260702-003141.tar.gz",
+        "sourceSummary": "AVIS. Avis du 27 avril 2026 relatif à la surpopulation carcérale. Texte publié au Journal officiel le 2026-07-02."
+      }
+    },
+    {
+      "id": "fb968a1f90f8c623",
+      "date": "2026-07-02",
+      "firstSeenDate": "2026-07-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 juin 2026 portant diverses dispositions relatives à la sûreté portuaire",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/29/TRAT2600338A/jo/texte",
+      "publishedAt": "2026-07-02",
+      "summary": "Changement apporté : Arrêté du 29 juin 2026 portant diverses dispositions relatives à la sûreté portuaire. Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Par défaut, applicable le 03 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054371820",
+        "nor": "TRAT2600338A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260702-003141.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 29 juin 2026 portant diverses dispositions relatives à la sûreté portuaire. Texte publié au Journal officiel le 2026-07-02."
+      }
+    },
+    {
+      "id": "7df7206fb68d91e3",
+      "date": "2026-07-02",
+      "firstSeenDate": "2026-07-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps interministériel des attachés d'administration de l'Etat",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/29/INTH2616354A/jo/texte",
+      "publishedAt": "2026-07-02",
+      "summary": "Changement apporté : Arrêté du 29 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps interministériel des attachés d'administration de l'Etat. Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Par défaut, applicable le 03 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054371410",
+        "nor": "INTH2616354A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260702-003141.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 29 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps interministériel des attachés d'administration de l'Etat. Texte publié au Journal officiel le 2026-07-02."
+      }
+    },
+    {
+      "id": "f42f0b8b9b62029d",
+      "date": "2026-07-02",
+      "firstSeenDate": "2026-07-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 portant interdiction de vente aux mineurs d'une publication",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/INTD2617688A/jo/texte",
+      "publishedAt": "2026-07-02",
+      "summary": "Changement apporté : Arrêté du 30 juin 2026 portant interdiction de vente aux mineurs d'une publication. Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Par défaut, applicable le 03 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054371425",
+        "nor": "INTD2617688A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260702-003141.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juin 2026 portant interdiction de vente aux mineurs d'une publication. Texte publié au Journal officiel le 2026-07-02."
+      }
+    },
+    {
+      "id": "c262fe0eb3db8049",
+      "date": "2026-07-02",
+      "firstSeenDate": "2026-07-02",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 19 juin 2026 relatif au calendrier de la procédure nationale de préinscription pour l'accès aux formations initiales du premier cycle de l'enseignement supérieur en Nouvelle-Calédonie pour la session 2026-2027",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/19/ESRS2616174A/jo/texte",
+      "publishedAt": "2026-07-02",
+      "summary": "Changement apporté : Arrêté du 19 juin 2026 relatif au calendrier de la procédure nationale de préinscription pour l'accès aux formations initiales du premier cycle de l'enseignement supérieur en Nouvelle-Calédonie pour la session 2026-2027. Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Par défaut, applicable le 03 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054371748",
+        "nor": "ESRS2616174A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-19",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260702-003141.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 19 juin 2026 relatif au calendrier de la procédure nationale de préinscription pour l'accès aux formations initiales du premier cycle de l'enseignement supérieur en Nouvelle-Calédonie pour la session 2026-2027. Texte publié au Journal officiel le 2026-07-02."
+      }
+    },
+    {
+      "id": "31058b3701210d94",
+      "date": "2026-07-02",
+      "firstSeenDate": "2026-07-02",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Marylise Léon, secrétaire générale de la CFDT : « On ne va pas attendre qu’il y ait de nouveaux morts au travail en période de canicule pour prendre conscience qu’il y a urgence »",
+      "url": "https://www.lemonde.fr/politique/article/2026/07/02/marylise-leon-secretaire-generale-de-la-cfdt-on-ne-va-pas-attendre-qu-il-y-ait-de-nouveaux-morts-au-travail-en-periode-de-canicule-pour-prendre-conscience-qu-il-y-a-urgence_6717798_823448.html",
+      "publishedAt": "2026-07-02",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. La dirigeante du premier syndicat de France estime, dans un entretien au « Monde », que le gouvernement doit se montrer « beaucoup plus volontariste » face aux effets du réchauffement. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-02",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. La dirigeante du premier syndicat de France estime, dans un entretien au « Monde », que le gouvernement doit se montrer « beaucoup plus volontariste » face aux effets du réchauffement."
+      }
+    },
+    {
+      "id": "f4ae828fd4c35c3f",
+      "date": "2026-07-02",
+      "firstSeenDate": "2026-07-02",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Lesbiennes au travail : sortir de l’invisibilité » : une enquête pour mieux saisir le vécu des femmes homosexuelles au sein des entreprises",
+      "url": "https://www.lemonde.fr/emploi/article/2026/07/02/lesbiennes-au-travail-sortir-de-l-invisibilite-une-enquete-pour-mieux-saisir-le-vecu-des-femmes-homosexuelles-au-sein-des-entreprises_6717791_1698637.html",
+      "publishedAt": "2026-07-02",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Palliant un déficit de recherche sur le sujet, l’universitaire Clotilde Coron propose dans son dernier ouvrage une étude rigoureuse du quotidien des salariées lesbiennes, explorant leur « stratégie de dévoilement », les. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques renforcer la prévention, le traitement des signalements et la traçabilité des mesures prises.",
+      "application": {
+        "date": "2026-07-02",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Palliant un déficit de recherche sur le sujet, l’universitaire Clotilde Coron propose dans son dernier ouvrage une étude rigoureuse du quotidien des salariées lesbiennes, explorant leur « stratégie de dévoilement », les..."
+      }
+    },
+    {
+      "id": "224b8999d8cc6ea3",
+      "date": "2026-07-02",
+      "firstSeenDate": "2026-07-02",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Je n’ai pas touché mon salaire » : La Banque Postale annonce avoir résolu « l’incident affectant les virements entrants »",
+      "url": "https://www.leparisien.fr/economie/rendez-ma-paie-un-incident-affectant-les-virements-entrants-en-cours-a-la-banque-postale-plusieurs-clients-concernes-01-07-2026-AB6JBPVI3ZE5HMF4GUBLRT7T6Y.php",
+      "publishedAt": "2026-07-02",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. « Je n’ai pas touché mon salaire » : La Banque Postale annonce avoir résolu « l’incident affectant les virements entrants ». Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-02",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « Je n’ai pas touché mon salaire » : La Banque Postale annonce avoir résolu « l’incident affectant les virements entrants »"
+      }
+    }
+  ]
+}
