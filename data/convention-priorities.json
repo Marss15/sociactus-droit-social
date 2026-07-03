@@ -155,6 +155,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-2336": {
+      "label": "l'habitat et du logement accompagnés (n° 2336)",
+      "idcc": "2336",
+      "rank": "p3",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "seenCount": 1
+    },
     "idcc-2609": {
       "label": "Bâtiment et travaux publics",
       "idcc": "2609",
@@ -209,6 +217,14 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-37a472be9642": {
+      "label": "employés, techniciens et cadres des agences de presse",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
       "seenCount": 1
     },
     "name-42638c9432f9": {

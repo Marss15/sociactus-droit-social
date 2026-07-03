@@ -1,0 +1,454 @@
+{
+  "generatedAt": "2026-07-03T10:09:39.246Z",
+  "date": "2026-07-03",
+  "stats": {
+    "total": 10,
+    "regles": 7,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 3,
+    "priorite1": 0,
+    "priorite2": 5,
+    "priorite3": 5
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-03",
+      "collected": 92,
+      "rejectedByDate": 78
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "50bf9764b2df982e",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 2 juillet 2026 portant cessation de fonctions du sous-préfet d'Ussel - M. ZABKA (Nicolas)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054381901",
+      "publishedAt": "2026-07-03",
+      "summary": "Changement apporté : Décret du 2 juillet 2026 portant cessation de fonctions du sous-préfet d'Ussel - M. Applicable ou à intégrer à partir du 04 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Par défaut, applicable le 04 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054381901",
+        "nor": "INTP2609101D",
+        "nature": "DECRET",
+        "textDate": "2026-07-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260703-002715.tar.gz",
+        "sourceSummary": "DECRET. Décret du 2 juillet 2026 portant cessation de fonctions du sous-préfet d'Ussel - M. ZABKA (Nicolas). Texte publié au Journal officiel le 2026-07-03."
+      }
+    },
+    {
+      "id": "bf90c8e735d0d71c",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 1er juillet 2026 portant délégation de signature (service des ressources humaines civiles)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/7/1/ARMD2617848S/jo/texte",
+      "publishedAt": "2026-07-03",
+      "summary": "Changement apporté : Décision du 1er juillet 2026 portant délégation de signature (service des ressources humaines civiles). Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Publié le 03 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054381400",
+        "nor": "ARMD2617848S",
+        "nature": "DECISION",
+        "textDate": "2026-07-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260703-002715.tar.gz",
+        "sourceSummary": "DECISION. Décision du 1er juillet 2026 portant délégation de signature (service des ressources humaines civiles). Texte publié au Journal officiel le 2026-07-03."
+      }
+    },
+    {
+      "id": "c9ed7c4e2ba70036",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 1er juillet 2026 portant délégation de signature (direction de la transformation numérique)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/7/1/INTG2617728S/jo/texte",
+      "publishedAt": "2026-07-03",
+      "summary": "Changement apporté : Décision du 1er juillet 2026 portant délégation de signature (direction de la transformation numérique). Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Publié le 03 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054381316",
+        "nor": "INTG2617728S",
+        "nature": "DECISION",
+        "textDate": "2026-07-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260703-002715.tar.gz",
+        "sourceSummary": "DECISION. Décision du 1er juillet 2026 portant délégation de signature (direction de la transformation numérique). Texte publié au Journal officiel le 2026-07-03."
+      }
+    },
+    {
+      "id": "627128863754bfac",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 1er juillet 2026 portant délégation de signature (délégation à l'information et à la communication de la défense)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/7/1/ARMD2617783S/jo/texte",
+      "publishedAt": "2026-07-03",
+      "summary": "Changement apporté : Décision du 1er juillet 2026 portant délégation de signature (délégation à l'information et à la communication de la défense). Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Publié le 03 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054381391",
+        "nor": "ARMD2617783S",
+        "nature": "DECISION",
+        "textDate": "2026-07-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260703-002715.tar.gz",
+        "sourceSummary": "DECISION. Décision du 1er juillet 2026 portant délégation de signature (délégation à l'information et à la communication de la défense). Texte publié au Journal officiel le 2026-07-03."
+      }
+    },
+    {
+      "id": "18d80c19d80f6b1d",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision n° 2026-325 L du 2 juillet 2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054382034",
+      "publishedAt": "2026-07-03",
+      "summary": "Changement apporté : Décision n° 2026-325 L du 2 juillet 2026. Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Publié le 03 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054382034",
+        "nor": "CSCX2618049S",
+        "nature": "DECISION",
+        "textDate": "2026-07-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260703-002715.tar.gz",
+        "sourceSummary": "DECISION. Décision n° 2026-325 L du 2 juillet 2026. Texte publié au Journal officiel le 2026-07-03."
+      }
+    },
+    {
+      "id": "3a6c6bfc8dbf472a",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 juin 2026 portant extension d'un avenant conclu dans le cadre de la convention collective nationale de l'habitat et du logement accompagnés (n° 2336)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054382017",
+      "publishedAt": "2026-07-03",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 04 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Par défaut, applicable le 04 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'habitat et du logement accompagnés (n° 2336). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054382017",
+        "nor": "TRST2600877A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260703-002715.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-2336",
+          "idcc": "2336",
+          "label": "l'habitat et du logement accompagnés (n° 2336)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 18 juin 2026 portant extension d'un avenant conclu dans le cadre de la convention collective nationale de l'habitat et du logement accompagnés (n° 2336). Texte publié au Journal officiel le 2026-07-03."
+      }
+    },
+    {
+      "id": "aa53113f1621c322",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale des employés, techniciens et cadres des agences de presse",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054382028",
+      "publishedAt": "2026-07-03",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 03 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Publié le 03 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : employés, techniciens et cadres des agences de presse. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054382028",
+        "nor": "TRST2617648V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260703-002715.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-37a472be9642",
+          "idcc": null,
+          "label": "employés, techniciens et cadres des agences de presse",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale des employés, techniciens et cadres des agences de presse. Texte publié au Journal officiel le 2026-07-03."
+      }
+    },
+    {
+      "id": "af52932e874e78cc",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "90 ans des congés payés : comment les vacances ont changé la France",
+      "url": "https://www.leparisien.fr/podcasts/code-source/90-ans-des-conges-payes-comment-les-vacances-ont-change-la-france-02-07-2026-Z3ZAH7JSNZE7NB65P22AEBAHP4.php",
+      "publishedAt": "2026-07-03",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. 90 ans des congés payés : comment les vacances ont changé la France. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. 90 ans des congés payés : comment les vacances ont changé la France"
+      }
+    },
+    {
+      "id": "97c4567e44876fe9",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "La CGT veut que «les entreprises qui n’ont pas de plan de prévention de la canicule puissent être sanctionnées»",
+      "url": "https://www.lefigaro.fr/social/la-cgt-veut-que-les-entreprises-qui-n-ont-pas-de-plan-de-prevention-de-la-canicule-puissent-etre-sanctionnees-20260703",
+      "publishedAt": "2026-07-03",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Invitée de Franceinfo, la secrétaire générale de la CGT, Sophie Binet a appelé à renforcer les obligations des employeurs pour mieux protéger les salariés exposés aux fortes chaleurs sur leur lieu de travail. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Invitée de Franceinfo, la secrétaire générale de la CGT, Sophie Binet a appelé à renforcer les obligations des employeurs pour mieux protéger les salariés exposés aux fortes chaleurs sur leur lieu de travail."
+      }
+    },
+    {
+      "id": "c8a98a9637b63efa",
+      "date": "2026-07-03",
+      "firstSeenDate": "2026-07-03",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Canicule, protection des salariés, présidentielle... Le \"8h30 franceinfo\" de Sophie Binet",
+      "url": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/canicule-protection-des-salaries-presidentielle-le-8h30-franceinfo-de-sophie-binet_8061620.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-07-03",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. La secrétaire générale de la CGT est l'invitée du \"8h30 franceinfo\", le vendredi 03 juillet 2026. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-03",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. La secrétaire générale de la CGT est l'invitée du \"8h30 franceinfo\", le vendredi 03 juillet 2026."
+      }
+    }
+  ]
+}
