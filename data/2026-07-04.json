@@ -1,0 +1,683 @@
+{
+  "generatedAt": "2026-07-04T09:28:59.712Z",
+  "date": "2026-07-04",
+  "stats": {
+    "total": 17,
+    "regles": 13,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 4,
+    "priorite1": 0,
+    "priorite2": 12,
+    "priorite3": 5
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-04",
+      "collected": 108,
+      "rejectedByDate": 85
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "5756a790fd68112a",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-590 du 3 juillet 2026 relatif aux modalités de collecte, de transmission et d'utilisation des données du registre nominatif dit « registre communal »",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/3/SFHA2515760D/jo/texte",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Décret n° 2026-590 du 3 juillet 2026 relatif aux modalités de collecte, de transmission et d'utilisation des données du registre nominatif dit « registre communal ». Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Par défaut, applicable le 05 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Santé au travail",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054386844",
+        "nor": "SFHA2515760D",
+        "nature": "DECRET",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "Publics concernés : personnes âgées résidant à domicile, personnes adultes en situation de handicap résidant à domicile, personnes chargées d'une mesure de protection juridique avec représentation de la personne à l'égard de ces personnes âgées et/ou en situation de handicap, maires, départements, caisses d'assurance retraite et de la santé au travail,..."
+      }
+    },
+    {
+      "id": "76fe5ac2b1112480",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Délibération n° 2025-129 du 18 décembre 2025 portant avis sur un projet de décret pris pour l'application de l'article L. 121-6-1 du code de l'action sociale et des familles et fixant les modalités de recueil, transmission et conservation des données à caractère personnel",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054387317",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : DELIBERATION. Délibération n° 2025-129 du 18 décembre 2025 portant avis sur un projet de décret pris pour l'application de l'article L. Applicable ou à intégrer à partir du 04 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Publié le 04 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Santé au travail",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054387317",
+        "nor": "CNIX2618058X",
+        "nature": "DELIBERATION",
+        "textDate": "2025-12-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "DELIBERATION. Délibération n° 2025-129 du 18 décembre 2025 portant avis sur un projet de décret pris pour l'application de l'article L. 121-6-1 du code de l'action sociale et des familles et fixant les modalités de recueil, transmission et conservation des données à caractère personnel. Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "174be93d86df6aa4",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des attachés d'administration de l'Etat pour les services relevant du ministre de la défense",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/ARMH2617744A/jo/texte",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Arrêté du 30 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des attachés d'administration de l'Etat pour les services. Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Par défaut, applicable le 05 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054386693",
+        "nor": "ARMH2617744A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des attachés d'administration de l'Etat pour les services relevant du ministre de la défense. Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "9939c69c805d61b7",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des ingénieurs civils de la défense pour les services relevant du ministre de la défense",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/ARMH2617747A/jo/texte",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Arrêté du 30 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des ingénieurs civils de la défense pour les services. Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Par défaut, applicable le 05 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054386702",
+        "nor": "ARMH2617747A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des ingénieurs civils de la défense pour les services relevant du ministre de la défense. Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "911e606f9f2bf5f4",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des techniciens supérieurs d'études et de fabrications relevant du ministre de la défense",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/ARMH2617751A/jo/texte",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Arrêté du 30 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des techniciens supérieurs d'études et de fabrications. Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Par défaut, applicable le 05 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054386722",
+        "nor": "ARMH2617751A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juin 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des techniciens supérieurs d'études et de fabrications relevant du ministre de la défense. Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "71f526802bebe070",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 juillet 2026 fixant la liste des personnes autorisées à exercer en France la profession de médecin dans la spécialité « médecine et santé au travail » en application des dispositions de l'article L. 4111-2 (I) du code de la santé publique et du IV de l'article 83 de la loi n° 2006-1640 du 21 décembre 2006 de financement de la sécurité sociale pour 2007",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054387166",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Arrêté du 2 juillet 2026 fixant la liste des personnes autorisées à exercer en France la profession de médecin dans la spécialité « médecine et santé au travail » en application des dispositions de l'article L. Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : renforcer la prévention, le traitement des signalements et la traçabilité des mesures prises.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Par défaut, applicable le 05 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Santé au travail",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054387166",
+        "nor": "SFHN2617981A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 juillet 2026 fixant la liste des personnes autorisées à exercer en France la profession de médecin dans la spécialité « médecine et santé au travail » en application des dispositions de l'article L."
+      }
+    },
+    {
+      "id": "694a0fe4bd01e55d",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 modifiant l'arrêté du 22 décembre 2015 relatif à la délivrance du brevet d'officier chef de quart de navire de mer",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/TECM2613811A/jo/texte",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : le présent arrêté modifie l'article 4 de l'arrêté du 22 décembre 2015 relatif à la délivrance du brevet d'officier chef de quart de navire de mer, afin de. Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Par défaut, applicable le 05 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054386733",
+        "nor": "TECM2613811A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "Publics concernés : acteurs et usagers de l'enseignement maritime, gens de mer et armateurs. Objet : le présent arrêté modifie l'article 4 de l'arrêté du 22 décembre 2015 relatif à la délivrance du brevet d'officier chef de quart de navire de mer, afin de permettre la délivrance de ce brevet aux titulaires, notamment, du diplôme d'élève officier de 1 re..."
+      }
+    },
+    {
+      "id": "65707847b26884ef",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 juillet 2026 fixant la liste des organismes représentés au sein du Conseil national de la mer et des littoraux ainsi que le nombre de leurs représentants",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/2/TECM2611467A/jo/texte",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Arrêté du 2 juillet 2026 fixant la liste des organismes représentés au sein du Conseil national de la mer et des littoraux ainsi que le nombre de leurs représentants. Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Par défaut, applicable le 05 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054386755",
+        "nor": "TECM2611467A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 juillet 2026 fixant la liste des organismes représentés au sein du Conseil national de la mer et des littoraux ainsi que le nombre de leurs représentants. Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "254a799d61ff4e0d",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juillet 2026 relatif à la répartition par niveaux des emplois relevant du décret n° 2026-484 du 10 juin 2026 portant dispositions statutaires applicables aux emplois fonctionnels administratifs de direction des collectivités territoriales et des établissements publics locaux assimilés",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/3/ATDB2517727A/jo/texte",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Arrêté du 3 juillet 2026 relatif à la répartition par niveaux des emplois relevant du décret n° 2026-484 du 10 juin 2026 portant dispositions statutaires applicables aux emplois fonctionnels administratifs de direction des collectivités territoriales. Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Par défaut, applicable le 05 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054386901",
+        "nor": "ATDB2517727A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juillet 2026 relatif à la répartition par niveaux des emplois relevant du décret n° 2026-484 du 10 juin 2026 portant dispositions statutaires applicables aux emplois fonctionnels administratifs de direction des collectivités territoriales et des établissements publics locaux assimilés. Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "216bbaa859f16d47",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 juillet 2026 fixant la liste des personnes autorisées à exercer en France la profession de médecin dans la spécialité « médecine et santé au travail » en application des dispositions de l'article L. 4111-2 (II) du code de la santé publique",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054387176",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Arrêté du 2 juillet 2026 fixant la liste des personnes autorisées à exercer en France la profession de médecin dans la spécialité « médecine et santé au travail » en application des dispositions de l'article L. Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : renforcer la prévention, le traitement des signalements et la traçabilité des mesures prises.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Par défaut, applicable le 05 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Santé au travail"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054387176",
+        "nor": "SFHN2617982A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 juillet 2026 fixant la liste des personnes autorisées à exercer en France la profession de médecin dans la spécialité « médecine et santé au travail » en application des dispositions de l'article L. 4111-2 (II) du code de la santé publique. Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "4ed13b4596ce0f79",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision n° 2026-1211 QPC du 3 juillet 2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054387248",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Décision n° 2026-1211 QPC du 3 juillet 2026. Applicable ou à intégrer à partir du 04 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Publié le 04 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054387248",
+        "nor": "CSCX2618084S",
+        "nature": "DECISION",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "DECISION. Décision n° 2026-1211 QPC du 3 juillet 2026. Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "ebb21ad2a46e040d",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Formations de travail",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054387299",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Formations de travail. Texte publié au Journal officiel le 2026-07-04. Applicable ou à intégrer à partir du 04 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Publié le 04 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054387299",
+        "nor": "CESG2618235X",
+        "nature": "",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "sourceSummary": "Formations de travail. Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "7b5816e75afea192",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'accords régionaux (Pays de la Loire) conclus dans le cadre des conventions collectives nationales des travaux publics (ouvriers - employés, techniciens et agents de maîtrise)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054387242",
+      "publishedAt": "2026-07-04",
+      "summary": "Changement apporté : Avis relatif à l'extension d'accords régionaux (Pays de la Loire) conclus dans le cadre des conventions collectives nationales des travaux publics (ouvriers - employés, techniciens et agents de maîtrise). Applicable ou à intégrer à partir du 04 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Publié le 04 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054387242",
+        "nor": "TRST2617860V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260704-002403.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-3097a301b81c",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'accords régionaux (Pays de la Loire) conclus dans le cadre des conventions collectives nationales des travaux publics (ouvriers - employés, techniciens et agents de maîtrise). Texte publié au Journal officiel le 2026-07-04."
+      }
+    },
+    {
+      "id": "93cf7ad9b16d3a8b",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Pendant la canicule, les enfants au bureau : « J’ai aussi demandé pour mon chat. On m’a dit oui »",
+      "url": "https://www.lemonde.fr/m-le-mag/article/2026/07/04/pendant-la-canicule-les-enfants-au-bureau-j-ai-aussi-demande-pour-mon-chat-on-m-a-dit-oui_6720632_4500055.html",
+      "publishedAt": "2026-07-04",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Dans sa chronique, Guillemette Faure met en lumière les transformations invisibles de notre époque. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Dans sa chronique, Guillemette Faure met en lumière les transformations invisibles de notre époque. Cette semaine, la présence de la progéniture des salariés dans leur entreprise."
+      }
+    },
+    {
+      "id": "3a9c17adbe1cc41c",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Incendie à Canet-en-Roussillon : les précieux moules des catamarans Catana sauvés de justesse par les secours et les salariés",
+      "url": "https://www.leparisien.fr/pyrenees-orientales-66/incendie-a-canet-en-roussillon-les-precieux-moules-des-catamarans-catana-sauves-de-justesse-par-les-secours-et-les-salaries-03-07-2026-T27EHJVCMFDTTJIVE54XXXSR6U.php",
+      "publishedAt": "2026-07-04",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. Incendie à Canet-en-Roussillon : les précieux moules des catamarans Catana sauvés de justesse par les secours et les salariés. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Incendie à Canet-en-Roussillon : les précieux moules des catamarans Catana sauvés de justesse par les secours et les salariés"
+      }
+    },
+    {
+      "id": "722b8345c06e9e8f",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Canicule : le ministre du Travail appelle les plates-formes à mieux protéger les livreurs, la CGT réclame « un revenu de remplacement »",
+      "url": "https://www.leparisien.fr/politique/canicule-le-ministre-du-travail-appelle-les-plates-formes-a-mieux-proteger-les-livreurs-la-cgt-reclame-un-revenu-de-remplacement-03-07-2026-2YD2YZ7VVZGL5P2KHL4UQR2MQA.php",
+      "publishedAt": "2026-07-04",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. Canicule : le ministre du Travail appelle les plates-formes à mieux protéger les livreurs, la CGT réclame « un revenu de remplacement ». Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Canicule : le ministre du Travail appelle les plates-formes à mieux protéger les livreurs, la CGT réclame « un revenu de remplacement »"
+      }
+    },
+    {
+      "id": "ad6cf9b9be1c76d3",
+      "date": "2026-07-04",
+      "firstSeenDate": "2026-07-04",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Les patrons qui refusent le télétravail sont-ils narcissiques ?",
+      "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/les-patrons-qui-refusent-le-teletravail-sont-ils-narcissiques_8061428.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-07-04",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Pourquoi certaines entreprises suppriment-elles le télétravail ?. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-04",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Pourquoi certaines entreprises suppriment-elles le télétravail ? Pourquoi imposent-elles à leurs salariés de revenir tous les jours au bureau ?"
+      }
+    }
+  ]
+}
