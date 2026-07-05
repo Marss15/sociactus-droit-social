@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-07-05T09:45:23.754Z",
+  "date": "2026-07-05",
+  "stats": {
+    "total": 3,
+    "regles": 3,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 0,
+    "priorite1": 0,
+    "priorite2": 3,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-05",
+      "collected": 96,
+      "rejectedByDate": 85
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "d05bb18b01886033",
+      "date": "2026-07-05",
+      "firstSeenDate": "2026-07-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 juin 2026 fixant la liste des emplois de commandant divisionnaire fonctionnel de la police nationale",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/18/INTC2613085A/jo/texte",
+      "publishedAt": "2026-07-05",
+      "summary": "Changement apporté : Arrêté du 18 juin 2026 fixant la liste des emplois de commandant divisionnaire fonctionnel de la police nationale. Applicable ou à intégrer à partir du 06 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-06",
+        "label": "Par défaut, applicable le 06 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054388124",
+        "nor": "INTC2613085A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260705-002348.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 18 juin 2026 fixant la liste des emplois de commandant divisionnaire fonctionnel de la police nationale. Texte publié au Journal officiel le 2026-07-05."
+      }
+    },
+    {
+      "id": "70c8bccb0672ac38",
+      "date": "2026-07-05",
+      "firstSeenDate": "2026-07-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 15 juin 2026 modifiant l'arrêté du 28 juin 2021 fixant la liste et la localisation des fonctions correspondant à l'emploi de conseiller d'administration du ministère de la justice",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/15/JUST2616069A/jo/texte",
+      "publishedAt": "2026-07-05",
+      "summary": "Changement apporté : Arrêté du 15 juin 2026 modifiant l'arrêté du 28 juin 2021 fixant la liste et la localisation des fonctions correspondant à l'emploi de conseiller d'administration du ministère de la justice. Applicable ou à intégrer à partir du 06 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-06",
+        "label": "Par défaut, applicable le 06 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054388254",
+        "nor": "JUST2616069A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-15",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260705-002348.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 15 juin 2026 modifiant l'arrêté du 28 juin 2021 fixant la liste et la localisation des fonctions correspondant à l'emploi de conseiller d'administration du ministère de la justice. Texte publié au Journal officiel le 2026-07-05."
+      }
+    },
+    {
+      "id": "3b08dabbe9912eba",
+      "date": "2026-07-05",
+      "firstSeenDate": "2026-07-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 3 juillet 2026 portant délégation de signature (direction des services administratifs et financiers du Premier ministre)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/7/3/PRMG2616103S/jo/texte",
+      "publishedAt": "2026-07-05",
+      "summary": "Changement apporté : Décision du 3 juillet 2026 portant délégation de signature (direction des services administratifs et financiers du Premier ministre). Applicable ou à intégrer à partir du 05 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-05",
+        "label": "Publié le 05 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Santé au travail"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054388019",
+        "nor": "PRMG2616103S",
+        "nature": "DECISION",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260705-002348.tar.gz",
+        "sourceSummary": "DECISION. Décision du 3 juillet 2026 portant délégation de signature (direction des services administratifs et financiers du Premier ministre). Texte publié au Journal officiel le 2026-07-05."
+      }
+    }
+  ]
+}
