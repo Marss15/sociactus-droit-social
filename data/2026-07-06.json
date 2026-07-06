@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-07-06T11:42:36.479Z",
+  "date": "2026-07-06",
+  "stats": {
+    "total": 2,
+    "regles": 0,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 2,
+    "priorite1": 0,
+    "priorite2": 1,
+    "priorite3": 1
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-06",
+      "collected": 139,
+      "rejectedByDate": 127
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "775386ad59872560",
+      "date": "2026-07-06",
+      "firstSeenDate": "2026-07-06",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Dans le sud de l’Europe, des avancées dans les entreprises encore insuffisantes face aux chaleurs extrêmes",
+      "url": "https://www.lemonde.fr/economie/article/2026/07/06/dans-le-sud-de-l-europe-des-avancees-dans-les-entreprises-encore-insuffisantes-face-aux-chaleurs-extremes_6721160_3234.html",
+      "publishedAt": "2026-07-06",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-07-06",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 19,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Du « congé climatique » espagnol au chômage partiel autorisé en Italie en cas de vague de chaleur exceptionnelle, les pays adaptent à la marge leurs législations. Bien en deçà des demandes des syndicats."
+      }
+    },
+    {
+      "id": "571a4c9436e435d3",
+      "date": "2026-07-06",
+      "firstSeenDate": "2026-07-06",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Bureaux refuges ou recours massif au télétravail, les entreprises s’adaptent tant bien que mal aux vagues de chaleur",
+      "url": "https://www.lemonde.fr/economie/article/2026/07/06/bureaux-refuges-ou-recours-massif-au-teletravail-les-entreprises-s-adaptent-tant-bien-que-mal-aux-vagues-de-chaleur_6721150_3234.html",
+      "publishedAt": "2026-07-06",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Très peu d’entreprises ont, à ce jour, intégré la variable climatique dans leur fonctionnement. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-06",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Très peu d’entreprises ont, à ce jour, intégré la variable climatique dans leur fonctionnement. S’il s’avère que nombre d’entre elles ont su faire preuve de bon sens pour soulager leurs salariés lors de la vague de..."
+      }
+    }
+  ]
+}
