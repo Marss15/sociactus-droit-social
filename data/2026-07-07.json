@@ -1,0 +1,706 @@
+{
+  "generatedAt": "2026-07-07T10:30:37.071Z",
+  "date": "2026-07-07",
+  "stats": {
+    "total": 16,
+    "regles": 14,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 2,
+    "priorite1": 4,
+    "priorite2": 8,
+    "priorite3": 4
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-07",
+      "collected": 108,
+      "rejectedByDate": 84
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "192a5d8e9012a00b",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'accords territoriaux (Bourgogne-Franche-Comté) aux conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à dix salariés et plus de dix salariés) et des employés, techniciens et agents de maîtrise",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054393298",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : Avis relatif à l'extension d'accords territoriaux (Bourgogne-Franche-Comté) aux conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à dix. Applicable ou à intégrer à partir du 07 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Publié le 07 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 84,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Bâtiment et travaux publics.",
+      "extra": {
+        "id": "JORFTEXT000054393298",
+        "nor": "TRST2617996V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-eca8c600143e",
+          "idcc": null,
+          "label": "Bâtiment et travaux publics",
+          "rank": "p1",
+          "source": "rule"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'accords territoriaux (Bourgogne-Franche-Comté) aux conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à dix salariés et plus de dix salariés) et des employés, techniciens et agents de maîtrise."
+      }
+    },
+    {
+      "id": "c09108acf33f647f",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'accords territoriaux (Gard et Lozère - Aisne - Oise) conclus dans le cadre de la convention collective nationale de la métallurgie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054393288",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 07 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Publié le 07 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054393288",
+        "nor": "TRST2617974V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-c4fdf38f88a0",
+          "idcc": null,
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "rule"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'accords territoriaux (Gard et Lozère - Aisne - Oise) conclus dans le cadre de la convention collective nationale de la métallurgie. Texte publié au Journal officiel le 2026-07-07."
+      }
+    },
+    {
+      "id": "17f0e7c49fab70fb",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord territorial (département de la Somme à l'exception des cantons du Vimeu tels que définis avant le décret n° 2014-263 du 26 février 2014 [soit à l'exception des cantons de Ault, Friville-Escarbotin, Gamaches, Moyenneville et Saint-Valery-sur-Somme] et à l'exception de la commune de Hautvillers-Ouville) conclu dans le cadre de la convention collective nationale de la métallurgie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054393293",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 07 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Publié le 07 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054393293",
+        "nor": "TRST2617978V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-0906907aac34",
+          "idcc": null,
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "rule"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord territorial (département de la Somme à l'exception des cantons du Vimeu tels que définis avant le décret n° 2014-263 du 26 février 2014 [soit à l'exception des cantons de Ault, Friville-Escarbotin, Gamaches, Moyenneville et Saint-Valery-sur-Somme] et à l'exception de la commune de Hautvillers-Ouville) conclu dans..."
+      }
+    },
+    {
+      "id": "b9a6ce9f27f50f14",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-597 du 6 juillet 2026 qualifiant de projet d'intérêt national majeur le projet E-CHO de développement de la plateforme multi-carburants durables de la société Elyse Energy dans le bassin de Lacq, dans les Pyrénées-Atlantiques",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/6/VLOL2615885D/jo/texte",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : le texte est pris en application de l'article 19 de la loi n° 2023-973 du 23 octobre 2023 relative à l'industrie verte, codifié en partie à. Applicable ou à intégrer à partir du 08 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-08",
+        "label": "Par défaut, applicable le 08 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054393156",
+        "nor": "VLOL2615885D",
+        "nature": "DECRET",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "sourceSummary": "Publics concernés : Etat et ses établissements publics, collectivités territoriales et leurs groupements. Objet : le texte est pris en application de l'article 19 de la loi n° 2023-973 du 23 octobre 2023 relative à l'industrie verte, codifié en partie à l'article L. 300-6-2 du code de l'urbanisme."
+      }
+    },
+    {
+      "id": "a60ee0504342ca0c",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-592 du 6 juillet 2026 relatif au nombre des représentants des travailleurs des plateformes",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/6/TRST2615458D/jo/texte",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : 7342-1 du code du travail dans les secteurs des activités de conduite d'une voiture de transport avec chauffeur et des activités de livraison de marchandises. Applicable ou à intégrer à partir du 08 juillet 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-07-08",
+        "label": "Par défaut, applicable le 08 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054392760",
+        "nor": "TRST2615458D",
+        "nature": "DECRET",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "sourceSummary": "Publics concernés : plateformes de mise en relation par voie électronique mentionnées à l'article L. 7342-1 du code du travail dans les secteurs des activités de conduite d'une voiture de transport avec chauffeur et des activités de livraison de marchandises au moyen d'un véhicule à deux ou trois roues, motorisé ou non ; travailleurs indépendants définis à..."
+      }
+    },
+    {
+      "id": "d0462c6a4f1655af",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 6 juillet 2026 portant cessation de fonctions du secrétaire général de la préfecture du Cher, sous-préfet de Bourges - M. ABALHASSANE (Mohamed)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054393223",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : Décret du 6 juillet 2026 portant cessation de fonctions du secrétaire général de la préfecture du Cher, sous-préfet de Bourges - M. Applicable ou à intégrer à partir du 08 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-08",
+        "label": "Par défaut, applicable le 08 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054393223",
+        "nor": "INTP2615102D",
+        "nature": "DECRET",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "sourceSummary": "DECRET. Décret du 6 juillet 2026 portant cessation de fonctions du secrétaire général de la préfecture du Cher, sous-préfet de Bourges - M. ABALHASSANE (Mohamed). Texte publié au Journal officiel le 2026-07-07."
+      }
+    },
+    {
+      "id": "2185fedaa1ac715e",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 10 avril 2026 portant modification du règlement intérieur national de la profession d'avocat (article 21-1 de la loi du 31 décembre 1971 modifiée)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/4/10/JUSC2614628S/jo/texte",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : Décision du 10 avril 2026 portant modification du règlement intérieur national de la profession d'avocat (article 21-1 de la loi du 31 décembre 1971 modifiée). Applicable ou à intégrer à partir du 07 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Publié le 07 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054392801",
+        "nor": "JUSC2614628S",
+        "nature": "DECISION",
+        "textDate": "2026-04-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "sourceSummary": "DECISION. Décision du 10 avril 2026 portant modification du règlement intérieur national de la profession d'avocat (article 21-1 de la loi du 31 décembre 1971 modifiée). Texte publié au Journal officiel le 2026-07-07."
+      }
+    },
+    {
+      "id": "cb2045847a3977c0",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 25 juin 2026 portant création d'un traitement automatisé de données à caractère personnel relatif à l'état des ressources humaines des établissements et services sanitaires, sociaux et médico-sociaux, dénommé « Vigie RH »",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/25/SFHA2615952A/jo/texte",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : Arrêté du 25 juin 2026 portant création d'un traitement automatisé de données à caractère personnel relatif à l'état des ressources humaines des établissements et services sanitaires, sociaux et médico-sociaux, dénommé « Vigie RH ». Applicable ou à intégrer à partir du 08 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-08",
+        "label": "Par défaut, applicable le 08 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Sécurité sociale",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054392900",
+        "nor": "SFHA2615952A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 25 juin 2026 portant création d'un traitement automatisé de données à caractère personnel relatif à l'état des ressources humaines des établissements et services sanitaires, sociaux et médico-sociaux, dénommé « Vigie RH ». Texte publié au Journal officiel le 2026-07-07."
+      }
+    },
+    {
+      "id": "9c344f93a93aa120",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 1er juillet 2026 portant délégation de signature (direction générale de l'administration pénitentiaire)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/7/1/JUSK2617902S/jo/texte",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : Décision du 1er juillet 2026 portant délégation de signature (direction générale de l'administration pénitentiaire). Applicable ou à intégrer à partir du 07 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Publié le 07 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054392810",
+        "nor": "JUSK2617902S",
+        "nature": "DECISION",
+        "textDate": "2026-07-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "sourceSummary": "DECISION. Décision du 1er juillet 2026 portant délégation de signature (direction générale de l'administration pénitentiaire). Texte publié au Journal officiel le 2026-07-07."
+      }
+    },
+    {
+      "id": "ec15aa7d9e3831fa",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de concours organisés au titre de l'année 2027 pour le recrutement d'inspecteurs des douanes et droits indirects dans la spécialité « traitement automatisé de l'information - programmeur de système d'exploitation »",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054393394",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : Avis de concours organisés au titre de l'année 2027 pour le recrutement d'inspecteurs des douanes et droits indirects dans la spécialité « traitement automatisé de l'information - programmeur de système d'exploitation ». Applicable ou à intégrer à partir du 07 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Publié le 07 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054393394",
+        "nor": "CPPD2617617V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "sourceSummary": "AVIS. Avis de concours organisés au titre de l'année 2027 pour le recrutement d'inspecteurs des douanes et droits indirects dans la spécialité « traitement automatisé de l'information - programmeur de système d'exploitation ». Texte publié au Journal officiel le 2026-07-07."
+      }
+    },
+    {
+      "id": "32fa4607e61a32c4",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 modifiant l'arrêté du 25 juillet 2022 relatif à l'indemnisation des représentants des travailleurs des plateformes versée au titre de leurs formations et de leurs missions de représentation ainsi qu'à la rémunération des organismes de formation par l'Autorité des relations sociales des plateformes d'emploi",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/6/TRST2615472A/jo/texte",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : Arrêté du 6 juillet 2026 modifiant l'arrêté du 25 juillet 2022 relatif à l'indemnisation des représentants des travailleurs des plateformes versée au titre de leurs formations et de leurs missions de représentation ainsi qu'à la rémunération des. Applicable ou à intégrer à partir du 08 juillet 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-07-08",
+        "label": "Par défaut, applicable le 08 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054392769",
+        "nor": "TRST2615472A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 modifiant l'arrêté du 25 juillet 2022 relatif à l'indemnisation des représentants des travailleurs des plateformes versée au titre de leurs formations et de leurs missions de représentation ainsi qu'à la rémunération des organismes de formation par l'Autorité des relations sociales des plateformes d'emploi."
+      }
+    },
+    {
+      "id": "ba4e70ac5352e8ce",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 autorisant l'ouverture de concours pour le recrutement d'inspecteurs des douanes et droits indirects dans la spécialité « traitement automatisé de l'information − programmeur de système d'exploitation » au titre de l'année 2027",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/CPPD2617613A/jo/texte",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : Arrêté du 30 juin 2026 autorisant l'ouverture de concours pour le recrutement d'inspecteurs des douanes et droits indirects dans la spécialité « traitement automatisé de l'information − programmeur de système d'exploitation » au titre de l'année 2027. Applicable ou à intégrer à partir du 08 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-08",
+        "label": "Par défaut, applicable le 08 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054393092",
+        "nor": "CPPD2617613A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juin 2026 autorisant l'ouverture de concours pour le recrutement d'inspecteurs des douanes et droits indirects dans la spécialité « traitement automatisé de l'information − programmeur de système d'exploitation » au titre de l'année 2027. Texte publié au Journal officiel le 2026-07-07."
+      }
+    },
+    {
+      "id": "a2c684815352b73b",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre la convention collective nationale de la fabrication de l'ameublement",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054393278",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 07 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Publié le 07 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la fabrication de l'ameublement. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054393278",
+        "nor": "TRST2617929V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-1843137d6ea8",
+          "idcc": null,
+          "label": "la fabrication de l'ameublement",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre la convention collective nationale de la fabrication de l'ameublement. Texte publié au Journal officiel le 2026-07-07."
+      }
+    },
+    {
+      "id": "9719b9893ed9cffe",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale de la fabrication de l'ameublement et de la convention collective nationale de l'industrie des panneaux à de bois",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054393283",
+      "publishedAt": "2026-07-07",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 07 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Publié le 07 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la fabrication de l'ameublement et de la convention collective nationale de l'industrie des panneaux à de bois. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054393283",
+        "nor": "TRST2617957V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260707-002241.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-47e2bb9f1f59",
+          "idcc": null,
+          "label": "la fabrication de l'ameublement et de la convention collective nationale de l'industrie des panneaux à de bois",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale de la fabrication de l'ameublement et de la convention collective nationale de l'industrie des panneaux à de bois. Texte publié au Journal officiel le 2026-07-07."
+      }
+    },
+    {
+      "id": "9ecf7c261290af0e",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Forfait en jours : l’employeur, seul responsable du contrôle de la charge de travail de ses salariés",
+      "url": "https://www.lemonde.fr/emploi/article/2026/07/07/forfait-en-jours-l-employeur-seul-responsable-du-controle-de-la-charge-de-travail-de-ses-salaries_6721409_1698637.html",
+      "publishedAt": "2026-07-07",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Ce régime de décompte du temps de travail, qui concerne 15 % des salariés du privé, a fait l’objet de plusieurs décisions de justice à l’avantage des salariés. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Ce régime de décompte du temps de travail, qui concerne 15 % des salariés du privé, a fait l’objet de plusieurs décisions de justice à l’avantage des salariés."
+      }
+    },
+    {
+      "id": "0d65805752d96a0a",
+      "date": "2026-07-07",
+      "firstSeenDate": "2026-07-07",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Vacances d’été : les fonctionnaires nombreux à partir, mais avec un budget réduit",
+      "url": "https://www.lefigaro.fr/social/vacances-d-ete-les-fonctionnaires-nombreux-a-partir-mais-avec-un-budget-reduit-20260707",
+      "publishedAt": "2026-07-07",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Plus de 80% des agents de la fonction publique prévoient de partir en vacances. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-07-07",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Plus de 80% des agents de la fonction publique prévoient de partir en vacances. Mais 60% estiment qu’ils ont dû baisser leurs dépenses cette année, notamment à cause de l’inflation."
+      }
+    }
+  ]
+}
