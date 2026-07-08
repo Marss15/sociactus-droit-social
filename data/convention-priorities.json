@@ -211,22 +211,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-0906907aac34": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-07-07",
-      "lastSeen": "2026-07-07",
-      "seenCount": 1
-    },
-    "name-1843137d6ea8": {
-      "label": "la fabrication de l'ameublement",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-07",
-      "lastSeen": "2026-07-07",
-      "seenCount": 1
-    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
@@ -235,12 +219,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-47e2bb9f1f59": {
-      "label": "la fabrication de l'ameublement et de la convention collective nationale de l'industrie des panneaux à de bois",
+    "name-8b661218fff8": {
+      "label": "salariés des cabinets d'avocats",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-07-07",
-      "lastSeen": "2026-07-07",
+      "firstSeen": "2026-07-08",
+      "lastSeen": "2026-07-08",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -267,28 +251,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-c4fdf38f88a0": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-07-07",
-      "lastSeen": "2026-07-07",
-      "seenCount": 1
-    },
     "name-cf9a5fa602f5": {
       "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-eca8c600143e": {
-      "label": "Bâtiment et travaux publics",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-07-07",
-      "lastSeen": "2026-07-07",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
