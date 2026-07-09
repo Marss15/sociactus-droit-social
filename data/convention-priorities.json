@@ -147,13 +147,29 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1996": {
+      "label": "la pharmacie d'officine (n° 1996)",
+      "idcc": "1996",
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
+    "idcc-200": {
+      "label": "exploitations frigorifiques (n° 200)",
+      "idcc": "200",
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
     "idcc-2332": {
       "label": "entreprises d'architecture (n° 2332)",
       "idcc": "2332",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-05-29",
-      "seenCount": 1
+      "lastSeen": "2026-07-09",
+      "seenCount": 2
     },
     "idcc-2609": {
       "label": "Bâtiment et travaux publics",
@@ -169,6 +185,14 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-3233": {
+      "label": "l'industrie de la fabrication des ciments (n° 3233)",
+      "idcc": "3233",
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
       "seenCount": 1
     },
     "idcc-3248": {
@@ -203,12 +227,60 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-03c1263e6553": {
+      "label": "du sport",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
     "name-06c9ed04c793": {
       "label": "relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail et des solidarités, V",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-084ad749e0ac": {
+      "label": "Bureaux d'études / Syntec",
+      "idcc": null,
+      "rank": "p1",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
+    "name-089fb8271e3c": {
+      "label": "conditions de travail du personnel des industries céramiques de France",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
+    "name-1fbfcd8d7132": {
+      "label": "la restauration rapide",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
+    "name-31f74a8e1e1a": {
+      "label": "entreprises du négoce et de la distribution de combustibles solides, liquides, gazeux et produits pétroliers",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
+    "name-36964c492962": {
+      "label": "l'industrie textile",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
       "seenCount": 1
     },
     "name-42638c9432f9": {
@@ -219,12 +291,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-8b661218fff8": {
-      "label": "salariés des cabinets d'avocats",
+    "name-52d5429477ee": {
+      "label": "entreprises du commerce à distance",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-07-08",
-      "lastSeen": "2026-07-08",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
+    "name-58227e60f60b": {
+      "label": "prothésistes dentaires et laboratoires de prothèses dentaires",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -243,6 +323,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-9cf4d945236b": {
+      "label": "l'esthétique-cosmétique et de l'enseignement technique et professionnel lié aux métiers de l'esthétique et de la parfumerie",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
@@ -257,6 +345,22 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-d41a2bf355a6": {
+      "label": "services de l'automobile",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
+      "seenCount": 1
+    },
+    "name-dde681f57658": {
+      "label": "portage de presse",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-09",
       "seenCount": 1
     },
     "name-ee1a0060264e": {

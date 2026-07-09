@@ -1,0 +1,1085 @@
+{
+  "generatedAt": "2026-07-09T10:29:47.866Z",
+  "date": "2026-07-09",
+  "stats": {
+    "total": 25,
+    "regles": 21,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 4,
+    "priorite1": 2,
+    "priorite2": 6,
+    "priorite3": 17
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-09",
+      "collected": 116,
+      "rejectedByDate": 84
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "ee7189f64a88a8df",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des bureaux d'études techniques, cabinets d'ingénieurs-conseils, sociétés de conseils",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400103",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Bureaux d'études / Syntec.",
+      "extra": {
+        "id": "JORFTEXT000054400103",
+        "nor": "TRST2618283V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-084ad749e0ac",
+          "idcc": null,
+          "label": "Bureaux d'études / Syntec",
+          "rank": "p1",
+          "source": "rule"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des bureaux d'études techniques, cabinets d'ingénieurs-conseils, sociétés de conseils. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "a0e8e7a1ae864e36",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-604 du 6 juillet 2026 relatif aux autorisations spéciales d'absence et aux aménagements horaires liés à la parentalité et à certains évènements familiaux dans la fonction publique et la magistrature",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/6/CPPF2604981D/jo/texte",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : Décret n° 2026-604 du 6 juillet 2026 relatif aux autorisations spéciales d'absence et aux aménagements horaires liés à la parentalité et à certains évènements familiaux dans la fonction publique et la magistrature. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Par défaut, applicable le 10 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Formation"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054399653",
+        "nor": "CPPF2604981D",
+        "nature": "DECRET",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "sourceSummary": "Publics concernés : fonctionnaires et agents contractuels de l'Etat, territoriaux, hospitaliers, des autorités administratives indépendantes et des autorités publiques indépendantes relevant du code général de la fonction publique, magistrats de l'ordre judiciaire, personnels médicaux hospitaliers, ouvriers de l'Etat."
+      }
+    },
+    {
+      "id": "894451b9ff15d7b4",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 8 juillet 2026 portant cessation de fonctions du secrétaire général de la préfecture de l'Oise, sous-préfet de Beauvais (groupe II) - M. BOVET (Frédéric)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054399926",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : Décret du 8 juillet 2026 portant cessation de fonctions du secrétaire général de la préfecture de l'Oise, sous-préfet de Beauvais (groupe II) - M. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Par défaut, applicable le 10 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054399926",
+        "nor": "INTP2615401D",
+        "nature": "DECRET",
+        "textDate": "2026-07-08",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "sourceSummary": "DECRET. Décret du 8 juillet 2026 portant cessation de fonctions du secrétaire général de la préfecture de l'Oise, sous-préfet de Beauvais (groupe II) - M. BOVET (Frédéric). Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "68434d9af20482c4",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er juillet 2026 portant approbation de l'avenant n° 1 à l'accord national destiné à organiser les rapports entre les centres de santé et l'assurance maladie signé le 28 août 2025",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/1/SFHS2616851A/jo/texte",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : Arrêté du 1er juillet 2026 portant approbation de l'avenant n° 1 à l'accord national destiné à organiser les rapports entre les centres de santé et l'assurance maladie signé le 28 août 2025. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Par défaut, applicable le 10 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054399552",
+        "nor": "SFHS2616851A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 1er juillet 2026 portant approbation de l'avenant n° 1 à l'accord national destiné à organiser les rapports entre les centres de santé et l'assurance maladie signé le 28 août 2025. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "2e2cbb3ea1f00f0f",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juillet 2026 modifiant l'arrêté du 24 mai 2023 désignant les unités, organismes et emplois ouvrant droit à la prime de compétences spécifiques",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/3/ARMH2618151A/jo/texte",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : Arrêté du 3 juillet 2026 modifiant l'arrêté du 24 mai 2023 désignant les unités, organismes et emplois ouvrant droit à la prime de compétences spécifiques. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Par défaut, applicable le 10 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054399205",
+        "nor": "ARMH2618151A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juillet 2026 modifiant l'arrêté du 24 mai 2023 désignant les unités, organismes et emplois ouvrant droit à la prime de compétences spécifiques. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "cc1df404153f9d7f",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 25 juin 2026 modifiant l'arrêté du 1er octobre 2019 fixant les règles d'organisation générale du concours sur titres pour le recrutement dans le corps des infirmiers de l'Etat",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/25/SFHR2616063A/jo/texte",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : Arrêté du 25 juin 2026 modifiant l'arrêté du 1er octobre 2019 fixant les règles d'organisation générale du concours sur titres pour le recrutement dans le corps des infirmiers de l'Etat. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Par défaut, applicable le 10 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054399545",
+        "nor": "SFHR2616063A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 25 juin 2026 modifiant l'arrêté du 1er octobre 2019 fixant les règles d'organisation générale du concours sur titres pour le recrutement dans le corps des infirmiers de l'Etat. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "ab9b6163f97b0477",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Bureau du sénat",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400209",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Bureau du sénat. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Santé au travail"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054400209",
+        "nor": "INPS2618791X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Bureau du sénat. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "8701e0bd0f450d2c",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Face aux vagues de chaleur, les entreprises s’adaptent : « Je préfère investir dans des équipements que d’avoir une fermeture administrative »",
+      "url": "https://www.lemonde.fr/economie/article/2026/07/09/face-aux-vagues-de-chaleur-les-entreprises-s-adaptent-je-prefere-investir-dans-des-equipements-que-d-avoir-une-fermeture-administrative_6722045_3234.html",
+      "publishedAt": "2026-07-09",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Alors que le code du travail prévoit que les entreprises sont tenues d’évaluer et de prévenir les risques pesant sur leurs salariés, certaines ont tenté d’anticiper les vagues de chaleur. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Alors que le code du travail prévoit que les entreprises sont tenues d’évaluer et de prévenir les risques pesant sur leurs salariés, certaines ont tenté d’anticiper les vagues de chaleur."
+      }
+    },
+    {
+      "id": "cb64daf1c743ba85",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale de la pharmacie d'officine (n° 1996)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400052",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Par défaut, applicable le 10 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la pharmacie d'officine (n° 1996). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400052",
+        "nor": "TRST2615547A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1996",
+          "idcc": "1996",
+          "label": "la pharmacie d'officine (n° 1996)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 3 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale de la pharmacie d'officine (n° 1996). Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "1a6a51973ae0dac8",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale de l'industrie de la fabrication des ciments (n° 3233)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400063",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Par défaut, applicable le 10 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'industrie de la fabrication des ciments (n° 3233). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400063",
+        "nor": "TRST2616906A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3233",
+          "idcc": "3233",
+          "label": "l'industrie de la fabrication des ciments (n° 3233)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale de l'industrie de la fabrication des ciments (n° 3233). Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "1abe01398a718ace",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale des exploitations frigorifiques (n° 200)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400073",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Par défaut, applicable le 10 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : exploitations frigorifiques (n° 200). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400073",
+        "nor": "TRST2616907A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-200",
+          "idcc": "200",
+          "label": "exploitations frigorifiques (n° 200)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale des exploitations frigorifiques (n° 200). Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "450c095d8d2ed359",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'accords territoriaux (Guyane - Martinique - Guadeloupe - La Réunion) conclus dans le cadre de la convention collective nationale des entreprises d'architecture (n° 2332)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400083",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Par défaut, applicable le 10 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : entreprises d'architecture (n° 2332). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400083",
+        "nor": "TRST2616914A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-2332",
+          "idcc": "2332",
+          "label": "entreprises d'architecture (n° 2332)",
+          "rank": "p3",
+          "source": "memory"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'accords territoriaux (Guyane - Martinique - Guadeloupe - La Réunion) conclus dans le cadre de la convention collective nationale des entreprises d'architecture (n° 2332). Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "d83f5735ae30e1ed",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale de l'industrie textile",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400119",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'industrie textile. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400119",
+        "nor": "TRST2618317V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-36964c492962",
+          "idcc": null,
+          "label": "l'industrie textile",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale de l'industrie textile. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "6f1b26f1f530bcc0",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un protocole d'accord conclu dans le cadre de la convention collective nationale des prothésistes dentaires et laboratoires de prothèses dentaires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400124",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : prothésistes dentaires et laboratoires de prothèses dentaires. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400124",
+        "nor": "TRST2618325V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-58227e60f60b",
+          "idcc": null,
+          "label": "prothésistes dentaires et laboratoires de prothèses dentaires",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un protocole d'accord conclu dans le cadre de la convention collective nationale des prothésistes dentaires et laboratoires de prothèses dentaires. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "f7451849dfe643c9",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale du portage de presse",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400129",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : portage de presse. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400129",
+        "nor": "TRST2618351V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-dde681f57658",
+          "idcc": null,
+          "label": "portage de presse",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale du portage de presse. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "a3bb7c5edbea7f26",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'avenants et d'accords conclus dans le cadre de la convention collective nationale du sport",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400144",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : du sport. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400144",
+        "nor": "TRST2618355V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-03c1263e6553",
+          "idcc": null,
+          "label": "du sport",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'avenants et d'accords conclus dans le cadre de la convention collective nationale du sport. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "06a1ca8c304d0c70",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des entreprises du commerce à distance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400093",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : entreprises du commerce à distance. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400093",
+        "nor": "TRST2618272V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-52d5429477ee",
+          "idcc": null,
+          "label": "entreprises du commerce à distance",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des entreprises du commerce à distance. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "8a3da61507d8f8bc",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale de l'esthétique-cosmétique et de l'enseignement technique et professionnel lié aux métiers de l'esthétique et de la parfumerie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400098",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'esthétique-cosmétique et de l'enseignement technique et professionnel lié aux métiers de l'esthétique et de la parfumerie. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400098",
+        "nor": "TRST2618276V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-9cf4d945236b",
+          "idcc": null,
+          "label": "l'esthétique-cosmétique et de l'enseignement technique et professionnel lié aux métiers de l'esthétique et de la parfumerie",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale de l'esthétique-cosmétique et de l'enseignement technique et professionnel lié aux métiers de l'esthétique et de la parfumerie. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "f068ee748b678d0f",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale des entreprises du négoce et de la distribution de combustibles solides, liquides, gazeux et produits pétroliers",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400108",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : entreprises du négoce et de la distribution de combustibles solides, liquides, gazeux et produits pétroliers. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400108",
+        "nor": "TRST2618284V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-31f74a8e1e1a",
+          "idcc": null,
+          "label": "entreprises du négoce et de la distribution de combustibles solides, liquides, gazeux et produits pétroliers",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale des entreprises du négoce et de la distribution de combustibles solides, liquides, gazeux et produits pétroliers. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "ef5349f31b94ad9b",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord de branche conclu dans le cadre de la convention collective nationale relative aux conditions de travail du personnel des industries céramiques de France",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400113",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : conditions de travail du personnel des industries céramiques de France. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400113",
+        "nor": "TRST2618290V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-089fb8271e3c",
+          "idcc": null,
+          "label": "conditions de travail du personnel des industries céramiques de France",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord de branche conclu dans le cadre de la convention collective nationale relative aux conditions de travail du personnel des industries céramiques de France. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "368838702837ed31",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord paritaire à la convention collective nationale des services de l'automobile",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400134",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : services de l'automobile. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400134",
+        "nor": "TRST2618353V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-d41a2bf355a6",
+          "idcc": null,
+          "label": "services de l'automobile",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord paritaire à la convention collective nationale des services de l'automobile. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "c03f5974445211db",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale de la restauration rapide",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054400139",
+      "publishedAt": "2026-07-09",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Publié le 09 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la restauration rapide. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054400139",
+        "nor": "TRST2618354V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260709-002743.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-1fbfcd8d7132",
+          "idcc": null,
+          "label": "la restauration rapide",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale de la restauration rapide. Texte publié au Journal officiel le 2026-07-09."
+      }
+    },
+    {
+      "id": "d033a86ee578a3ca",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Travail et travailleurs invisibles » : quand les entreprises gomment la richesse des métiers",
+      "url": "https://www.lemonde.fr/emploi/article/2026/07/09/travail-et-travailleurs-invisibles-quand-les-entreprises-gomment-la-richesse-des-metiers_6722017_1698637.html",
+      "publishedAt": "2026-07-09",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. En donnant la parole à Karine, agent de service dans une clinique, Pierre, facteur, ou encore Zoé, chargée de communication, l’ergonome Christine Depigny-Huet propose au lecteur d’explorer la complexité et le sens de. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. En donnant la parole à Karine, agent de service dans une clinique, Pierre, facteur, ou encore Zoé, chargée de communication, l’ergonome Christine Depigny-Huet propose au lecteur d’explorer la complexité et le sens de..."
+      }
+    },
+    {
+      "id": "412ddcec4cf70085",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "JO 2024 : l’Insee tire un bilan « plutôt positif » de l’insertion professionnelle des travailleurs employés sur les chantiers",
+      "url": "https://www.leparisien.fr/economie/emploi/jo-2024-linsee-tire-un-bilan-plutot-positif-de-linsertion-professionnelle-des-travailleurs-employes-sur-les-chantiers-08-07-2026-TFEEHPOYOJEJXCSVZMFRHK45XU.php",
+      "publishedAt": "2026-07-09",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. JO 2024 : l’Insee tire un bilan « plutôt positif » de l’insertion professionnelle des travailleurs employés sur les chantiers. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. JO 2024 : l’Insee tire un bilan « plutôt positif » de l’insertion professionnelle des travailleurs employés sur les chantiers"
+      }
+    },
+    {
+      "id": "21544360eea5f7d8",
+      "date": "2026-07-09",
+      "firstSeenDate": "2026-07-09",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Télétravail : les dirigeants plus indulgents envers eux-mêmes qu’envers leurs salariés",
+      "url": "https://www.lefigaro.fr/economie/teletravail-les-dirigeants-plus-indulgents-envers-eux-memes-qu-envers-leurs-salaries-20260708",
+      "publishedAt": "2026-07-09",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. 12 % des dirigeants jugent nécessaire de réduire leur propre volume de télétravail, alors que 42 % aimeraient revoir à la baisse celui de leurs équipes. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. 12 % des dirigeants jugent nécessaire de réduire leur propre volume de télétravail, alors que 42 % aimeraient revoir à la baisse celui de leurs équipes."
+      }
+    }
+  ]
+}
