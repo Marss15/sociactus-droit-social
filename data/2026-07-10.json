@@ -1,0 +1,1434 @@
+{
+  "generatedAt": "2026-07-10T10:27:52.162Z",
+  "date": "2026-07-10",
+  "stats": {
+    "total": 33,
+    "regles": 33,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 0,
+    "priorite1": 6,
+    "priorite2": 15,
+    "priorite3": 12
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-10",
+      "collected": 120,
+      "rejectedByDate": 82
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "feae73fa925f5e34",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'avenants et d'un accord territoriaux (Centre-Val de Loire) conclus dans le cadre de la convention collective nationale des ouvriers employés par les entreprises du bâtiment non visées par le décret du 1er mars 1962 modifié (entreprises occupant plus de 10 salariés) (n° 1597) et de la convention collective des employés, techniciens et agents de maîtrise du bâtiment (n° 2609)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408880",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 84,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Bâtiment et travaux publics.",
+      "extra": {
+        "id": "JORFTEXT000054408880",
+        "nor": "TRST2616910A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1597",
+          "idcc": "1597",
+          "label": "Bâtiment et travaux publics",
+          "rank": "p1",
+          "source": "rule"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'avenants et d'un accord territoriaux (Centre-Val de Loire) conclus dans le cadre de la convention collective nationale des ouvriers employés par les entreprises du bâtiment non visées par le décret du 1er mars 1962 modifié (entreprises occupant plus de 10 salariés) (n° 1597) et de la convention collective..."
+      }
+    },
+    {
+      "id": "97123cad51e7ebf2",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale de la métallurgie (n° 3248)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408762",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054408762",
+        "nor": "TRST2612770A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3248",
+          "idcc": "3248",
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "memory"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 1er juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale de la métallurgie (n° 3248). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "e8adbed04aabdced",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'avenants à des accords territoriaux (Hautes-Pyrénées) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408819",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054408819",
+        "nor": "TRST2616899A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3248",
+          "idcc": "3248",
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "memory"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'avenants à des accords territoriaux (Hautes-Pyrénées) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "204f32d1db22c992",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'accords territoriaux (Bas-Rhin et Cher) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408895",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054408895",
+        "nor": "TRST2616911A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3248",
+          "idcc": "3248",
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "memory"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'accords territoriaux (Bas-Rhin et Cher) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "f48bf868f0157acf",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord territorial (Haute-Marne) conclu dans le cadre de la convention collective nationale de la métallurgie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408953",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Publié le 10 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054408953",
+        "nor": "TRST2618553V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-e6f45239f42d",
+          "idcc": null,
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "rule"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord territorial (Haute-Marne) conclu dans le cadre de la convention collective nationale de la métallurgie. Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "3cbd5718a5ae571a",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-612 du 7 juillet 2026 portant adaptation des dispositions relatives au régime économique des tabacs",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/7/CPPD2524902D/jo/texte",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : le présent décret actualise les références réglementaires relatives au régime économique des tabacs. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054408288",
+        "nor": "CPPD2524902D",
+        "nature": "DECRET",
+        "textDate": "2026-07-07",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "Publics concernés : les fournisseurs et les fabricants agréés de tabac. Objet : le présent décret actualise les références réglementaires relatives au régime économique des tabacs."
+      }
+    },
+    {
+      "id": "86d642c455a96d53",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale du commerce de détail et de gros à prédominance alimentaire (n° 2216)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408907",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 64,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Commerce de détail et de gros.",
+      "extra": {
+        "id": "JORFTEXT000054408907",
+        "nor": "TRST2616912A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-2216",
+          "idcc": "2216",
+          "label": "Commerce de détail et de gros",
+          "rank": "p2",
+          "source": "rule"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale du commerce de détail et de gros à prédominance alimentaire (n° 2216). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "725f0193308119ff",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale du commerce de détail alimentaire non spécialisé (n° 1505)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408928",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 64,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Commerce de détail et de gros.",
+      "extra": {
+        "id": "JORFTEXT000054408928",
+        "nor": "TRST2616917A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1505",
+          "idcc": "1505",
+          "label": "Commerce de détail et de gros",
+          "rank": "p2",
+          "source": "rule"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale du commerce de détail alimentaire non spécialisé (n° 1505). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "374107514860d149",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale du commerce de détail de l'horlogerie-bijouterie (n° 1487)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408810",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 63,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Convention collective suivie : Commerce de détail et de gros.",
+      "extra": {
+        "id": "JORFTEXT000054408810",
+        "nor": "TRST2615531A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1487",
+          "idcc": "1487",
+          "label": "Commerce de détail et de gros",
+          "rank": "p2",
+          "source": "rule"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 3 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale du commerce de détail de l'horlogerie-bijouterie (n° 1487). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "d3afd76d1902fd03",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 9 juillet 2026 portant cessation de fonctions et nomination d'un directeur à l'administration centrale du ministère des armées et des anciens combattants - M. du PEYROUX (Etienne)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408577",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : Décret du 9 juillet 2026 portant cessation de fonctions et nomination d'un directeur à l'administration centrale du ministère des armées et des anciens combattants - M. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054408577",
+        "nor": "ARMB2617906D",
+        "nature": "DECRET",
+        "textDate": "2026-07-09",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "DECRET. Décret du 9 juillet 2026 portant cessation de fonctions et nomination d'un directeur à l'administration centrale du ministère des armées et des anciens combattants - M. du PEYROUX (Etienne). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "5c8a66a24dfae69d",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 portant ouverture de crédits de fonds de concours",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/CPPB2617502A/jo/texte",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : Arrêté du 30 juin 2026 portant ouverture de crédits de fonds de concours. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054408351",
+        "nor": "CPPB2617502A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juin 2026 portant ouverture de crédits de fonds de concours. Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "869c52627ac12fcf",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'ouverture de la session de l'examen en vue de l'inscription sur la liste des personnes qualifiées en propriété industrielle mention brevets d'invention par validation des acquis de l'expérience (VAE) selon l'article L. 421-1 du code de la propriété intellectuelle en vertu des dispositions de l'article R. 421-1-1 du même code (session 2026)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054409165",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : Avis relatif à l'ouverture de la session de l'examen en vue de l'inscription sur la liste des personnes qualifiées en propriété industrielle mention brevets d'invention par validation des acquis de l'expérience (VAE) selon l'article L. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Publié le 10 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054409165",
+        "nor": "ECOI2617724V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif à l'ouverture de la session de l'examen en vue de l'inscription sur la liste des personnes qualifiées en propriété industrielle mention brevets d'invention par validation des acquis de l'expérience (VAE) selon l'article L. 421-1 du code de la propriété intellectuelle en vertu des dispositions de l'article R."
+      }
+    },
+    {
+      "id": "8265917773b230a6",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 modifiant l'arrêté du 18 août 2015 relatif à la délivrance du certificat de matelot pont, du certificat de matelot de quart passerelle et du certificat de marin qualifié pont",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/TECM2602455A/jo/texte",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : le présent arrêté modifie le tableau des diplômes, attestations ou brevets reconnus pour la délivrance du certificat de matelot pont, figurant en annexe de l'arrêté du 18 août 2015 relatif à la délivrance du certificat. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054407772",
+        "nor": "TECM2602455A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "Publics concernés : gens de mer. Objet : le présent arrêté modifie le tableau des diplômes, attestations ou brevets reconnus pour la délivrance du certificat de matelot pont, figurant en annexe de l'arrêté du 18 août 2015 relatif à la délivrance du certificat de matelot pont, du certificat de matelot de quart passerelle et du certificat de marin qualifié..."
+      }
+    },
+    {
+      "id": "a546a10fc140f712",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 modifiant l'arrêté du 24 août 2015 relatif à la délivrance du certificat de mécanicien, du certificat de mécanicien de quart machine et du certificat de marin qualifié machine",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/TECM2602457A/jo/texte",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : le présent arrêté modifie le tableau des attestations reconnues pour la délivrance du certificat de mécanicien, figurant en annexe de l'arrêté du 24 août 2015 relatif à la délivrance du certificat de mécanicien, du. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054407807",
+        "nor": "TECM2602457A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "Publics concernés : gens de mer. Objet : le présent arrêté modifie le tableau des attestations reconnues pour la délivrance du certificat de mécanicien, figurant en annexe de l'arrêté du 24 août 2015 relatif à la délivrance du certificat de mécanicien, du certificat de mécanicien de quart machine et du certificat de marin qualifié machine."
+      }
+    },
+    {
+      "id": "7ca5df8a016bd1ce",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 modifiant l'arrêté du 17 août 2015 relatif à la délivrance du brevet de mécanicien 250 kW",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/TECM2602460A/jo/texte",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : le présent arrêté modifie le tableau des diplômes ou attestations reconnus pour la délivrance du brevet de mécanicien 250 kW, figurant en annexe de l'arrêté du 17 août 2015 relatif à la délivrance du brevet de. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054407837",
+        "nor": "TECM2602460A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "Publics concernés : gens de mer. Objet : le présent arrêté modifie le tableau des diplômes ou attestations reconnus pour la délivrance du brevet de mécanicien 250 kW, figurant en annexe de l'arrêté du 17 août 2015 relatif à la délivrance du brevet de mécanicien 250 kW."
+      }
+    },
+    {
+      "id": "d6512c9b4b802195",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 modifiant l'arrêté du 18 avril 2016 relatif à la délivrance du brevet de second polyvalent et du brevet de capitaine de 1re classe de la navigation maritime",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/30/TECM2613908A/jo/texte",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : le présent arrêté modifie l'article 4 de l'arrêté du 18 avril 2016 relatif à la délivrance du brevet de second polyvalent et du brevet de capitaine de 1 re. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054407868",
+        "nor": "TECM2613908A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "Publics concernés : acteurs et usagers de l'enseignement maritime, gens de mer et armateurs. Objet : le présent arrêté modifie l'article 4 de l'arrêté du 18 avril 2016 relatif à la délivrance du brevet de second polyvalent et du brevet de capitaine de 1 re classe de la navigation maritime, afin de permettre la délivrance du brevet de second polyvalent aux..."
+      }
+    },
+    {
+      "id": "cb5636e3e3f5d49f",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 23 juin 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408479",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : Arrêté du 23 juin 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054408479",
+        "nor": "PRMG2615581A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-23",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 23 juin 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "e3f4fe0e20c00ab5",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juin 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408484",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : Arrêté du 30 juin 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054408484",
+        "nor": "PRMG2615584A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juin 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "c6e7c73016e03427",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juillet 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408489",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : Arrêté du 3 juillet 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054408489",
+        "nor": "PRMG2617963A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juillet 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "c05b06bb5ee23d2b",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juillet 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408495",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : Arrêté du 3 juillet 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054408495",
+        "nor": "PRMG2615445A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juillet 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "cfd3e1f482613bbe",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 juillet 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408501",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : Arrêté du 3 juillet 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054408501",
+        "nor": "PRMG2617965A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 juillet 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "53d048858f9a7820",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er juillet 2026 portant extension d'un avenant à la convention collective nationale des opérateurs de voyages et des guides (n° 3245)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408776",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Santé au travail",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : opérateurs de voyages et des guides (n° 3245). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408776",
+        "nor": "TRST2612773A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3245",
+          "idcc": "3245",
+          "label": "opérateurs de voyages et des guides (n° 3245)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 1er juillet 2026 portant extension d'un avenant à la convention collective nationale des opérateurs de voyages et des guides (n° 3245). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "3c4aaa48d85c52c0",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale de l'industrie textile (n° 18)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408790",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Sécurité sociale",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'industrie textile (n° 18). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408790",
+        "nor": "TRST2614755A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-18",
+          "idcc": "18",
+          "label": "l'industrie textile (n° 18)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 1er juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale de l'industrie textile (n° 18). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "c1d740dc34b17aaa",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale des coopératives de consommateurs salariés (n° 3205)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408829",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : coopératives de consommateurs salariés (n° 3205). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408829",
+        "nor": "TRST2616902A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3205",
+          "idcc": "3205",
+          "label": "coopératives de consommateurs salariés (n° 3205)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale des coopératives de consommateurs salariés (n° 3205). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "554e4acbf28aad12",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale des espaces de loisirs, d'attractions et culturels (n° 1790)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408839",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : espaces de loisirs, d'attractions et culturels (n° 1790). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408839",
+        "nor": "TRST2616903A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1790",
+          "idcc": "1790",
+          "label": "espaces de loisirs, d'attractions et culturels (n° 1790)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale des espaces de loisirs, d'attractions et culturels (n° 1790). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "5d8fa2212670268a",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale de l'habitat et du logement accompagnés (n° 2336)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408849",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'habitat et du logement accompagnés (n° 2336). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408849",
+        "nor": "TRST2616904A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-2336",
+          "idcc": "2336",
+          "label": "l'habitat et du logement accompagnés (n° 2336)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un avenant à la convention collective nationale de l'habitat et du logement accompagnés (n° 2336). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "425bd7c1cee308eb",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un accord territorial (Auvergne-Rhône-Alpes) conclu dans le cadre de la convention collective nationale des industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408859",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408859",
+        "nor": "TRST2616908A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3249",
+          "idcc": "3249",
+          "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
+          "rank": "p3",
+          "source": "memory"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un accord territorial (Auvergne-Rhône-Alpes) conclu dans le cadre de la convention collective nationale des industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "5854c17c40cb394b",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des menuiseries, charpentes et constructions industrialisées et portes planes (n° 3222)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408870",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : menuiseries, charpentes et constructions industrialisées et portes planes (n° 3222). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408870",
+        "nor": "TRST2616909A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3222",
+          "idcc": "3222",
+          "label": "menuiseries, charpentes et constructions industrialisées et portes planes (n° 3222)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des menuiseries, charpentes et constructions industrialisées et portes planes (n° 3222). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "3289ed8a9612d8c7",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des maisons à succursales de vente au détail d'habillement (n° 675)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408917",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : maisons à succursales de vente au détail d'habillement (n° 675). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408917",
+        "nor": "TRST2616915A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-675",
+          "idcc": "675",
+          "label": "maisons à succursales de vente au détail d'habillement (n° 675)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des maisons à succursales de vente au détail d'habillement (n° 675). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "be04078b5a10582d",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des collaborateurs salariés des entreprises d'économistes de la construction et de métreurs-vérificateurs (n° 3213)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408938",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 11 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-11",
+        "label": "Par défaut, applicable le 11 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : collaborateurs salariés des entreprises d'économistes de la construction et de métreurs-vérificateurs (n° 3213). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408938",
+        "nor": "TRST2617121A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3213",
+          "idcc": "3213",
+          "label": "collaborateurs salariés des entreprises d'économistes de la construction et de métreurs-vérificateurs (n° 3213)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des collaborateurs salariés des entreprises d'économistes de la construction et de métreurs-vérificateurs (n° 3213). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "d86785de9b979307",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective des entreprises au service de la création et de l'évènement",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408948",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Publié le 10 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408948",
+        "nor": "TRST2618548V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-c62c7fea45f1",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective des entreprises au service de la création et de l'évènement. Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "6507a2a4639c939a",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale relative aux conditions de travail dans les industries de carrières et de matériaux (ouvriers - employés, techniciens et agents de maîtrise)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408958",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Publié le 10 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : conditions de travail dans les industries de carrières et de matériaux. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408958",
+        "nor": "TRST2618566V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-bb31792ee022",
+          "idcc": null,
+          "label": "conditions de travail dans les industries de carrières et de matériaux",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale relative aux conditions de travail dans les industries de carrières et de matériaux (ouvriers - employés, techniciens et agents de maîtrise). Texte publié au Journal officiel le 2026-07-10."
+      }
+    },
+    {
+      "id": "13cdc1d8933e1402",
+      "date": "2026-07-10",
+      "firstSeenDate": "2026-07-10",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du personnel des agences générales d'assurances",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054408963",
+      "publishedAt": "2026-07-10",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 10 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-10",
+        "label": "Publié le 10 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : personnel des agences générales d'assurances. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054408963",
+        "nor": "TRST2618568V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260710-011608.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-2f64905cf452",
+          "idcc": null,
+          "label": "personnel des agences générales d'assurances",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du personnel des agences générales d'assurances. Texte publié au Journal officiel le 2026-07-10."
+      }
+    }
+  ]
+}

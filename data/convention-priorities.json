@@ -99,12 +99,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1487": {
+      "label": "Commerce de détail et de gros",
+      "idcc": "1487",
+      "rank": "p2",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
+      "seenCount": 1
+    },
     "idcc-1499": {
       "label": "la miroiterie, de la transformation et du négoce du verre (n° 1499)",
       "idcc": "1499",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1505": {
+      "label": "Commerce de détail et de gros",
+      "idcc": "1505",
+      "rank": "p2",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "idcc-1536": {
@@ -123,12 +139,36 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1597": {
+      "label": "Bâtiment et travaux publics",
+      "idcc": "1597",
+      "rank": "p1",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
+      "seenCount": 1
+    },
     "idcc-1607": {
       "label": "industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes (n° 1607)",
       "idcc": "1607",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1790": {
+      "label": "espaces de loisirs, d'attractions et culturels (n° 1790)",
+      "idcc": "1790",
+      "rank": "p3",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
+      "seenCount": 1
+    },
+    "idcc-18": {
+      "label": "l'industrie textile (n° 18)",
+      "idcc": "18",
+      "rank": "p3",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "idcc-1982": {
@@ -147,20 +187,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1996": {
-      "label": "la pharmacie d'officine (n° 1996)",
-      "idcc": "1996",
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
-      "seenCount": 1
-    },
-    "idcc-200": {
-      "label": "exploitations frigorifiques (n° 200)",
-      "idcc": "200",
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
+    "idcc-2216": {
+      "label": "Commerce de détail et de gros",
+      "idcc": "2216",
+      "rank": "p2",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "idcc-2332": {
@@ -168,8 +200,16 @@
       "idcc": "2332",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-07-09",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-2336": {
+      "label": "l'habitat et du logement accompagnés (n° 2336)",
+      "idcc": "2336",
+      "rank": "p3",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
+      "seenCount": 1
     },
     "idcc-2609": {
       "label": "Bâtiment et travaux publics",
@@ -177,6 +217,30 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-3205": {
+      "label": "coopératives de consommateurs salariés (n° 3205)",
+      "idcc": "3205",
+      "rank": "p3",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
+      "seenCount": 1
+    },
+    "idcc-3213": {
+      "label": "collaborateurs salariés des entreprises d'économistes de la construction et de métreurs-vérificateurs (n° 3213)",
+      "idcc": "3213",
+      "rank": "p3",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
+      "seenCount": 1
+    },
+    "idcc-3222": {
+      "label": "menuiseries, charpentes et constructions industrialisées et portes planes (n° 3222)",
+      "idcc": "3222",
+      "rank": "p3",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "idcc-3229": {
@@ -187,12 +251,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-3233": {
-      "label": "l'industrie de la fabrication des ciments (n° 3233)",
-      "idcc": "3233",
+    "idcc-3245": {
+      "label": "opérateurs de voyages et des guides (n° 3245)",
+      "idcc": "3245",
       "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "idcc-3248": {
@@ -200,16 +264,16 @@
       "idcc": "3248",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-05-29",
-      "seenCount": 1
+      "lastSeen": "2026-07-10",
+      "seenCount": 2
     },
     "idcc-3249": {
       "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
       "idcc": "3249",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-05-29",
-      "seenCount": 1
+      "lastSeen": "2026-07-10",
+      "seenCount": 2
     },
     "idcc-3250": {
       "label": "commissaires de justice et sociétés de ventes volontaires (n° 3250)",
@@ -217,6 +281,14 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-675": {
+      "label": "maisons à succursales de vente au détail d'habillement (n° 675)",
+      "idcc": "675",
+      "rank": "p3",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "idcc-915": {
@@ -227,14 +299,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-03c1263e6553": {
-      "label": "du sport",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
-      "seenCount": 1
-    },
     "name-06c9ed04c793": {
       "label": "relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail et des solidarités, V",
       "idcc": "",
@@ -243,44 +307,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-084ad749e0ac": {
-      "label": "Bureaux d'études / Syntec",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
-      "seenCount": 1
-    },
-    "name-089fb8271e3c": {
-      "label": "conditions de travail du personnel des industries céramiques de France",
+    "name-2f64905cf452": {
+      "label": "personnel des agences générales d'assurances",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
-      "seenCount": 1
-    },
-    "name-1fbfcd8d7132": {
-      "label": "la restauration rapide",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
-      "seenCount": 1
-    },
-    "name-31f74a8e1e1a": {
-      "label": "entreprises du négoce et de la distribution de combustibles solides, liquides, gazeux et produits pétroliers",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
-      "seenCount": 1
-    },
-    "name-36964c492962": {
-      "label": "l'industrie textile",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "name-42638c9432f9": {
@@ -289,22 +321,6 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-52d5429477ee": {
-      "label": "entreprises du commerce à distance",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
-      "seenCount": 1
-    },
-    "name-58227e60f60b": {
-      "label": "prothésistes dentaires et laboratoires de prothèses dentaires",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -323,20 +339,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-9cf4d945236b": {
-      "label": "l'esthétique-cosmétique et de l'enseignement technique et professionnel lié aux métiers de l'esthétique et de la parfumerie",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
-      "seenCount": 1
-    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-bb31792ee022": {
+      "label": "conditions de travail dans les industries de carrières et de matériaux",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
+      "seenCount": 1
+    },
+    "name-c62c7fea45f1": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -347,20 +371,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-d41a2bf355a6": {
-      "label": "services de l'automobile",
+    "name-e6f45239f42d": {
+      "label": "Métallurgie",
       "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
-      "seenCount": 1
-    },
-    "name-dde681f57658": {
-      "label": "portage de presse",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-07-09",
+      "rank": "p1",
+      "firstSeen": "2026-07-10",
+      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
