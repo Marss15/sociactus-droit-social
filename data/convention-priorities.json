@@ -83,6 +83,22 @@
     }
   ],
   "observed": {
+    "idcc-1261": {
+      "label": "acteurs du lien social et familial (n° 1261)",
+      "idcc": "1261",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-1286": {
+      "label": "détaillants et détaillants-fabricants de la confiserie, chocolaterie, biscuiterie (n° 1286)",
+      "idcc": "1286",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
     "idcc-1404": {
       "label": "métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et a (n° 1404)",
       "idcc": "1404",
@@ -99,12 +115,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1487": {
-      "label": "Commerce de détail et de gros",
-      "idcc": "1487",
-      "rank": "p2",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
+    "idcc-1411": {
+      "label": "la fabrication de l'ameublement (n° 1411)",
+      "idcc": "1411",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-1431": {
+      "label": "l'optique-lunetterie de détail (n° 1431)",
+      "idcc": "1431",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-1480": {
+      "label": "travail des journalistes (n° 1480)",
+      "idcc": "1480",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
     "idcc-1499": {
@@ -115,12 +147,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1505": {
-      "label": "Commerce de détail et de gros",
-      "idcc": "1505",
-      "rank": "p2",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
+    "idcc-1501": {
+      "label": "la restauration rapide (n° 1501)",
+      "idcc": "1501",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-1518": {
+      "label": "métiers de l'éducation, de la culture, des loisirs et de l'animation agissant pour l'utilité sociale et environnementale, au service des territoires (n° 1518)",
+      "idcc": "1518",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
     "idcc-1536": {
@@ -139,14 +179,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1597": {
-      "label": "Bâtiment et travaux publics",
-      "idcc": "1597",
-      "rank": "p1",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
-      "seenCount": 1
-    },
     "idcc-1607": {
       "label": "industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes (n° 1607)",
       "idcc": "1607",
@@ -155,20 +187,36 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1790": {
-      "label": "espaces de loisirs, d'attractions et culturels (n° 1790)",
-      "idcc": "1790",
+    "idcc-1671": {
+      "label": "maisons d'étudiants (n° 1671)",
+      "idcc": "1671",
       "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
-    "idcc-18": {
-      "label": "l'industrie textile (n° 18)",
-      "idcc": "18",
+    "idcc-1930": {
+      "label": "métiers de la transformation des grains (n° 1930)",
+      "idcc": "1930",
       "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-1938": {
+      "label": "industries de transformation des volailles (n° 1938)",
+      "idcc": "1938",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-1978": {
+      "label": "fleuristes, de la vente et des services des animaux familiers (n° 1978)",
+      "idcc": "1978",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
     "idcc-1982": {
@@ -187,12 +235,36 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2216": {
-      "label": "Commerce de détail et de gros",
-      "idcc": "2216",
-      "rank": "p2",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
+    "idcc-2002": {
+      "label": "la blanchisserie, laverie, location de linge, nettoyage à sec, pressing et teinturerie (n° 2002)",
+      "idcc": "2002",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-2098": {
+      "label": "personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098)",
+      "idcc": "2098",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-2148": {
+      "label": "télécommunications (n° 2148)",
+      "idcc": "2148",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-2156": {
+      "label": "grands magasins et des magasins populaires (n° 2156)",
+      "idcc": "2156",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
     "idcc-2332": {
@@ -203,12 +275,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2336": {
-      "label": "l'habitat et du logement accompagnés (n° 2336)",
-      "idcc": "2336",
+    "idcc-2583": {
+      "label": "sociétés concessionnaires ou exploitantes d'autoroutes ou d'ouvrages routiers (n° 2583)",
+      "idcc": "2583",
       "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
     "idcc-2609": {
@@ -219,28 +291,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-3205": {
-      "label": "coopératives de consommateurs salariés (n° 3205)",
-      "idcc": "3205",
+    "idcc-2931": {
+      "label": "activités de marchés financiers (n° 2931)",
+      "idcc": "2931",
       "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
-      "seenCount": 1
-    },
-    "idcc-3213": {
-      "label": "collaborateurs salariés des entreprises d'économistes de la construction et de métreurs-vérificateurs (n° 3213)",
-      "idcc": "3213",
-      "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
-      "seenCount": 1
-    },
-    "idcc-3222": {
-      "label": "menuiseries, charpentes et constructions industrialisées et portes planes (n° 3222)",
-      "idcc": "3222",
-      "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
     "idcc-3229": {
@@ -251,12 +307,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-3245": {
-      "label": "opérateurs de voyages et des guides (n° 3245)",
-      "idcc": "3245",
+    "idcc-3243": {
+      "label": "commerces de quincaillerie, fournitures industrielles, fers, métaux et équipement de la maison (n° 3243)",
+      "idcc": "3243",
       "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
     "idcc-3248": {
@@ -264,7 +320,7 @@
       "idcc": "3248",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-07-10",
+      "lastSeen": "2026-07-11",
       "seenCount": 2
     },
     "idcc-3249": {
@@ -272,8 +328,8 @@
       "idcc": "3249",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-07-10",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3250": {
       "label": "commissaires de justice et sociétés de ventes volontaires (n° 3250)",
@@ -283,12 +339,44 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-675": {
-      "label": "maisons à succursales de vente au détail d'habillement (n° 675)",
-      "idcc": "675",
+    "idcc-3251": {
+      "label": "la bijouterie, joaillerie, orfèvrerie, horlogerie (n° 3251)",
+      "idcc": "3251",
       "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-44": {
+      "label": "industries chimiques (n° 44)",
+      "idcc": "44",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-538": {
+      "label": "personnel des entreprises de manutention ferroviaire et travaux connexes (n° 538)",
+      "idcc": "538",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-716": {
+      "label": "employés et ouvriers de la distribution cinématographiques (n° 716)",
+      "idcc": "716",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "seenCount": 1
+    },
+    "idcc-843": {
+      "label": "la boulangerie-pâtisserie (n° 843)",
+      "idcc": "843",
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
     "idcc-915": {
@@ -307,20 +395,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-2f64905cf452": {
-      "label": "personnel des agences générales d'assurances",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
-      "seenCount": 1
-    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-42baeec92362": {
+      "label": "sociétés d'assistance",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -347,36 +435,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-bb31792ee022": {
-      "label": "conditions de travail dans les industries de carrières et de matériaux",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
-      "seenCount": 1
-    },
-    "name-c62c7fea45f1": {
-      "label": "Convention collective",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
-      "seenCount": 1
-    },
     "name-cf9a5fa602f5": {
       "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-e6f45239f42d": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-07-10",
-      "lastSeen": "2026-07-10",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
