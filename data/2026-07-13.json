@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-07-13T10:34:01.186Z",
+  "date": "2026-07-13",
+  "stats": {
+    "total": 1,
+    "regles": 0,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 1,
+    "priorite1": 0,
+    "priorite2": 0,
+    "priorite3": 1
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-13",
+      "collected": 122,
+      "rejectedByDate": 108
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "2897c06e98775af1",
+      "date": "2026-07-13",
+      "firstSeenDate": "2026-07-13",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Budget 2027 : l’État tenté de piocher à nouveau dans l’assurance-chômage",
+      "url": "https://www.lefigaro.fr/conjoncture/budget-2027-l-etat-tente-de-piocher-a-nouveau-dans-l-assurance-chomage-20260713",
+      "publishedAt": "2026-07-13",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-07-13",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Alors que le gouvernement peaufine sa copie pour le prochain budget, une nouvelle ponction dans les comptes de l’Unédic pourrait voir le jour."
+      }
+    }
+  ]
+}
