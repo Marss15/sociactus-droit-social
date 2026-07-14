@@ -123,6 +123,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-16": {
+      "label": "Transports routiers",
+      "idcc": "16",
+      "rank": "p2",
+      "firstSeen": "2026-07-14",
+      "lastSeen": "2026-07-14",
+      "seenCount": 1
+    },
     "idcc-1607": {
       "label": "industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes (n° 1607)",
       "idcc": "1607",
