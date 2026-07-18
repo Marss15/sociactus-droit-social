@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-07-18T08:55:23.609Z",
+  "date": "2026-07-18",
+  "stats": {
+    "total": 5,
+    "regles": 5,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 0,
+    "priorite1": 0,
+    "priorite2": 5,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-18",
+      "collected": 100,
+      "rejectedByDate": 92
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "64d53a9cfce48726",
+      "date": "2026-07-18",
+      "firstSeenDate": "2026-07-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 juillet 2026 portant application de l'article 207 de la loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/16/TECK2616065A/jo/texte",
+      "publishedAt": "2026-07-18",
+      "summary": "Changement apporté : Arrêté du 16 juillet 2026 portant application de l'article 207 de la loi n° 2026-103 du 19 février 2026 de finances pour 2026. Applicable ou à intégrer à partir du 19 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-19",
+        "label": "Par défaut, applicable le 19 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054440927",
+        "nor": "TECK2616065A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260718-002549.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 juillet 2026 portant application de l'article 207 de la loi n° 2026-103 du 19 février 2026 de finances pour 2026. Texte publié au Journal officiel le 2026-07-18."
+      }
+    },
+    {
+      "id": "3f6e5b6bbb03256e",
+      "date": "2026-07-18",
+      "firstSeenDate": "2026-07-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 15 juillet 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des ingénieurs des systèmes d'information et de communication",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/15/INTH2618885A/jo/texte",
+      "publishedAt": "2026-07-18",
+      "summary": "Changement apporté : Arrêté du 15 juillet 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des ingénieurs des systèmes d'information et de. Applicable ou à intégrer à partir du 19 juillet 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-07-19",
+        "label": "Par défaut, applicable le 19 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054440872",
+        "nor": "INTH2618885A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-15",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260718-002549.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 15 juillet 2026 fixant le nombre d'emplois offerts au titre de l'année 2026 aux fonctionnaires bénéficiaires de l'obligation d'emploi des travailleurs handicapés pour l'accès au corps des ingénieurs des systèmes d'information et de communication. Texte publié au Journal officiel le 2026-07-18."
+      }
+    },
+    {
+      "id": "30e541fb9da2aa44",
+      "date": "2026-07-18",
+      "firstSeenDate": "2026-07-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 juillet 2026 modifiant l'arrêté du 11 mars 2024 relatif à la formation des fonctionnaires promus au grade de brigadier-chef de police de la police nationale et à la formation des brigadiers reclassés à ce même grade au titre des dispositions du décret n° 2023-676 du 28 juillet 2023 modifiant le statut particulier du corps d'encadrement et d'application de la police nationale",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/16/INTC2619020A/jo/texte",
+      "publishedAt": "2026-07-18",
+      "summary": "Changement apporté : Arrêté du 16 juillet 2026 modifiant l'arrêté du 11 mars 2024 relatif à la formation des fonctionnaires promus au grade de brigadier-chef de police de la police nationale et à la formation des brigadiers reclassés à ce même grade au titre des. Applicable ou à intégrer à partir du 19 juillet 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-07-19",
+        "label": "Par défaut, applicable le 19 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054440887",
+        "nor": "INTC2619020A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260718-002549.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 juillet 2026 modifiant l'arrêté du 11 mars 2024 relatif à la formation des fonctionnaires promus au grade de brigadier-chef de police de la police nationale et à la formation des brigadiers reclassés à ce même grade au titre des dispositions du décret n° 2023-676 du 28 juillet 2023 modifiant le statut particulier du corps d'encadrement..."
+      }
+    },
+    {
+      "id": "6ae1dd2f154792e5",
+      "date": "2026-07-18",
+      "firstSeenDate": "2026-07-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 24 juin 2026 portant application des articles R. 5332-62 à R. 5332-68 du code des transports",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/6/24/TRAT2616608A/jo/texte",
+      "publishedAt": "2026-07-18",
+      "summary": "Changement apporté : Arrêté du 24 juin 2026 portant application des articles R. Applicable ou à intégrer à partir du 19 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-19",
+        "label": "Par défaut, applicable le 19 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054441127",
+        "nor": "TRAT2616608A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-24",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260718-002549.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 24 juin 2026 portant application des articles R. 5332-62 à R. 5332-68 du code des transports. Texte publié au Journal officiel le 2026-07-18."
+      }
+    },
+    {
+      "id": "4f0bb83714e4d796",
+      "date": "2026-07-18",
+      "firstSeenDate": "2026-07-18",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 15 juillet 2026 portant admission à la retraite (chambres régionales des comptes)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054441223",
+      "publishedAt": "2026-07-18",
+      "summary": "Changement apporté : Arrêté du 15 juillet 2026 portant admission à la retraite (chambres régionales des comptes). Applicable ou à intégrer à partir du 19 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-19",
+        "label": "Par défaut, applicable le 19 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054441223",
+        "nor": "CPTP2615717A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-15",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260718-002549.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 15 juillet 2026 portant admission à la retraite (chambres régionales des comptes). Texte publié au Journal officiel le 2026-07-18."
+      }
+    }
+  ]
+}
