@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-07-20T10:19:16.416Z",
+  "date": "2026-07-20",
+  "stats": {
+    "total": 3,
+    "regles": 0,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 3,
+    "priorite1": 0,
+    "priorite2": 1,
+    "priorite3": 2
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-20",
+      "collected": 124,
+      "rejectedByDate": 116
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "129d9f8ba41fa136",
+      "date": "2026-07-20",
+      "firstSeenDate": "2026-07-20",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Proposer une rupture conventionnelle n’a jamais été aussi simple : les jurisprudences montrent qu’elle a encore de beaux jours devant elle",
+      "url": "https://www.lefigaro.fr/vie-professionnelle/proposer-une-rupture-conventionnelle-n-a-jamais-ete-aussi-simple-les-jurisprudences-montrent-qu-elle-a-encore-de-beaux-jours-devant-elle-20260720",
+      "publishedAt": "2026-07-20",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Née en 2008, la rupture conventionnelle ne cesse de faire couler de l’encre. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques sécuriser les procédures de rupture, les motifs et les consultations obligatoires.",
+      "application": {
+        "date": "2026-07-20",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Née en 2008, la rupture conventionnelle ne cesse de faire couler de l’encre. Elle reste un mode de rupture sécurisé pour l’employeur à condition qu’il respecte bien les garanties procédurales qui l’entourent."
+      }
+    },
+    {
+      "id": "67e3d6d038fe45b7",
+      "date": "2026-07-20",
+      "firstSeenDate": "2026-07-20",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Avec un physique comme ça, vous devriez faire autre chose » : le visage, un concentré de préjugés au travail",
+      "url": "https://www.lemonde.fr/campus/article/2026/07/20/avec-un-physique-comme-ca-vous-devriez-faire-autre-chose-le-visage-un-concentre-de-prejuges-au-travail_6726633_4401467.html",
+      "publishedAt": "2026-07-20",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. « Sois belle et produis » (1/6). Impact pratique : recouper avec une source officielle avant d'adapter les pratiques renforcer la prévention, le traitement des signalements et la traçabilité des mesures prises.",
+      "application": {
+        "date": "2026-07-20",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. « Sois belle et produis » (1/6). Une apparence avantageuse peut faciliter le parcours professionnel, du recrutement au salaire."
+      }
+    },
+    {
+      "id": "ab3b7e2ea9c8041b",
+      "date": "2026-07-20",
+      "firstSeenDate": "2026-07-20",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Avec les canicules à répétition, des « records historiques » pour les taxis, VTC et vélos électriques en Île-de-France",
+      "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/avec-les-canicules-a-repetition-des-records-historiques-pour-les-taxis-vtc-et-velos-electriques-en-ile-de-france-20-07-2026-6URLKLVM3JFVDBNXVDSHGBCHYY.php",
+      "publishedAt": "2026-07-20",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. Avec les canicules à répétition, des « records historiques » pour les taxis, VTC et vélos électriques en Île-de-France. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-20",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Avec les canicules à répétition, des « records historiques » pour les taxis, VTC et vélos électriques en Île-de-France"
+      }
+    }
+  ]
+}
