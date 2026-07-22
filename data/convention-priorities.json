@@ -131,6 +131,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1978": {
+      "label": "fleuristes, de la vente et des services des animaux familiers (n° 1978)",
+      "idcc": "1978",
+      "rank": "p3",
+      "firstSeen": "2026-07-22",
+      "lastSeen": "2026-07-22",
+      "seenCount": 1
+    },
     "idcc-1982": {
       "label": "négoce et prestations de services dans les domaines médico-techniques (n° 1982)",
       "idcc": "1982",
@@ -168,8 +176,8 @@
       "idcc": "3229",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-07-21",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3248": {
       "label": "Métallurgie",

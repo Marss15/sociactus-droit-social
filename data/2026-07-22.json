@@ -1,0 +1,637 @@
+{
+  "generatedAt": "2026-07-22T09:33:27.161Z",
+  "date": "2026-07-22",
+  "stats": {
+    "total": 15,
+    "regles": 15,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 0,
+    "priorite1": 0,
+    "priorite2": 14,
+    "priorite3": 1
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-22",
+      "collected": 98,
+      "rejectedByDate": 77
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "ee49bf9b3c1c9983",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 juillet 2026 modifiant l'arrêté du 17 août 2023 fixant la liste des emplois de chef de service administratif de la direction générale des finances publiques",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/16/CPPE2617973A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Arrêté du 16 juillet 2026 modifiant l'arrêté du 17 août 2023 fixant la liste des emplois de chef de service administratif de la direction générale des finances publiques. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054451144",
+        "nor": "CPPE2617973A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 juillet 2026 modifiant l'arrêté du 17 août 2023 fixant la liste des emplois de chef de service administratif de la direction générale des finances publiques. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "45b9aa6b5f1ee69a",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 8 juillet 2026 fixant la liste des organisations syndicales reconnues représentatives dans le périmètre utile à la négociation d'un accord relatif à la formation professionnelle dans le secteur du transport aérien",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/8/TRST2619872A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Arrêté du 8 juillet 2026 fixant la liste des organisations syndicales reconnues représentatives dans le périmètre utile à la négociation d'un accord relatif à la formation professionnelle dans le secteur du transport aérien. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054450758",
+        "nor": "TRST2619872A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-08",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 8 juillet 2026 fixant la liste des organisations syndicales reconnues représentatives dans le périmètre utile à la négociation d'un accord relatif à la formation professionnelle dans le secteur du transport aérien. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "341280c356d4a1ed",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 8 juillet 2026 fixant la liste des organisations professionnelles d'employeurs reconnues représentatives dans le périmètre utile à la négociation d'un accord relatif à la formation professionnelle dans le secteur du transport aérien",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/8/TRST2619881A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Arrêté du 8 juillet 2026 fixant la liste des organisations professionnelles d'employeurs reconnues représentatives dans le périmètre utile à la négociation d'un accord relatif à la formation professionnelle dans le secteur du transport aérien. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054450777",
+        "nor": "TRST2619881A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-08",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 8 juillet 2026 fixant la liste des organisations professionnelles d'employeurs reconnues représentatives dans le périmètre utile à la négociation d'un accord relatif à la formation professionnelle dans le secteur du transport aérien. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "182267487ce9d825",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 15 juillet 2026 fixant les conditions générales d'admission, les modalités générales de la scolarité et du contrôle des connaissances et les conditions d'obtention des diplômes à l'Ecole nationale supérieure de techniques avancées",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/15/ARMA2619543A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Arrêté du 15 juillet 2026 fixant les conditions générales d'admission, les modalités générales de la scolarité et du contrôle des connaissances et les conditions d'obtention des diplômes à l'Ecole nationale supérieure de techniques avancées. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054450424",
+        "nor": "ARMA2619543A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-15",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 15 juillet 2026 fixant les conditions générales d'admission, les modalités générales de la scolarité et du contrôle des connaissances et les conditions d'obtention des diplômes à l'Ecole nationale supérieure de techniques avancées. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "e6036997ae681644",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 juillet 2026 fixant pour les élèves officiers de carrière du corps des ingénieurs des études et techniques de l'armement les conditions générales d'admission, les modalités générales de la scolarité et du contrôle des connaissances et les conditions d'obtention du diplôme d'ingénieur spécialité défense et sécurité à l'Ecole nationale supérieure de techniques avancées et à l'Institut supérieur de l'aéronautique et de l'espace",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/16/ARMA2619549A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Arrêté du 16 juillet 2026 fixant pour les élèves officiers de carrière du corps des ingénieurs des études et techniques de l'armement les conditions générales d'admission, les modalités générales de la scolarité et du contrôle des connaissances et les. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054450646",
+        "nor": "ARMA2619549A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 juillet 2026 fixant pour les élèves officiers de carrière du corps des ingénieurs des études et techniques de l'armement les conditions générales d'admission, les modalités générales de la scolarité et du contrôle des connaissances et les conditions d'obtention du diplôme d'ingénieur spécialité défense et sécurité à l'Ecole nationale..."
+      }
+    },
+    {
+      "id": "0bff1bfe0314394a",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 juillet 2026 modifiant les niveaux de bonification de la fiche d'opération standardisée TRA-EQ-117 et fixant les plafonds de revenus des déciles de revenus pour les opérations du secteur des transports",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/16/ECOR2616112A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : le présent arrêté modifie les niveaux de bonifications de la fiche d'opération standardisée TRA-EQ-117 et définit les plafonds de revenus. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054450931",
+        "nor": "ECOR2616112A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "Publics concernés : bénéficiaires et demandeurs dans le cadre du dispositif des certificats d'économies d'énergie. Objet : le présent arrêté modifie les niveaux de bonifications de la fiche d'opération standardisée TRA-EQ-117 et définit les plafonds de revenus des déciles de revenus qui seront utilisés pour les opérations du secteur des transports."
+      }
+    },
+    {
+      "id": "13affb47170bda60",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 22 mai 2026 modifiant l'arrêté du 30 septembre 2013 fixant les pourcentages mentionnés aux articles 26 et 27 du décret n° 2011-1317 du 17 octobre 2011 portant statut particulier du corps interministériel des attachés d'administration de l'Etat",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/22/CPPF2611998A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Arrêté du 22 mai 2026 modifiant l'arrêté du 30 septembre 2013 fixant les pourcentages mentionnés aux articles 26 et 27 du décret n° 2011-1317 du 17 octobre 2011 portant statut particulier du corps interministériel des attachés d'administration de. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054451125",
+        "nor": "CPPF2611998A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-22",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 22 mai 2026 modifiant l'arrêté du 30 septembre 2013 fixant les pourcentages mentionnés aux articles 26 et 27 du décret n° 2011-1317 du 17 octobre 2011 portant statut particulier du corps interministériel des attachés d'administration de l'Etat. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "03baae56df5b5838",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juillet 2026 autorisant au titre de l'année 2026 l'ouverture d'un recrutement par voie de PACTE pour l'accès au grade d'agent administratif des finances publiques",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/17/CPPP2616955A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Arrêté du 17 juillet 2026 autorisant au titre de l'année 2026 l'ouverture d'un recrutement par voie de PACTE pour l'accès au grade d'agent administratif des finances publiques. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054451167",
+        "nor": "CPPP2616955A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 juillet 2026 autorisant au titre de l'année 2026 l'ouverture d'un recrutement par voie de PACTE pour l'accès au grade d'agent administratif des finances publiques. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "9f54edac92b3ca49",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juillet 2026 autorisant au titre de l'année 2026 l'ouverture d'un recrutement par voie de PACTE pour l'accès au grade d'agent technique des finances publiques",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/17/CPPP2616960A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Arrêté du 17 juillet 2026 autorisant au titre de l'année 2026 l'ouverture d'un recrutement par voie de PACTE pour l'accès au grade d'agent technique des finances publiques. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054451181",
+        "nor": "CPPP2616960A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 juillet 2026 autorisant au titre de l'année 2026 l'ouverture d'un recrutement par voie de PACTE pour l'accès au grade d'agent technique des finances publiques. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "9684166999889638",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juillet 2026 fixant les taux de promotion des ingénieurs des études et de l'exploitation de l'aviation civile et des techniciens supérieurs des études et de l'exploitation de l'aviation civile relevant de la direction générale de l'aviation civile du ministère des transports pour l'année 2027",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/17/TRAA2619387A/jo/texte",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Arrêté du 17 juillet 2026 fixant les taux de promotion des ingénieurs des études et de l'exploitation de l'aviation civile et des techniciens supérieurs des études et de l'exploitation de l'aviation civile relevant de la direction générale de. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054451210",
+        "nor": "TRAA2619387A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 juillet 2026 fixant les taux de promotion des ingénieurs des études et de l'exploitation de l'aviation civile et des techniciens supérieurs des études et de l'exploitation de l'aviation civile relevant de la direction générale de l'aviation civile du ministère des transports pour l'année 2027."
+      }
+    },
+    {
+      "id": "9bb57933b545d3f8",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision n° 2026-394 du 8 juillet 2026 modifiant les décisions nos 2003-299, 2003-300, 2003-302, 2003-303, 2005-116, 2008-425, 2008-426, 2012-469, 2012-470, 2012-471, 2012-472, 2012-473, 2012-474, 2016-522 du Conseil supérieur de l'audiovisuel et les décisions 2023-427, 2023-428, 2024-1152, 2024-1153, 2024-1154, 2024-1155, 2024-1156, 2024-1157, 2024-1158, 2024-1159, 2024-1160, 2024-1161 et 2024-1162 de l'Autorité de régulation de la communication audiovisuelle et numérique autorisant l'utilisation de ressources radioélectriques pour la diffusion par voie hertzienne terrestre en mode numérique de services de télévision",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054451399",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Décision n° 2026-394 du 8 juillet 2026 modifiant les décisions nos 2003-299, 2003-300, 2003-302, 2003-303, 2005-116, 2008-425, 2008-426, 2012-469, 2012-470, 2012-471, 2012-472, 2012-473, 2012-474, 2016-522 du Conseil supérieur de l'audiovisuel et les. Applicable ou à intégrer à partir du 22 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-22",
+        "label": "Publié le 22 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054451399",
+        "nor": "RCAC2620015S",
+        "nature": "DECISION",
+        "textDate": "2026-07-08",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "DECISION. Décision n° 2026-394 du 8 juillet 2026 modifiant les décisions nos 2003-299, 2003-300, 2003-302, 2003-303, 2005-116, 2008-425, 2008-426, 2012-469, 2012-470, 2012-471, 2012-472, 2012-473, 2012-474, 2016-522 du Conseil supérieur de l'audiovisuel et les décisions 2023-427, 2023-428, 2024-1152, 2024-1153, 2024-1154, 2024-1155, 2024-1156, 2024-1157,..."
+      }
+    },
+    {
+      "id": "74caf041f75e3f41",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif au renouvellement de l'agrément d'une agence de mannequins pour l'engagement d'enfants mannequins",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054451527",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Avis relatif au renouvellement de l'agrément d'une agence de mannequins pour l'engagement d'enfants mannequins. Applicable ou à intégrer à partir du 22 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-22",
+        "label": "Publié le 22 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054451527",
+        "nor": "TRST2619577V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif au renouvellement de l'agrément d'une agence de mannequins pour l'engagement d'enfants mannequins. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "00ff89480edbdf58",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif au renouvellement de l'agrément d'une agence de mannequins pour l'engagement d'enfants mannequins",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054451531",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Avis relatif au renouvellement de l'agrément d'une agence de mannequins pour l'engagement d'enfants mannequins. Applicable ou à intégrer à partir du 22 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-22",
+        "label": "Publié le 22 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054451531",
+        "nor": "TRST2619579V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif au renouvellement de l'agrément d'une agence de mannequins pour l'engagement d'enfants mannequins. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "caafd43542ea07cb",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif au renouvellement de l'agrément d'une agence de mannequins pour l'engagement d'enfants mannequins",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054451535",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : Avis relatif au renouvellement de l'agrément d'une agence de mannequins pour l'engagement d'enfants mannequins. Applicable ou à intégrer à partir du 22 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-22",
+        "label": "Publié le 22 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054451535",
+        "nor": "TRST2619581V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif au renouvellement de l'agrément d'une agence de mannequins pour l'engagement d'enfants mannequins. Texte publié au Journal officiel le 2026-07-22."
+      }
+    },
+    {
+      "id": "11949ed6597f53fc",
+      "date": "2026-07-22",
+      "firstSeenDate": "2026-07-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des fleuristes, de la vente et des services des animaux familiers (n° 1978)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054451384",
+      "publishedAt": "2026-07-22",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 23 juillet 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-07-23",
+        "label": "Par défaut, applicable le 23 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : fleuristes, de la vente et des services des animaux familiers (n° 1978). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054451384",
+        "nor": "TRST2618257A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260722-002953.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-1978",
+          "idcc": "1978",
+          "label": "fleuristes, de la vente et des services des animaux familiers (n° 1978)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 17 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des fleuristes, de la vente et des services des animaux familiers (n° 1978). Texte publié au Journal officiel le 2026-07-22."
+      }
+    }
+  ]
+}
