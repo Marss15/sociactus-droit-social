@@ -83,28 +83,12 @@
     }
   ],
   "observed": {
-    "idcc-1266": {
-      "label": "personnel des entreprises de restauration de collectivités (n° 1266)",
-      "idcc": "1266",
-      "rank": "p3",
-      "firstSeen": "2026-07-23",
-      "lastSeen": "2026-07-23",
-      "seenCount": 1
-    },
     "idcc-1267": {
       "label": "la pâtisserie (n° 1267)",
       "idcc": "1267",
       "rank": "p3",
-      "firstSeen": "2026-07-23",
-      "lastSeen": "2026-07-23",
-      "seenCount": 1
-    },
-    "idcc-1286": {
-      "label": "détaillants et détaillants-fabricants de la confiserie, chocolaterie, biscuiterie (n° 1286)",
-      "idcc": "1286",
-      "rank": "p3",
-      "firstSeen": "2026-07-23",
-      "lastSeen": "2026-07-23",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
       "seenCount": 1
     },
     "idcc-1404": {
@@ -123,6 +107,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1412": {
+      "label": "entreprises d'installation sans fabrication, y compris entretien, réparation, dépannage de matériel aéraulique, thermique, frigorifique et connexes (n° 1412)",
+      "idcc": "1412",
+      "rank": "p3",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
+      "seenCount": 1
+    },
     "idcc-1499": {
       "label": "la miroiterie, de la transformation et du négoce du verre (n° 1499)",
       "idcc": "1499",
@@ -131,12 +123,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1516": {
+      "label": "organismes de formation (n° 1516)",
+      "idcc": "1516",
+      "rank": "p3",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
+      "seenCount": 1
+    },
     "idcc-1536": {
       "label": "distributeurs conseils hors domicile (n° 1536)",
       "idcc": "1536",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-1555": {
+      "label": "la fabrication et le commerce des produits à usage pharmaceutique, parapharmaceutique et vétérinaire (n° 1555)",
+      "idcc": "1555",
+      "rank": "p3",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
       "seenCount": 1
     },
     "idcc-1558": {
@@ -155,22 +163,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1619": {
-      "label": "cabinets dentaires (n° 1619)",
-      "idcc": "1619",
-      "rank": "p3",
-      "firstSeen": "2026-07-23",
-      "lastSeen": "2026-07-23",
-      "seenCount": 1
-    },
-    "idcc-1938": {
-      "label": "industries de transformation des volailles (n° 1938)",
-      "idcc": "1938",
-      "rank": "p3",
-      "firstSeen": "2026-07-23",
-      "lastSeen": "2026-07-23",
-      "seenCount": 1
-    },
     "idcc-1982": {
       "label": "négoce et prestations de services dans les domaines médico-techniques (n° 1982)",
       "idcc": "1982",
@@ -185,6 +177,14 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-2121": {
+      "label": "l'édition (n° 2121)",
+      "idcc": "2121",
+      "rank": "p3",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
       "seenCount": 1
     },
     "idcc-2332": {
@@ -203,20 +203,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2941": {
-      "label": "la branche de l'aide, de l'accompagnement, des soins et des services à domicile (n° 2941)",
-      "idcc": "2941",
+    "idcc-2631": {
+      "label": "Convention collective (n° 2631)",
+      "idcc": "2631",
       "rank": "p3",
-      "firstSeen": "2026-07-23",
-      "lastSeen": "2026-07-23",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
       "seenCount": 1
     },
-    "idcc-2972": {
-      "label": "personnel sédentaire des entreprises de navigation (n° 2972)",
-      "idcc": "2972",
+    "idcc-3016": {
+      "label": "ateliers et chantiers d'insertion (n° 3016)",
+      "idcc": "3016",
       "rank": "p3",
-      "firstSeen": "2026-07-23",
-      "lastSeen": "2026-07-23",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
+      "seenCount": 1
+    },
+    "idcc-3217": {
+      "label": "ferroviaire (n° 3217)",
+      "idcc": "3217",
+      "rank": "p3",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
       "seenCount": 1
     },
     "idcc-3229": {
@@ -227,13 +235,21 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-3241": {
+      "label": "la télédiffusion (n° 3241)",
+      "idcc": "3241",
+      "rank": "p3",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
+      "seenCount": 1
+    },
     "idcc-3248": {
       "label": "Métallurgie",
       "idcc": "3248",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-07-23",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3249": {
       "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
@@ -251,20 +267,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-3252": {
+      "label": "entreprises au service de la création et de l'événement (n° 3252)",
+      "idcc": "3252",
+      "rank": "p3",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
+      "seenCount": 1
+    },
     "idcc-915": {
       "label": "sociétés d'expertises et d'évaluations (n° 915)",
       "idcc": "915",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "idcc-953": {
-      "label": "la charcuterie de détail (n° 953)",
-      "idcc": "953",
-      "rank": "p3",
-      "firstSeen": "2026-07-23",
-      "lastSeen": "2026-07-23",
       "seenCount": 1
     },
     "name-06c9ed04c793": {
@@ -313,6 +329,14 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-de17c96b93ec": {
+      "label": "personnel navigant du groupement des armateurs de services de passages d'eau",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
