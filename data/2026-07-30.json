@@ -1,0 +1,455 @@
+{
+  "generatedAt": "2026-07-30T09:36:08.773Z",
+  "date": "2026-07-30",
+  "stats": {
+    "total": 10,
+    "regles": 10,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 0,
+    "priorite1": 0,
+    "priorite2": 10,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-30",
+      "collected": 100,
+      "rejectedByDate": 84
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "78229676ae2cd3d0",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 29 juillet 2026 portant cessation de fonctions de la secrétaire générale de la préfecture de la Lozère, sous-préfète de Mende - Mme TROTIN (Laure)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054555929",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : Décret du 29 juillet 2026 portant cessation de fonctions de la secrétaire générale de la préfecture de la Lozère, sous-préfète de Mende - Mme TROTIN (Laure). Applicable ou à intégrer à partir du 31 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Par défaut, applicable le 31 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054555929",
+        "nor": "INTP2616055D",
+        "nature": "DECRET",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "DECRET. Décret du 29 juillet 2026 portant cessation de fonctions de la secrétaire générale de la préfecture de la Lozère, sous-préfète de Mende - Mme TROTIN (Laure). Texte publié au Journal officiel le 2026-07-30."
+      }
+    },
+    {
+      "id": "aa12c892fcb7b14a",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 29 juillet 2026 portant cessation de fonctions du directeur de cabinet du préfet de l'Ardèche - M. GERVILLA (Guillem)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054555945",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : Décret du 29 juillet 2026 portant cessation de fonctions du directeur de cabinet du préfet de l'Ardèche - M. Applicable ou à intégrer à partir du 31 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Par défaut, applicable le 31 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054555945",
+        "nor": "INTP2619372D",
+        "nature": "DECRET",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "DECRET. Décret du 29 juillet 2026 portant cessation de fonctions du directeur de cabinet du préfet de l'Ardèche - M. GERVILLA (Guillem). Texte publié au Journal officiel le 2026-07-30."
+      }
+    },
+    {
+      "id": "d0e65f7497433562",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 portant définition et fixant les conditions de délivrance du brevet de technicien supérieur « Assurance »",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/6/ESRS2612231A/jo/texte",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : Arrêté du 6 juillet 2026 portant définition et fixant les conditions de délivrance du brevet de technicien supérieur « Assurance ». Applicable ou à intégrer à partir du 31 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Par défaut, applicable le 31 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054555789",
+        "nor": "ESRS2612231A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 portant définition et fixant les conditions de délivrance du brevet de technicien supérieur « Assurance ». Texte publié au Journal officiel le 2026-07-30."
+      }
+    },
+    {
+      "id": "4598c85ad69cc89c",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 juillet 2026 fixant le taux T1, définitif pour 2025 et provisionnel pour 2026, de la cotisation à la charge des employeurs des salariés affiliés au régime spécial de retraites du personnel de la société nationale SNCF et ses filiales et groupements d'intérêt économique relevant du champ du I de l'article L. 2101-2 du code des transports",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/21/CPPB2618175A/jo/texte",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : Arrêté du 21 juillet 2026 fixant le taux T1, définitif pour 2025 et provisionnel pour 2026, de la cotisation à la charge des employeurs des salariés affiliés au régime spécial de retraites du personnel de la société nationale SNCF et ses filiales et. Applicable ou à intégrer à partir du 31 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Par défaut, applicable le 31 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054555768",
+        "nor": "CPPB2618175A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 21 juillet 2026 fixant le taux T1, définitif pour 2025 et provisionnel pour 2026, de la cotisation à la charge des employeurs des salariés affiliés au régime spécial de retraites du personnel de la société nationale SNCF et ses filiales et groupements d'intérêt économique relevant du champ du I de l'article L. 2101-2 du code des transports."
+      }
+    },
+    {
+      "id": "a9b05932e01874de",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision n° 2026-405 du 24 juillet 2026 portant sanction à l'encontre de la Société d'exploitation d'un service d'information (SESI)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054556400",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : Décision n° 2026-405 du 24 juillet 2026 portant sanction à l'encontre de la Société d'exploitation d'un service d'information (SESI). Applicable ou à intégrer à partir du 30 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-30",
+        "label": "Publié le 30 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054556400",
+        "nor": "RCAC2620859S",
+        "nature": "DECISION",
+        "textDate": "2026-07-24",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "DECISION. Décision n° 2026-405 du 24 juillet 2026 portant sanction à l'encontre de la Société d'exploitation d'un service d'information (SESI). Texte publié au Journal officiel le 2026-07-30."
+      }
+    },
+    {
+      "id": "0bb9a5c328bac326",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 juillet 2026 portant modification du règlement intérieur de l'Institut national du service public",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/29/PRME2619734A/jo/texte",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : Arrêté du 29 juillet 2026 portant modification du règlement intérieur de l'Institut national du service public. Applicable ou à intégrer à partir du 31 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Par défaut, applicable le 31 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054554875",
+        "nor": "PRME2619734A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 29 juillet 2026 portant modification du règlement intérieur de l'Institut national du service public. Texte publié au Journal officiel le 2026-07-30."
+      }
+    },
+    {
+      "id": "cc01943e22bd696f",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 27 juillet 2026 modifiant l'arrêté du 22 août 2014 portant création de la spécialité « cultures marines » du baccalauréat professionnel et fixant ses conditions de délivrance",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/27/TECM2610994A/jo/texte",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : Publics concernés : acteurs et usagers de l'enseignement professionnel secondaire, gens de mer et employeurs aux cultures marines. Applicable ou à intégrer à partir du 31 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Par défaut, applicable le 31 juillet 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054555051",
+        "nor": "TECM2610994A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "Publics concernés : acteurs et usagers de l'enseignement professionnel secondaire, gens de mer et employeurs aux cultures marines. Objet : le présent arrêté modifie l'arrêté du 22 août 2014 portant création de la spécialité « cultures marines » du baccalauréat professionnel et fixant ses conditions de délivrance."
+      }
+    },
+    {
+      "id": "a375cad74fec0d53",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision n° 2026-327 L du 29 juillet 2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054556102",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : Décision n° 2026-327 L du 29 juillet 2026. Applicable ou à intégrer à partir du 30 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-30",
+        "label": "Publié le 30 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054556102",
+        "nor": "CSCX2621048S",
+        "nature": "DECISION",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "DECISION. Décision n° 2026-327 L du 29 juillet 2026. Texte publié au Journal officiel le 2026-07-30."
+      }
+    },
+    {
+      "id": "375a7d06e993229f",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à un transfert de portefeuille de bulletins d'adhésion à des règlements et de contrats d'une mutuelle par voie de fusion absorption",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054556125",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : Avis relatif à un transfert de portefeuille de bulletins d'adhésion à des règlements et de contrats d'une mutuelle par voie de fusion absorption. Applicable ou à intégrer à partir du 30 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-30",
+        "label": "Publié le 30 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054556125",
+        "nor": "ACPP2621005V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif à un transfert de portefeuille de bulletins d'adhésion à des règlements et de contrats d'une mutuelle par voie de fusion absorption. Texte publié au Journal officiel le 2026-07-30."
+      }
+    },
+    {
+      "id": "48783ef81863f494",
+      "date": "2026-07-30",
+      "firstSeenDate": "2026-07-30",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Documents déposés",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054556445",
+      "publishedAt": "2026-07-30",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Documents déposés. Applicable ou à intégrer à partir du 30 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-30",
+        "label": "Publié le 30 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054556445",
+        "nor": "INPS2621068X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260730-003059.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Documents déposés. Texte publié au Journal officiel le 2026-07-30."
+      }
+    }
+  ]
+}
