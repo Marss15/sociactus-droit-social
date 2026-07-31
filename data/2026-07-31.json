@@ -1,0 +1,673 @@
+{
+  "generatedAt": "2026-07-31T09:50:25.970Z",
+  "date": "2026-07-31",
+  "stats": {
+    "total": 16,
+    "regles": 13,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 3,
+    "priorite1": 3,
+    "priorite2": 9,
+    "priorite3": 4
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-07-31",
+      "collected": 104,
+      "rejectedByDate": 85
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "66f5f7ab2ebbe7cf",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 28 juillet 2026 portant extension d'accords territoriaux (Vimeu - Loiret - Indre-et-Loire) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054570632",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 83,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054570632",
+        "nor": "TRST2618253A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-3248",
+          "idcc": "3248",
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "memory"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 28 juillet 2026 portant extension d'accords territoriaux (Vimeu - Loiret - Indre-et-Loire) conclus dans le cadre de la convention collective nationale de la métallurgie (n° 3248). Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "8c9e93fa5f7855ec",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-705 du 29 juillet 2026 relatif aux congés pour raisons de santé des agents publics civils et militaires",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/29/CPPF2613307D/jo/texte",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : Publics concernés : fonctionnaires et agents contractuels de la fonction publique de l'Etat, territoriale et hospitalière, ouvriers de l'Etat, stagiaires, magistrats, militaires. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Emploi",
+        "Santé au travail",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054570030",
+        "nor": "CPPF2613307D",
+        "nature": "DECRET",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "Publics concernés : fonctionnaires et agents contractuels de la fonction publique de l'Etat, territoriale et hospitalière, ouvriers de l'Etat, stagiaires, magistrats, militaires."
+      }
+    },
+    {
+      "id": "bbab7ea3b2e54365",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-699 du 29 juillet 2026 prévoyant diverses mesures relatives aux pensions de retraite des parents",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/29/TRSS2613030D/jo/texte",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : Décret n° 2026-699 du 29 juillet 2026 prévoyant diverses mesures relatives aux pensions de retraite des parents. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054569098",
+        "nor": "TRSS2613030D",
+        "nature": "DECRET",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "Publics concernés : assurés du régime général, du régime de la fonction publique territoriale et hospitalière, du régime des pensions des ouvriers et des établissements industriels de l'Etat, du régime des clercs et employés de notaires, du régime des salariés et des non-salariés agricoles et du régime de retraite applicable à Saint-Pierre-et-Miquelon."
+      }
+    },
+    {
+      "id": "45cec6b32a259910",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-706 du 29 juillet 2026 portant virement de crédits",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/29/CPPB2614238D/jo/texte",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : Décret n° 2026-706 du 29 juillet 2026 portant virement de crédits. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054570245",
+        "nor": "CPPB2614238D",
+        "nature": "DECRET",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "DECRET. Décret n° 2026-706 du 29 juillet 2026 portant virement de crédits. Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "f76daee040891efd",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-707 du 29 juillet 2026 portant transfert de crédits",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/29/CPPB2614240D/jo/texte",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : Décret n° 2026-707 du 29 juillet 2026 portant transfert de crédits. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054570254",
+        "nor": "CPPB2614240D",
+        "nature": "DECRET",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "DECRET. Décret n° 2026-707 du 29 juillet 2026 portant transfert de crédits. Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "e63c002e958c9659",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-710 du 29 juillet 2026 portant annulation de crédits",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/29/CPPB2616833D/jo/texte",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : Décret n° 2026-710 du 29 juillet 2026 portant annulation de crédits. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 62,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054570281",
+        "nor": "CPPB2616833D",
+        "nature": "DECRET",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "DECRET. Décret n° 2026-710 du 29 juillet 2026 portant annulation de crédits. Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "dd9644604d9ba5b5",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Rapport relatif au décret n° 2026-706 du 29 juillet 2026 portant virement de crédits",
+      "url": "https://www.legifrance.gouv.fr/eli/rapport/2026/7/31/CPPB2614238P/jo/texte",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : RAPPORT. Rapport relatif au décret n° 2026-706 du 29 juillet 2026 portant virement de crédits. Applicable ou à intégrer à partir du 31 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Publié le 31 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054570243",
+        "nor": "CPPB2614238P",
+        "nature": "RAPPORT",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "RAPPORT. Rapport relatif au décret n° 2026-706 du 29 juillet 2026 portant virement de crédits. Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "ffa926d9ec448b49",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Rapport relatif au décret n° 2026-707 du 29 juillet 2026 portant transfert de crédits",
+      "url": "https://www.legifrance.gouv.fr/eli/rapport/2026/7/31/CPPB2614240P/jo/texte",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : RAPPORT. Rapport relatif au décret n° 2026-707 du 29 juillet 2026 portant transfert de crédits. Applicable ou à intégrer à partir du 31 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Publié le 31 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054570252",
+        "nor": "CPPB2614240P",
+        "nature": "RAPPORT",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "RAPPORT. Rapport relatif au décret n° 2026-707 du 29 juillet 2026 portant transfert de crédits. Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "80f8d7185661da52",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juillet 2026 autorisant l'ouverture des concours d'entrée à l'Institut national du service public de la voie générale et de la voie « Orient » pour l'année 2027",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/30/PRME2619735A/jo/texte",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : Arrêté du 30 juillet 2026 autorisant l'ouverture des concours d'entrée à l'Institut national du service public de la voie générale et de la voie « Orient » pour l'année 2027. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054568831",
+        "nor": "PRME2619735A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juillet 2026 autorisant l'ouverture des concours d'entrée à l'Institut national du service public de la voie générale et de la voie « Orient » pour l'année 2027. Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "968494ed63035363",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 28 juillet 2026 portant dérogation au profit de la Fédération nationale de protection civile",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/28/INTE2620923A/jo/texte",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : Arrêté du 28 juillet 2026 portant dérogation au profit de la Fédération nationale de protection civile. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054568913",
+        "nor": "INTE2620923A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 28 juillet 2026 portant dérogation au profit de la Fédération nationale de protection civile. Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "992de8023219a6ee",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juin 2026 portant promotion de grade (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054570457",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : Arrêté du 17 juin 2026 portant promotion de grade (inspection du travail). Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054570457",
+        "nor": "TRSR2620940A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 juin 2026 portant promotion de grade (inspection du travail). Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "4287ec7667bdd22f",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à la fixation du taux moyen de rendement des obligations des sociétés privées",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054570750",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : Avis relatif à la fixation du taux moyen de rendement des obligations des sociétés privées. Applicable ou à intégrer à partir du 31 juillet 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Publié le 31 juillet 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054570750",
+        "nor": "ECOT2618922V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif à la fixation du taux moyen de rendement des obligations des sociétés privées. Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "dc0e28f5d5d8b116",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 28 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale du personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054570646",
+      "publishedAt": "2026-07-31",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Par défaut, applicable le 01 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098). Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054570646",
+        "nor": "TRST2618262A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260731-003333.tar.gz",
+        "collectiveAgreement": {
+          "key": "idcc-2098",
+          "idcc": "2098",
+          "label": "personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098)",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 28 juillet 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale du personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098). Texte publié au Journal officiel le 2026-07-31."
+      }
+    },
+    {
+      "id": "c7d0e0e0bd404a8f",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Les régions vent debout contre les coupes budgétaires dans l’apprentissage et la formation",
+      "url": "https://www.lemonde.fr/politique/article/2026/07/31/les-regions-vent-debout-contre-les-coupes-budgetaires-dans-l-apprentissage-et-la-formation_6737113_823448.html",
+      "publishedAt": "2026-07-31",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Dans le cadre de la préparation du budget 2027, le gouvernement entend supprimer les financements accordés aux centres de formation des apprentis (CFA) et mettre un terme aux pactes d’investissement de compétences. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Dans le cadre de la préparation du budget 2027, le gouvernement entend supprimer les financements accordés aux centres de formation des apprentis (CFA) et mettre un terme aux pactes d’investissement de compétences..."
+      }
+    },
+    {
+      "id": "30605ce28ee20cf5",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Le gouvernement \"élargit\" le dispositif de chômage partiel aux saisonniers récurrents sans contrat dans le Sud-Ouest",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/le-gouvernement-elargit-le-dispositif-de-chomage-partiel-aux-saisonniers-recurrents-sans-contrat-dans-le-sud-ouest_8129627.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-07-31",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 18,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Avec les incendies, bon nombre d'entreprises ont cessé toute activité. Elles vont pouvoir progressivement reprendre et recourir aux saisonniers \"fidèles\", explique Serge Papin, ministre des PME, du Commerce, de..."
+      }
+    },
+    {
+      "id": "019c057434ec718c",
+      "date": "2026-07-31",
+      "firstSeenDate": "2026-07-31",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "New York : Mamdani assure que ses mesures ont permis de distribuer plus de 100 millions de dollars de pourboires aux livreurs depuis janvier",
+      "url": "https://www.leparisien.fr/international/etats-unis/new-york-mamdani-assure-que-ses-mesures-ont-permis-de-distribuer-plus-de-100-millions-de-dollars-de-pourboires-aux-livreurs-depuis-janvier-30-07-2026-IINJGG5EBNHNBM3ZI5BPCQLXQI.php",
+      "publishedAt": "2026-07-31",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. New York : Mamdani assure que ses mesures ont permis de distribuer plus de 100 millions de dollars de pourboires aux livreurs depuis janvier. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-07-31",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. New York : Mamdani assure que ses mesures ont permis de distribuer plus de 100 millions de dollars de pourboires aux livreurs depuis janvier"
+      }
+    }
+  ]
+}
