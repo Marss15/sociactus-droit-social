@@ -147,14 +147,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2098": {
-      "label": "personnel des prestataires de services dans le domaine du secteur tertiaire (n° 2098)",
-      "idcc": "2098",
-      "rank": "p3",
-      "firstSeen": "2026-07-31",
-      "lastSeen": "2026-07-31",
-      "seenCount": 1
-    },
     "idcc-2332": {
       "label": "entreprises d'architecture (n° 2332)",
       "idcc": "2332",
@@ -184,8 +176,8 @@
       "idcc": "3248",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-07-31",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3249": {
       "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
@@ -219,12 +211,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-12864e4739cb": {
+      "label": "laboratoires de biologie médicale extra-hospitaliers",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-01",
+      "lastSeen": "2026-08-01",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-6af449e8d0f6": {
+      "label": "l'édition",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-01",
+      "lastSeen": "2026-08-01",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -251,6 +259,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-bbfa9218e48f": {
+      "label": "l'immobilier",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-01",
+      "lastSeen": "2026-08-01",
+      "seenCount": 1
+    },
     "name-cf9a5fa602f5": {
       "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail",
       "idcc": "",
@@ -265,6 +281,14 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-fbbf6e6222f6": {
+      "label": "la boucherie et de la poissonnerie",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-01",
+      "lastSeen": "2026-08-01",
       "seenCount": 1
     }
   }

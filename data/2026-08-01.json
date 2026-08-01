@@ -1,0 +1,591 @@
+{
+  "generatedAt": "2026-08-01T09:13:48.644Z",
+  "date": "2026-08-01",
+  "stats": {
+    "total": 13,
+    "regles": 12,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 1,
+    "priorite1": 0,
+    "priorite2": 8,
+    "priorite3": 5
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-08-01",
+      "collected": 105,
+      "rejectedByDate": 88
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "194f17426e16a742",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 31 juillet 2026 relatif à la compensation financière versée aux officines et pharmacies accueillant des étudiants préparant le diplôme d'études spécialisées de pharmacie officinale",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/31/SFHS2618329A/jo/texte",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : Arrêté du 31 juillet 2026 relatif à la compensation financière versée aux officines et pharmacies accueillant des étudiants préparant le diplôme d'études spécialisées de pharmacie officinale. Applicable ou à intégrer à partir du 02 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-02",
+        "label": "Par défaut, applicable le 02 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Sécurité sociale",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054594935",
+        "nor": "SFHS2618329A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-31",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 31 juillet 2026 relatif à la compensation financière versée aux officines et pharmacies accueillant des étudiants préparant le diplôme d'études spécialisées de pharmacie officinale. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "aeecfcbdb4727bfe",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision n° 2026-1216 QPC du 31 juillet 2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054595452",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : Décision n° 2026-1216 QPC du 31 juillet 2026. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Publié le 01 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054595452",
+        "nor": "CSCX2621274S",
+        "nature": "DECISION",
+        "textDate": "2026-07-31",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "sourceSummary": "DECISION. Décision n° 2026-1216 QPC du 31 juillet 2026. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "bba448466d619460",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 23 juillet 2026 modifiant l'arrêté du 29 novembre 2018 fixant la liste et la localisation des emplois à forte responsabilité bénéficiant de la nouvelle bonification indiciaire et des emplois de conseiller d'administration au sein des services du ministère de l'intérieur",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/23/INTH2619217A/jo/texte",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : Arrêté du 23 juillet 2026 modifiant l'arrêté du 29 novembre 2018 fixant la liste et la localisation des emplois à forte responsabilité bénéficiant de la nouvelle bonification indiciaire et des emplois de conseiller d'administration au sein des services. Applicable ou à intégrer à partir du 02 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-02",
+        "label": "Par défaut, applicable le 02 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054594142",
+        "nor": "INTH2619217A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-23",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 23 juillet 2026 modifiant l'arrêté du 29 novembre 2018 fixant la liste et la localisation des emplois à forte responsabilité bénéficiant de la nouvelle bonification indiciaire et des emplois de conseiller d'administration au sein des services du ministère de l'intérieur. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "063f6a817ccbd534",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 24 juillet 2026 modifiant diverses dispositions d'ordre indemnitaire",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/24/ARMH2620547A/jo/texte",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : Arrêté du 24 juillet 2026 modifiant diverses dispositions d'ordre indemnitaire. Applicable ou à intégrer à partir du 02 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-02",
+        "label": "Par défaut, applicable le 02 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054594319",
+        "nor": "ARMH2620547A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-24",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 24 juillet 2026 modifiant diverses dispositions d'ordre indemnitaire. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "3e4226a7e471c810",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 28 mai 2026 modifiant l'arrêté du 13 décembre 2016 fixant les conditions d'achat et du complément de rémunération pour l'électricité produite par les installations utilisant l'énergie hydraulique des lacs, des cours d'eau et des eaux captées gravitairement",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/5/28/ECOR2610822A/jo/texte",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : Arrêté du 28 mai 2026 modifiant l'arrêté du 13 décembre 2016 fixant les conditions d'achat et du complément de rémunération pour l'électricité produite par les installations utilisant l'énergie hydraulique des lacs, des cours d'eau et des eaux captées. Applicable ou à intégrer à partir du 02 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-02",
+        "label": "Par défaut, applicable le 02 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054594380",
+        "nor": "ECOR2610822A",
+        "nature": "ARRETE",
+        "textDate": "2026-05-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 28 mai 2026 modifiant l'arrêté du 13 décembre 2016 fixant les conditions d'achat et du complément de rémunération pour l'électricité produite par les installations utilisant l'énergie hydraulique des lacs, des cours d'eau et des eaux captées gravitairement. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "89e3e596a7a3a262",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 15 juillet 2026 modifiant l'arrêté du 16 janvier 2026 fixant la liste des emplois de chef de mission des administrations relevant du ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/15/ECOP2618744A/jo/texte",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : Arrêté du 15 juillet 2026 modifiant l'arrêté du 16 janvier 2026 fixant la liste des emplois de chef de mission des administrations relevant du ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique. Applicable ou à intégrer à partir du 02 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-02",
+        "label": "Par défaut, applicable le 02 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054594407",
+        "nor": "ECOP2618744A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-15",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 15 juillet 2026 modifiant l'arrêté du 16 janvier 2026 fixant la liste des emplois de chef de mission des administrations relevant du ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "8c5208baa88cd4d7",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 juillet 2026 relatif à la transposition de la directive (UE) 2024/1619 du Parlement européen et du Conseil du 31 mai 2024 modifiant la directive 2013/36/UE en ce qui concerne les pouvoirs de surveillance, les sanctions, les succursales de pays tiers et les risques environnementaux, sociaux et de gouvernance",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/29/ECOT2620496A/jo/texte",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : Arrêté du 29 juillet 2026 relatif à la transposition de la directive (UE) 2024/1619 du Parlement européen et du Conseil du 31 mai 2024 modifiant la directive 2013/36/UE en ce qui concerne les pouvoirs de surveillance, les sanctions, les succursales de. Applicable ou à intégrer à partir du 02 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-02",
+        "label": "Par défaut, applicable le 02 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054594425",
+        "nor": "ECOT2620496A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 29 juillet 2026 relatif à la transposition de la directive (UE) 2024/1619 du Parlement européen et du Conseil du 31 mai 2024 modifiant la directive 2013/36/UE en ce qui concerne les pouvoirs de surveillance, les sanctions, les succursales de pays tiers et les risques environnementaux, sociaux et de gouvernance."
+      }
+    },
+    {
+      "id": "f591a2447a832aa6",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 mars 2026 portant promotion de grade (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054595323",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : Arrêté du 17 mars 2026 portant promotion de grade (inspection du travail). Applicable ou à intégrer à partir du 02 août 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-08-02",
+        "label": "Par défaut, applicable le 02 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054595323",
+        "nor": "TRSR2620939A",
+        "nature": "ARRETE",
+        "textDate": "2026-03-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 mars 2026 portant promotion de grade (inspection du travail). Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "c58c303ccc54054b",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des laboratoires de biologie médicale extra-hospitaliers",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054595408",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Publié le 01 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : laboratoires de biologie médicale extra-hospitaliers. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054595408",
+        "nor": "TRST2621049V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-12864e4739cb",
+          "idcc": null,
+          "label": "laboratoires de biologie médicale extra-hospitaliers",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des laboratoires de biologie médicale extra-hospitaliers. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "635b160c69037416",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale de l'immobilier",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054595413",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Publié le 01 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'immobilier. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054595413",
+        "nor": "TRST2621052V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-bbfa9218e48f",
+          "idcc": null,
+          "label": "l'immobilier",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale de l'immobilier. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "1aa9e94f339eb1fe",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'avenants à la convention collective nationale de la boucherie et de la poissonnerie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054595418",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Publié le 01 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la boucherie et de la poissonnerie. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054595418",
+        "nor": "TRST2621056V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-fbbf6e6222f6",
+          "idcc": null,
+          "label": "la boucherie et de la poissonnerie",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'avenants à la convention collective nationale de la boucherie et de la poissonnerie. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "8d2a9972c61dc3bb",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale de l'édition",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054595423",
+      "publishedAt": "2026-08-01",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 01 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Publié le 01 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'édition. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054595423",
+        "nor": "TRST2621057V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260801-002801.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-6af449e8d0f6",
+          "idcc": null,
+          "label": "l'édition",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale de l'édition. Texte publié au Journal officiel le 2026-08-01."
+      }
+    },
+    {
+      "id": "4a3590c14e932355",
+      "date": "2026-08-01",
+      "firstSeenDate": "2026-08-01",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Quand, en cas de fortes chaleurs, la modification des horaires de travail devient un objet de litige",
+      "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/quand-en-cas-de-fortes-chaleurs-la-modification-des-horaires-de-travail-devient-un-objet-de-litige_8069672.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-08-01",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. La vie professionnelle se termine parfois devant la justice. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. La vie professionnelle se termine parfois devant la justice. Dans \"C'est mon boulot\" au mois d'août, on explore des litiges en droit du travail."
+      }
+    }
+  ]
+}
