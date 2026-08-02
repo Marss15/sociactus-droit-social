@@ -211,12 +211,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-12864e4739cb": {
-      "label": "laboratoires de biologie médicale extra-hospitaliers",
+    "name-258e0ca8c5c6": {
+      "label": "la mutualité",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-01",
+      "firstSeen": "2026-08-02",
+      "lastSeen": "2026-08-02",
       "seenCount": 1
     },
     "name-42638c9432f9": {
@@ -225,14 +225,6 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-6af449e8d0f6": {
-      "label": "l'édition",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-01",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -259,14 +251,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-bbfa9218e48f": {
-      "label": "l'immobilier",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-01",
-      "seenCount": 1
-    },
     "name-cf9a5fa602f5": {
       "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail",
       "idcc": "",
@@ -275,20 +259,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-da23c74bf9b4": {
+      "label": "cabinets ou entreprises de géomètres experts, géomètres topographes photogrammètres, experts-fonciers",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-02",
+      "lastSeen": "2026-08-02",
+      "seenCount": 1
+    },
     "name-ee1a0060264e": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-fbbf6e6222f6": {
-      "label": "la boucherie et de la poissonnerie",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-01",
       "seenCount": 1
     }
   }
