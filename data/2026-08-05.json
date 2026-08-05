@@ -1,0 +1,750 @@
+{
+  "generatedAt": "2026-08-05T09:43:19.711Z",
+  "date": "2026-08-05",
+  "stats": {
+    "total": 17,
+    "regles": 16,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 1,
+    "priorite1": 1,
+    "priorite2": 10,
+    "priorite3": 6
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-08-05",
+      "collected": 106,
+      "rejectedByDate": 86
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "91015d89c11e107b",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord territorial (département de la Loire et de l'arrondissement Yssingeaux) conclu dans le cadre de la convention collective nationale de la métallurgie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619218",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 84,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Métallurgie.",
+      "extra": {
+        "id": "JORFTEXT000054619218",
+        "nor": "TRST2621270V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-e7575b8571c3",
+          "idcc": null,
+          "label": "Métallurgie",
+          "rank": "p1",
+          "source": "rule"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord territorial (département de la Loire et de l'arrondissement Yssingeaux) conclu dans le cadre de la convention collective nationale de la métallurgie. Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "7e8535d0e32382e3",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 3 août 2026 portant maintien en détachement (magistrature)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619021",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : Décret du 3 août 2026 portant maintien en détachement (magistrature). Applicable ou à intégrer à partir du 06 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-06",
+        "label": "Par défaut, applicable le 06 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054619021",
+        "nor": "JUSB2614536D",
+        "nature": "DECRET",
+        "textDate": "2026-08-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "sourceSummary": "DECRET. Décret du 3 août 2026 portant maintien en détachement (magistrature). Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "7efaed0a95d19c26",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 3 août 2026 portant placement en disponibilité (magistrature)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619056",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : Décret du 3 août 2026 portant placement en disponibilité (magistrature). Applicable ou à intégrer à partir du 06 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-06",
+        "label": "Par défaut, applicable le 06 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054619056",
+        "nor": "JUSB2618373D",
+        "nature": "DECRET",
+        "textDate": "2026-08-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "sourceSummary": "DECRET. Décret du 3 août 2026 portant placement en disponibilité (magistrature). Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "cbb2757113e5c025",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 3 août 2026 portant placement en disponibilité (magistrature) - Mme SCHMOLL (Julia)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619068",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : Décret du 3 août 2026 portant placement en disponibilité (magistrature) - Mme SCHMOLL (Julia). Applicable ou à intégrer à partir du 06 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-06",
+        "label": "Par défaut, applicable le 06 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054619068",
+        "nor": "JUSB2618388D",
+        "nature": "DECRET",
+        "textDate": "2026-08-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "sourceSummary": "DECRET. Décret du 3 août 2026 portant placement en disponibilité (magistrature) - Mme SCHMOLL (Julia). Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "4eca04c682e67bee",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 30 juillet 2026 portant délégation de signature (direction de l'évaluation de la performance, de l'achat, des finances et de l'immobilier)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/7/30/INTA2621440S/jo/texte",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : Décision du 30 juillet 2026 portant délégation de signature (direction de l'évaluation de la performance, de l'achat, des finances et de l'immobilier). Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054618659",
+        "nor": "INTA2621440S",
+        "nature": "DECISION",
+        "textDate": "2026-07-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "sourceSummary": "DECISION. Décision du 30 juillet 2026 portant délégation de signature (direction de l'évaluation de la performance, de l'achat, des finances et de l'immobilier). Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "5da508ab5c66c32b",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 fixant le nombre d'étudiants de troisième cycle des études de médecine susceptibles d'être affectés, par spécialité et par subdivision territoriale au titre de l'année universitaire 2026-2027",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/4/SFHH2621473A/jo/texte",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 fixant le nombre d'étudiants de troisième cycle des études de médecine susceptibles d'être affectés, par spécialité et par subdivision territoriale au titre de l'année universitaire 2026-2027. Applicable ou à intégrer à partir du 06 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-06",
+        "label": "Par défaut, applicable le 06 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Santé au travail"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054618874",
+        "nor": "SFHH2621473A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 fixant le nombre d'étudiants de troisième cycle des études de médecine susceptibles d'être affectés, par spécialité et par subdivision territoriale au titre de l'année universitaire 2026-2027. Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "d90de05dd324ae56",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de concours organisés au titre de l'année 2027 pour le recrutement de contrôleurs des douanes et droits indirects",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619261",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : Avis de concours organisés au titre de l'année 2027 pour le recrutement de contrôleurs des douanes et droits indirects. Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054619261",
+        "nor": "CPPD2621339V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "sourceSummary": "AVIS. Avis de concours organisés au titre de l'année 2027 pour le recrutement de contrôleurs des douanes et droits indirects. Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "eda23e63ba65a356",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 3 août 2026 portant délégation de signature (direction des ressources humaines de l'armée de terre)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/8/3/ARMD2621381S/jo/texte",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : Décision du 3 août 2026 portant délégation de signature (direction des ressources humaines de l'armée de terre). Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054618719",
+        "nor": "ARMD2621381S",
+        "nature": "DECISION",
+        "textDate": "2026-08-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "sourceSummary": "DECISION. Décision du 3 août 2026 portant délégation de signature (direction des ressources humaines de l'armée de terre). Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "8a26f250ff057216",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juillet 2026 modifiant l'arrêté du 11 décembre 2015 relatif au mode de calcul des paramètres physiques indicateurs du risque d'exposition au bruit et aux conditions de mesurage des niveaux de bruit en milieu de travail",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/30/TRST2618682A/jo/texte",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : l'arrêté modifie le millésime des normes NF EN ISO 9612 et NF EN ISO 4869-2 citées aux articles 4 et 5 de l'arrêté du 11 décembre. Applicable ou à intégrer à partir du 06 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-06",
+        "label": "Par défaut, applicable le 06 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054618728",
+        "nor": "TRST2618682A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "sourceSummary": "Publics concernés : employeurs procédant à l'évaluation des risques résultant de l'exposition des travailleurs au bruit. Objet : l'arrêté modifie le millésime des normes NF EN ISO 9612 et NF EN ISO 4869-2 citées aux articles 4 et 5 de l'arrêté du 11 décembre 2015 relatif au mode de calcul des paramètres physiques des indicateurs du risque d'exposition au..."
+      }
+    },
+    {
+      "id": "173dd6bcdcfae800",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 août 2026 portant renouvellement de détachement dans l'emploi d'inspecteur des finances du groupe III",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619114",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : Arrêté du 3 août 2026 portant renouvellement de détachement dans l'emploi d'inspecteur des finances du groupe III. Applicable ou à intégrer à partir du 06 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-06",
+        "label": "Par défaut, applicable le 06 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054619114",
+        "nor": "ECON2616011A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 août 2026 portant renouvellement de détachement dans l'emploi d'inspecteur des finances du groupe III. Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "f30dfda11e8300dc",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "REPORTAGE. \"Être salariée en m'occupant de mon enfant relève d'un véritable combat\" : le quotidien difficile des aidants",
+      "url": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/reportage-etre-salariee-en-m-occupant-de-mon-enfant-releve-d-un-veritable-combat-le-quotidien-difficile-des-aidants_8108588.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-08-05",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Souvent invisibles, les aidants réclament davantage de reconnaissance et de soutien. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse relié à un sujet social à impact pratique.",
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Souvent invisibles, les aidants réclament davantage de reconnaissance et de soutien. Face aux difficultés administratives et au manque de statut, un nouveau syndicat veut défendre leurs droits et obtenir une meilleure..."
+      }
+    },
+    {
+      "id": "d5a70e2c7f6a9dc4",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale de la miroiterie, de la transformation et du négoce du verre",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619198",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la miroiterie, de la transformation et du négoce du verre. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054619198",
+        "nor": "TRST2621260V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-5911bd41f198",
+          "idcc": null,
+          "label": "la miroiterie, de la transformation et du négoce du verre",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale de la miroiterie, de la transformation et du négoce du verre. Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "ca1ef763f91b04f9",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du négoce de l'ameublement",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619193",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : négoce de l'ameublement. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054619193",
+        "nor": "TRST2621258V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-fc65837e4657",
+          "idcc": null,
+          "label": "négoce de l'ameublement",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale du négoce de l'ameublement. Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "6a2db0a1802c2d92",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale des sociétés d'assistance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619203",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : sociétés d'assistance. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054619203",
+        "nor": "TRST2621264V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-4e173c8535b3",
+          "idcc": null,
+          "label": "sociétés d'assistance",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale des sociétés d'assistance. Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "a44cdff46f5c5d41",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant et d'accords conclus dans le cadre de la convention collective nationale des entreprises de courtage d'assurances et/ou de réassurances",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619208",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : entreprises de courtage d'assurances et/ou de réassurances. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054619208",
+        "nor": "TRST2621265V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-172dbf33fec9",
+          "idcc": null,
+          "label": "entreprises de courtage d'assurances et/ou de réassurances",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant et d'accords conclus dans le cadre de la convention collective nationale des entreprises de courtage d'assurances et/ou de réassurances. Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "82afbbbc85c94bda",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et activités connexes dite SDLM",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619213",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et a. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054619213",
+        "nor": "TRST2621267V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-21541cbd2dd0",
+          "idcc": null,
+          "label": "métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et a",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et activités connexes dite SDLM. Texte publié au Journal officiel le 2026-08-05."
+      }
+    },
+    {
+      "id": "e5ae67a14f58e7d2",
+      "date": "2026-08-05",
+      "firstSeenDate": "2026-08-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord de méthode conclu dans le secteur de la transformation laitière",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054619223",
+      "publishedAt": "2026-08-05",
+      "summary": "Changement apporté : Avis relatif à l'extension d'un accord de méthode conclu dans le secteur de la transformation laitière. Applicable ou à intégrer à partir du 05 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-05",
+        "label": "Publié le 05 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054619223",
+        "nor": "TRST2621276V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260805-002303.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-21c17ffcfd83",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord de méthode conclu dans le secteur de la transformation laitière. Texte publié au Journal officiel le 2026-08-05."
+      }
+    }
+  ]
+}
