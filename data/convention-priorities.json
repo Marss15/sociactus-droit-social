@@ -107,6 +107,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1516": {
+      "label": "organismes de formation (n° 1516)",
+      "idcc": "1516",
+      "rank": "p3",
+      "firstSeen": "2026-08-06",
+      "lastSeen": "2026-08-06",
+      "seenCount": 1
+    },
     "idcc-1536": {
       "label": "distributeurs conseils hors domicile (n° 1536)",
       "idcc": "1536",
@@ -211,52 +219,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-172dbf33fec9": {
-      "label": "entreprises de courtage d'assurances et/ou de réassurances",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-05",
-      "lastSeen": "2026-08-05",
-      "seenCount": 1
-    },
-    "name-21541cbd2dd0": {
-      "label": "métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et a",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-05",
-      "lastSeen": "2026-08-05",
-      "seenCount": 1
-    },
-    "name-21c17ffcfd83": {
-      "label": "Convention collective",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-05",
-      "lastSeen": "2026-08-05",
-      "seenCount": 1
-    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-4e173c8535b3": {
-      "label": "sociétés d'assistance",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-05",
-      "lastSeen": "2026-08-05",
-      "seenCount": 1
-    },
-    "name-5911bd41f198": {
-      "label": "la miroiterie, de la transformation et du négoce du verre",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-05",
-      "lastSeen": "2026-08-05",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -291,28 +259,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-e7575b8571c3": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-08-05",
-      "lastSeen": "2026-08-05",
-      "seenCount": 1
-    },
     "name-ee1a0060264e": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-fc65837e4657": {
-      "label": "négoce de l'ameublement",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-05",
-      "lastSeen": "2026-08-05",
       "seenCount": 1
     }
   }
