@@ -107,14 +107,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1516": {
-      "label": "organismes de formation (n° 1516)",
-      "idcc": "1516",
-      "rank": "p3",
-      "firstSeen": "2026-08-06",
-      "lastSeen": "2026-08-06",
-      "seenCount": 1
-    },
     "idcc-1536": {
       "label": "distributeurs conseils hors domicile (n° 1536)",
       "idcc": "1536",
@@ -219,12 +211,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-1c312c3d99a1": {
+      "label": "personnels des activités hippiques",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-73814c6d9fb5": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -257,6 +265,14 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-dc01357420a9": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
