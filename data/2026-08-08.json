@@ -1,0 +1,1496 @@
+{
+  "generatedAt": "2026-08-08T07:54:34.577Z",
+  "date": "2026-08-08",
+  "stats": {
+    "total": 37,
+    "regles": 34,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 3,
+    "priorite1": 1,
+    "priorite2": 18,
+    "priorite3": 18
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-08-08",
+      "collected": 126,
+      "rejectedByDate": 85
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "d8aebc3e53d5d407",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-705 du 29 juillet 2026 relatif aux congés pour raisons de santé des agents publics civils et militaires (rectificatif)",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/7/29/CPPF2613307Z/jo/texte",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Décret n° 2026-705 du 29 juillet 2026 relatif aux congés pour raisons de santé des agents publics civils et militaires (rectificatif). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier.",
+      "extra": {
+        "id": "JORFTEXT000054643099",
+        "nor": "CPPF2613307Z",
+        "nature": "DECRET",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "DECRET. Décret n° 2026-705 du 29 juillet 2026 relatif aux congés pour raisons de santé des agents publics civils et militaires (rectificatif). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "29ca79f487573a15",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord départemental relatif à l'assurance complémentaire frais de santé des salariés agricoles non-cadres du Gers",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643555",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant extension d'un avenant à un accord départemental relatif à l'assurance complémentaire frais de santé des salariés agricoles non-cadres du Gers. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643555",
+        "nor": "AGRS2621020A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord départemental relatif à l'assurance complémentaire frais de santé des salariés agricoles non-cadres du Gers. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "e57ca25e80f22d72",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'avenants salariaux à des conventions collectives de travail étendues relatives aux professions agricoles",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643724",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Avis relatif à l'extension d'avenants salariaux à des conventions collectives de travail étendues relatives aux professions agricoles. Applicable ou à intégrer à partir du 08 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-08",
+        "label": "Publié le 08 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643724",
+        "nor": "AGRS2621626V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'avenants salariaux à des conventions collectives de travail étendues relatives aux professions agricoles. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "865c8259e44d68d6",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 août 2026 fixant le programme de l'épreuve portant sur la mission de certification d'informations en matière de durabilité",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/5/JUSC2617116A/jo/texte",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 5 août 2026 fixant le programme de l'épreuve portant sur la mission de certification d'informations en matière de durabilité. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054642913",
+        "nor": "JUSC2617116A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 août 2026 fixant le programme de l'épreuve portant sur la mission de certification d'informations en matière de durabilité. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "3b5539438836026e",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643356",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643356",
+        "nor": "PRMG2618428A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "5f8ccae3545fe8ac",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643362",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643362",
+        "nor": "PRMG2619249A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "2342fc076cd8b2ef",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643367",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643367",
+        "nor": "PRMG2619594A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "35d81ed03e99000c",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643372",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643372",
+        "nor": "PRMG2619795A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "ebe2a0449517ca83",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643377",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643377",
+        "nor": "PRMG2615462A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "3801fda064c2b8ba",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643383",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643383",
+        "nor": "PRMG2616962A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "5d784d3cae370140",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643388",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643388",
+        "nor": "PRMG2618050A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "bcc329d0b95ddd25",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643393",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643393",
+        "nor": "PRMG2618316A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "3a3b39bd64abf1e3",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643398",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643398",
+        "nor": "PRMG2618729A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "13a2a591c5a431c2",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643403",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643403",
+        "nor": "PRMG2619406A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "327c183fdf98616f",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643408",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643408",
+        "nor": "PRMG2619601A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "01182658cfd7ebe6",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643413",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643413",
+        "nor": "PRMG2619817A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "e2bc2c2d88aa05f8",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643418",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643418",
+        "nor": "PRMG2619906A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "4d0bd1a0c2c64cf6",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643423",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643423",
+        "nor": "PRMG2619907A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "a842cb3e645c38d5",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643428",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054643428",
+        "nor": "PRMG2620957A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "e362b7f47c3a375c",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à une convention collective de travail réglementant les conditions d'emploi, de travail et de rémunération des salariés arboricoles de certains départements de l'Ouest de la France (Deux-Sèvres, Ille-et-Vilaine, Loire-Atlantique, Maine-et-Loire, Mayenne, Sarthe, Vendée, Côtes-d'Armor et Morbihan)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643680",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643680",
+        "nor": "AGRS2621174A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-5d3c0093a599",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à une convention collective de travail réglementant les conditions d'emploi, de travail et de rémunération des salariés arboricoles de certains départements de l'Ouest de la France (Deux-Sèvres, Ille-et-Vilaine, Loire-Atlantique, Maine-et-Loire, Mayenne, Sarthe, Vendée, Côtes-d'Armor et Morbihan)."
+      }
+    },
+    {
+      "id": "1677829e71f115a7",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à une convention collective de travail concernant les exploitations de polyculture et d'élevage du département de la Mayenne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643691",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643691",
+        "nor": "AGRS2621176A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-fc507d6c28de",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à une convention collective de travail concernant les exploitations de polyculture et d'élevage du département de la Mayenne. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "01938c546641913f",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un accord collectif territorial des Pyrénées-Atlantiques Production agricole, coopératives d'utilisation de matériels agricoles",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643708",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 29,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643708",
+        "nor": "AGRS2621189A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-9871e7013f2e",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un accord collectif territorial des Pyrénées-Atlantiques Production agricole, coopératives d'utilisation de matériels agricoles. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "67bc5ab057329ce9",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif agricole interdépartemental frais de santé relatif au régime frais de santé pour les salariés non-cadres de la production agricole du Tarn et de la Haute-Garonne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643545",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643545",
+        "nor": "AGRS2621017A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-ff8cb824f217",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif agricole interdépartemental frais de santé relatif au régime frais de santé pour les salariés non-cadres de la production agricole du Tarn et de la Haute-Garonne. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "7be4b80f547870a8",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif agricole interdépartemental frais de santé relatif au régime frais de santé pour les salariés non-cadres de la production agricole du Tarn et de la Haute-Garonne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643569",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643569",
+        "nor": "AGRS2621021A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-ff8cb824f217",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif agricole interdépartemental frais de santé relatif au régime frais de santé pour les salariés non-cadres de la production agricole du Tarn et de la Haute-Garonne. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "bcfa10e415857c10",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif de travail concernant la production agricole du département du Calvados",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643579",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643579",
+        "nor": "AGRS2621027A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-907d7885050b",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif de travail concernant la production agricole du département du Calvados. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "ed6a43dfa6e40b61",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail du personnel d'encadrement des entreprises de polyculture et d'élevage et des exploitations maraîchères et de cultures légumières de plein champ du département de l'Eure",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643589",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643589",
+        "nor": "AGRS2621028A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-6ce554a55580",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail du personnel d'encadrement des entreprises de polyculture et d'élevage et des exploitations maraîchères et de cultures légumières de plein champ du département de l'Eure. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "3f1ad50c2270ab23",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif de travail concernant les exploitations et entreprises agricoles de l'horticulture, des pépinières, de l'arboriculture, de la production de fruits et de champignons du Calvados",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643600",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643600",
+        "nor": "AGRS2621029A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-898f75be115b",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif de travail concernant les exploitations et entreprises agricoles de l'horticulture, des pépinières, de l'arboriculture, de la production de fruits et de champignons du Calvados. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "27816f53f61eaeae",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations horticoles et pépinières de Haute-Normandie",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643610",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643610",
+        "nor": "AGRS2621033A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-d197bbd48f98",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations horticoles et pépinières de Haute-Normandie. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "4c749e65970d04ec",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations de pépinières et d'horticulture de la Manche",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643620",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643620",
+        "nor": "AGRS2621116A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-81e5dc7ab763",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations de pépinières et d'horticulture de la Manche. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "08ffe09648286e90",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les entreprises et exploitations de polyculture et d'élevage, les exploitations maraîchères et de cultures légumières de plein champ et les coopératives d'utilisation de matériels agricoles du département de l'Eure",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643630",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643630",
+        "nor": "AGRS2621118A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-662d98f1ee1d",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les entreprises et exploitations de polyculture et d'élevage, les exploitations maraîchères et de cultures légumières de plein champ et les coopératives d'utilisation de matériels agricoles du département de l'Eure."
+      }
+    },
+    {
+      "id": "3fa115001c73d4d1",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations de polyculture et d'élevage du département de la Seine-Maritime",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643640",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643640",
+        "nor": "AGRS2621120A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-98d328769fb0",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations de polyculture et d'élevage du département de la Seine-Maritime. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "1ce2058514c6cfae",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les branches spécialisées de l'horticulture et des pépinières du département de l'Orne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643650",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643650",
+        "nor": "AGRS2621123A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-8202747ded0a",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les branches spécialisées de l'horticulture et des pépinières du département de l'Orne. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "9b28d4d2eec3f85b",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations de polyculture et d'élevage, les exploitations de cultures légumières et maraîchères, les coopératives d'utilisation de matériel agricole du département de la Manche",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643660",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643660",
+        "nor": "AGRS2621125A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-cbcc7c3dec3b",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations de polyculture et d'élevage, les exploitations de cultures légumières et maraîchères, les coopératives d'utilisation de matériel agricole du département de la Manche. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "ec5729f233851d8e",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations de polyculture, d'élevage, de maraîchage, d'arboriculture fruitière, les haras et les coopératives d'utilisation de matériel agricole du département de l'Orne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054643670",
+      "publishedAt": "2026-08-08",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 09 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-09",
+        "label": "Par défaut, applicable le 09 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 28,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json.",
+      "extra": {
+        "id": "JORFTEXT000054643670",
+        "nor": "AGRS2621137A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260808-002506.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-d0ba415f6e10",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 4 août 2026 portant extension d'un avenant à un accord collectif territorial de travail concernant les exploitations de polyculture, d'élevage, de maraîchage, d'arboriculture fruitière, les haras et les coopératives d'utilisation de matériel agricole du département de l'Orne. Texte publié au Journal officiel le 2026-08-08."
+      }
+    },
+    {
+      "id": "040d85b042d5d22c",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Carburant : la date limite de dépôt d’un dossier pour demander l’indemnité « grands rouleurs » reportée au 31 août",
+      "url": "https://www.lemonde.fr/economie/article/2026/08/08/carburant-la-date-limite-de-depot-d-un-dossier-pour-demander-l-indemnite-grands-rouleurs-reportee-au-31-aout_6741026_3234.html",
+      "publishedAt": "2026-08-08",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Selon le décret du ministère de l’action et des comptes publics publié samedi, les travailleurs concernés peuvent faire la demande jusqu’au 31 août 2026, contre le 30 juillet annoncé précédemment. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": "2026-08-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Selon le décret du ministère de l’action et des comptes publics publié samedi, les travailleurs concernés peuvent faire la demande jusqu’au 31 août 2026, contre le 30 juillet annoncé précédemment."
+      }
+    },
+    {
+      "id": "aa993431c5c7ca30",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Les aides aux entreprises n’ont pas fait reculer le chômage » : le plein-emploi, pari perdu d’Emmanuel Macron",
+      "url": "https://www.leparisien.fr/politique/les-aides-aux-entreprises-nont-pas-fait-reculer-le-chomage-le-plein-emploi-pari-perdu-demmanuel-macron-07-08-2026-2VIWK6DQLBENDOF7HIDJROHRBU.php",
+      "publishedAt": "2026-08-08",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-08-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « Les aides aux entreprises n’ont pas fait reculer le chômage » : le plein-emploi, pari perdu d’Emmanuel Macron"
+      }
+    },
+    {
+      "id": "6dc1c0c442f2cf8b",
+      "date": "2026-08-08",
+      "firstSeenDate": "2026-08-08",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Un mauvais chiffre qui était attendu » : cinq minutes pour comprendre pourquoi le chômage est au plus haut depuis 2020",
+      "url": "https://www.leparisien.fr/economie/emploi/un-mauvais-chiffre-qui-etait-attendu-cinq-minutes-pour-comprendre-pourquoi-le-chomage-est-au-plus-haut-depuis-2020-07-08-2026-KQ6J6XYQKJERLLKP52J7D7MGH4.php",
+      "publishedAt": "2026-08-08",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-08-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « Un mauvais chiffre qui était attendu » : cinq minutes pour comprendre pourquoi le chômage est au plus haut depuis 2020"
+      }
+    }
+  ]
+}

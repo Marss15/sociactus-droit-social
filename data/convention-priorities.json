@@ -211,14 +211,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-1c312c3d99a1": {
-      "label": "personnels des activités hippiques",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-07",
-      "lastSeen": "2026-08-07",
-      "seenCount": 1
-    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
@@ -227,12 +219,52 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-73814c6d9fb5": {
+    "name-5d3c0093a599": {
       "label": "Convention collective",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-07",
-      "lastSeen": "2026-08-07",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
+    "name-662d98f1ee1d": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
+    "name-6ce554a55580": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
+    "name-81e5dc7ab763": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
+    "name-8202747ded0a": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
+    "name-898f75be115b": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -243,12 +275,36 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-907d7885050b": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
     "name-9143d35a36ea": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-9871e7013f2e": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
+    "name-98d328769fb0": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
       "seenCount": 1
     },
     "name-a9186b09254c": {
@@ -259,6 +315,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-cbcc7c3dec3b": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
     "name-cf9a5fa602f5": {
       "label": "relatif à la mise en place de la participation dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail",
       "idcc": "",
@@ -267,12 +331,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-dc01357420a9": {
+    "name-d0ba415f6e10": {
       "label": "Convention collective",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-07",
-      "lastSeen": "2026-08-07",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
+    "name-d197bbd48f98": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
@@ -281,6 +353,22 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-fc507d6c28de": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
+      "seenCount": 1
+    },
+    "name-ff8cb824f217": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-08",
+      "lastSeen": "2026-08-08",
       "seenCount": 1
     }
   }
