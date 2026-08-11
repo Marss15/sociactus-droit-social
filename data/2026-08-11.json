@@ -1,0 +1,435 @@
+{
+  "generatedAt": "2026-08-11T08:12:51.651Z",
+  "date": "2026-08-11",
+  "stats": {
+    "total": 10,
+    "regles": 7,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 3,
+    "priorite1": 0,
+    "priorite2": 7,
+    "priorite3": 3
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-08-11",
+      "collected": 97,
+      "rejectedByDate": 80
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "eefb8c1157d27c0c",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret du 10 août 2026 portant fin de délégation et délégation dans les fonctions de procureure financière (chambres régionales des comptes)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054659054",
+      "publishedAt": "2026-08-11",
+      "summary": "Changement apporté : Décret du 10 août 2026 portant fin de délégation et délégation dans les fonctions de procureure financière (chambres régionales des comptes). Applicable ou à intégrer à partir du 12 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-12",
+        "label": "Par défaut, applicable le 12 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 61,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054659054",
+        "nor": "CPTP2619122D",
+        "nature": "DECRET",
+        "textDate": "2026-08-10",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260811-004117.tar.gz",
+        "sourceSummary": "DECRET. Décret du 10 août 2026 portant fin de délégation et délégation dans les fonctions de procureure financière (chambres régionales des comptes). Texte publié au Journal officiel le 2026-08-11."
+      }
+    },
+    {
+      "id": "73d7189cfc1beef0",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'homologation d'un accord conclu dans le cadre du dialogue social entre les plateformes et les travailleurs indépendants qui y recourent dans le secteur de la livraison de marchandises au moyen d'un véhicule à deux ou trois roues, motorisé ou non",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054659171",
+      "publishedAt": "2026-08-11",
+      "summary": "Changement apporté : Avis relatif à l'homologation d'un accord conclu dans le cadre du dialogue social entre les plateformes et les travailleurs indépendants qui y recourent dans le secteur de la livraison de marchandises au moyen d'un véhicule à deux ou trois roues. Applicable ou à intégrer à partir du 11 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-11",
+        "label": "Publié le 11 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054659171",
+        "nor": "TRST2621808V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260811-004117.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif à l'homologation d'un accord conclu dans le cadre du dialogue social entre les plateformes et les travailleurs indépendants qui y recourent dans le secteur de la livraison de marchandises au moyen d'un véhicule à deux ou trois roues, motorisé ou non. Texte publié au Journal officiel le 2026-08-11."
+      }
+    },
+    {
+      "id": "878dc62979db0a8a",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de recrutement d'un travailleur handicapé par la voie contractuelle dans le corps des adjoints techniques du ministère de la justice au titre de l'année 2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054659203",
+      "publishedAt": "2026-08-11",
+      "summary": "Changement apporté : Avis de recrutement d'un travailleur handicapé par la voie contractuelle dans le corps des adjoints techniques du ministère de la justice au titre de l'année 2026. Applicable ou à intégrer à partir du 11 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-11",
+        "label": "Publié le 11 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 52,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054659203",
+        "nor": "JUSF2621482V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260811-004117.tar.gz",
+        "sourceSummary": "AVIS. Avis de recrutement d'un travailleur handicapé par la voie contractuelle dans le corps des adjoints techniques du ministère de la justice au titre de l'année 2026. Texte publié au Journal officiel le 2026-08-11."
+      }
+    },
+    {
+      "id": "c51893c34465d637",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 août 2026 modifiant divers arrêtés intéressant l'organisation du ministère de la défense",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/3/ARMD2621718A/jo/texte",
+      "publishedAt": "2026-08-11",
+      "summary": "Changement apporté : Arrêté du 3 août 2026 modifiant divers arrêtés intéressant l'organisation du ministère de la défense. Applicable ou à intégrer à partir du 12 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-12",
+        "label": "Par défaut, applicable le 12 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054658779",
+        "nor": "ARMD2621718A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260811-004117.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 août 2026 modifiant divers arrêtés intéressant l'organisation du ministère de la défense. Texte publié au Journal officiel le 2026-08-11."
+      }
+    },
+    {
+      "id": "e49bba89f56491f4",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 9 août 2026 relatif à la qualification professionnelle des personnes morales chargées de réaliser des expertises en assurance qui interviennent dans le cadre de sinistres liés au phénomène de mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols argileux",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/9/VLOL2427997A/jo/texte",
+      "publishedAt": "2026-08-11",
+      "summary": "Changement apporté : Arrêté du 9 août 2026 relatif à la qualification professionnelle des personnes morales chargées de réaliser des expertises en assurance qui interviennent dans le cadre de sinistres liés au phénomène de mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols argileux. Applicable ou à intégrer à partir du 12 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-12",
+        "label": "Par défaut, applicable le 12 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054659014",
+        "nor": "VLOL2427997A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-09",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260811-004117.tar.gz",
+        "sourceSummary": "Publics concernés : experts, personnes morales chargées de réaliser des expertises par des entreprises d'assurance dans le cadre de dommages liés au phénomène de mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols, entreprises d'assurance."
+      }
+    },
+    {
+      "id": "b52e5e639ea35fbe",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054659071",
+      "publishedAt": "2026-08-11",
+      "summary": "Changement apporté : Arrêté du 5 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 12 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-12",
+        "label": "Par défaut, applicable le 12 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054659071",
+        "nor": "PRMG2617076A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260811-004117.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-11."
+      }
+    },
+    {
+      "id": "c2ec2b34904d3024",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 août 2026 portant admission à la retraite (administrateurs de l'Etat)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054659076",
+      "publishedAt": "2026-08-11",
+      "summary": "Changement apporté : Arrêté du 5 août 2026 portant admission à la retraite (administrateurs de l'Etat). Applicable ou à intégrer à partir du 12 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-12",
+        "label": "Par défaut, applicable le 12 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 51,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1.",
+      "extra": {
+        "id": "JORFTEXT000054659076",
+        "nor": "PRMG2617157A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260811-004117.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 août 2026 portant admission à la retraite (administrateurs de l'Etat). Texte publié au Journal officiel le 2026-08-11."
+      }
+    },
+    {
+      "id": "ae984a29345bbd04",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« La récompense, c’est souvent un sourire et merci » : les conditions de travail des pompiers à l’épreuve du feu",
+      "url": "https://www.leparisien.fr/societe/la-recompense-cest-souvent-un-sourire-et-merci-les-conditions-de-travail-des-pompiers-a-lepreuve-du-feu-11-08-2026-4T26B7DTOBBVRCCG2L6BI2A54A.php",
+      "publishedAt": "2026-08-11",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. « La récompense, c’est souvent un sourire et merci » : les conditions de travail des pompiers à l’épreuve du feu. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-11",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « La récompense, c’est souvent un sourire et merci » : les conditions de travail des pompiers à l’épreuve du feu"
+      }
+    },
+    {
+      "id": "8c5e4340ecc53e38",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Pas de « déni », « mais pas de caricature non plus » : Sébastien Lecornu soutient le bilan du macronisme face au chômage",
+      "url": "https://www.leparisien.fr/politique/pas-de-deni-mais-pas-de-caricature-non-plus-sebastien-lecornu-soutient-le-bilan-du-macronisme-face-au-chomage-10-08-2026-U75UMHTGOJETFDWAXFBQ7KKCTQ.php",
+      "publishedAt": "2026-08-11",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-08-11",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Pas de « déni », « mais pas de caricature non plus » : Sébastien Lecornu soutient le bilan du macronisme face au chômage"
+      }
+    },
+    {
+      "id": "62d45cb6d1aaa036",
+      "date": "2026-08-11",
+      "firstSeenDate": "2026-08-11",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Chômage : derrière la passe d'armes entre Sébastien Lecornu et Édouard Philippe, des chiffres qui inquiètent",
+      "url": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/chomage-derriere-la-passe-d-armes-entre-sebastien-lecornu-et-edouard-philippe-des-chiffres-qui-inquietent_8116112.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-08-11",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-08-11",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 17,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Veille de contexte ou lecture de fond.",
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Alors que le taux de chômage atteint 8,3%, le Premier ministre et Édouard Philippe s'opposent sur les causes de cette hausse. Les chiffres révèlent, elles, une situation particulièrement préoccupante pour les jeunes."
+      }
+    }
+  ]
+}
