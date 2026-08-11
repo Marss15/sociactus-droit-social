@@ -4,6 +4,7 @@ import { existsSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gunzipSync } from "node:zlib";
+import { classifyLegalRelevance } from "../lib/legal-relevance.mjs";
 
 const ROOT = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const DATA_DIR = join(ROOT, "data");
@@ -128,135 +129,6 @@ const sourceRegister = [...rssSources, ...archiveSources].map(({ name, status, u
   },
 ]);
 
-const socialTerms = [
-  "droit du travail",
-  "code du travail",
-  "contrat de travail",
-  "licenciement",
-  "rupture conventionnelle",
-  "salari",
-  "employeur",
-  "agent public",
-  "agents publics",
-  "cadre professionnel",
-  "cse",
-  "syndic",
-  "representant du personnel",
-  "prud",
-  "temps de travail",
-  "repos",
-  "conge",
-  "paie",
-  "remuneration",
-  "salaire",
-  "smic",
-  "formation professionnelle",
-  "apprentissage",
-  "alternance",
-  "cpf",
-  "france travail",
-  "chomage",
-  "assurance chomage",
-  "accident du travail",
-  "maladie professionnelle",
-  "sante au travail",
-  "teletravail",
-  "harcelement",
-  "discrimination",
-  "dialogue social",
-  "convention collective",
-  "accord collectif",
-  "activite partielle",
-  "inspection du travail",
-  "branche professionnelle",
-  "greve",
-  "fonction publique",
-  "plan social",
-  "pse",
-  "conditions de travail",
-  "violences au travail",
-  "violences dans le cadre professionnel",
-];
-
-const pressTerms = [
-  ["droit du travail", 3],
-  ["code du travail", 3],
-  ["contrat de travail", 3],
-  ["conditions de travail", 3],
-  ["accident du travail", 3],
-  ["sante au travail", 3],
-  ["prud'hom", 3],
-  ["prudhom", 3],
-  ["conseil de prud'hommes", 3],
-  ["cse", 3],
-  ["licenciement", 3],
-  ["rupture conventionnelle", 3],
-  ["assurance chomage", 3],
-  ["salari", 2],
-  ["employeur", 2],
-  ["travailleur", 2],
-  ["salaire", 2],
-  ["smic", 2],
-  ["conge", 2],
-  ["conges payes", 2],
-  ["chomage", 2],
-  ["syndicat", 2],
-  ["greve", 2],
-  ["apprentissage", 2],
-  ["alternance", 2],
-  ["fonction publique", 2],
-  ["agent public", 2],
-  ["marche du travail", 2],
-  ["depart volontaire", 2],
-  ["plan de departs", 2],
-  ["ouvrier", 2],
-  ["livreur", 2],
-  ["vtc", 2],
-  ["jour ferie", 1],
-];
-
-const exclusionTerms = [
-  "vacance d'un emploi",
-  "vacance de l'emploi",
-  "avis de vacance",
-  "nomination sur l'emploi",
-  "portant nomination",
-  "ouverture d'un concours",
-  "examen professionnel",
-  "changement de corps",
-  "liste d'aptitude",
-  "commissions et organes de controle",
-  "comites sociaux d'administration",
-  "comite social d'administration",
-  "commissions administratives paritaires",
-  "commissions consultatives paritaires",
-  "election des representants des personnels",
-  "corps des controleurs",
-  "corps des secretaires administratifs",
-  "directeurs d'hopital",
-  "produits et prestations remboursables",
-  "allogreffon",
-  "activite physique adaptee",
-  "influence commerciale",
-  "professions liberales",
-  "declaration mentionnee a l'article l. 613-2 du code de la securite sociale",
-  "conventions de mandat conclues par l'etat",
-  "brevet professionnel de la jeunesse",
-  "assurance recolte",
-  "medicament",
-  "code rural",
-];
-
-const pressExclusionTerms = [
-  "en inde",
-  "aux etats-unis",
-  "au royaume-uni",
-  "en chine",
-  "en russie",
-  "taxe d'habitation",
-  "big bang fiscal",
-];
-
 const themeRules = [
   ["Contrat", /contrat|licenciement|rupture|cdd|cdi|periode d'essai/i],
   ["Temps de travail", /temps de travail|repos|conge|teletravail|duree du travail/i],
@@ -269,10 +141,16 @@ const themeRules = [
   ["Conventions collectives", /convention collective|branche professionnelle|extension d'accord/i],
 ];
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+if (isMainModule()) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
+
+function isMainModule() {
+  return Boolean(process.argv[1]) && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+}
 
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
@@ -393,18 +271,26 @@ function parseRss(xml, source) {
         cleanText(tag(item, "pubDate") || tag(item, "dc:date") || tag(item, "updated"))
       );
       const corpus = `${title} ${description}`;
-      const score = source.kind === "press" ? pressScore(corpus) : socialScore(corpus);
-      if (score < 2 || isExcluded(corpus) || (source.kind === "press" && isPressExcluded(corpus))) {
+      const category = source.kind === "press" ? "presse" : classifyCategory(corpus, source.defaultCategory);
+      const sourceType = source.kind === "press" ? "press-rss" : "rss";
+      const legalRelevance = classifyLegalRelevance({
+        title,
+        text: corpus,
+        category,
+        sourceType,
+        sourceKind: source.kind || "rss",
+        sourceName: source.name,
+      });
+      if (!legalRelevance.included) {
         return null;
       }
-      const category = source.kind === "press" ? "presse" : classifyCategory(corpus, source.defaultCategory);
       const summary =
         source.kind === "press"
           ? pressSummary(source.name, description || title)
           : summarize(description || title, 310);
       return makeEntry({
         sourceName: source.name,
-        sourceType: source.kind === "press" ? "press-rss" : "rss",
+        sourceType,
         category,
         title,
         url,
@@ -413,6 +299,7 @@ function parseRss(xml, source) {
         text: corpus,
         impact: impactFor(category, corpus),
         application: applicationFor(category, description, publishedAt),
+        legalRelevance,
       });
     })
     .filter(Boolean);
@@ -459,8 +346,17 @@ function parseJorf(file, source, archiveUrl) {
       .join(" ")
   );
   const corpus = `${nature} ${title} ${notice} ${body}`;
+  const legalRelevance = classifyLegalRelevance({
+    title,
+    text: corpus,
+    category: "regle",
+    sourceType: "archive",
+    sourceKind: "jorf",
+    sourceName: source.name,
+    nature,
+  });
 
-  if (socialScore(corpus) < 2 || isExcluded(corpus)) {
+  if (!legalRelevance.included) {
     return null;
   }
 
@@ -488,6 +384,7 @@ function parseJorf(file, source, archiveUrl) {
       textDate,
       archiveUrl,
     },
+    legalRelevance,
   });
 }
 
@@ -501,8 +398,17 @@ function parseCass(file, source, archiveUrl, archiveDate) {
   const summaryText = cleanText(tag(file.xml, "SOMMAIRE") || tag(file.xml, "BLOC_TEXTUEL"));
   const corpus = `${title} ${formation} ${solution} ${summaryText}`;
   const isSocialChamber = /chambre sociale|CHAMBRE_SOCIALE/i.test(`${title} ${formation}`);
+  const legalRelevance = classifyLegalRelevance({
+    title,
+    text: corpus,
+    category: "jurisprudence",
+    sourceType: "archive",
+    sourceKind: "cass",
+    sourceName: source.name,
+    formation,
+  });
 
-  if (!isSocialChamber || isExcluded(corpus)) {
+  if (!isSocialChamber || !legalRelevance.included) {
     return null;
   }
 
@@ -531,6 +437,7 @@ function parseCass(file, source, archiveUrl, archiveDate) {
       archiveDate,
       archiveUrl,
     },
+    legalRelevance,
   });
 }
 
@@ -546,23 +453,42 @@ function makeEntry({
   impact,
   application,
   extra = {},
+  legalRelevance = null,
 }) {
   const normalizedTitle = title || "Sans titre";
   const normalizedUrl = url || extra.archiveUrl || "";
   const id = hash(`${normalizedUrl}|${normalizedTitle}`);
-  const themes = detectThemes(text || normalizedTitle);
+  const entryText = text || normalizedTitle;
+  const themes = detectThemes(entryText);
   const collectiveAgreement = category === "regle" ? classifyCollectiveAgreement(normalizedTitle) : null;
-  const priority = priorityFor(category, impact, themes.length, collectiveAgreement);
-  const priorityRank = priorityRankFor({ category, impact, priority, text: text || normalizedTitle, collectiveAgreement });
+  const resolvedLegalRelevance =
+    legalRelevance ||
+    classifyLegalRelevance({
+      title: normalizedTitle,
+      text: entryText,
+      category,
+      sourceType,
+      sourceKind: sourceType === "press-rss" ? "press" : sourceName,
+      sourceName,
+    });
+  const priority = priorityFor(category, impact, resolvedLegalRelevance, collectiveAgreement);
+  const priorityRank = priorityRankFor({
+    category,
+    impact,
+    priority,
+    text: entryText,
+    collectiveAgreement,
+    legalRelevance: resolvedLegalRelevance,
+  });
   const sourceSummary = summary || "Synthèse indisponible. Lire la source officielle.";
-  const resolvedApplication = application || applicationFor(category, text || "", publishedAt);
+  const resolvedApplication = application || applicationFor(category, entryText, publishedAt);
   const impactSummary = impactSummaryFor({
     category,
     title: normalizedTitle,
     sourceName,
     sourceType,
     sourceSummary,
-    text: text || normalizedTitle,
+    text: entryText,
     application: resolvedApplication,
     impact,
   });
@@ -590,6 +516,7 @@ function makeEntry({
     priorityRank: priorityRank.rank,
     priorityLabel: priorityRank.label,
     priorityReason: priorityRank.reason,
+    legalRelevance: resolvedLegalRelevance,
     extra: nextExtra,
   };
 }
@@ -625,51 +552,52 @@ function impactFor(category, text) {
   return "low";
 }
 
-function priorityFor(category, impact, themeCount, collectiveAgreement) {
+function priorityFor(category, impact, legalRelevance = {}, collectiveAgreement) {
   const impactScore = { high: 30, medium: 20, watch: 12, low: 6 }[impact] || 0;
   const categoryScore = { regle: 30, jurisprudence: 24, "projet-loi": 14, presse: 10, actualite: 8 }[category] || 0;
   const collectiveScore = { p1: 30, p2: 10, p3: -25 }[collectiveAgreement?.rank] || 0;
-  return categoryScore + impactScore + Math.min(themeCount, 4) + collectiveScore;
+  const boundedEvidence = Math.min(Math.max(Number(legalRelevance?.score) || 0, 0), 8);
+  return categoryScore + impactScore + boundedEvidence + collectiveScore;
 }
 
-function priorityRankFor({ category, impact, priority, text, collectiveAgreement }) {
-  const normalized = fold(text);
+function priorityRankFor({ category, impact, priority, text, collectiveAgreement, legalRelevance = {} }) {
+  const evidence = compactLegalEvidence(legalRelevance);
 
   if (category === "regle" && collectiveAgreement) {
     if (collectiveAgreement.rank === "p1") {
       return {
         rank: "p1",
         label: "Priorité 1",
-        reason: `Convention collective prioritaire : ${collectiveAgreement.label}.`,
+        reason: `Convention collective prioritaire : ${collectiveAgreement.label}.${evidence}`,
       };
     }
     if (collectiveAgreement.rank === "p2") {
       return {
         rank: "p2",
         label: "Priorité 2",
-        reason: `Convention collective suivie : ${collectiveAgreement.label}.`,
+        reason: `Convention collective suivie : ${collectiveAgreement.label}.${evidence}`,
       };
     }
     return {
       rank: "p3",
       label: "Priorité 3",
-      reason: `Convention collective non prioritaire : ${collectiveAgreement.label}. Rang conservé dans data/convention-priorities.json.`,
+      reason: `Convention collective non prioritaire : ${collectiveAgreement.label}. Rang conservé dans data/convention-priorities.json.${evidence}`,
     };
   }
 
-  if (category === "regle" && impact === "high" && isEssentialRuleSignal(normalized)) {
+  if (category === "regle" && impact === "high" && legalRelevance?.included) {
     return {
       rank: "p1",
       label: "Priorité 1",
-      reason: "Texte applicable ou changement normatif à traiter en premier.",
+      reason: `Texte applicable ou changement normatif à traiter en premier.${evidence}`,
     };
   }
 
-  if (category === "jurisprudence" && impact === "high") {
+  if (category === "jurisprudence" && impact === "high" && legalRelevance?.included) {
     return {
       rank: "p1",
       label: "Priorité 1",
-      reason: "Décision ou signal de jurisprudence à fort impact.",
+      reason: `Décision ou signal de jurisprudence à fort impact.${evidence}`,
     };
   }
 
@@ -677,37 +605,28 @@ function priorityRankFor({ category, impact, priority, text, collectiveAgreement
     return {
       rank: "p2",
       label: "Priorité 2",
-      reason: "Information juridique à lire après les urgences P1.",
+      reason: `Information juridique à lire après les urgences P1.${evidence}`,
     };
   }
 
-  if (
-    category === "presse" &&
-    /smic|licenciement|rupture conventionnelle|assurance chomage|syndicat|plan de departs|chomage technique|code du travail/.test(
-      normalized
-    )
-  ) {
+  if (category === "presse" && legalRelevance?.included) {
     return {
       rank: "p2",
       label: "Priorité 2",
-      reason: "Signal presse relié à un sujet social à impact pratique.",
+      reason: `Signal presse secondaire relié à un sujet social : recouper avec une source officielle.${evidence}`,
     };
   }
 
   return {
     rank: "p3",
     label: "Priorité 3",
-    reason: "Veille de contexte ou lecture de fond.",
+    reason: `Veille de contexte ou lecture de fond.${evidence}`,
   };
 }
 
-function isEssentialRuleSignal(normalizedText) {
-  if (isInstitutionalTrainingGovernance(normalizedText)) {
-    return false;
-  }
-  return /contrat de travail|employeur|salarie|smic|salaire minimum|cse|accord collectif|temps de travail|duree du travail|repos|conge|conges|conge de naissance|conge supplementaire de naissance|licenciement|rupture conventionnelle|inaptitude|harcelement|discrimination|teletravail|inspection du travail/.test(
-    normalizedText
-  );
+function compactLegalEvidence(legalRelevance) {
+  const reasons = Array.isArray(legalRelevance?.reasons) ? legalRelevance.reasons.slice(0, 2) : [];
+  return reasons.length ? ` Preuve juridique : ${reasons.join(" ")}` : "";
 }
 
 function impactSummaryFor({ category, title, sourceName, sourceType, sourceSummary, text, application, impact }) {
@@ -976,72 +895,6 @@ function detectThemes(text) {
   return themes.length ? [...new Set(themes)] : ["Droit social"];
 }
 
-function socialScore(text) {
-  const normalized = fold(text);
-  let score = 0;
-  for (const term of socialTerms) {
-    if (normalized.includes(fold(term))) {
-      score += term.length > 10 ? 2 : 1;
-    }
-  }
-  return score;
-}
-
-function pressScore(text) {
-  const normalized = fold(text);
-  return pressTerms.reduce((score, [term, weight]) => {
-    return normalized.includes(fold(term)) ? score + weight : score;
-  }, 0);
-}
-
-function isExcluded(text) {
-  const normalized = fold(text);
-  return (
-    exclusionTerms.some((term) => normalized.includes(fold(term))) ||
-    isProtectionSocialOnly(normalized) ||
-    isInstitutionalTrainingGovernance(normalized)
-  );
-}
-
-function isPressExcluded(text) {
-  const normalized = fold(text);
-  return pressExclusionTerms.some((term) => normalized.includes(fold(term))) || isBusinessPressOnly(normalized);
-}
-
-function isBusinessPressOnly(normalizedText) {
-  const businessSignal = /redressement judiciaire|tensions de tresorerie|cessation de paiement|banque de france|construction de la monnaie unique/.test(
-    normalizedText
-  );
-  const laborSignal = /licenciement|plan social|pse|depart volontaire|chomage technique|reprise des salaries|suppression de postes|syndicat/.test(
-    normalizedText
-  );
-  return businessSignal && !laborSignal;
-}
-
-function isProtectionSocialOnly(normalizedText) {
-  const protectionSocialSignal =
-    /securite sociale|assurance maladie|assurance vieillesse|assurance invalidite|prestations complementaires|prestations sociales|allocations|remboursement|prise en charge|cancer|soins|patient|activite physique adaptee|apa|pension de retraite|retraites des fonctionnaires|professions liberales/.test(
-      normalizedText
-    );
-  const laborSignal =
-    /contrat de travail|employeur|salarie|paie|bulletin de paie|cotisation patronale|urssaf|accident du travail|maladie professionnelle|sante au travail|inaptitude|licenciement|cse|temps de travail|harcelement|discrimination|conge de naissance|conge supplementaire de naissance|conge parental/.test(
-      normalizedText
-    );
-  return protectionSocialSignal && !laborSignal;
-}
-
-function isInstitutionalTrainingGovernance(normalizedText) {
-  const trainingGovernanceSignal =
-    /france competences|operateurs de competences|opco|commissions paritaires nationales de l'emploi|commissions paritaires de la branche professionnelle|centre de formation d'apprenti|centres de formation d'apprenti/.test(
-      normalizedText
-    );
-  const directLaborSignal =
-    /contrat de travail|employeur|salarie|remuneration|temps de travail|licenciement|rupture|cse|harcelement|discrimination/.test(
-      normalizedText
-    );
-  return trainingGovernanceSignal && !directLaborSignal;
-}
-
 function classifyCollectiveAgreement(text) {
   const normalized = fold(text);
   if (!/convention collective|accord de branche|accord collectif|extension d'un accord|extension d'accord|branche/.test(normalized)) {
@@ -1203,7 +1056,11 @@ function dedupe(entries) {
 
 function dedupeKey(entry) {
   if (entry.sourceType === "rss" || entry.sourceType === "press-rss") {
-    return `${entry.category}|${fold(entry.title)}`;
+    return `rss|${fold(entry.title)}`;
+  }
+  if (entry.sourceType === "archive") {
+    const officialIdentifier = entry.extra?.id || entry.extra?.ecli || entry.extra?.nor;
+    return officialIdentifier ? `official|${fold(officialIdentifier)}` : `official-entry|${entry.id}`;
   }
   return entry.id;
 }
@@ -1504,3 +1361,14 @@ function fold(value) {
 function hash(value) {
   return createHash("sha256").update(value).digest("hex").slice(0, 16);
 }
+
+export {
+  dedupe,
+  isTodayEntry,
+  makeEntry,
+  parseCass,
+  parseJorf,
+  parseRss,
+  priorityFor,
+  priorityRankFor,
+};

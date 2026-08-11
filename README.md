@@ -62,3 +62,23 @@ Chaque entrée reçoit un rang de lecture :
 - `P3` : veille de contexte, presse ou information de fond.
 
 L'interface démarre sur `P1` pour éviter d'imposer la lecture de tout le journal quotidien.
+
+## Pertinence juridique et personnalisation
+
+La pertinence juridique v2 est un classifieur déterministe et heuristique : elle applique des signaux textuels explicites, des exclusions documentées et une hiérarchie de sources. Elle ne constitue pas un modèle de machine learning et ne prétend pas mesurer une probabilité scientifique. Chaque entrée retenue expose des raisons d'évidence juridique ; les archives JORF/CASS sont des sources primaires, les flux institutionnels des sources officielles et la presse un signal secondaire à recouper.
+
+Les éditions historiques sans métadonnée v2 sont enrichies temporairement dans le navigateur à partir du titre, de la catégorie, de la source et uniquement des extraits source conservés (`sourceSummary`, `excerpt`, `sourceText`, `body` ou `notice`). Le résumé éditorial historique n'est jamais réutilisé comme preuve afin d'éviter qu'une ancienne conclusion heuristique se valide elle-même. Les fichiers `data/*.json` ne sont pas réécrits.
+
+Les avis « Utile » et « Pas utile » utilisent le schéma local `sociactus-feedback-v1` et ne stockent que des caractéristiques stables de l'entrée, jamais son titre ou son résumé. Le classement reste éditorial en premier : la personnalisation est bornée, ne masque aucune entrée et ne permet pas à un P1 de passer derrière un rang inférieur. Le bouton de réinitialisation efface ces avis de l'appareil ; aucune synchronisation distante des préférences n'est prévue.
+
+Sociactus est un outil de veille et ne fournit pas de conseil juridique. Il faut lire la source officielle et qualifier le texte ou la décision avant toute action.
+
+## Tests et build
+
+```bash
+npm test
+npm run build
+node --check app.js scripts/curate.mjs lib/legal-relevance.mjs lib/personalization.mjs
+```
+
+La suite inclut un scénario d'isolation de profils : deux stockages locaux indépendants reçoivent le même contenu ; plusieurs avis « Utile » sur la paie et « Pas utile » sur la retraite modifient l'ordre de l'utilisateur A après rechargement, tandis que l'utilisateur B sans avis conserve strictement l'ordre éditorial initial.

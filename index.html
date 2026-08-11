@@ -35,6 +35,13 @@
           <div id="convention-list" class="convention-list"></div>
           <button id="save-conventions" class="admin-save" type="button">Enregistrer les priorités</button>
         </div>
+        <section class="panel feedback-panel" id="feedback-panel" aria-labelledby="feedback-title">
+          <div class="panel-title" id="feedback-title">Préférences locales</div>
+          <p id="feedback-summary" class="panel-note">Aucun avis enregistré. Vos clics restent sur cet appareil.</p>
+          <p class="panel-note">Le classement apprend de vos avis, sans jamais faire passer une alerte P1 derrière les rangs inférieurs.</p>
+          <button id="reset-feedback" class="reset-feedback" type="button">Réinitialiser les avis</button>
+          <p id="feedback-status" class="feedback-status" role="status" aria-live="polite"></p>
+        </section>
         <div class="panel source-panel">
           <div class="panel-title">Sources</div>
           <ul id="source-list"></ul>
@@ -71,14 +78,14 @@
               <button class="segment" data-filter="presse" type="button" aria-pressed="false">Presse</button>
             </div>
           </div>
-          <div class="filter-status" aria-live="polite">
+          <div class="filter-status">
             <div id="result-count" class="result-count">0 résultat</div>
             <div id="active-filters" class="active-filters"></div>
             <button id="reset-filters" class="reset-filters" type="button">Réinitialiser</button>
           </div>
         </section>
 
-        <section id="entry-list" class="entry-list" aria-live="polite"></section>
+        <section id="entry-list" class="entry-list"></section>
       </section>
     </main>
 
@@ -107,10 +114,20 @@
               <span class="field-label">Point de vigilance</span>
               <p class="watch"></p>
             </div>
+            <div class="legal-evidence-block">
+              <span class="field-label">Pourquoi retenu</span>
+              <p class="legal-evidence"></p>
+            </div>
           </div>
         </details>
         <div class="themes"></div>
         <div class="entry-actions">
+          <div class="feedback-controls" role="group" aria-label="Évaluer cette entrée">
+            <span class="feedback-label">Votre avis</span>
+            <button class="feedback-button" data-feedback="1" type="button" aria-pressed="false">Utile</button>
+            <button class="feedback-button" data-feedback="-1" type="button" aria-pressed="false">Pas utile</button>
+            <span class="feedback-entry-status"></span>
+          </div>
           <a class="source-link" target="_blank" rel="noreferrer">Source officielle</a>
         </div>
       </article>

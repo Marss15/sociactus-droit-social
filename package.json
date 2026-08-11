@@ -9,7 +9,8 @@
     "build:with-data": "npm run curate && npm run build",
     "curate": "node scripts/curate.mjs",
     "curate:dry": "node scripts/curate.mjs --dry-run",
-    "serve": "node scripts/dev-server.mjs"
+    "serve": "node scripts/dev-server.mjs",
+    "test": "node --test tests/*.test.mjs"
   },
   "engines": {
     "node": ">=20"

@@ -19,6 +19,8 @@ for (const item of buildItems) {
   await cp(resolve(root, item), resolve(dist, item), { recursive: true });
 }
 
+await cp(resolve(root, "lib"), resolve(dist, "lib"), { recursive: true });
+
 await writeFile(
   resolve(dist, "config.js"),
   `window.SOCIACTUS_CONFIG = ${JSON.stringify({ dataBaseUrl }, null, 2)};\n`,

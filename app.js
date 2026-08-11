@@ -1,3 +1,15 @@
+import {
+  FEEDBACK_VALUES,
+  emptyFeedbackStore,
+  feedbackValueFor,
+  preferenceSummary,
+  rankEntries,
+  readFeedbackStore,
+  recordFeedback,
+  writeFeedbackStore,
+} from "./lib/personalization.mjs";
+import { enrichLegacyEntries } from "./lib/legal-relevance.mjs";
+
 const state = {
   index: null,
   day: null,
@@ -5,6 +17,9 @@ const state = {
   priorityFilter: "p1",
   query: "",
   conventionPriorities: null,
+  feedbackStore: emptyFeedbackStore(),
+  feedbackStatus: "",
+  dayRequestSequence: 0,
 };
 
 const config = window.SOCIACTUS_CONFIG || {};
@@ -67,12 +82,17 @@ const els = {
   conventionList: document.querySelector("#convention-list"),
   adminToken: document.querySelector("#admin-token"),
   saveConventions: document.querySelector("#save-conventions"),
+  feedbackSummary: document.querySelector("#feedback-summary"),
+  resetFeedback: document.querySelector("#reset-feedback"),
+  feedbackStatus: document.querySelector("#feedback-status"),
 };
 
 boot();
 
 async function boot() {
   try {
+    state.feedbackStore = readFeedbackStore();
+    renderFeedbackSummary();
     const index = await fetchDataJson("index.json");
     state.index = index;
     await loadConventionPriorities();
@@ -124,6 +144,7 @@ async function boot() {
     localStorage.setItem("sociactus-admin-token", els.adminToken.value.trim());
   });
   els.saveConventions.addEventListener("click", saveConventionPriorities);
+  els.resetFeedback.addEventListener("click", resetFeedback);
 }
 
 async function fetchJson(url) {
@@ -176,14 +197,34 @@ function renderIndex(index) {
     button.type = "button";
     button.className = "day-button";
     button.dataset.date = day.date;
-    button.innerHTML = `<span>${formatDate(day.date)}</span><small>${day.total} entrees</small>`;
+    const dateLabel = document.createElement("span");
+    dateLabel.textContent = formatDate(day.date);
+    const totalLabel = document.createElement("small");
+    totalLabel.textContent = `${Number(day.total) || 0} entrees`;
+    button.append(dateLabel, totalLabel);
     button.addEventListener("click", () => loadDay(day.date));
     els.dayList.append(button);
   }
 }
 
 async function loadDay(date) {
-  const day = await fetchDataJson(`${date}.json`);
+  const requestSequence = ++state.dayRequestSequence;
+  let rawDay;
+  try {
+    rawDay = await fetchDataJson(`${date}.json`);
+  } catch (error) {
+    if (requestSequence !== state.dayRequestSequence) {
+      return;
+    }
+    throw error;
+  }
+  if (requestSequence !== state.dayRequestSequence) {
+    return;
+  }
+  const day = {
+    ...rawDay,
+    entries: enrichLegacyEntries(rawDay.entries || []),
+  };
   state.day = day;
   applyConventionPriorities();
   document.querySelectorAll(".day-button").forEach((button) => {
@@ -209,9 +250,17 @@ function renderMetrics(stats = {}) {
     ["Presse", stats.presse || 0],
   ];
 
-  els.metrics.innerHTML = metrics
-    .map(([label, value]) => `<div class="metric"><strong>${value}</strong><span>${label}</span></div>`)
-    .join("");
+  els.metrics.replaceChildren();
+  for (const [label, value] of metrics) {
+    const metric = document.createElement("div");
+    metric.className = "metric";
+    const valueNode = document.createElement("strong");
+    valueNode.textContent = String(value);
+    const labelNode = document.createElement("span");
+    labelNode.textContent = label;
+    metric.append(valueNode, labelNode);
+    els.metrics.append(metric);
+  }
 }
 
 function renderConventionPanel() {
@@ -222,26 +271,38 @@ function renderConventionPanel() {
     return byRank || String(a.label).localeCompare(String(b.label));
   });
 
-  els.conventionList.innerHTML = "";
+  els.conventionList.replaceChildren();
   if (!entries.length) {
-    els.conventionList.innerHTML = `<div class="empty-compact">Aucune convention détectée dans le journal.</div>`;
+    const empty = document.createElement("div");
+    empty.className = "empty-compact";
+    empty.textContent = "Aucune convention détectée dans le journal.";
+    els.conventionList.append(empty);
     return;
   }
 
   for (const [key, item] of entries) {
     const row = document.createElement("label");
     row.className = "convention-row";
-    row.innerHTML = `
-      <span>
-        <strong>${escapeHtml(item.label)}</strong>
-        <small>${item.idcc ? `IDCC ${escapeHtml(item.idcc)}` : "Sans IDCC"} · vu ${Number(item.seenCount || 0)} fois</small>
-      </span>
-      <select data-convention-key="${escapeHtml(key)}" aria-label="Priorité ${escapeHtml(item.label)}">
-        <option value="p1"${item.rank === "p1" ? " selected" : ""}>P1</option>
-        <option value="p2"${item.rank === "p2" ? " selected" : ""}>P2</option>
-        <option value="p3"${item.rank === "p3" ? " selected" : ""}>P3</option>
-      </select>
-    `;
+
+    const text = document.createElement("span");
+    const strong = document.createElement("strong");
+    strong.textContent = item.label || "Convention sans libellé";
+    const small = document.createElement("small");
+    small.textContent = `${item.idcc ? `IDCC ${item.idcc}` : "Sans IDCC"} · vu ${Number(item.seenCount || 0) || 0} fois`;
+    text.append(strong, small);
+
+    const select = document.createElement("select");
+    select.dataset.conventionKey = String(key);
+    select.setAttribute("aria-label", `Priorité ${item.label || "de la convention"}`);
+    for (const rank of ["p1", "p2", "p3"]) {
+      const option = document.createElement("option");
+      option.value = rank;
+      option.textContent = rank.toUpperCase();
+      option.selected = item.rank === rank;
+      select.append(option);
+    }
+
+    row.append(text, select);
     els.conventionList.append(row);
   }
 }
@@ -353,7 +414,9 @@ function renderEntries() {
     return;
   }
 
-  const entries = filteredEntries();
+  const entries = rankEntries(filteredEntries(), state.feedbackStore, {
+    allRanks: state.priorityFilter === "all",
+  });
 
   renderFilterStatus(entries.length);
 
@@ -366,11 +429,20 @@ function renderEntries() {
 
   for (const entry of entries) {
     const node = els.template.content.firstElementChild.cloneNode(true);
-    node.querySelector(".entry-meta").innerHTML = [
-      `<span class="badge ${entry.category}">${categoryLabels[entry.category] || entry.category}</span>`,
-      `<span>${entry.sourceName}</span>`,
-      `<span>${formatDate(entry.publishedAt || entry.date)}</span>`,
-    ].join("");
+    const entryId = String(entry.id || "");
+    node.dataset.entryId = entryId;
+
+    const meta = node.querySelector(".entry-meta");
+    meta.replaceChildren();
+    const categoryBadge = document.createElement("span");
+    categoryBadge.className = `badge ${Object.hasOwn(categoryLabels, entry.category) ? entry.category : "unknown"}`;
+    categoryBadge.textContent = categoryLabels[entry.category] || String(entry.category || "Information");
+    const source = document.createElement("span");
+    source.textContent = String(entry.sourceName || "Source inconnue");
+    const published = document.createElement("span");
+    published.textContent = formatDate(entry.publishedAt || entry.date);
+    meta.append(categoryBadge, source, published);
+
     node.querySelector("h3").textContent = entry.title;
     node.querySelector(".impact").className = `impact ${entry.impact || "low"}`;
     node.querySelector(".impact").textContent = impactLabels[entry.impact] || "Veille";
@@ -381,19 +453,99 @@ function renderEntries() {
     node.querySelector(".priority-reason").textContent = entry.priorityReason || "";
     node.querySelector(".application").textContent = entry.application?.label || "Date à confirmer dans la source.";
     node.querySelector(".watch").textContent = entry.watch || "Vérifier la source avant toute décision.";
-    node.querySelector(".themes").innerHTML = (entry.themes || [])
-      .map((theme) => `<span class="theme">${theme}</span>`)
-      .join("");
+    const legalEvidence = node.querySelector(".legal-evidence-block");
+    const legalReasons = entry.legalRelevance?.reasons || [];
+    if (legalReasons.length) {
+      node.querySelector(".legal-evidence").textContent = legalReasons.slice(0, 2).join(" ");
+    } else {
+      legalEvidence.hidden = true;
+    }
+
+    const themes = node.querySelector(".themes");
+    themes.replaceChildren();
+    for (const theme of entry.themes || []) {
+      const themeNode = document.createElement("span");
+      themeNode.className = "theme";
+      themeNode.textContent = theme;
+      themes.append(themeNode);
+    }
+
+    const feedbackGroup = node.querySelector(".feedback-controls");
+    feedbackGroup.dataset.entryId = entryId;
+    feedbackGroup.setAttribute("aria-label", `Évaluer cette entrée : ${entry.title}`);
+    const currentFeedback = feedbackValueFor(state.feedbackStore, entry.id);
+    feedbackGroup.querySelectorAll("[data-feedback]").forEach((button) => {
+      const value = Number(button.dataset.feedback);
+      button.dataset.entryId = entryId;
+      button.value = String(value);
+      const selected = currentFeedback === value;
+      button.setAttribute("aria-pressed", String(selected));
+      button.classList.toggle("selected", selected);
+      button.addEventListener("click", () => handleFeedback(entry, value));
+    });
+    const entryStatus = node.querySelector(".feedback-entry-status");
+    entryStatus.textContent = feedbackLabel(currentFeedback);
     const link = node.querySelector(".source-link");
-    link.href = entry.url;
+    link.href = safeExternalUrl(entry.url);
     link.textContent =
       entry.category === "presse"
         ? "Lire l'article"
-        : entry.sourceName.includes("Archive")
+        : String(entry.sourceName || "").includes("Archive")
           ? "Archive officielle"
           : "Source officielle";
     els.entryList.append(node);
   }
+}
+
+function handleFeedback(entry, value) {
+  const entryId = String(entry.id || "");
+  state.feedbackStore = writeFeedbackStore(
+    null,
+    recordFeedback(state.feedbackStore, entry, value, { timestamp: new Date().toISOString() })
+  );
+  const current = feedbackValueFor(state.feedbackStore, entry.id);
+  state.feedbackStatus = current === null ? "Avis retiré. Le classement a été recalculé." : `${feedbackLabel(current)} Le classement a été recalculé.`;
+  renderFeedbackSummary();
+  renderEntries();
+  restoreFeedbackFocus(entryId, value);
+}
+
+function restoreFeedbackFocus(entryId, value) {
+  const expectedId = String(entryId || "");
+  const expectedValue = String(value);
+  const button = [...els.entryList.querySelectorAll(".feedback-button")].find(
+    (candidate) => candidate.dataset.entryId === expectedId && candidate.value === expectedValue
+  );
+  button?.focus({ preventScroll: true });
+}
+
+function resetFeedback() {
+  state.feedbackStore = writeFeedbackStore(null, emptyFeedbackStore());
+  state.feedbackStatus = "Avis locaux réinitialisés. Le classement revient à l'ordre éditorial.";
+  renderFeedbackSummary();
+  renderEntries();
+  els.resetFeedback.focus();
+}
+
+function renderFeedbackSummary() {
+  if (!els.feedbackSummary || !els.feedbackStatus) {
+    return;
+  }
+  const summary = preferenceSummary(state.feedbackStore);
+  els.feedbackSummary.textContent = summary.count
+    ? `${summary.count} avis local${summary.count > 1 ? "aux" : ""} (${summary.useful} utile${summary.useful > 1 ? "s" : ""}, ${summary.notUseful} pas utile).`
+    : "Aucun avis enregistré. Vos clics restent sur cet appareil.";
+  els.feedbackStatus.textContent = state.feedbackStatus;
+}
+
+function feedbackLabel(value) {
+  if (value === FEEDBACK_VALUES.useful) {
+    return "Avis utile enregistré. Cliquez encore pour annuler.";
+  }
+  if (value === FEEDBACK_VALUES.notUseful) {
+    return "Avis pas utile enregistré. Cliquez encore pour annuler.";
+  }
+  return "";
 }
 
 function computeStats(entries = []) {
@@ -439,7 +591,13 @@ function renderFilterStatus(count) {
     state.query ? `Recherche: ${state.query}` : null,
   ].filter(Boolean);
 
-  els.activeFilters.innerHTML = chips.map((chip) => `<span class="filter-chip">${chip}</span>`).join("");
+  els.activeFilters.replaceChildren();
+  for (const chip of chips) {
+    const chipNode = document.createElement("span");
+    chipNode.className = "filter-chip";
+    chipNode.textContent = chip;
+    els.activeFilters.append(chipNode);
+  }
   const isDefault = state.priorityFilter === "p1" && state.filter === "all" && !state.query;
   els.resetFilters.disabled = isDefault;
 }
@@ -453,7 +611,23 @@ function setPressedGroup(group, activeButton) {
 }
 
 function renderEmpty(message) {
-  els.entryList.innerHTML = `<div class="empty-state">${message}</div>`;
+  const empty = document.createElement("div");
+  empty.className = "empty-state";
+  empty.textContent = message;
+  els.entryList.replaceChildren(empty);
+}
+
+function safeExternalUrl(value) {
+  const raw = String(value ?? "").trim();
+  if (!raw) {
+    return "#";
+  }
+  try {
+    const url = new URL(raw, window.location.href);
+    return url.protocol === "http:" || url.protocol === "https:" ? url.href : "#";
+  } catch {
+    return "#";
+  }
 }
 
 function formatDate(value) {
@@ -478,12 +652,4 @@ function formatDateTime(value) {
 
 function rankWeight(rank) {
   return { p1: 3, p2: 2, p3: 1 }[rank] || 0;
-}
-
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
 }
