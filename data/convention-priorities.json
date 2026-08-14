@@ -203,12 +203,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-046982b46776": {
+      "label": "vins, cidres, jus de fruits, sirops, spiritueux et liqueurs de France",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
+      "seenCount": 1
+    },
     "name-06c9ed04c793": {
       "label": "relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail et des solidarités, V",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-25813734495d": {
+      "label": "travail des journalistes - agence de presse",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "seenCount": 1
     },
     "name-42638c9432f9": {
@@ -219,36 +235,44 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-4da927c53326": {
-      "label": "industries du pétrole",
+    "name-4d1f6c542e2f": {
+      "label": "la répartition pharmaceutique",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "seenCount": 1
     },
-    "name-59112d5480bd": {
-      "label": "commissaires de justice et sociétés de ventes",
+    "name-4eca40d821ea": {
+      "label": "Métallurgie",
       "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "rank": "p1",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "seenCount": 1
     },
-    "name-5c7459abc819": {
-      "label": "industries et commerces de la récupération",
+    "name-4fc200c4be20": {
+      "label": "Métallurgie",
       "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "rank": "p1",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "seenCount": 1
     },
-    "name-6fc0dce0121b": {
-      "label": "personnel des prestataires de services dans le secteur tertiaire",
+    "name-62404965637b": {
+      "label": "activités industrielles de boulangerie et pâtisserie et des professionnels de l'œuf",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
+      "seenCount": 1
+    },
+    "name-702cc6037956": {
+      "label": "entreprises d'installation sans fabrication, y compris entretien, réparation, dépannage de matériel aéraulique, thermique, frigorifique et connexes",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -267,28 +291,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-94963fc8ec90": {
-      "label": "du secteur des particuliers employeurs et de l'emploi à domicile",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
-      "seenCount": 1
-    },
-    "name-99354d17a291": {
-      "label": "institutions de retraite complémentaire",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
-      "seenCount": 1
-    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-b5d640469ed5": {
+      "label": "la mutualité",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -299,20 +315,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-e70943956607": {
-      "label": "activités de marchés financiers",
+    "name-d0173f677cf5": {
+      "label": "industries de la maroquinerie, articles de voyages, chasse-sellerie, gainerie, bracelets en cuir - secteur maroquinerie",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "seenCount": 1
     },
-    "name-ed27f58e9409": {
-      "label": "salariés des cabinets d'avocats",
+    "name-d1642ba02c89": {
+      "label": "Convention collective",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
@@ -323,20 +339,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-ee703a3b4017": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
-      "seenCount": 1
-    },
-    "name-fa1e699112d6": {
-      "label": "réseaux de transports publics urbains de voyageurs",
+    "name-ef5a047dc997": {
+      "label": "l'habitat et logement accompagnés",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "seenCount": 1
     }
   }
