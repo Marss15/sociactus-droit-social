@@ -203,12 +203,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-046982b46776": {
-      "label": "vins, cidres, jus de fruits, sirops, spiritueux et liqueurs de France",
+    "name-04d10b822152": {
+      "label": "l'industrie des tuiles et briques",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
       "seenCount": 1
     },
     "name-06c9ed04c793": {
@@ -219,12 +219,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-25813734495d": {
-      "label": "travail des journalistes - agence de presse",
+    "name-357ac6d682e4": {
+      "label": "Métallurgie",
+      "idcc": null,
+      "rank": "p1",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
+      "seenCount": 1
+    },
+    "name-36964c492962": {
+      "label": "l'industrie textile",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
       "seenCount": 1
     },
     "name-42638c9432f9": {
@@ -235,44 +243,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-4d1f6c542e2f": {
-      "label": "la répartition pharmaceutique",
+    "name-6dd4b668e134": {
+      "label": "la coopération maritime",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
       "seenCount": 1
     },
-    "name-4eca40d821ea": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
-      "seenCount": 1
-    },
-    "name-4fc200c4be20": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
-      "seenCount": 1
-    },
-    "name-62404965637b": {
-      "label": "activités industrielles de boulangerie et pâtisserie et des professionnels de l'œuf",
+    "name-8058d9094ec3": {
+      "label": "entreprises artistiques et culturelles",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
       "seenCount": 1
     },
-    "name-702cc6037956": {
-      "label": "entreprises d'installation sans fabrication, y compris entretien, réparation, dépannage de matériel aéraulique, thermique, frigorifique et connexes",
+    "name-86169aeb5d3d": {
+      "label": "employés, techniciens et cadres de la presse d'information spécialisée",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -291,6 +283,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-932bd2c75ca8": {
+      "label": "salariés des cabinets d'avocats",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
+      "seenCount": 1
+    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
@@ -299,12 +299,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-b5d640469ed5": {
-      "label": "la mutualité",
+    "name-b0bbf5b3e8e5": {
+      "label": "fleuristes, de la vente et des services des animaux familiers",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -315,20 +315,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-d0173f677cf5": {
-      "label": "industries de la maroquinerie, articles de voyages, chasse-sellerie, gainerie, bracelets en cuir - secteur maroquinerie",
+    "name-e114d38c48fc": {
+      "label": "menuiseries, des charpentes et constructions industrialisées et des portes planes",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
-      "seenCount": 1
-    },
-    "name-d1642ba02c89": {
-      "label": "Convention collective",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
@@ -339,12 +331,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-ef5a047dc997": {
-      "label": "l'habitat et logement accompagnés",
+    "name-f5041b8d4161": {
+      "label": "Commerce de détail et de gros",
       "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-14",
-      "lastSeen": "2026-08-14",
+      "rank": "p2",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
       "seenCount": 1
     }
   }
