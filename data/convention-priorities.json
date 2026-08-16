@@ -203,14 +203,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-04d10b822152": {
-      "label": "l'industrie des tuiles et briques",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
-      "seenCount": 1
-    },
     "name-06c9ed04c793": {
       "label": "relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail et des solidarités, V",
       "idcc": "",
@@ -219,52 +211,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-357ac6d682e4": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
-      "seenCount": 1
-    },
-    "name-36964c492962": {
-      "label": "l'industrie textile",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
-      "seenCount": 1
-    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-6dd4b668e134": {
-      "label": "la coopération maritime",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
-      "seenCount": 1
-    },
-    "name-8058d9094ec3": {
-      "label": "entreprises artistiques et culturelles",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
-      "seenCount": 1
-    },
-    "name-86169aeb5d3d": {
-      "label": "employés, techniciens et cadres de la presse d'information spécialisée",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -283,28 +235,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-932bd2c75ca8": {
-      "label": "salariés des cabinets d'avocats",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
-      "seenCount": 1
-    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-b0bbf5b3e8e5": {
-      "label": "fleuristes, de la vente et des services des animaux familiers",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -315,28 +251,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-e114d38c48fc": {
-      "label": "menuiseries, des charpentes et constructions industrialisées et des portes planes",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
-      "seenCount": 1
-    },
     "name-ee1a0060264e": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-f5041b8d4161": {
-      "label": "Commerce de détail et de gros",
-      "idcc": null,
-      "rank": "p2",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-08-15",
       "seenCount": 1
     }
   }
