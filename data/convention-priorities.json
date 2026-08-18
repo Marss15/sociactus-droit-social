@@ -211,12 +211,44 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-084ad749e0ac": {
+      "label": "Bureaux d'études / Syntec",
+      "idcc": null,
+      "rank": "p1",
+      "firstSeen": "2026-08-18",
+      "lastSeen": "2026-08-18",
+      "seenCount": 1
+    },
+    "name-38219c5f60b9": {
+      "label": "la fabrication et du commerce des produits à usage pharmaceutique, parapharmaceutique et vétérinaire",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-18",
+      "lastSeen": "2026-08-18",
+      "seenCount": 1
+    },
+    "name-404c3736b86c": {
+      "label": "l'hôtellerie de plein air",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-18",
+      "lastSeen": "2026-08-18",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-5c0cadd853b9": {
+      "label": "professions réglementées auprès des juridictions",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-18",
+      "lastSeen": "2026-08-18",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -241,6 +273,14 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-c5b008a2d1bc": {
+      "label": "services de santé au travail",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-18",
+      "lastSeen": "2026-08-18",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
