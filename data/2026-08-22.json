@@ -1,0 +1,1060 @@
+{
+  "generatedAt": "2026-08-22T07:38:33.875Z",
+  "date": "2026-08-22",
+  "stats": {
+    "total": 20,
+    "regles": 16,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 4,
+    "priorite1": 3,
+    "priorite2": 14,
+    "priorite3": 3
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-08-22",
+      "collected": 144,
+      "rejectedByDate": 110
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "0c13f92020167ca6",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'accords territoriaux (Provence-Alpes-Côte d'Azur) aux conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à dix salariés et plus de dix salariés) et des employés, techniciens et agents de maîtrise",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054733973",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Avis relatif à l'extension d'accords territoriaux (Provence-Alpes-Côte d'Azur) aux conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à. Applicable ou à intégrer à partir du 22 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-22",
+        "label": "Publié le 22 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 88,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Convention collective prioritaire : Bâtiment et travaux publics. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 17,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733973",
+        "nor": "TRST2622461V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-8aabd68e1f41",
+          "idcc": null,
+          "label": "Bâtiment et travaux publics",
+          "rank": "p1",
+          "source": "rule"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'accords territoriaux (Provence-Alpes-Côte d'Azur) aux conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à dix salariés et plus de dix salariés) et des employés, techniciens et agents de maîtrise."
+      }
+    },
+    {
+      "id": "2e795d51b3022764",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-806 du 21 août 2026 relatif à la procédure de dépôt des comptes des syndicats professionnels de salariés ou d'employeurs et leurs unions et des associations de salariés ou d'employeurs dont les ressources sont inférieures à 230 000 €",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/8/21/TRST2614109D/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : 2131-2, L. 2133-1 et L. 2133-2 du code du travail ; associations de salariés et d'employeurs régies par la loi du 1 er juillet 1901 relative au contrat d'association ou. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 68,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 16,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733184",
+        "nor": "TRST2614109D",
+        "nature": "DECRET",
+        "textDate": "2026-08-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "Publics concernés : syndicats professionnels et leurs unions mentionnées aux articles L. 2131-2, L. 2133-1 et L. 2133-2 du code du travail ; associations de salariés et d'employeurs régies par la loi du 1 er juillet 1901 relative au contrat d'association ou, dans les départements de la Moselle, du Bas-Rhin et du Haut-Rhin, par le droit local ; syndicats..."
+      }
+    },
+    {
+      "id": "8eaa00d0ef4b5988",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-807 du 20 août 2026 portant autorisation environnementale relative à la réalisation de travaux nécessaires à l'implantation d'une paire d'unités de production nucléaire de type EPR2, sur les communes de Gravelines, Craywick, Loon Plage et Bourbourg",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/8/20/TECL2620471D/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Décret n° 2026-807 du 20 août 2026 portant autorisation environnementale relative à la réalisation de travaux nécessaires à l'implantation d'une paire d'unités de production nucléaire de type EPR2, sur les communes de Gravelines, Craywick, Loon Plage. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 68,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733213",
+        "nor": "TECL2620471D",
+        "nature": "DECRET",
+        "textDate": "2026-08-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "DECRET. Décret n° 2026-807 du 20 août 2026 portant autorisation environnementale relative à la réalisation de travaux nécessaires à l'implantation d'une paire d'unités de production nucléaire de type EPR2, sur les communes de Gravelines, Craywick, Loon Plage et Bourbourg. Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "4f422852bbb410ef",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 13 août 2026 désignant l'opération de restructuration au sein de la direction interrégionale de la protection judiciaire de la jeunesse Ile-de-France - outre-mer ouvrant droit aux dispositifs indemnitaires et d'accompagnement des agents",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/13/JUSF2620203A/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 13 août 2026 désignant l'opération de restructuration au sein de la direction interrégionale de la protection judiciaire de la jeunesse Ile-de-France - outre-mer ouvrant droit aux dispositifs indemnitaires et d'accompagnement des agents. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rupture du contrat ou licenciement. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rupture du contrat ou licenciement.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733437",
+        "nor": "JUSF2620203A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-13",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 13 août 2026 désignant l'opération de restructuration au sein de la direction interrégionale de la protection judiciaire de la jeunesse Ile-de-France - outre-mer ouvrant droit aux dispositifs indemnitaires et d'accompagnement des agents. Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "a691b17d91a4e4a9",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 13 août 2026 désignant l'opération de restructuration au sein de la direction interrégionale de la protection judiciaire de la jeunesse Ile-de-France - outre-mer ouvrant droit aux dispositifs indemnitaires et d'accompagnement des agents",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/13/JUSF2620205A/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 13 août 2026 désignant l'opération de restructuration au sein de la direction interrégionale de la protection judiciaire de la jeunesse Ile-de-France - outre-mer ouvrant droit aux dispositifs indemnitaires et d'accompagnement des agents. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rupture du contrat ou licenciement. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rupture du contrat ou licenciement.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733457",
+        "nor": "JUSF2620205A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-13",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 13 août 2026 désignant l'opération de restructuration au sein de la direction interrégionale de la protection judiciaire de la jeunesse Ile-de-France - outre-mer ouvrant droit aux dispositifs indemnitaires et d'accompagnement des agents. Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "ad8250ac8e0ae481",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 août 2026 portant création de l'option commercialisation des vins du certificat de spécialisation agricole et fixant ses conditions de délivrance",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/17/AGRE2622285A/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 17 août 2026 portant création de l'option commercialisation des vins du certificat de spécialisation agricole et fixant ses conditions de délivrance. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733515",
+        "nor": "AGRE2622285A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 août 2026 portant création de l'option commercialisation des vins du certificat de spécialisation agricole et fixant ses conditions de délivrance. Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "29ba183243f114a7",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 juillet 2026 modifiant l'arrêté du 13 décembre 2021 portant définition et fixant les conditions de délivrance du brevet de technicien supérieur « Collaborateur juriste notarial »",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/6/ESRS2612077A/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 6 juillet 2026 modifiant l'arrêté du 13 décembre 2021 portant définition et fixant les conditions de délivrance du brevet de technicien supérieur « Collaborateur juriste notarial ». Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733652",
+        "nor": "ESRS2612077A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 6 juillet 2026 modifiant l'arrêté du 13 décembre 2021 portant définition et fixant les conditions de délivrance du brevet de technicien supérieur « Collaborateur juriste notarial ». Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "25e85eb8c73132a7",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 août 2026 portant création de la mention « sport automobile » du diplôme d'Etat de la jeunesse, de l'éducation populaire et du sport, spécialité « entraînement et perfectionnement sportif »",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/5/SPOV2621763A/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 5 août 2026 portant création de la mention « sport automobile » du diplôme d'Etat de la jeunesse, de l'éducation populaire et du sport, spécialité « entraînement et perfectionnement sportif ». Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 15,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : contrat d’apprentissage ou de professionnalisation.",
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733706",
+        "nor": "SPOV2621763A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 août 2026 portant création de la mention « sport automobile » du diplôme d'Etat de la jeunesse, de l'éducation populaire et du sport, spécialité « entraînement et perfectionnement sportif ». Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "51a26422ec1fe59c",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de directeur départemental interministériel (direction départementale des territoires de la Charente)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054733999",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de directeur départemental interministériel (direction départementale des territoires de la Charente). Applicable ou à intégrer à partir du 22 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-22",
+        "label": "Publié le 22 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733999",
+        "nor": "INTP2622582V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de directeur départemental interministériel (direction départementale des territoires de la Charente). Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "98e14543cd43767e",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 27 juillet 2026 désignant l'opération de restructuration ouvrant droit aux dispositifs d'accompagnement des agents du service d'inspection vétérinaire de la direction départementale de la protection des populations de la Gironde dans le cadre de la fermeture de l'abattoir de Bazas",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/27/INTH2620288A/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 27 juillet 2026 désignant l'opération de restructuration ouvrant droit aux dispositifs d'accompagnement des agents du service d'inspection vétérinaire de la direction départementale de la protection des populations de la Gironde dans le cadre. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif. Contexte complémentaire : emploi, fonction publique ou agent public.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733169",
+        "nor": "INTH2620288A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-27",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 27 juillet 2026 désignant l'opération de restructuration ouvrant droit aux dispositifs d'accompagnement des agents du service d'inspection vétérinaire de la direction départementale de la protection des populations de la Gironde dans le cadre de la fermeture de l'abattoir de Bazas. Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "47653b9ddb020e80",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 août 2026 portant ouverture de crédits d'attributions de produits",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/18/CPPB2622287A/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 18 août 2026 portant ouverture de crédits d'attributions de produits. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi, fonction publique ou agent public.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733637",
+        "nor": "CPPB2622287A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 18 août 2026 portant ouverture de crédits d'attributions de produits. Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "579b11d74523ac5d",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 août 2026 portant ouverture de crédits de fonds de concours",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/18/CPPB2622289A/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 18 août 2026 portant ouverture de crédits de fonds de concours. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733644",
+        "nor": "CPPB2622289A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 18 août 2026 portant ouverture de crédits de fonds de concours. Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "492e1d5aba199269",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 août 2026 portant nomination (agents comptables)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054733964",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 18 août 2026 portant nomination (agents comptables). Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : formation professionnelle ou obligations d’emploi encadrées. Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733964",
+        "nor": "CPPE2620991A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 18 août 2026 portant nomination (agents comptables). Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "b5dbb1ccd867b78e",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Jusqu'où va la liberté d'expression avec son DRH ?",
+      "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/jusqu-ou-va-la-liberte-d-expression-avec-son-drh_8070458.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-08-22",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. La vie professionnelle se termine parfois devant la justice. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 21,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : droit ou code du travail.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : droit ou code du travail.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. La vie professionnelle se termine parfois devant la justice. Dans \"C'est mon boulot\" au mois d'août, on explore des litiges en droit du travail."
+      }
+    },
+    {
+      "id": "0579aec0baefabd1",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Présidentielle 2027 : les syndicats, inquiets par les reculs dans des pays dirigés par l’extrême droite, essaient de se mobiliser contre le RN",
+      "url": "https://www.lemonde.fr/politique/article/2026/08/22/presidentielle-2027-les-syndicats-inquiets-par-les-reculs-dans-des-pays-diriges-par-l-extreme-droite-essaient-de-se-mobiliser-contre-le-rn_6752695_823448.html",
+      "publishedAt": "2026-08-22",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Une note de la Fondation Jean Jaurès et de son équivalent allemand, la Fondation Friedrich-Ebert, publiée à la fin du mois de juillet, fait un bilan de l’action menée par les gouvernements aux Etats-Unis, en Hongrie et. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Une note de la Fondation Jean Jaurès et de son équivalent allemand, la Fondation Friedrich-Ebert, publiée à la fin du mois de juillet, fait un bilan de l’action menée par les gouvernements aux Etats-Unis, en Hongrie et..."
+      }
+    },
+    {
+      "id": "00821fd2a5dc98ef",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Piratage du site des impôts : le syndicat Solidaires dénonce « l’ancienneté » du système informatique",
+      "url": "https://www.leparisien.fr/economie/piratage-du-site-des-impots-le-syndicat-solidaires-denonce-lanciennete-du-systeme-informatique-21-08-2026-PKVLPRMNEJHFLHUKQ4EPKPLVFE.php",
+      "publishedAt": "2026-08-22",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. Piratage du site des impôts : le syndicat Solidaires dénonce « l’ancienneté » du système informatique. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Piratage du site des impôts : le syndicat Solidaires dénonce « l’ancienneté » du système informatique"
+      }
+    },
+    {
+      "id": "fa758f8973401d98",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "À Guérande, la récolte de sel dopée par les canicules à répétition",
+      "url": "https://www.lefigaro.fr/nantes/a-guerande-la-recolte-de-sel-dopee-par-les-canicules-a-repetition-20260822",
+      "publishedAt": "2026-08-22",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. L’absence de pluie depuis le début de la saison a favorisé la production de sel. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. L’absence de pluie depuis le début de la saison a favorisé la production de sel. Malgré des conditions de travail parfois extrêmes, les paludiers s’attendent à une récolte record."
+      }
+    },
+    {
+      "id": "d0ca262ce77fface",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 août 2026 portant agrément de l'accord collectif du 20 juillet 2026 relatif à la participation des salariés aux résultats au sein des entreprises de moins de 50 salariés de la branche de l'hôtellerie de plein air",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/20/TRST2610020A/jo/texte",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : de l'hôtellerie de plein air. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 16,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733201",
+        "nor": "TRST2610020A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-01d42e086133",
+          "idcc": null,
+          "label": "de l'hôtellerie de plein air",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 20 août 2026 portant agrément de l'accord collectif du 20 juillet 2026 relatif à la participation des salariés aux résultats au sein des entreprises de moins de 50 salariés de la branche de l'hôtellerie de plein air. Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "c179e47dffe65359",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le secteur du travail temporaire (salariés permanents)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054733968",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Avis relatif à l'extension d'un accord conclu dans le secteur du travail temporaire (salariés permanents). Applicable ou à intégrer à partir du 22 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-22",
+        "label": "Publié le 22 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 17,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733968",
+        "nor": "TRST2622460V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-994c819dec5c",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le secteur du travail temporaire (salariés permanents). Texte publié au Journal officiel le 2026-08-22."
+      }
+    },
+    {
+      "id": "b725ed793d476c5b",
+      "date": "2026-08-22",
+      "firstSeenDate": "2026-08-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 7 août 2026 portant extension d'un accord relatif au dialogue social conclu dans le cadre de la branche professionnelle des industries électriques et gazières",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054733979",
+      "publishedAt": "2026-08-22",
+      "summary": "Changement apporté : Arrêté du 7 août 2026 portant extension d'un accord relatif au dialogue social conclu dans le cadre de la branche professionnelle des industries électriques et gazières. Applicable ou à intégrer à partir du 23 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-23",
+        "label": "Par défaut, applicable le 23 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : professionnelle des industries électriques et gazières. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 12,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054733979",
+        "nor": "ECOR2622109A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-07",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260822-002531.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-abfe1ceb1cb7",
+          "idcc": null,
+          "label": "professionnelle des industries électriques et gazières",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 7 août 2026 portant extension d'un accord relatif au dialogue social conclu dans le cadre de la branche professionnelle des industries électriques et gazières. Texte publié au Journal officiel le 2026-08-22."
+      }
+    }
+  ]
+}
