@@ -211,12 +211,36 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-25bfb30ad076": {
+      "label": "Bureaux d'études / Syntec",
+      "idcc": null,
+      "rank": "p1",
+      "firstSeen": "2026-08-25",
+      "lastSeen": "2026-08-25",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-4c9fef6c954e": {
+      "label": "Transports routiers",
+      "idcc": null,
+      "rank": "p2",
+      "firstSeen": "2026-08-25",
+      "lastSeen": "2026-08-25",
+      "seenCount": 1
+    },
+    "name-52b2634b368c": {
+      "label": "entreprises artistiques et culturelles",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-25",
+      "lastSeen": "2026-08-25",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -241,6 +265,22 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-b50e5db59c6f": {
+      "label": "personnels des sociétés anonymes et fondations HLM",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-25",
+      "lastSeen": "2026-08-25",
+      "seenCount": 1
+    },
+    "name-b5d640469ed5": {
+      "label": "la mutualité",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-25",
+      "lastSeen": "2026-08-25",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
