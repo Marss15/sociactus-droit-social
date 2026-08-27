@@ -203,20 +203,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-00915101c067": {
-      "label": "métiers de l'éducation, de la culture, des loisirs et de l'animation agissant pour l'utilité sociale et environnementale, au service des territoires",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-26",
-      "lastSeen": "2026-08-26",
-      "seenCount": 1
-    },
     "name-06c9ed04c793": {
       "label": "relatif à l'intéressement dans la branche de la couture parisienne et des autres métiers de la mode du 17 mars 2026 Le ministre du travail et des solidarités, V",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-2ab1df35909e": {
+      "label": "l'enseignement privé indépendant",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-08-27",
+      "lastSeen": "2026-08-27",
       "seenCount": 1
     },
     "name-42638c9432f9": {
@@ -241,14 +241,6 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-94963fc8ec90": {
-      "label": "du secteur des particuliers employeurs et de l'emploi à domicile",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-08-26",
-      "lastSeen": "2026-08-26",
       "seenCount": 1
     },
     "name-a9186b09254c": {

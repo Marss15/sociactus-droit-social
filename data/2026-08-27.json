@@ -1,0 +1,1189 @@
+{
+  "generatedAt": "2026-08-27T18:14:05.018Z",
+  "date": "2026-08-27",
+  "stats": {
+    "total": 24,
+    "regles": 19,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 5,
+    "priorite1": 1,
+    "priorite2": 22,
+    "priorite3": 1
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-08-27",
+      "collected": 142,
+      "rejectedByDate": 114
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "b417d61aa4dfaa2a",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-821 du 25 août 2026 modifiant le décret n° 2022-541 du 13 avril 2022 fixant le régime des décharges de service des directeurs d'école",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/8/25/MENH2620109D/jo/texte",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : le décret ouvre la possibilité aux autorités académiques de majorer le nombre de décharges de service d'enseignement dont bénéficient les. Applicable ou à intégrer à partir du 28 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-28",
+        "label": "Par défaut, applicable le 28 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750205",
+        "nor": "MENH2620109D",
+        "nature": "DECRET",
+        "textDate": "2026-08-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "Publics concernés : recteurs d'académie, directeurs d'école maternelle, élémentaire ou primaire, communes. Objet : le décret ouvre la possibilité aux autorités académiques de majorer le nombre de décharges de service d'enseignement dont bénéficient les directeurs d'école dans le cadre de l'exercice de leurs fonctions, en raison des spécificités de..."
+      }
+    },
+    {
+      "id": "58e8cbe892ea2f34",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 22 juillet 2026 modifiant l'arrêté du 29 octobre 2019 modifié portant création de la spécialité « Production et service en restaurations (rapide, collective, cafétéria) » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/22/MENE2617309A/jo/texte",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Arrêté du 22 juillet 2026 modifiant l'arrêté du 29 octobre 2019 modifié portant création de la spécialité « Production et service en restaurations (rapide, collective, cafétéria) » de certificat d'aptitude professionnelle et fixant ses modalités de. Applicable ou à intégrer à partir du 28 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-28",
+        "label": "Par défaut, applicable le 28 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750215",
+        "nor": "MENE2617309A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-22",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 22 juillet 2026 modifiant l'arrêté du 29 octobre 2019 modifié portant création de la spécialité « Production et service en restaurations (rapide, collective, cafétéria) » de certificat d'aptitude professionnelle et fixant ses modalités de délivrance. Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "6321f4d62cb3512e",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 25 août 2026 modifiant l'arrêté du 17 novembre 2020 relatif aux caractéristiques techniques et modalités de réalisation des travaux et prestations dont les dépenses sont éligibles à la prime de transition énergétique et l'arrêté du 30 mars 2009 relatif aux conditions d'application de dispositions concernant les avances remboursables sans intérêt destinées au financement de travaux de rénovation afin d'améliorer la performance énergétique des logements anciens",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/25/VLOL2620605A/jo/texte",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Arrêté du 25 août 2026 modifiant l'arrêté du 17 novembre 2020 relatif aux caractéristiques techniques et modalités de réalisation des travaux et prestations dont les dépenses sont éligibles à la prime de transition énergétique et l'arrêté du 30 mars 2009 relatif aux conditions d'application de dispositions concernant les avances remboursables sans intérêt destinées au financement de travaux de rénovation afin d'améliorer la performance énergétique des logements anciens. Applicable ou à intégrer à partir du 28 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-28",
+        "label": "Par défaut, applicable le 28 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750396",
+        "nor": "VLOL2620605A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "Publics concernés : personnes physiques (dont propriétaires occupants, propriétaires bailleurs, et autres personnes physiques titulaires d'un droit réel immobilier conférant l'usage d'un logement), Agence nationale de l'habitat, sociétés civiles non soumises à l'impôt sur les sociétés réalisant des travaux d'amélioration de la performance énergétique dans..."
+      }
+    },
+    {
+      "id": "1049ea49915bac88",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de sous-directeur",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054751149",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de sous-directeur. Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : temps de travail, repos ou congés. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 17,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : temps de travail, repos ou congés.",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054751149",
+        "nor": "ARMH2622824V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de sous-directeur. Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "9475c7d10f338829",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de directeur adjoint de la direction départementale des finances publiques de l'Aisne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054751177",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de directeur adjoint de la direction départementale des finances publiques de l'Aisne. Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 9,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, retraite, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054751177",
+        "nor": "CPPE2622783V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de directeur adjoint de la direction départementale des finances publiques de l'Aisne. Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "5add5e75afe67242",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juillet 2026 relatif au conseil scientifique et technique du Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/30/TECK2621182A/jo/texte",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Arrêté du 30 juillet 2026 relatif au conseil scientifique et technique du Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement. Applicable ou à intégrer à partir du 28 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-28",
+        "label": "Par défaut, applicable le 28 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif. Contexte complémentaire : fonction publique ou agent public, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750075",
+        "nor": "TECK2621182A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juillet 2026 relatif au conseil scientifique et technique du Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement. Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "9929914c2dcaaec4",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 août 2026 portant nomination (administration centrale)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054750629",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Arrêté du 26 août 2026 portant nomination (administration centrale). Applicable ou à intégrer à partir du 28 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-28",
+        "label": "Par défaut, applicable le 28 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi, fonction publique ou agent public.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750629",
+        "nor": "MEND2618792A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 26 août 2026 portant nomination (administration centrale). Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "7ceb8b57ed932b68",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de chef de service",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054751113",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de chef de service. Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi, fonction publique ou agent public, retraite, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, retraite, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054751113",
+        "nor": "PRMG2622798V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de chef de service. Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "63309e2527c16500",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de chef de service",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054751132",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de chef de service. Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi, fonction publique ou agent public, protection sociale générale, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, protection sociale générale, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054751132",
+        "nor": "PRMG2622854V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de chef de service. Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "c058199c5bd6be35",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'établissement au titre de l'année 2027 de la liste d'aptitude prévue par le décret n° 2025-1144 du 27 novembre 2025 portant statut particulier du corps des directeurs d'hôpital",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054751187",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Avis relatif à l'établissement au titre de l'année 2027 de la liste d'aptitude prévue par le décret n° 2025-1144 du 27 novembre 2025 portant statut particulier du corps des directeurs d'hôpital. Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi, fonction publique ou agent public.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054751187",
+        "nor": "SFHN2622827V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "AVIS. Avis relatif à l'établissement au titre de l'année 2027 de la liste d'aptitude prévue par le décret n° 2025-1144 du 27 novembre 2025 portant statut particulier du corps des directeurs d'hôpital. Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "979accb442f4c998",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 août 2026 portant nomination (administration centrale)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054750598",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Arrêté du 26 août 2026 portant nomination (administration centrale). Applicable ou à intégrer à partir du 28 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-28",
+        "label": "Par défaut, applicable le 28 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : formation professionnelle ou obligations d’emploi encadrées. Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750598",
+        "nor": "TRSZ2622040A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 26 août 2026 portant nomination (administration centrale). Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "9d9ca6f4f5f93eff",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'emplois fonctionnels de coordonnateur en maïeutique de certains établissements mentionnés à l'article L. 5 du code général de la fonction publique",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054751165",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Avis de vacance d'emplois fonctionnels de coordonnateur en maïeutique de certains établissements mentionnés à l'article L. Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054751165",
+        "nor": "SFHH2622846V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'emplois fonctionnels de coordonnateur en maïeutique de certains établissements mentionnés à l'article L. 5 du code général de la fonction publique. Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "1e1bc6b87781a66f",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 25 août 2026 portant délégation de signature (état-major de l'armée de l'air et de l'espace)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/8/25/ARMD2622830S/jo/texte",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Décision du 25 août 2026 portant délégation de signature (état-major de l'armée de l'air et de l'espace). Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750015",
+        "nor": "ARMD2622830S",
+        "nature": "DECISION",
+        "textDate": "2026-08-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "DECISION. Décision du 25 août 2026 portant délégation de signature (état-major de l'armée de l'air et de l'espace). Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "8bf9ec023bfe26a5",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 25 août 2026 portant délégation de signature (état-major de l'armée de l'air et de l'espace)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/8/25/ARMD2622836S/jo/texte",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Décision du 25 août 2026 portant délégation de signature (état-major de l'armée de l'air et de l'espace). Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750024",
+        "nor": "ARMD2622836S",
+        "nature": "DECISION",
+        "textDate": "2026-08-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "DECISION. Décision du 25 août 2026 portant délégation de signature (état-major de l'armée de l'air et de l'espace). Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "7d54e1ffbb8c8755",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 6 août 2026 portant admission à la retraite (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054750588",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Arrêté du 6 août 2026 portant admission à la retraite (inspection du travail). Applicable ou à intégrer à partir du 28 août 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-08-28",
+        "label": "Par défaut, applicable le 28 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : activité partielle ou inspection du travail. Contexte complémentaire : retraite.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : activité partielle ou inspection du travail.",
+          "Contexte complémentaire : retraite."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750588",
+        "nor": "TRSR2622770A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 6 août 2026 portant admission à la retraite (inspection du travail). Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "4e22545ef7894273",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 14 août 2026 portant admission à la retraite (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054750590",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Arrêté du 14 août 2026 portant admission à la retraite (inspection du travail). Applicable ou à intégrer à partir du 28 août 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-08-28",
+        "label": "Par défaut, applicable le 28 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : activité partielle ou inspection du travail. Contexte complémentaire : retraite.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : activité partielle ou inspection du travail.",
+          "Contexte complémentaire : retraite."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750590",
+        "nor": "TRSR2622773A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-14",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 14 août 2026 portant admission à la retraite (inspection du travail). Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "491cc53ed054f749",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 août 2026 portant admission à la retraite (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054750592",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : Arrêté du 17 août 2026 portant admission à la retraite (inspection du travail). Applicable ou à intégrer à partir du 28 août 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-08-28",
+        "label": "Par défaut, applicable le 28 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : activité partielle ou inspection du travail. Contexte complémentaire : retraite.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : activité partielle ou inspection du travail.",
+          "Contexte complémentaire : retraite."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750592",
+        "nor": "TRSR2622774A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 août 2026 portant admission à la retraite (inspection du travail). Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "dc844d7515a0ad12",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Commissions / organes temporaires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054751102",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054751102",
+        "nor": "INPS2622918X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Texte publié au Journal officiel le 2026-08-27."
+      }
+    },
+    {
+      "id": "25d030651bbec5c2",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Alizée Delpierre, sociologue : « En France, des travailleurs sont surexploités vingt heures par jour, sans rétribution, dans des conditions extrêmes »",
+      "url": "https://www.lemonde.fr/emploi/article/2026/08/27/alizee-delpierre-sociologue-en-france-des-travailleurs-sont-surexploites-vingt-heures-par-jour-sans-retribution-dans-des-conditions-extremes_6757905_1698637.html",
+      "publishedAt": "2026-08-27",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Dans « Comme des esclaves », la chercheuse livre une enquête saisissante évoquant notamment la situation de personnes immigrées et en situation irrégulière. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 21,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Dans « Comme des esclaves », la chercheuse livre une enquête saisissante évoquant notamment la situation de personnes immigrées et en situation irrégulière. Vendangeurs, ouvriers du bâtiment..."
+      }
+    },
+    {
+      "id": "71c8d51a16a47464",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Présidentielle 2027 : Édouard Philippe veut réduire la durée d’indemnisation du chômage pour les moins de 50 ans",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-veut-reduire-la-duree-dindemnisation-du-chomage-pour-les-moins-de-50-ans-27-08-2026-D2WGQPVYKFD4HPVMFUS34VDGYA.php",
+      "publishedAt": "2026-08-27",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques suivre les effets sur l'assurance chômage, l'emploi et l'accompagnement des transitions professionnelles.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 21,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : assurance chômage, indemnisation ou contentieux du travail.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : assurance chômage, indemnisation ou contentieux du travail.",
+          "Contexte complémentaire : chômage non qualifié."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Présidentielle 2027 : Édouard Philippe veut réduire la durée d’indemnisation du chômage pour les moins de 50 ans"
+      }
+    },
+    {
+      "id": "750c333476c68f7a",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "Le Parisien - politique",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "DIRECT. Présidentielle : Mélenchon appelle à augmenter le SMIC, Glucksmann propose de taxer les « méga héritiers »",
+      "url": "https://www.leparisien.fr/elections/presidentielle/direct-presidentielle-2027-le-pen-melenchon-philippe-attal-le-medef-organise-le-premier-debat-avec-les-principaux-candidats-ce-jeudi-27-08-2026-PRRSQ2JCT5AVLJE624LL73TX24.php",
+      "publishedAt": "2026-08-27",
+      "summary": "Signal de veille : la presse signale un effet possible sur les minima de rémunération ou les indemnités. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - politique. DIRECT. Présidentielle : Mélenchon appelle à augmenter le SMIC, Glucksmann propose de taxer les « méga héritiers »"
+      }
+    },
+    {
+      "id": "634e9adc6a20352b",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Présidentielle 2027 : «Si vous n'augmentez pas les salaires, la France va tomber en récession», lance Jean-Luc Mélenchon aux patrons",
+      "url": "https://www.lefigaro.fr/conjoncture/presidentielle-2027-si-vous-n-augmentez-pas-les-salaires-la-france-va-tomber-en-recession-lance-jean-luc-melenchon-aux-patrons-20260827",
+      "publishedAt": "2026-08-27",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. «Je vous mets en alerte : le budget Lecornu, plus l’inflation alimentaire, si vous n’augmentez pas les salaires, la France va tomber en récession», a lancé le candidat, ce jeudi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. «Je vous mets en alerte : le budget Lecornu, plus l’inflation alimentaire, si vous n’augmentez pas les salaires, la France va tomber en récession», a lancé le candidat, ce jeudi."
+      }
+    },
+    {
+      "id": "a4be52514f2e770b",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "French bee : un préavis de grève déposé du 27 au 31 août, la compagnie «maintient l’ensemble de son programme de vols»",
+      "url": "https://www.lefigaro.fr/societes/french-bee-un-preavis-de-greve-depose-du-27-au-31-aout-la-compagnie-maintient-l-ensemble-de-son-programme-de-vols-20260827",
+      "publishedAt": "2026-08-27",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Le SNPNC-FO et la CGT ont déposé un préavis de grève le vendredi 21 août pour les personnels navigants commerciaux de la compagnie, basés à la fois à Paris-Orly et à La Réunion. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Le SNPNC-FO et la CGT ont déposé un préavis de grève le vendredi 21 août pour les personnels navigants commerciaux de la compagnie, basés à la fois à Paris-Orly et à La Réunion."
+      }
+    },
+    {
+      "id": "bb4f4ccccf9e00e2",
+      "date": "2026-08-27",
+      "firstSeenDate": "2026-08-27",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale de l'enseignement privé indépendant",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054750711",
+      "publishedAt": "2026-08-27",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 27 août 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-08-27",
+        "label": "Publié le 27 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'enseignement privé indépendant. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 13,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054750711",
+        "nor": "TRST2622883V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260827-004918.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-2ab1df35909e",
+          "idcc": null,
+          "label": "l'enseignement privé indépendant",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale de l'enseignement privé indépendant. Texte publié au Journal officiel le 2026-08-27."
+      }
+    }
+  ]
+}
