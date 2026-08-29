@@ -1,0 +1,721 @@
+{
+  "generatedAt": "2026-08-29T13:07:56.994Z",
+  "date": "2026-08-29",
+  "stats": {
+    "total": 14,
+    "regles": 11,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 3,
+    "priorite1": 3,
+    "priorite2": 11,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-08-29",
+      "collected": 133,
+      "rejectedByDate": 114
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "9909ae019ac12260",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-830 du 28 août 2026 relatif au « Pass'Sport » 2026",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/8/28/SPOV2619737D/jo/texte",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : le décret prolonge le dispositif « Pass'Sport » en 2026. Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 68,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761806",
+        "nor": "SPOV2619737D",
+        "nature": "DECRET",
+        "textDate": "2026-08-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "Publics concernés : étudiants boursiers et personnes âgées de 6 à 30 ans, structures et associations sportives. Objet : le décret prolonge le dispositif « Pass'Sport » en 2026. Il détermine la liste des personnes éligibles, les structures habilitées à percevoir les aides correspondantes, les conditions dans lesquelles elles peuvent en bénéficier."
+      }
+    },
+    {
+      "id": "f5d48a92685dbbf1",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-828 du 28 août 2026 relatif à la rémunération des volontaires dans les armées et des appelés du service national et modifiant diverses dispositions règlementaires",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/8/28/ARMH2621466D/jo/texte",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : le décret attribue aux appelés du service national au sens de l'article L. Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 66,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : fonction publique ou agent public, retraite.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : fonction publique ou agent public, retraite."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761312",
+        "nor": "ARMH2621466D",
+        "nature": "DECRET",
+        "textDate": "2026-08-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "Publics concernés : volontaires dans les armées et appelés du service national au sens de l'article L. 4132-11-1 du code de la défense. Objet : le décret attribue aux appelés du service national au sens de l'article L. 4132-11-1 du code de la défense un régime de solde et un régime de rémunération identiques à ceux des volontaires dans les armées."
+      }
+    },
+    {
+      "id": "3c973b5122ef14b9",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-831 du 25 août 2026 relatif au champ d'application de la taxe sur la vacance des locaux d'habitation prévue par l'article 1406 bis du code général des impôts",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/8/25/VLOL2616753D/jo/texte",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : Publics concernés : communes, établissements publics de coopération intercommunale à fiscalité propre et personnes assujetties à la taxe sur la vacance des locaux d'habitation. Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761859",
+        "nor": "VLOL2616753D",
+        "nature": "DECRET",
+        "textDate": "2026-08-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "Publics concernés : communes, établissements publics de coopération intercommunale à fiscalité propre et personnes assujetties à la taxe sur la vacance des locaux d'habitation."
+      }
+    },
+    {
+      "id": "48f36d81821a88e7",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 août 2026 portant modification de l'arrêté du 10 décembre 2009 portant création d'un établissement de placement éducatif à Nogent-sur-Marne (94)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/21/JUSF2619865A/jo/texte",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : Arrêté du 21 août 2026 portant modification de l'arrêté du 10 décembre 2009 portant création d'un établissement de placement éducatif à Nogent-sur-Marne (94). Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761562",
+        "nor": "JUSF2619865A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 21 août 2026 portant modification de l'arrêté du 10 décembre 2009 portant création d'un établissement de placement éducatif à Nogent-sur-Marne (94). Texte publié au Journal officiel le 2026-08-29."
+      }
+    },
+    {
+      "id": "994adb7ffce3c7e1",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 21 août 2026 modifiant l'arrêté du 14 juin 2010 portant création d'un établissement de placement éducatif à Paris (75)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/21/JUSF2619874A/jo/texte",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : Arrêté du 21 août 2026 modifiant l'arrêté du 14 juin 2010 portant création d'un établissement de placement éducatif à Paris (75). Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761586",
+        "nor": "JUSF2619874A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-21",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 21 août 2026 modifiant l'arrêté du 14 juin 2010 portant création d'un établissement de placement éducatif à Paris (75). Texte publié au Journal officiel le 2026-08-29."
+      }
+    },
+    {
+      "id": "8308cfa0933331e9",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 25 août 2026 portant autorisation de transformation du centre éducatif fermé à Montfavet (84)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/25/JUSF2619910A/jo/texte",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : Arrêté du 25 août 2026 portant autorisation de transformation du centre éducatif fermé à Montfavet (84). Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761610",
+        "nor": "JUSF2619910A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 25 août 2026 portant autorisation de transformation du centre éducatif fermé à Montfavet (84). Texte publié au Journal officiel le 2026-08-29."
+      }
+    },
+    {
+      "id": "ca9a95eda69ae8ae",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 25 août 2026 portant transformation d'un centre éducatif fermé à Châtillon-sur-Seine (21)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/25/JUSF2622272A/jo/texte",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : Arrêté du 25 août 2026 portant transformation d'un centre éducatif fermé à Châtillon-sur-Seine (21). Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761636",
+        "nor": "JUSF2622272A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-25",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 25 août 2026 portant transformation d'un centre éducatif fermé à Châtillon-sur-Seine (21). Texte publié au Journal officiel le 2026-08-29."
+      }
+    },
+    {
+      "id": "a65b695ef4406d06",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 août 2026 portant transformation d'un établissement de placement éducatif à Nogent-sur-Oise (60)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/26/JUSF2622789A/jo/texte",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : Arrêté du 26 août 2026 portant transformation d'un établissement de placement éducatif à Nogent-sur-Oise (60). Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761660",
+        "nor": "JUSF2622789A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 26 août 2026 portant transformation d'un établissement de placement éducatif à Nogent-sur-Oise (60). Texte publié au Journal officiel le 2026-08-29."
+      }
+    },
+    {
+      "id": "9557ebea49b6a5ac",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Formation de travail",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054761987",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : Formation de travail. Texte publié au Journal officiel le 2026-08-29. Applicable ou à intégrer à partir du 29 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-29",
+        "label": "Publié le 29 août 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761987",
+        "nor": "CESG2623084X",
+        "nature": "",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "Formation de travail. Texte publié au Journal officiel le 2026-08-29."
+      }
+    },
+    {
+      "id": "197e190d08f0d1a7",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 5 août 2026 autorisant au titre de l'année 2027 l'ouverture des concours externe et interne pour le recrutement d'inspecteurs du permis de conduire et de la sécurité routière de 3e classe",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/5/INTH2621088A/jo/texte",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : Arrêté du 5 août 2026 autorisant au titre de l'année 2027 l'ouverture des concours externe et interne pour le recrutement d'inspecteurs du permis de conduire et de la sécurité routière de 3e classe. Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : formation professionnelle ou obligations d’emploi encadrées. Contexte complémentaire : emploi, fonction publique ou agent public, retraite, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, retraite, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761163",
+        "nor": "INTH2621088A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-05",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 5 août 2026 autorisant au titre de l'année 2027 l'ouverture des concours externe et interne pour le recrutement d'inspecteurs du permis de conduire et de la sécurité routière de 3e classe. Texte publié au Journal officiel le 2026-08-29."
+      }
+    },
+    {
+      "id": "19fcd258e20d7e23",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 7 août 2026 portant nomination d'une directrice régionale déléguée aux droits des femmes et à l'égalité",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054761889",
+      "publishedAt": "2026-08-29",
+      "summary": "Changement apporté : Arrêté du 7 août 2026 portant nomination d'une directrice régionale déléguée aux droits des femmes et à l'égalité. Applicable ou à intégrer à partir du 30 août 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-30",
+        "label": "Par défaut, applicable le 30 août 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054761889",
+        "nor": "PRMG2621813A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-07",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260829-002340.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 7 août 2026 portant nomination d'une directrice régionale déléguée aux droits des femmes et à l'égalité. Texte publié au Journal officiel le 2026-08-29."
+      }
+    },
+    {
+      "id": "6d50c2074aee9c0a",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Les salariés des librairies Gibert à Paris de nouveau en grève ce samedi contre les fermetures et les suppressions de postes",
+      "url": "https://www.lefigaro.fr/social/les-salaries-des-librairies-gibert-a-paris-de-nouveau-en-greve-ce-samedi-contre-les-fermetures-et-les-suppressions-de-postes-20260829",
+      "publishedAt": "2026-08-29",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. En redressement judiciaire depuis avril, cette enseigne historique fait face à une nouvelle journée de mobilisation, sur fond de tensions autour du plan de sauvegarde de l’emploi (PSE) et de difficultés. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques sécuriser les procédures de rupture, les motifs et les consultations obligatoires.",
+      "application": {
+        "date": "2026-08-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "low",
+      "priority": 24,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 12,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rupture du contrat ou licenciement.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. En redressement judiciaire depuis avril, cette enseigne historique fait face à une nouvelle journée de mobilisation, sur fond de tensions autour du plan de sauvegarde de l’emploi (PSE) et de difficultés..."
+      }
+    },
+    {
+      "id": "4389b090e9ef5afa",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Jusqu'où peut aller un employeur qui veut géolocaliser ses salariés ?",
+      "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/jusqu-ou-peut-aller-un-employeur-qui-veut-geolocaliser-ses-salaries_8070572.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-08-29",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. La vie professionnelle se termine parfois devant la justice. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-08-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 24,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : droit ou code du travail.",
+      "legalRelevance": {
+        "included": true,
+        "score": 8,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. La vie professionnelle se termine parfois devant la justice. Dans \"C'est mon boulot\" au mois d'août, on explore des litiges en droit du travail."
+      }
+    },
+    {
+      "id": "98183e55a1573706",
+      "date": "2026-08-29",
+      "firstSeenDate": "2026-08-29",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Sophie Binet, secrétaire générale de la CGT : « Une partie du patronat est en train de faire la courte échelle à l’extrême droite en la normalisant »",
+      "url": "https://www.lemonde.fr/politique/article/2026/08/29/sophie-binet-secretaire-generale-de-la-cgt-une-partie-du-patronat-est-en-train-de-faire-la-courte-echelle-a-l-extreme-droite-en-la-normalisant_6759540_823448.html",
+      "publishedAt": "2026-08-29",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. La dirigeante syndicale revient sur le premier débat présidentiel organisé, jeudi, par le Medef, et regrette que désormais, face au RN, le seul critère d’appréciation du patronat soit son intérêt financier. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-08-29",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. La dirigeante syndicale revient sur le premier débat présidentiel organisé, jeudi, par le Medef, et regrette que désormais, face au RN, le seul critère d’appréciation du patronat soit son intérêt financier."
+      }
+    }
+  ]
+}
