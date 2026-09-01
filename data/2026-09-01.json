@@ -1,0 +1,655 @@
+{
+  "generatedAt": "2026-09-01T12:31:08.404Z",
+  "date": "2026-09-01",
+  "stats": {
+    "total": 13,
+    "regles": 3,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 10,
+    "priorite1": 0,
+    "priorite2": 13,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-09-01",
+      "collected": 128,
+      "rejectedByDate": 109
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "94d2c042f8c7306d",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 23 avril 2026 portant application au corps des ingénieurs des ponts, des eaux et des forêts des dispositions du décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/4/23/TECK2610753A/jo/texte",
+      "publishedAt": "2026-09-01",
+      "summary": "Changement apporté : Arrêté du 23 avril 2026 portant application au corps des ingénieurs des ponts, des eaux et des forêts des dispositions du décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de. Applicable ou à intégrer à partir du 02 septembre 2026. Impact pratique : identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-09-02",
+        "label": "Par défaut, applicable le 02 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : fonction publique ou agent public, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054782451",
+        "nor": "TECK2610753A",
+        "nature": "ARRETE",
+        "textDate": "2026-04-23",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260901-002127.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 23 avril 2026 portant application au corps des ingénieurs des ponts, des eaux et des forêts des dispositions du décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat."
+      }
+    },
+    {
+      "id": "8737d14968b4f1e4",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance des fonctions de président de l'Institut national de recherches archéologiques préventives",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054782781",
+      "publishedAt": "2026-09-01",
+      "summary": "Changement apporté : Avis de vacance des fonctions de président de l'Institut national de recherches archéologiques préventives. Applicable ou à intégrer à partir du 01 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Publié le 01 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif. Contexte complémentaire : emploi, fonction publique ou agent public.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054782781",
+        "nor": "MICB2623018V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260901-002127.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance des fonctions de président de l'Institut national de recherches archéologiques préventives. Texte publié au Journal officiel le 2026-09-01."
+      }
+    },
+    {
+      "id": "8213d629e2ca28c0",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Commissions / organes temporaires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054782756",
+      "publishedAt": "2026-09-01",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Applicable ou à intégrer à partir du 01 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Publié le 01 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054782756",
+        "nor": "INPS2623198X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260901-002127.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Texte publié au Journal officiel le 2026-09-01."
+      }
+    },
+    {
+      "id": "5422ad478d30afa1",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Ce qui change le 1ᵉʳ septembre pour votre budget : suspension de la réforme des retraites, hausse du prix du gaz, baisse de la durée des allocations chômage en cas de rupture conventionnelle",
+      "url": "https://www.lemonde.fr/argent/article/2026/09/01/ce-qui-change-le-1-septembre-pour-votre-budget-suspension-de-la-reforme-des-retraites-hausse-du-prix-du-gaz-baisse-de-la-duree-des-allocations-chomage-en-cas-de-rupture-conventionnelle_6763090_1657007.html",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : la presse signale une donnée utile sur l'assurance chômage et le retour à l'emploi. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques sécuriser les procédures de rupture, les motifs et les consultations obligatoires.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Contrat",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "low",
+      "priority": 24,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rupture du contrat ou licenciement.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rupture du contrat ou licenciement.",
+          "Preuve juridique : assurance chômage, indemnisation ou contentieux du travail.",
+          "Contexte complémentaire : retraite, contexte professionnel général, chômage non qualifié."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Le gel de la réforme des retraites de 2023 permet aux travailleurs nés en 1964 de partir dès 62 ans et 9 mois."
+      }
+    },
+    {
+      "id": "7fd4027880bb3052",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Budget 2027 : la CGT appelle les fonctionnaires à «une grande grève» le 29 septembre",
+      "url": "https://www.lefigaro.fr/social/budget-2027-la-cgt-appelle-les-fonctionnaires-a-une-grande-greve-le-29-septembre-20260901",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. La patronne du syndicat, Sophie Binet, a demandé aux salariés de la fonction publique de cesser le travail pendant 24 heures pour faire comprendre «ce que c’est une journée noire sans services publics». Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 24,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 8,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. La patronne du syndicat, Sophie Binet, a demandé aux salariés de la fonction publique de cesser le travail pendant 24 heures pour faire comprendre «ce que c’est une journée noire sans services publics»."
+      }
+    },
+    {
+      "id": "ea91e2c2dda2cb0b",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Rentrée scolaire : \"Il va falloir montrer qu'on est autre chose qu'une part de marché électoral\", prévient Sophie Vénétitay, professeure et secrétaire générale du SNES-FSU",
+      "url": "https://www.franceinfo.fr/societe/education/rentree-scolaire-il-va-falloir-montrer-qu-on-est-autre-chose-qu-une-part-de-marche-electoral-previent-sophie-venetitay-professeure-et-secretaire-generale-du-snes-fsu_8171855.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Invitée de \"La Matinale\" mardi 1er septembre, l'enseignante et syndicaliste revient sur les enjeux de cette rentrée et réagit aux propositions des candidats à la présidentielle pour rehausser le salaire des professeurs. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 24,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 8,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Invitée de \"La Matinale\" mardi 1er septembre, l'enseignante et syndicaliste revient sur les enjeux de cette rentrée et réagit aux propositions des candidats à la présidentielle pour rehausser le salaire des professeurs."
+      }
+    },
+    {
+      "id": "df9f3e3f918d2f3c",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Plafonnement des arrêts maladie : \"Un salarié sur deux présente des signes de détresse psychologique au travail\", rappelle Sophie Binet, secrétaire générale de la CGT",
+      "url": "https://www.franceinfo.fr/politique/plafonnement-des-arrets-maladie-un-salarie-sur-deux-presente-des-signes-de-detresse-psychologique-au-travail-rappelle-sophie-binet-secretaire-generale-de-la-cgt_8171717.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. \"Ce n'est pas en cassant le thermomètre qu'on va résoudre les symptômes et la maladie, […] stigmatiser les malades ne sert à rien\", estime la syndicaliste, qui réagit dans les \"4 Vérités\" du 1er septembre au durcissement. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 23,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 7,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. \"Ce n'est pas en cassant le thermomètre qu'on va résoudre les symptômes et la maladie, […] stigmatiser les malades ne sert à rien\", estime la syndicaliste, qui réagit dans les \"4 Vérités\" du 1er septembre au durcissement..."
+      }
+    },
+    {
+      "id": "c7a4b384663055e9",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Une journée noire sans services publics » : la CGT appelle à la grève dans la fonction publique le 29 septembre",
+      "url": "https://www.leparisien.fr/economie/une-journee-noire-sans-services-publics-la-cgt-appelle-a-la-greve-dans-la-fonction-publique-le-29-septembre-01-09-2026-Q7ZR24JHJZAINC365BAPLXFLQM.php",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. « Une journée noire sans services publics » : la CGT appelle à la grève dans la fonction publique le 29 septembre. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier si la règle concerne la fonction publique seulement ou si elle crée un signal utile pour les pratiques RH.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 21,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « Une journée noire sans services publics » : la CGT appelle à la grève dans la fonction publique le 29 septembre"
+      }
+    },
+    {
+      "id": "24720d9196b17799",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "EasyJet : un accord trouvé entre la direction et les syndicats, l’appel à la grève levé",
+      "url": "https://www.leparisien.fr/economie/easyjet-un-accord-trouve-entre-la-direction-et-les-syndicats-lappel-a-la-greve-leve-01-09-2026-BBB5W4Z3AJFD3OEUJIJ47ZEYTI.php",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. EasyJet : un accord trouvé entre la direction et les syndicats, l’appel à la grève levé. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. EasyJet : un accord trouvé entre la direction et les syndicats, l’appel à la grève levé"
+      }
+    },
+    {
+      "id": "7c4809a3ebfd9cef",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Rentrée 2026 : facturation électronique, congés, salaires… Ce qui change concrètement pour les dirigeants",
+      "url": "https://www.leparisien.fr/economie/entreprise/rentree-2026-facturation-conges-salaires-ce-qui-change-concretement-pour-les-dirigeants-01-09-2026-RVK5ITDFIFHITKOUMT4BO5Q3PI.php",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. Rentrée 2026 : facturation électronique, congés, salaires… Ce qui change concrètement pour les dirigeants. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. Rentrée 2026 : facturation électronique, congés, salaires… Ce qui change concrètement pour les dirigeants"
+      }
+    },
+    {
+      "id": "6df75dffa59a270f",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "Le Parisien - politique",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Salaires des profs, autonomie des établissements… À droite et au centre, le match de l’école est lancé",
+      "url": "https://www.leparisien.fr/elections/presidentielle/salaires-des-profs-autonomie-des-etablissements-a-droite-et-au-centre-le-match-de-lecole-est-lance-RVLOPZSATBHZ7HPCRUTH2L3PSY.php",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : Le Parisien - politique signale : Repéré dans Le Parisien - politique. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - politique. Salaires des profs, autonomie des établissements… À droite et au centre, le match de l’école est lancé"
+      }
+    },
+    {
+      "id": "a3d0d8d0f34c62e3",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "Le Parisien - politique",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Rima Hassan : des rapporteurs de l’ONU évoquent un possible « harcèlement judiciaire et politique »",
+      "url": "https://www.leparisien.fr/politique/rima-hassan-des-rapporteurs-de-lonu-evoquent-un-possible-harcelement-judiciaire-et-politique-31-08-2026-HCHOXDMI3NG45DPLH336X7PKYE.php",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : Le Parisien - politique signale : Repéré dans Le Parisien - politique. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques renforcer la prévention, le traitement des signalements et la traçabilité des mesures prises.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Santé au travail"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - politique. Rima Hassan : des rapporteurs de l’ONU évoquent un possible « harcèlement judiciaire et politique »"
+      }
+    },
+    {
+      "id": "a7adaa1c9b381a82",
+      "date": "2026-09-01",
+      "firstSeenDate": "2026-09-01",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Présidentielle 2027 : Attal «assume» de vouloir augmenter le salaire des enseignants via des économies dans la sphère sociale",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-attal-assume-de-vouloir-augmenter-le-salaire-des-enseignants-via-des-economies-dans-la-sphere-sociale-20260901",
+      "publishedAt": "2026-09-01",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. L’ancien premier ministre veut faire de l’Éducation une «priorité» malgré l’état des finances publiques. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-01",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. L’ancien premier ministre veut faire de l’Éducation une «priorité» malgré l’état des finances publiques. Il n’a toutefois pas détaillé la nature des coupes nécessaires pour financer son projet d’augmenter de 200 euros..."
+      }
+    }
+  ]
+}
