@@ -99,14 +99,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1411": {
-      "label": "la fabrication de l'ameublement (n° 1411)",
-      "idcc": "1411",
-      "rank": "p3",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-04",
-      "seenCount": 1
-    },
     "idcc-1499": {
       "label": "la miroiterie, de la transformation et du négoce du verre (n° 1499)",
       "idcc": "1499",
@@ -139,22 +131,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-1702": {
-      "label": "Bâtiment et travaux publics",
-      "idcc": "1702",
-      "rank": "p1",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-04",
-      "seenCount": 1
-    },
-    "idcc-18": {
-      "label": "l'industrie textile (n° 18)",
-      "idcc": "18",
-      "rank": "p3",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-04",
-      "seenCount": 1
-    },
     "idcc-1982": {
       "label": "négoce et prestations de services dans les domaines médico-techniques (n° 1982)",
       "idcc": "1982",
@@ -171,14 +147,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-2219": {
-      "label": "s taxis (n° 2219)",
-      "idcc": "2219",
-      "rank": "p3",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-04",
-      "seenCount": 1
-    },
     "idcc-2332": {
       "label": "entreprises d'architecture (n° 2332)",
       "idcc": "2332",
@@ -192,23 +160,7 @@
       "idcc": "2609",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-09-04",
-      "seenCount": 2
-    },
-    "idcc-2683": {
-      "label": "portage de presse (n° 2683)",
-      "idcc": "2683",
-      "rank": "p3",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-04",
-      "seenCount": 1
-    },
-    "idcc-3221": {
-      "label": "employés, techniciens et cadres des agences de presse (n° 3221)",
-      "idcc": "3221",
-      "rank": "p3",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-04",
+      "lastSeen": "2026-05-29",
       "seenCount": 1
     },
     "idcc-3229": {
@@ -224,16 +176,16 @@
       "idcc": "3248",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-09-04",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3249": {
       "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
       "idcc": "3249",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-09-04",
-      "seenCount": 2
+      "lastSeen": "2026-05-29",
+      "seenCount": 1
     },
     "idcc-3250": {
       "label": "commissaires de justice et sociétés de ventes volontaires (n° 3250)",
@@ -243,36 +195,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "idcc-3251": {
-      "label": "la bijouterie joaillerie orfèvrerie horlogerie (n° 3251)",
-      "idcc": "3251",
-      "rank": "p3",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-04",
-      "seenCount": 1
-    },
-    "idcc-3252": {
-      "label": "entreprises au service de la création et de l'événement (n° 3252)",
-      "idcc": "3252",
-      "rank": "p3",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-04",
-      "seenCount": 1
-    },
     "idcc-915": {
       "label": "sociétés d'expertises et d'évaluations (n° 915)",
       "idcc": "915",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "idcc-993": {
-      "label": "prothésistes dentaires et des personnels des laboratoires de prothèse dentaire (n° 993)",
-      "idcc": "993",
-      "rank": "p3",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-04",
       "seenCount": 1
     },
     "name-06c9ed04c793": {
@@ -291,6 +219,22 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-6d41b86ac81e": {
+      "label": "personnel des entreprises de manutention ferroviaire et travaux connexes",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-05",
+      "seenCount": 1
+    },
+    "name-803c35cab655": {
+      "label": "collaborateurs salariés des entreprises d'économistes de la construction et des métreurs-vérificateurs",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-05",
+      "seenCount": 1
+    },
     "name-8fb5e0614f6f": {
       "label": "France Travail du 18 mars 2026 Le ministre du travail et des solidarités, Vu le code du travail, notamment ses articles L",
       "idcc": "",
@@ -307,12 +251,36 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-95f61cb6e0e3": {
+      "label": "l'industrie de la chaussure et des articles chaussants",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-05",
+      "seenCount": 1
+    },
+    "name-a71447c7f905": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-05",
+      "seenCount": 1
+    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-c8e982b93632": {
+      "label": "la fabrication et du commerce des produits à usage pharmaceutique, parapharmaceutique et vétérinaire",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-05",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -323,12 +291,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-eb9a1d9c4a07": {
+      "label": "mareyeurs-expéditeurs",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-05",
+      "seenCount": 1
+    },
     "name-ee1a0060264e": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-f3e390c18f97": {
+      "label": "commerces de gros",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-05",
       "seenCount": 1
     }
   }

@@ -1,0 +1,1333 @@
+{
+  "generatedAt": "2026-09-05T11:14:07.303Z",
+  "date": "2026-09-05",
+  "stats": {
+    "total": 25,
+    "regles": 24,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 1,
+    "priorite1": 0,
+    "priorite2": 18,
+    "priorite3": 7
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-09-05",
+      "collected": 152,
+      "rejectedByDate": 116
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "18ed2f9e53a46aa4",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 1er septembre 2026 portant délégation de signature (direction des services judiciaires)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/9/1/JUSB2623333S/jo/texte",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Décision du 1er septembre 2026 portant délégation de signature (direction des services judiciaires). Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054796675",
+        "nor": "JUSB2623333S",
+        "nature": "DECISION",
+        "textDate": "2026-09-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "DECISION. Décision du 1er septembre 2026 portant délégation de signature (direction des services judiciaires). Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "7f63546e2a2a71b8",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant extension d'avenants salariaux à des conventions collectives de travail étendues relatives aux professions agricoles",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797225",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant extension d'avenants salariaux à des conventions collectives de travail étendues relatives aux professions agricoles. Applicable ou à intégrer à partir du 06 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-06",
+        "label": "Par défaut, applicable le 06 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797225",
+        "nor": "AGRS2623146A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant extension d'avenants salariaux à des conventions collectives de travail étendues relatives aux professions agricoles. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "775188368e12c51d",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 septembre 2026 portant délégation de signature",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797249",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Arrêté du 3 septembre 2026 portant délégation de signature. Applicable ou à intégrer à partir du 06 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-06",
+        "label": "Par défaut, applicable le 06 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : temps de travail, repos ou congés. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 13,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : temps de travail, repos ou congés.",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : fonction publique ou agent public, retraite, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797249",
+        "nor": "CESX2623545A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 septembre 2026 portant délégation de signature. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "c1ec23da519a9f36",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Formations de travail",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797271",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Formations de travail. Texte publié au Journal officiel le 2026-09-05. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797271",
+        "nor": "CESG2623662X",
+        "nature": "",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "Formations de travail. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "b81e2ca3457535d0",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 3 septembre 2026 relative à l'organisation des élections professionnelles des représentants du personnel au comité social d'administration de proximité et à la commission consultative paritaire de l'Autorité de la concurrence par vote électronique internet du 3 au 10 décembre 2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797278",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Décision du 3 septembre 2026 relative à l'organisation des élections professionnelles des représentants du personnel au comité social d'administration de proximité et à la commission consultative paritaire de l'Autorité de la concurrence par vote. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif. Preuve juridique : dialogue social des plateformes avec les travailleurs concernés.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Preuve juridique : dialogue social des plateformes avec les travailleurs concernés.",
+          "Contexte complémentaire : fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797278",
+        "nor": "ACOP2623492S",
+        "nature": "DECISION",
+        "textDate": "2026-09-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "DECISION. Décision du 3 septembre 2026 relative à l'organisation des élections professionnelles des représentants du personnel au comité social d'administration de proximité et à la commission consultative paritaire de l'Autorité de la concurrence par vote électronique internet du 3 au 10 décembre 2026. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "ea8a8def565d0cde",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de sous-directeur",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797403",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de sous-directeur. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797403",
+        "nor": "PRMG2623211V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de sous-directeur. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "de1f3125753e02b4",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de délégué régional académique à la jeunesse, à l'engagement et aux sports (DRAJES)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797420",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de délégué régional académique à la jeunesse, à l'engagement et aux sports (DRAJES). Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 14,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797420",
+        "nor": "PRMG2623471V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de délégué régional académique à la jeunesse, à l'engagement et aux sports (DRAJES). Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "689a9a5615f641da",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis d'examen professionnel pour l'accès au grade d'inspecteur principal de 2e classe des douanes et droits indirects au titre de l'année 2027",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797460",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Avis d'examen professionnel pour l'accès au grade d'inspecteur principal de 2e classe des douanes et droits indirects au titre de l'année 2027. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : temps de travail, repos ou congés. Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+      "legalRelevance": {
+        "included": true,
+        "score": 8,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : temps de travail, repos ou congés.",
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797460",
+        "nor": "CPPD2622767V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "AVIS. Avis d'examen professionnel pour l'accès au grade d'inspecteur principal de 2e classe des douanes et droits indirects au titre de l'année 2027. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "dee98257aaa5b3d0",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er septembre 2026 portant ouverture de crédits de fonds de concours",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/1/CPPB2623115A/jo/texte",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Arrêté du 1er septembre 2026 portant ouverture de crédits de fonds de concours. Applicable ou à intégrer à partir du 06 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-06",
+        "label": "Par défaut, applicable le 06 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi, fonction publique ou agent public.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054796893",
+        "nor": "CPPB2623115A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 1er septembre 2026 portant ouverture de crédits de fonds de concours. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "1ecf651a6c947d54",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 31 août 2026 portant nomination au conseil de surveillance du fonds de cessation anticipée d'activité des travailleurs de l'amiante",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797013",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Arrêté du 31 août 2026 portant nomination au conseil de surveillance du fonds de cessation anticipée d'activité des travailleurs de l'amiante. Applicable ou à intégrer à partir du 06 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-06",
+        "label": "Par défaut, applicable le 06 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : santé au travail, accident, harcèlement ou discrimination. Contexte complémentaire : protection sociale générale, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : protection sociale générale, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797013",
+        "nor": "TRSS2623089A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-31",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 31 août 2026 portant nomination au conseil de surveillance du fonds de cessation anticipée d'activité des travailleurs de l'amiante. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "60cf8a20bc19a730",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant prorogation de la certification professionnelle de responsable de comptabilité générale et analytique",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/2/ARMH2623411A/jo/texte",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant prorogation de la certification professionnelle de responsable de comptabilité générale et analytique. Applicable ou à intégrer à partir du 06 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-06",
+        "label": "Par défaut, applicable le 06 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : droit ou code du travail. Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054796620",
+        "nor": "ARMH2623411A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant prorogation de la certification professionnelle de responsable de comptabilité générale et analytique. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "a66aa945038a5208",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décision du 1er septembre 2026 portant délégation de signature (direction générale de l'enseignement et de la recherche)",
+      "url": "https://www.legifrance.gouv.fr/eli/decision/2026/9/1/AGRS2623275S/jo/texte",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Décision du 1er septembre 2026 portant délégation de signature (direction générale de l'enseignement et de la recherche). Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : formation professionnelle ou obligations d’emploi encadrées. Contexte complémentaire : emploi, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054796836",
+        "nor": "AGRS2623275S",
+        "nature": "DECISION",
+        "textDate": "2026-09-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "DECISION. Décision du 1er septembre 2026 portant délégation de signature (direction générale de l'enseignement et de la recherche). Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "cb178f21d22fd20c",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er septembre 2026 portant ouverture de crédits d'attributions de produits",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/1/CPPB2623114A/jo/texte",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Arrêté du 1er septembre 2026 portant ouverture de crédits d'attributions de produits. Applicable ou à intégrer à partir du 06 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-06",
+        "label": "Par défaut, applicable le 06 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054796886",
+        "nor": "CPPB2623114A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 1er septembre 2026 portant ouverture de crédits d'attributions de produits. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "46631f0a068faa6d",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 26 août 2026 portant admission à la retraite (inspection du travail)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797011",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Arrêté du 26 août 2026 portant admission à la retraite (inspection du travail). Applicable ou à intégrer à partir du 06 septembre 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-09-06",
+        "label": "Par défaut, applicable le 06 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : activité partielle ou inspection du travail. Contexte complémentaire : emploi, retraite.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : activité partielle ou inspection du travail.",
+          "Contexte complémentaire : emploi, retraite."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797011",
+        "nor": "TRSR2623367A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-26",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 26 août 2026 portant admission à la retraite (inspection du travail). Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "f2ddf81636696cbf",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 septembre 2026 modifiant l'arrêté du 17 octobre 2023 portant nomination des membres des comités techniques nationaux de prévention des accidents du travail et des maladies professionnelles des salariés agricoles",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797121",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : Arrêté du 3 septembre 2026 modifiant l'arrêté du 17 octobre 2023 portant nomination des membres des comités techniques nationaux de prévention des accidents du travail et des maladies professionnelles des salariés agricoles. Applicable ou à intégrer à partir du 06 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-06",
+        "label": "Par défaut, applicable le 06 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797121",
+        "nor": "AGRS2623448A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 septembre 2026 modifiant l'arrêté du 17 octobre 2023 portant nomination des membres des comités techniques nationaux de prévention des accidents du travail et des maladies professionnelles des salariés agricoles. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "2546a72cce086579",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Documents déposés",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797396",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Documents déposés. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797396",
+        "nor": "INPS2623651X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Documents déposés. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "2284924b60299d6a",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Documents publiés",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797398",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Documents publiés. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797398",
+        "nor": "INPS2623652X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Documents publiés. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "f1fe4fd2253d2821",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Des rustines pour l’urgence » : le plan agriculture gouvernemental « pas à la hauteur », selon les syndicats",
+      "url": "https://www.leparisien.fr/economie/des-rustines-pour-lurgence-le-plan-agriculture-gouvernemental-pas-a-la-hauteur-selon-les-syndicats-04-09-2026-OIGN6HNOPNH4TKONNCRJXYJGX4.php",
+      "publishedAt": "2026-09-05",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. « Des rustines pour l’urgence » : le plan agriculture gouvernemental « pas à la hauteur », selon les syndicats. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « Des rustines pour l’urgence » : le plan agriculture gouvernemental « pas à la hauteur », selon les syndicats"
+      }
+    },
+    {
+      "id": "4d18ba8fa198255f",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des collaborateurs salariés des entreprises d'économistes de la construction et des métreurs-vérificateurs",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797194",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : collaborateurs salariés des entreprises d'économistes de la construction et des métreurs-vérificateurs. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 13,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797194",
+        "nor": "TRST2623347V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-803c35cab655",
+          "idcc": null,
+          "label": "collaborateurs salariés des entreprises d'économistes de la construction et des métreurs-vérificateurs",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale des collaborateurs salariés des entreprises d'économistes de la construction et des métreurs-vérificateurs. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "e33b315f85ceb8a9",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord collectif conclu dans le cadre de la convention collective nationale de la fabrication et du commerce des produits à usage pharmaceutique, parapharmaceutique et vétérinaire",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797199",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : la fabrication et du commerce des produits à usage pharmaceutique, parapharmaceutique et vétérinaire. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 17,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797199",
+        "nor": "TRST2623348V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-c8e982b93632",
+          "idcc": null,
+          "label": "la fabrication et du commerce des produits à usage pharmaceutique, parapharmaceutique et vétérinaire",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord collectif conclu dans le cadre de la convention collective nationale de la fabrication et du commerce des produits à usage pharmaceutique, parapharmaceutique et vétérinaire. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "9effbd127cd61ae6",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale du personnel des entreprises de manutention ferroviaire et travaux connexes",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797204",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : personnel des entreprises de manutention ferroviaire et travaux connexes. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 17,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797204",
+        "nor": "TRST2623350V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-6d41b86ac81e",
+          "idcc": null,
+          "label": "personnel des entreprises de manutention ferroviaire et travaux connexes",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale du personnel des entreprises de manutention ferroviaire et travaux connexes. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "21a0c4f21898cc86",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale de l'industrie de la chaussure et des articles chaussants",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797209",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : l'industrie de la chaussure et des articles chaussants. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 17,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797209",
+        "nor": "TRST2623352V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-95f61cb6e0e3",
+          "idcc": null,
+          "label": "l'industrie de la chaussure et des articles chaussants",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un accord conclu dans le cadre de la convention collective nationale de l'industrie de la chaussure et des articles chaussants. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "3b0ad5b3599b6c37",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à la convention collective nationale des mareyeurs-expéditeurs",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797214",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : mareyeurs-expéditeurs. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 17,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797214",
+        "nor": "TRST2623353V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-eb9a1d9c4a07",
+          "idcc": null,
+          "label": "mareyeurs-expéditeurs",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à la convention collective nationale des mareyeurs-expéditeurs. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "aad22ea7f0decdef",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis relatif à l'extension d'un avenant à un accord et d'un accord conclu dans le cadre de la convention collective nationale des commerces de gros",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797219",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 05 septembre 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-09-05",
+        "label": "Publié le 05 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : commerces de gros. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 20,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797219",
+        "nor": "TRST2623355V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-f3e390c18f97",
+          "idcc": null,
+          "label": "commerces de gros",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "AVIS. Avis relatif à l'extension d'un avenant à un accord et d'un accord conclu dans le cadre de la convention collective nationale des commerces de gros. Texte publié au Journal officiel le 2026-09-05."
+      }
+    },
+    {
+      "id": "3124a6026c1f3d1e",
+      "date": "2026-09-05",
+      "firstSeenDate": "2026-09-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant extension d'un avenant à une convention collective régionale de travail concernant les exploitations forestières du massif de Gascogne",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054797238",
+      "publishedAt": "2026-09-05",
+      "summary": "Changement apporté : un accord collectif ou une convention collective devient opposable dans son champ. Applicable ou à intégrer à partir du 06 septembre 2026. Impact pratique : contrôler les accords applicables, leur articulation avec les contrats de travail et les communications aux salariés.",
+      "application": {
+        "date": "2026-09-06",
+        "label": "Par défaut, applicable le 06 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 33,
+      "priorityRank": "p3",
+      "priorityLabel": "Priorité 3",
+      "priorityReason": "Convention collective non prioritaire : Convention collective. Rang conservé dans data/convention-priorities.json. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054797238",
+        "nor": "AGRS2623148A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260905-004620.tar.gz",
+        "collectiveAgreement": {
+          "key": "name-a71447c7f905",
+          "idcc": null,
+          "label": "Convention collective",
+          "rank": "p3",
+          "source": "default"
+        },
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant extension d'un avenant à une convention collective régionale de travail concernant les exploitations forestières du massif de Gascogne. Texte publié au Journal officiel le 2026-09-05."
+      }
+    }
+  ]
+}
