@@ -219,22 +219,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-6d41b86ac81e": {
-      "label": "personnel des entreprises de manutention ferroviaire et travaux connexes",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-05",
-      "seenCount": 1
-    },
-    "name-803c35cab655": {
-      "label": "collaborateurs salariés des entreprises d'économistes de la construction et des métreurs-vérificateurs",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-05",
-      "seenCount": 1
-    },
     "name-8fb5e0614f6f": {
       "label": "France Travail du 18 mars 2026 Le ministre du travail et des solidarités, Vu le code du travail, notamment ses articles L",
       "idcc": "",
@@ -251,36 +235,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-95f61cb6e0e3": {
-      "label": "l'industrie de la chaussure et des articles chaussants",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-05",
-      "seenCount": 1
-    },
-    "name-a71447c7f905": {
-      "label": "Convention collective",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-05",
-      "seenCount": 1
-    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-c8e982b93632": {
-      "label": "la fabrication et du commerce des produits à usage pharmaceutique, parapharmaceutique et vétérinaire",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-05",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -291,28 +251,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-eb9a1d9c4a07": {
-      "label": "mareyeurs-expéditeurs",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-05",
-      "seenCount": 1
-    },
     "name-ee1a0060264e": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-f3e390c18f97": {
-      "label": "commerces de gros",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-05",
       "seenCount": 1
     }
   }
