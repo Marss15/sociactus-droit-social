@@ -1,0 +1,1597 @@
+{
+  "generatedAt": "2026-09-08T12:05:44.311Z",
+  "date": "2026-09-08",
+  "stats": {
+    "total": 34,
+    "regles": 27,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 7,
+    "priorite1": 2,
+    "priorite2": 32,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-09-08",
+      "collected": 161,
+      "rejectedByDate": 118
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "f0f6829529e811e6",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-842 du 7 septembre 2026 relatif aux caractéristiques des panneaux solaires photovoltaïques permettant un report de l'échéance de l'obligation faite aux parcs de stationnement extérieurs d'une superficie supérieure à 1 500 mètres carrés",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/9/7/ECOI2616434D/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Publics concernés : propriétaires de parcs de stationnement extérieurs d'une superficie égale ou supérieure à mille cinq cent mètres carrés. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "high",
+      "priority": 68,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054803961",
+        "nor": "ECOI2616434D",
+        "nature": "DECRET",
+        "textDate": "2026-09-07",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "Publics concernés : propriétaires de parcs de stationnement extérieurs d'une superficie égale ou supérieure à mille cinq cent mètres carrés."
+      }
+    },
+    {
+      "id": "5575328ea1be59cf",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-844 du 7 septembre 2026 relatif aux instances de concertation de la politique d'installation et de transmission en agriculture",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/9/7/AGRT2621989D/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Publics concernés : services de l'Etat et établissements publics de l'Etat, collectivités territoriales, réseau des chambres d'agriculture, organisations professionnelles agricoles, Mutualité sociale agricole, associations intervenant dans le domaine agricole. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 68,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804188",
+        "nor": "AGRT2621989D",
+        "nature": "DECRET",
+        "textDate": "2026-09-07",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "Publics concernés : services de l'Etat et établissements publics de l'Etat, collectivités territoriales, réseau des chambres d'agriculture, organisations professionnelles agricoles, Mutualité sociale agricole, associations intervenant dans le domaine agricole."
+      }
+    },
+    {
+      "id": "fe048ffb132f8c83",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 septembre 2026 portant approbation des statuts de la Caisse de pensions de retraite de la Société anonyme des Journaux officiels de la République française",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/3/TRSS2623640A/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 3 septembre 2026 portant approbation des statuts de la Caisse de pensions de retraite de la Société anonyme des Journaux officiels de la République française. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054803758",
+        "nor": "TRSS2623640A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 septembre 2026 portant approbation des statuts de la Caisse de pensions de retraite de la Société anonyme des Journaux officiels de la République française. Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "e4d2043599b4f88d",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 31 juillet 2026 portant approbation des statuts de la Société concessionnaire française pour la construction et l'exploitation du tunnel routier sous le Mont-Blanc",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/31/ECOA2619845A/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 31 juillet 2026 portant approbation des statuts de la Société concessionnaire française pour la construction et l'exploitation du tunnel routier sous le Mont-Blanc. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054803989",
+        "nor": "ECOA2619845A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-31",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 31 juillet 2026 portant approbation des statuts de la Société concessionnaire française pour la construction et l'exploitation du tunnel routier sous le Mont-Blanc. Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "85487713a6ef7066",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 31 juillet 2026 portant approbation des statuts de la Société française pour le tunnel routier du Fréjus",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/31/ECOA2620489A/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 31 juillet 2026 portant approbation des statuts de la Société française pour le tunnel routier du Fréjus. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804068",
+        "nor": "ECOA2620489A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-31",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 31 juillet 2026 portant approbation des statuts de la Société française pour le tunnel routier du Fréjus. Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "7d39bb614d15bfa1",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804485",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 1er septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 57,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Preuve juridique : assurance chômage, indemnisation ou contentieux du travail.",
+      "legalRelevance": {
+        "included": true,
+        "score": 7,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : assurance chômage, indemnisation ou contentieux du travail."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804485",
+        "nor": "JUSC2623258A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 1er septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "a8f96bd0a83453cf",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 relatif à une société d'exercice libéral à responsabilité limitée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804576",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 relatif à une société d'exercice libéral à responsabilité limitée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 57,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+      "legalRelevance": {
+        "included": true,
+        "score": 7,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804576",
+        "nor": "JUSC2623387A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 relatif à une société d'exercice libéral à responsabilité limitée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "55bcc3807db7a766",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 septembre 2026 portant approbation du règlement intérieur du régime complémentaire de retraite des cadres des Journaux officiels de la République française",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/3/TRSS2623637A/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 3 septembre 2026 portant approbation du règlement intérieur du régime complémentaire de retraite des cadres des Journaux officiels de la République française. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : retraite, protection sociale générale.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : retraite, protection sociale générale."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054803735",
+        "nor": "TRSS2623637A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 3 septembre 2026 portant approbation du règlement intérieur du régime complémentaire de retraite des cadres des Journaux officiels de la République française. Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "5df67643477dae0d",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juillet 2026 portant agrément d'un organisme pour délivrer au personnel les certificats mentionnés à l'article R. 521-59 du code de l'environnement",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/30/TECP2621346A/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 30 juillet 2026 portant agrément d'un organisme pour délivrer au personnel les certificats mentionnés à l'article R. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : droit ou code du travail. Contexte complémentaire : retraite.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Contexte complémentaire : retraite."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054803788",
+        "nor": "TECP2621346A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juillet 2026 portant agrément d'un organisme pour délivrer au personnel les certificats mentionnés à l'article R. 521-59 du code de l'environnement. Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "2f8f120eda403e08",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juillet 2026 portant agrément d'un organisme pour délivrer au personnel les certificats mentionnés à l'article R. 521-59 du code de l'environnement",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/30/TECP2621351A/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 30 juillet 2026 portant agrément d'un organisme pour délivrer au personnel les certificats mentionnés à l'article R. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : droit ou code du travail. Contexte complémentaire : retraite.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Contexte complémentaire : retraite."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054803823",
+        "nor": "TECP2621351A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juillet 2026 portant agrément d'un organisme pour délivrer au personnel les certificats mentionnés à l'article R. 521-59 du code de l'environnement. Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "5e563d7e901dde3a",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 30 juillet 2026 portant agrément d'un organisme pour délivrer au personnel les certificats mentionnés à l'article R. 521-59 du code de l'environnement",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/30/TECP2621352A/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 30 juillet 2026 portant agrément d'un organisme pour délivrer au personnel les certificats mentionnés à l'article R. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : droit ou code du travail. Contexte complémentaire : retraite.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Contexte complémentaire : retraite."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054803848",
+        "nor": "TECP2621352A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-30",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 30 juillet 2026 portant agrément d'un organisme pour délivrer au personnel les certificats mentionnés à l'article R. 521-59 du code de l'environnement. Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "1e894c314da1ff72",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 3 septembre 2026 modifiant l'arrêté du 29 mai 2009 relatif aux transports de marchandises dangereuses par voies terrestres (dit « arrêté TMD »)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/3/TECP2619161A/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 3 septembre 2026 modifiant l'arrêté du 29 mai 2009 relatif aux transports de marchandises dangereuses par voies terrestres (dit « arrêté TMD »). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : santé au travail, accident, harcèlement ou discrimination. Contexte complémentaire : emploi.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : emploi."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054803916",
+        "nor": "TECP2619161A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-03",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "Publics concernés : intervenants (expéditeurs, transporteurs, chargeurs, déchargeurs, emballeurs, remplisseurs) participant aux opérations de transport par voie routière de marchandises dangereuses ; services de l'Etat chargés du contrôle du transport des marchandises dangereuses (DREAL, DEAL, DRIEAT)."
+      }
+    },
+    {
+      "id": "e4fdec0f0fef5336",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 7 septembre 2026 relatif à la composition des dossiers de demande d'agrément des structures de conseil et d'accompagnement du réseau France services agriculture",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/7/AGRT2623644A/jo/texte",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Publics concernés : les structures de conseil et d'accompagnement, les conseillers des structures de conseil et d'accompagnement. Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : retraite.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : retraite."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804204",
+        "nor": "AGRT2623644A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-07",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "Publics concernés : les structures de conseil et d'accompagnement, les conseillers des structures de conseil et d'accompagnement. Objet : l'arrêté a pour objet de préciser le contenu et les modalités de présentation et d'instruction du dossier de demande d'agrément des structures de conseil et d'accompagnement du réseau France services agriculture."
+      }
+    },
+    {
+      "id": "f2bbcefa98b5b7c5",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804506",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804506",
+        "nor": "JUSC2623363A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "44a03906ea835004",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 relatif à une société civile professionnelle (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804522",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 relatif à une société civile professionnelle (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804522",
+        "nor": "JUSC2623376A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 relatif à une société civile professionnelle (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "dc989e8ffa594e09",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804553",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804553",
+        "nor": "JUSC2623382A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "f1e9a758f221b955",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Commissions / organes temporaires",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804636",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Applicable ou à intégrer à partir du 08 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-08",
+        "label": "Publié le 08 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804636",
+        "nor": "INPS2623747X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Commissions / organes temporaires. Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "c91a9be71eefa7e7",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er septembre 2026 portant nomination d'une société d'exercice libéral à responsabilité limitée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804475",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 1er septembre 2026 portant nomination d'une société d'exercice libéral à responsabilité limitée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804475",
+        "nor": "JUSC2623257A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 1er septembre 2026 portant nomination d'une société d'exercice libéral à responsabilité limitée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "05ce2a523fdca529",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804498",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 1er septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804498",
+        "nor": "JUSC2623261A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 1er septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "c91498034805c043",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 1er septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804502",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 1er septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804502",
+        "nor": "JUSC2623263A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 1er septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "a0bae78e88b4e918",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant nomination d'un notaire salarié (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804510",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant nomination d'un notaire salarié (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804510",
+        "nor": "JUSC2623364A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant nomination d'un notaire salarié (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "44d8e8eacd9a704e",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant nomination d'un notaire salarié (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804514",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant nomination d'un notaire salarié (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804514",
+        "nor": "JUSC2623374A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant nomination d'un notaire salarié (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "82549fe9b51d7882",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804518",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804518",
+        "nor": "JUSC2623375A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "86004cc11eeef037",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804538",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804538",
+        "nor": "JUSC2623379A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "8ff158106cc34e2b",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant nomination d'une notaire (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804547",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant nomination d'une notaire (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804547",
+        "nor": "JUSC2623381A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant nomination d'une notaire (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "93df5c10608e91b0",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804557",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804557",
+        "nor": "JUSC2623383A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "90c7dc5bbc1d839f",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054804567",
+      "publishedAt": "2026-09-08",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 09 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-09",
+        "label": "Par défaut, applicable le 09 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054804567",
+        "nor": "JUSC2623385A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260908-012632.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-08."
+      }
+    },
+    {
+      "id": "4089c5e829661e8a",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Les fraudes bancaires par manipulation ont fortement augmenté en 2025",
+      "url": "https://www.lemonde.fr/economie/article/2026/09/08/les-fraudes-bancaires-par-manipulation-ont-fortement-augmente-en-2025_6768377_3234.html",
+      "publishedAt": "2026-09-08",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Les montants liés à ce type d’escroquerie, qui consiste par exemple à se faire passer pour un conseiller bancaire afin de pousser une victime à valider une opération frauduleuse, ont bondi de 34 % sur un an pour. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": "2026-09-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Les montants liés à ce type d’escroquerie, qui consiste par exemple à se faire passer pour un conseiller bancaire afin de pousser une victime à valider une opération frauduleuse, ont bondi de 34 % sur un an pour..."
+      }
+    },
+    {
+      "id": "1be4851422adb0fd",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "« Un moment charnière » : Wero, le paiement instantané européen, débarque sur les sites de Decathlon, Ikea et Leclerc",
+      "url": "https://www.leparisien.fr/economie/un-moment-charniere-wero-le-paiement-instantane-europeen-debarque-sur-les-sites-de-decathlon-ikea-et-leclerc-08-09-2026-QXJRGEEJCFHJRKHTJJWTUTLEOY.php",
+      "publishedAt": "2026-09-08",
+      "summary": "Signal de veille : Le Parisien - économie signale : Repéré dans Le Parisien - économie. « Un moment charnière » : Wero, le paiement instantané européen, débarque sur les sites de Decathlon, Ikea et Leclerc. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": "2026-09-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - économie. « Un moment charnière » : Wero, le paiement instantané européen, débarque sur les sites de Decathlon, Ikea et Leclerc"
+      }
+    },
+    {
+      "id": "3a03ad5d11297391",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Pour regagner du terrain face à PayPal et Apple Pay, l’européen Wero se lance dans l’e-commerce",
+      "url": "https://www.lefigaro.fr/finances-perso/pour-regagner-du-terrain-face-a-paypal-et-apple-pay-l-europeen-wero-se-lance-dans-l-e-commerce-20260908",
+      "publishedAt": "2026-09-08",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. En France, il sera bientôt possible de régler des achats en ligne sur une vingtaine de sites marchands avec ce portefeuille numérique, aujourd’hui dédié au paiement entre particuliers. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": "2026-09-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. En France, il sera bientôt possible de régler des achats en ligne sur une vingtaine de sites marchands avec ce portefeuille numérique, aujourd’hui dédié au paiement entre particuliers."
+      }
+    },
+    {
+      "id": "c089ce41b89eea33",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Brassards noirs, enterrements symboliques... Pourquoi les agents des hôpitaux publics sont appelés à se mobiliser ce mardi",
+      "url": "https://www.lefigaro.fr/conjoncture/hopital-public-des-actions-symboliques-prevues-mardi-dans-toute-la-france-pour-denoncer-des-conditions-de-travail-indignes-20260907",
+      "publishedAt": "2026-09-08",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Cet été caniculaire, «la situation qu’on a connue dans nos établissements en termes de température, difficulté des conditions de travail, ou (manque) d’effectifs, a atteint un paroxysme», a déploré Philippe Crepel. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Cet été caniculaire, «la situation qu’on a connue dans nos établissements en termes de température, difficulté des conditions de travail, ou (manque) d’effectifs, a atteint un paroxysme», a déploré Philippe Crepel,..."
+      }
+    },
+    {
+      "id": "5703d7f8e34790ff",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Une journée de canicule coûte-t-elle autant à l’économie qu’un demi-jour de grève, comme l’affirme Marine Tondelier ?",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/une-journee-de-canicule-coute-t-elle-autant-a-l-economie-qu-un-demi-jour-de-greve-comme-l-affirme-marine-tondelier-20260908",
+      "publishedAt": "2026-09-08",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Lors de la confrontation organisée par le Medef fin août, la tête de file des écologistes a affirmé qu’«une journée de canicule coûte à notre économie le même prix qu’une demi-journée de grève». Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Lors de la confrontation organisée par le Medef fin août, la tête de file des écologistes a affirmé qu’«une journée de canicule coûte à notre économie le même prix qu’une demi-journée de grève»."
+      }
+    },
+    {
+      "id": "4aae161698d21aa7",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Pourquoi les employeurs ne doivent pas attendre pour identifier et réguler les systèmes d’IA « à haut risque »",
+      "url": "https://www.lemonde.fr/emploi/article/2026/09/08/pourquoi-les-employeurs-ne-doivent-pas-attendre-pour-identifier-et-reguler-les-systemes-d-ia-a-haut-risque_6768102_1698637.html",
+      "publishedAt": "2026-09-08",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Les services des ressources humaines doivent, d’ici à la fin 2027, recenser et clarifier les systèmes d’intelligence artificielle utilisés par leurs services, et informer les salariés, conseille le juriste Jean-Emmanuel. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 19,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Les services des ressources humaines doivent, d’ici à la fin 2027, recenser et clarifier les systèmes d’intelligence artificielle utilisés par leurs services, et informer les salariés, conseille le juriste Jean-Emmanuel..."
+      }
+    },
+    {
+      "id": "ef5a2a08504c297b",
+      "date": "2026-09-08",
+      "firstSeenDate": "2026-09-08",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Bordeau Chesnel : près du Mans, la plus grande usine de production de rillettes de France en passe d’être vendue",
+      "url": "https://www.lefigaro.fr/societes/bordeau-chesnel-pres-du-mans-la-plus-grande-usine-de-production-de-rillettes-de-france-en-passe-d-etre-vendue-20260903",
+      "publishedAt": "2026-09-08",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Le groupe Alliance a présenté un projet de reprise de l’usine Bordeau Chesnel d’Yvré-l’Évêque. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-08",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 19,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Le groupe Alliance a présenté un projet de reprise de l’usine Bordeau Chesnel d’Yvré-l’Évêque. Il prévoit le maintien des 133 salariés."
+      }
+    }
+  ]
+}
