@@ -211,6 +211,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-3a1085f1c571": {
+      "label": "l'industrie de salaison, charcutière en gros et conserves de viandes",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-12",
+      "lastSeen": "2026-09-12",
+      "seenCount": 1
+    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
@@ -249,14 +257,6 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-d753022f2402": {
-      "label": "employés, techniciens et agents de maîtrise employés par les entreprises du bâtiment",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-11",
-      "lastSeen": "2026-09-11",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
