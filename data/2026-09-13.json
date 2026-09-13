@@ -1,0 +1,875 @@
+{
+  "generatedAt": "2026-09-13T12:40:46.315Z",
+  "date": "2026-09-13",
+  "stats": {
+    "total": 17,
+    "regles": 15,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 2,
+    "priorite1": 3,
+    "priorite2": 14,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-09-13",
+      "collected": 147,
+      "rejectedByDate": 118
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "a92266b6f794e66f",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-861 du 12 septembre 2026 relatif au crédit à la consommation",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/9/12/ECOT2621747D/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Publics concernés : établissements de crédit, sociétés de financement, intermédiaire en opérations de banque et en services de paiement, personnes physiques n'agissant pas pour des besoins professionnels. Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie"
+      ],
+      "impact": "high",
+      "priority": 65,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834730",
+        "nor": "ECOT2621747D",
+        "nature": "DECRET",
+        "textDate": "2026-09-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "Publics concernés : établissements de crédit, sociétés de financement, intermédiaire en opérations de banque et en services de paiement, personnes physiques n'agissant pas pour des besoins professionnels."
+      }
+    },
+    {
+      "id": "7f944936e29f013e",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-859 du 12 septembre 2026 modifiant le décret n° 2013-728 du 12 août 2013 portant organisation de l'administration centrale du ministère de l'intérieur et du ministère des outre-mer",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/9/12/INTA2618242D/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : le décret complète la liste des services, dont dispose le ministre de l'intérieur, mentionnés à l'article 2 du décret du 12 août 2013, en y ajoutant la. Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834607",
+        "nor": "INTA2618242D",
+        "nature": "DECRET",
+        "textDate": "2026-09-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "Publics concernés : personnels de l'administration centrale du ministère de l'intérieur. Objet : le décret complète la liste des services, dont dispose le ministre de l'intérieur, mentionnés à l'article 2 du décret du 12 août 2013, en y ajoutant la coordination nationale pour la sécurité des grands événements."
+      }
+    },
+    {
+      "id": "98100837366f43cc",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-860 du 12 septembre 2026 portant création de la coordination nationale pour la sécurité des grands événements",
+      "url": "https://www.legifrance.gouv.fr/eli/decret/2026/9/12/INTA2618243D/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Publics concernés : administration centrale du ministère de l'intérieur, préfectures, forces de sécurité intérieure, acteurs de la sécurité civile, sociétés privées de sécurité, organisateurs de grands événements. Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "high",
+      "priority": 64,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834615",
+        "nor": "INTA2618243D",
+        "nature": "DECRET",
+        "textDate": "2026-09-12",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "Publics concernés : administration centrale du ministère de l'intérieur, préfectures, forces de sécurité intérieure, acteurs de la sécurité civile, sociétés privées de sécurité, organisateurs de grands événements. Objet : création d'une coordination nationale pour la sécurité des grands événements."
+      }
+    },
+    {
+      "id": "de520badabc43ab2",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 septembre 2026 portant approbation de l'instruction générale interministérielle n° 2102 sur la protection en France des informations classifiées de l'Union européenne",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/4/PRMD2619914A/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Arrêté du 4 septembre 2026 portant approbation de l'instruction générale interministérielle n° 2102 sur la protection en France des informations classifiées de l'Union européenne. Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Preuve juridique : rupture du contrat ou licenciement.",
+      "legalRelevance": {
+        "included": true,
+        "score": 9,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rupture du contrat ou licenciement.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, retraite, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834581",
+        "nor": "PRMD2619914A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "Publics concernés : services de l'Etat ; opérateurs de l'Etat ; services déconcentrés de l'Etat ; établissements publics nationaux placés sous l'autorité d'un ministre ; toutes personnes physiques ou morales, publiques ou privées, relevant de la compétence des autorités françaises, appelées à prendre connaissance, acheminer, traiter, stocker, produire ou..."
+      }
+    },
+    {
+      "id": "78d92238e503b87a",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 septembre 2026 modifiant l'arrêté du 30 juin 2021 relatif aux lieux de travail spécifiques pouvant exposer des travailleurs au radon modifié",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/4/TRST2620801A/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Publics concernés : employeurs et travailleurs, préventeurs, services de prévention et de santé au travail, services de santé au travail en agriculture, conseillers en radioprotection. Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : renforcer la prévention, le traitement des signalements et la traçabilité des mesures prises.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Santé au travail"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 12,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834683",
+        "nor": "TRST2620801A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "Publics concernés : employeurs et travailleurs, préventeurs, services de prévention et de santé au travail, services de santé au travail en agriculture, conseillers en radioprotection. Objet : cet arrêté abroge les dispositions relatives au calcul de dose due au radon dans les lieux spécifiques pouvant exposer les travailleurs au radon."
+      }
+    },
+    {
+      "id": "fc9a78be7766323a",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 11 septembre 2026 portant délégation de signature (direction générale de la santé)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/11/SFHP2624239A/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Arrêté du 11 septembre 2026 portant délégation de signature (direction générale de la santé). Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834793",
+        "nor": "SFHP2624239A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-11",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 11 septembre 2026 portant délégation de signature (direction générale de la santé). Texte publié au Journal officiel le 2026-09-13."
+      }
+    },
+    {
+      "id": "7b3e0c241ff58618",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 28 août 2026 portant diverses dispositions relatives au diplôme national supérieur professionnel de musique, au certificat d'aptitude aux fonctions de professeur de musique et au diplôme d'Etat de professeur de musique",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/28/MICB2617131A/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Arrêté du 28 août 2026 portant diverses dispositions relatives au diplôme national supérieur professionnel de musique, au certificat d'aptitude aux fonctions de professeur de musique et au diplôme d'Etat de professeur de musique. Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Paie",
+        "Formation",
+        "Emploi",
+        "Santé au travail",
+        "Conventions collectives"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834828",
+        "nor": "MICB2617131A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-28",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 28 août 2026 portant diverses dispositions relatives au diplôme national supérieur professionnel de musique, au certificat d'aptitude aux fonctions de professeur de musique et au diplôme d'Etat de professeur de musique. Texte publié au Journal officiel le 2026-09-13."
+      }
+    },
+    {
+      "id": "434f4fc99fe41c46",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de directeur de projet",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054835100",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de directeur de projet. Applicable ou à intégrer à partir du 13 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-13",
+        "label": "Publié le 13 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Preuve juridique : assurance chômage, indemnisation ou contentieux du travail.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : assurance chômage, indemnisation ou contentieux du travail.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054835100",
+        "nor": "PRMG2624210V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de directeur de projet. Texte publié au Journal officiel le 2026-09-13."
+      }
+    },
+    {
+      "id": "f6a1ddd36c85b1b3",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de chef de service",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054835116",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de chef de service. Applicable ou à intégrer à partir du 13 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-13",
+        "label": "Publié le 13 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054835116",
+        "nor": "PRMG2624251V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de chef de service. Texte publié au Journal officiel le 2026-09-13."
+      }
+    },
+    {
+      "id": "1709831a2c8b2899",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de chef de service (administration centrale)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054835133",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de chef de service (administration centrale). Applicable ou à intégrer à partir du 13 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-13",
+        "label": "Publié le 13 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054835133",
+        "nor": "AGRS2624147V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de chef de service (administration centrale). Texte publié au Journal officiel le 2026-09-13."
+      }
+    },
+    {
+      "id": "646efc43c33e422a",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 4 septembre 2026 modifiant l'arrêté du 23 février 2009 relatif à l'organisation de la direction centrale des compagnies républicaines de sécurité",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/4/INTC2623176A/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Arrêté du 4 septembre 2026 modifiant l'arrêté du 23 février 2009 relatif à l'organisation de la direction centrale des compagnies républicaines de sécurité. Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif. Contexte complémentaire : fonction publique ou agent public.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834627",
+        "nor": "INTC2623176A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 4 septembre 2026 modifiant l'arrêté du 23 février 2009 relatif à l'organisation de la direction centrale des compagnies républicaines de sécurité. Texte publié au Journal officiel le 2026-09-13."
+      }
+    },
+    {
+      "id": "156a0d5ec6e2521c",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 2 septembre 2026 portant création d'un service territorial éducatif au quartier des mineurs du centre pénitentiaire de Meaux-Chauconin à Chauconin-Neufmontiers (77)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/2/JUSF2622273A/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Arrêté du 2 septembre 2026 portant création d'un service territorial éducatif au quartier des mineurs du centre pénitentiaire de Meaux-Chauconin à Chauconin-Neufmontiers (77). Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relations collectives, CSE, syndicat ou accord collectif. Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834698",
+        "nor": "JUSF2622273A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-02",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 2 septembre 2026 portant création d'un service territorial éducatif au quartier des mineurs du centre pénitentiaire de Meaux-Chauconin à Chauconin-Neufmontiers (77). Texte publié au Journal officiel le 2026-09-13."
+      }
+    },
+    {
+      "id": "45b4bb659a054532",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 8 septembre 2026 modifiant l'arrêté du 2 juillet 2026 fixant la liste des modèles de pompes à chaleur agréés en matière de qualité et de résilience industrielle",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/8/ECOI2623495A/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : le présent arrêté actualise la liste des modèles de pompes à chaleur agréés en matière de qualité et de résilience industrielle, fixée par l'arrêté du 2. Applicable ou à intégrer à partir du 15 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-15",
+        "label": "Entrée en vigueur ou date d'effet détectée : 15 septembre 2026.",
+        "basis": "Date explicite repérée dans le texte."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rupture du contrat ou licenciement.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rupture du contrat ou licenciement."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834748",
+        "nor": "ECOI2623495A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-08",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "Publics concernés : fabricants, importateurs, distributeurs et acquéreurs de pompes à chaleur. Objet : le présent arrêté actualise la liste des modèles de pompes à chaleur agréés en matière de qualité et de résilience industrielle, fixée par l'arrêté du 2 juillet 2026. Entrée en vigueur : le présent arrêté entre en vigueur le lendemain de sa publication."
+      }
+    },
+    {
+      "id": "44fc7e1656273e6d",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 11 septembre 2026 portant délégation de signature aux agents chargés de l'animation de la politique ministérielle de prévention de la sous-direction des politiques sociales et des conditions de travail - secrétariat général des ministères économiques et financiers",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/11/ECOP2624236A/jo/texte",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Arrêté du 11 septembre 2026 portant délégation de signature aux agents chargés de l'animation de la politique ministérielle de prévention de la sous-direction des politiques sociales et des conditions de travail - secrétariat général des ministères. Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054834761",
+        "nor": "ECOP2624236A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-11",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 11 septembre 2026 portant délégation de signature aux agents chargés de l'animation de la politique ministérielle de prévention de la sous-direction des politiques sociales et des conditions de travail - secrétariat général des ministères économiques et financiers. Texte publié au Journal officiel le 2026-09-13."
+      }
+    },
+    {
+      "id": "ffbb8428ada25576",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 11 septembre 2026 portant nomination (agents comptables)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054835095",
+      "publishedAt": "2026-09-13",
+      "summary": "Changement apporté : Arrêté du 11 septembre 2026 portant nomination (agents comptables). Applicable ou à intégrer à partir du 14 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-14",
+        "label": "Par défaut, applicable le 14 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : formation professionnelle ou obligations d’emploi encadrées. Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054835095",
+        "nor": "CPPE2623634A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-11",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260913-002329.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 11 septembre 2026 portant nomination (agents comptables). Texte publié au Journal officiel le 2026-09-13."
+      }
+    },
+    {
+      "id": "3c454c77965f44d2",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Comment les conditions de travail ont-elles évolué depuis 10 ans ?",
+      "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/comment-les-conditions-de-travail-ont-elles-evolue-depuis-10-ans_8149340.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-09-13",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Salariés, fonctionnaires, indépendants : 25.000 d'entre eux ont été interrogés récemment par le ministère du Travail et l'Insee sur leurs conditions de travail et les risques psychosociaux. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques renforcer la prévention, le traitement des signalements et la traçabilité des mesures prises.",
+      "application": {
+        "date": "2026-09-13",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Santé au travail"
+      ],
+      "impact": "low",
+      "priority": 24,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 8,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Salariés, fonctionnaires, indépendants : 25.000 d'entre eux ont été interrogés récemment par le ministère du Travail et l'Insee sur leurs conditions de travail et les risques psychosociaux."
+      }
+    },
+    {
+      "id": "31d7e77349d7d4e6",
+      "date": "2026-09-13",
+      "firstSeenDate": "2026-09-13",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Une grève de deux jours débute à Radio France pour dénoncer la chronique du directeur-adjoint de Valeurs actuelles",
+      "url": "https://www.lefigaro.fr/medias/une-greve-de-deux-jours-debute-a-radio-france-pour-denoncer-la-chronique-du-directeur-adjoint-de-valeurs-actuelles-20260913",
+      "publishedAt": "2026-09-13",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Les syndicats affirment leur «refus catégorique» d’entendre la parole de Charles Sapin, la jugeant «pas compatible» avec le service public. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-13",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Les syndicats affirment leur «refus catégorique» d’entendre la parole de Charles Sapin, la jugeant «pas compatible» avec le service public."
+      }
+    }
+  ]
+}
