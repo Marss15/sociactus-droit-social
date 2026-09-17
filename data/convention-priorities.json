@@ -211,12 +211,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-32993022beea": {
-      "label": "distributeurs conseils hors domicile",
+    "name-0b9007f1cc25": {
+      "label": "Métallurgie",
       "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-16",
-      "lastSeen": "2026-09-16",
+      "rank": "p1",
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-09-17",
       "seenCount": 1
     },
     "name-42638c9432f9": {
@@ -225,14 +225,6 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-46944bbbaa9a": {
-      "label": "la charcuterie de détail",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-16",
-      "lastSeen": "2026-09-16",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -251,28 +243,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-94963fc8ec90": {
-      "label": "du secteur des particuliers employeurs et de l'emploi à domicile",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-16",
-      "lastSeen": "2026-09-16",
-      "seenCount": 1
-    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-b04958a55ccf": {
-      "label": "bricolage",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-16",
-      "lastSeen": "2026-09-16",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
@@ -283,12 +259,20 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-d961dd72d3d5": {
-      "label": "personnel sédentaire des entreprises de navigation",
+    "name-d26c2581af1c": {
+      "label": "espaces de loisirs, d'attractions et culturels",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-09-16",
-      "lastSeen": "2026-09-16",
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-09-17",
+      "seenCount": 1
+    },
+    "name-ecc3798d5845": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-09-17",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
