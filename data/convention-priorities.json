@@ -211,14 +211,6 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-0b9007f1cc25": {
-      "label": "Métallurgie",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-09-17",
-      "lastSeen": "2026-09-17",
-      "seenCount": 1
-    },
     "name-42638c9432f9": {
       "label": "Bâtiment et travaux publics",
       "idcc": "",
@@ -259,20 +251,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-d26c2581af1c": {
-      "label": "espaces de loisirs, d'attractions et culturels",
+    "name-db7281363f88": {
+      "label": "Bâtiment et travaux publics",
       "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-17",
-      "lastSeen": "2026-09-17",
-      "seenCount": 1
-    },
-    "name-ecc3798d5845": {
-      "label": "Convention collective",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-17",
-      "lastSeen": "2026-09-17",
+      "rank": "p1",
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-18",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
