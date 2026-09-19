@@ -83,6 +83,30 @@
     }
   ],
   "observed": {
+    "idcc-1267": {
+      "label": "la pâtisserie (n° 1267)",
+      "idcc": "1267",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
+    "idcc-1285": {
+      "label": "entreprises artistiques et culturelles (n° 1285)",
+      "idcc": "1285",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
+    "idcc-1307": {
+      "label": "l'exploitation cinématographique (n° 1307)",
+      "idcc": "1307",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
     "idcc-1404": {
       "label": "métropolitaine des entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et a (n° 1404)",
       "idcc": "1404",
@@ -107,6 +131,14 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-1527": {
+      "label": "l'immobilier (n° 1527)",
+      "idcc": "1527",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
     "idcc-1536": {
       "label": "distributeurs conseils hors domicile (n° 1536)",
       "idcc": "1536",
@@ -120,8 +152,8 @@
       "idcc": "1558",
       "rank": "p3",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-05-29",
-      "seenCount": 1
+      "lastSeen": "2026-09-19",
+      "seenCount": 2
     },
     "idcc-1607": {
       "label": "industries des jeux, jouets, articles de fêtes et ornements de Noël, articles de puériculture et voitures d'enfants, modélisme et industries connexes (n° 1607)",
@@ -147,12 +179,44 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-2120": {
+      "label": "la banque (n° 2120)",
+      "idcc": "2120",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
+    "idcc-2121": {
+      "label": "l'édition (n° 2121)",
+      "idcc": "2121",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
     "idcc-2332": {
       "label": "entreprises d'architecture (n° 2332)",
       "idcc": "2332",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-2335": {
+      "label": "personnel des agences générales d'assurances (n° 2335)",
+      "idcc": "2335",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
+    "idcc-247": {
+      "label": "industries de l'habillement (n° 247)",
+      "idcc": "247",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
       "seenCount": 1
     },
     "idcc-2609": {
@@ -163,6 +227,22 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-303": {
+      "label": "la couture parisienne (n° 303)",
+      "idcc": "303",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
+    "idcc-3205": {
+      "label": "coopératives de consommateurs salariés (n° 3205)",
+      "idcc": "3205",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
     "idcc-3229": {
       "label": "personnel des entreprises de transport en navigation intérieure (n° 3229)",
       "idcc": "3229",
@@ -171,13 +251,21 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-3237": {
+      "label": "Commerce de détail et de gros",
+      "idcc": "3237",
+      "rank": "p2",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
     "idcc-3248": {
       "label": "Métallurgie",
       "idcc": "3248",
       "rank": "p1",
       "firstSeen": "2026-05-29",
-      "lastSeen": "2026-05-29",
-      "seenCount": 1
+      "lastSeen": "2026-09-19",
+      "seenCount": 2
     },
     "idcc-3249": {
       "label": "industries de carrières et matériaux de construction applicable aux ouvriers, employés, techniciens, agents de maîtrise et aux cadres (n° 3249)",
@@ -195,12 +283,44 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "idcc-3254": {
+      "label": "la boucherie-poissonnerie (n° 3254)",
+      "idcc": "3254",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
+    "idcc-468": {
+      "label": "commerce succursaliste de la chaussure (n° 468)",
+      "idcc": "468",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
+    "idcc-500": {
+      "label": "commerces de gros de l'habillement, de la mercerie, de la chaussure et du jouet (n° 500)",
+      "idcc": "500",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "seenCount": 1
+    },
     "idcc-915": {
       "label": "sociétés d'expertises et d'évaluations (n° 915)",
       "idcc": "915",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "idcc-959": {
+      "label": "laboratoires de biologie médicale extra-hospitaliers (n° 959)",
+      "idcc": "959",
+      "rank": "p3",
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
       "seenCount": 1
     },
     "name-06c9ed04c793": {
@@ -249,14 +369,6 @@
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
-      "seenCount": 1
-    },
-    "name-db7281363f88": {
-      "label": "Bâtiment et travaux publics",
-      "idcc": null,
-      "rank": "p1",
-      "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-18",
       "seenCount": 1
     },
     "name-ee1a0060264e": {
