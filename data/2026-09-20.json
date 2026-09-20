@@ -1,0 +1,784 @@
+{
+  "generatedAt": "2026-09-20T12:14:23.694Z",
+  "date": "2026-09-20",
+  "stats": {
+    "total": 15,
+    "regles": 13,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 2,
+    "priorite1": 0,
+    "priorite2": 15,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-09-20",
+      "collected": 146,
+      "rejectedByDate": 117
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "3e45f79ceef4a971",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juillet 2026 modifiant l'arrêté du 25 janvier 2021 fixant les modalités d'organisation des concours du certificat d'aptitude au professorat d'éducation physique et sportive et l'arrêté du 17 avril 2025 fixant les modalités d'organisation du concours externe du certificat d'aptitude au professorat d'éducation physique et sportive",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/17/MENH2535275A/jo/texte",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Publics concernés : administrations, candidats aux concours du certificat d'aptitude au professorat d'éducation physique et sportive. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054861548",
+        "nor": "MENH2535275A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "Publics concernés : administrations, candidats aux concours du certificat d'aptitude au professorat d'éducation physique et sportive."
+      }
+    },
+    {
+      "id": "b260a3e155566556",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juillet 2026 modifiant l'arrêté du 25 janvier 2021 fixant les sections et modalités d'organisation des concours du certificat d'aptitude au professorat de lycée professionnel et l'arrêté du 17 avril 2025 fixant les sections et modalités d'organisation du concours externe du certificat d'aptitude au professorat de lycée professionnel",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/17/MENH2535279A/jo/texte",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Publics concernés : administrations, candidats aux concours du certificat d'aptitude au professorat de lycée professionnel. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054861595",
+        "nor": "MENH2535279A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "Publics concernés : administrations, candidats aux concours du certificat d'aptitude au professorat de lycée professionnel. Objet : l'arrêté, d'une part, supprime la référence aux anciennes épreuves du concours externe et du troisième concours des sections professionnelles dans l'arrêté d'organisation du 25 janvier 2021."
+      }
+    },
+    {
+      "id": "0385b2ecf3943c8d",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juillet 2026 modifiant l'arrêté du 25 janvier 2021 fixant les modalités d'organisation des concours du certificat d'aptitude au professorat de l'enseignement technique et l'arrêté du 17 avril 2025 fixant les modalités d'organisation du concours externe du certificat d'aptitude au professorat de l'enseignement technique",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/17/MENH2603720A/jo/texte",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Publics concernés : administrations, candidats aux concours du certificat d'aptitude au professorat de l'enseignement technique. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054861713",
+        "nor": "MENH2603720A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "Publics concernés : administrations, candidats aux concours du certificat d'aptitude au professorat de l'enseignement technique."
+      }
+    },
+    {
+      "id": "a326bd6fdc3b5ae7",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juillet 2026 modifiant l'arrêté du 17 avril 2025 fixant les modalités d'organisation du concours externe du certificat d'aptitude au professorat de l'enseignement du second degré et l'arrêté du 25 janvier 2021 fixant les modalités d'organisation des concours du certificat d'aptitude au professorat de l'enseignement du second degré",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/17/MENH2603722A/jo/texte",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Publics concernés : administrations, candidats aux concours du certificat d'aptitude au professorat de l'enseignement du second degré. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Temps de travail",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054861787",
+        "nor": "MENH2603722A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "Publics concernés : administrations, candidats aux concours du certificat d'aptitude au professorat de l'enseignement du second degré."
+      }
+    },
+    {
+      "id": "82d69c0b1fc7afdf",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 juillet 2026 modifiant l'arrêté du 28 décembre 2009 fixant les sections et les modalités d'organisation des concours de l'agrégation",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/29/MENH2614032A/jo/texte",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Publics concernés : administrations, candidats aux concours de recrutement des professeurs agrégés de l'enseignement du second degré. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054861876",
+        "nor": "MENH2614032A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "Publics concernés : administrations, candidats aux concours de recrutement des professeurs agrégés de l'enseignement du second degré. Objet : le présent arrêté modifie l'arrêté du 28 décembre 2009 fixant les sections et les modalités d'organisation des concours de l'agrégation. Il modifie la présentation de l'arrêté en l'organisant en chapitres."
+      }
+    },
+    {
+      "id": "97739c50689ce72f",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 29 juin 2026 portant nomination au conseil d'administration de l'établissement public chargé de la formation professionnelle des adultes",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054862216",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Arrêté du 29 juin 2026 portant nomination au conseil d'administration de l'établissement public chargé de la formation professionnelle des adultes. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : adapter les procédures de recrutement, les pièces demandées et le suivi des contrats d'apprentissage.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Formation"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 11,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054862216",
+        "nor": "TRSD2616164A",
+        "nature": "ARRETE",
+        "textDate": "2026-06-29",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 29 juin 2026 portant nomination au conseil d'administration de l'établissement public chargé de la formation professionnelle des adultes. Texte publié au Journal officiel le 2026-09-20."
+      }
+    },
+    {
+      "id": "cf09114a999e328c",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de directeur de projet",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054862346",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de directeur de projet. Applicable ou à intégrer à partir du 20 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-20",
+        "label": "Publié le 20 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 13,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054862346",
+        "nor": "PRMG2624901V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de directeur de projet. Texte publié au Journal officiel le 2026-09-20."
+      }
+    },
+    {
+      "id": "347dad58ab37e806",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de délégué régional académique à la jeunesse, à l'engagement et aux sports (DRAJES)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054862362",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de délégué régional académique à la jeunesse, à l'engagement et aux sports (DRAJES). Applicable ou à intégrer à partir du 20 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-20",
+        "label": "Publié le 20 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Dialogue social",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 14,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054862362",
+        "nor": "PRMG2624919V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de délégué régional académique à la jeunesse, à l'engagement et aux sports (DRAJES). Texte publié au Journal officiel le 2026-09-20."
+      }
+    },
+    {
+      "id": "ad9e985b5260b53b",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 24 août 2026 relatif à la Nomenclature d'activités française du secteur des métiers et de l'artisanat",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/24/PMEI2610162A/jo/texte",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Entreprises artisanales. Chambres de métiers et de l'artisanat de région. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rupture du contrat ou licenciement. Contexte complémentaire : emploi, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rupture du contrat ou licenciement.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054861518",
+        "nor": "PMEI2610162A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-24",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "Publics concernés : artisans. Entreprises artisanales. Chambres de métiers et de l'artisanat de région. Chambres de métiers et de l'artisanat de niveau départemental. Guichet unique électronique des formalités d'entreprises. Registre national des entreprises."
+      }
+    },
+    {
+      "id": "3b6b95a839871cc4",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 juillet 2026 modifiant l'arrêté du 25 janvier 2021 fixant les modalités d'organisation des concours du certificat d'aptitude aux fonctions de conseiller principal d'éducation et l'arrêté du 17 avril 2025 fixant les modalités d'organisation du concours externe du certificat d'aptitude aux fonctions de conseiller principal d'éducation",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/7/17/MENH2603717A/jo/texte",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : le présent arrêté poursuit deux finalités distinctes. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : santé au travail, accident, harcèlement ou discrimination. Contexte complémentaire : fonction publique ou agent public, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054861667",
+        "nor": "MENH2603717A",
+        "nature": "ARRETE",
+        "textDate": "2026-07-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "Publics concernés : administrations, candidats aux concours de recrutement dans le corps de conseiller principal d'éducation. Objet : le présent arrêté poursuit deux finalités distinctes."
+      }
+    },
+    {
+      "id": "3f6aa31a68f50527",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 20 août 2026 modifiant l'arrêté du 25 janvier 2021 fixant les modalités d'organisation du concours externe, des concours externes spéciaux, du second concours interne, du second concours interne spécial et du troisième concours de recrutement de professeurs des écoles et l'arrêté du 17 avril 2025 fixant les modalités d'organisation du concours externe et des concours externes spéciaux de recrutement de professeurs des écoles",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/8/20/MENH2535277A/jo/texte",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : le présent arrêté poursuit deux finalités distinctes. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : santé au travail, accident, harcèlement ou discrimination. Contexte complémentaire : fonction publique ou agent public.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : santé au travail, accident, harcèlement ou discrimination.",
+          "Contexte complémentaire : fonction publique ou agent public."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054861950",
+        "nor": "MENH2535277A",
+        "nature": "ARRETE",
+        "textDate": "2026-08-20",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "Publics concernés : administrations, candidats aux concours de recrutement de professeurs des écoles. Objet : le présent arrêté poursuit deux finalités distinctes."
+      }
+    },
+    {
+      "id": "c5cc867266a201ae",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance pour le recrutement de six à huit inspectrices ou inspecteurs des finances (groupes II et III)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054862392",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Avis de vacance pour le recrutement de six à huit inspectrices ou inspecteurs des finances (groupes II et III). Applicable ou à intégrer à partir du 20 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-20",
+        "label": "Publié le 20 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 55,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054862392",
+        "nor": "ECON2624742V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance pour le recrutement de six à huit inspectrices ou inspecteurs des finances (groupes II et III). Texte publié au Journal officiel le 2026-09-20."
+      }
+    },
+    {
+      "id": "5640de8471c039a4",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 septembre 2026 relatif aux modalités de désignation de représentants des coopératives maritimes de conchyliculteurs volontaires comme membres comités régionaux de la conchyliculture",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/16/TECM2623388A/jo/texte",
+      "publishedAt": "2026-09-20",
+      "summary": "Changement apporté : Arrêté du 16 septembre 2026 relatif aux modalités de désignation de représentants des coopératives maritimes de conchyliculteurs volontaires comme membres comités régionaux de la conchyliculture. Applicable ou à intégrer à partir du 21 septembre 2026. Impact pratique : vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-09-21",
+        "label": "Par défaut, applicable le 21 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054861465",
+        "nor": "TECM2623388A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260920-002436.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 septembre 2026 relatif aux modalités de désignation de représentants des coopératives maritimes de conchyliculteurs volontaires comme membres comités régionaux de la conchyliculture. Texte publié au Journal officiel le 2026-09-20."
+      }
+    },
+    {
+      "id": "8f57721647fc0da7",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "Le Parisien - politique",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Le pape, les salaires et le chien de Brad Pitt… Nos indiscrétions de la semaine",
+      "url": "https://www.leparisien.fr/politique/le-pape-les-salaires-et-le-chien-de-brad-pitt-nos-indiscretions-de-la-semaine-20-09-2026-OMZMTDFMCZBBPND4ZR2FNRJHTM.php",
+      "publishedAt": "2026-09-20",
+      "summary": "Signal de veille : Le Parisien - politique signale : Repéré dans Le Parisien - politique. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-20",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Parisien - politique. Le pape, les salaires et le chien de Brad Pitt… Nos indiscrétions de la semaine"
+      }
+    },
+    {
+      "id": "f1a65fe3386a5777",
+      "date": "2026-09-20",
+      "firstSeenDate": "2026-09-20",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Prix des carburants : des aides massives seraient une «facilité» que les Français paieraient cher, prévient le gouvernement",
+      "url": "https://www.lefigaro.fr/conjoncture/prix-des-carburants-des-aides-massives-seraient-une-facilite-que-les-francais-paieraient-cher-previent-le-gouvernement-20260920",
+      "publishedAt": "2026-09-20",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Alors que l’exécutif doit présenter dans les prochains jours de nouvelles aides, le ministre des Comptes publics a de nouveau fermé la porte à une baisse des prix subventionnée par l’État. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les seuils de paie, les minima et les éventuelles régularisations.",
+      "application": {
+        "date": "2026-09-20",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Alors que l’exécutif doit présenter dans les prochains jours de nouvelles aides, le ministre des Comptes publics a de nouveau fermé la porte à une baisse des prix subventionnée par l’État."
+      }
+    }
+  ]
+}
