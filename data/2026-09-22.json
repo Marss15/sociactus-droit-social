@@ -1,0 +1,856 @@
+{
+  "generatedAt": "2026-09-22T12:32:21.851Z",
+  "date": "2026-09-22",
+  "stats": {
+    "total": 17,
+    "regles": 12,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 5,
+    "priorite1": 0,
+    "priorite2": 17,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/actualites-feeds.xml"
+    },
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Service-Public - particuliers",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss"
+    },
+    {
+      "name": "Service-Public - professionnels",
+      "status": "flux RSS ouvert",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss"
+    },
+    {
+      "name": "Conseil d'État - actualités",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss"
+    },
+    {
+      "name": "Conseil d'État - avis",
+      "status": "flux RSS ouvert",
+      "url": "https://www.conseil-etat.fr/outils/flux-rss/avis-rss"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Parisien - politique",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/politique"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "DILA CASS",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/"
+    },
+    {
+      "name": "Les Échos",
+      "status": "non intégré : les flux RSS testés répondent 403",
+      "url": "https://www.lesechos.fr/"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-09-22",
+      "collected": 136,
+      "rejectedByDate": 110
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "c3f7bc46cd0c49c2",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 17 septembre 2026 portant modification de l'arrêté du 10 avril 2026 modifié fixant la liste des groupes biologiques similaires substituables par le pharmacien d'officine et les conditions de substitution et d'information du prescripteur et du patient telles que prévues au 2° de l'article L. 5125-23-2 du code de la santé publique",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/17/SFHS2624801A/jo/texte",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Arrêté du 17 septembre 2026 portant modification de l'arrêté du 10 avril 2026 modifié fixant la liste des groupes biologiques similaires substituables par le pharmacien d'officine et les conditions de substitution et d'information du prescripteur et du. Applicable ou à intégrer à partir du 23 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-23",
+        "label": "Par défaut, applicable le 23 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Formation",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877278",
+        "nor": "SFHS2624801A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-17",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 17 septembre 2026 portant modification de l'arrêté du 10 avril 2026 modifié fixant la liste des groupes biologiques similaires substituables par le pharmacien d'officine et les conditions de substitution et d'information du prescripteur et du patient telles que prévues au 2° de l'article L. 5125-23-2 du code de la santé publique."
+      }
+    },
+    {
+      "id": "b3b8d855b82a8493",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 18 septembre 2026 portant délégation de signature (direction générale de la recherche, de l'innovation et du numérique en santé)",
+      "url": "https://www.legifrance.gouv.fr/eli/arrete/2026/9/18/SFHL2624948A/jo/texte",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Arrêté du 18 septembre 2026 portant délégation de signature (direction générale de la recherche, de l'innovation et du numérique en santé). Applicable ou à intégrer à partir du 23 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-23",
+        "label": "Par défaut, applicable le 23 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877291",
+        "nor": "SFHL2624948A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-18",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 18 septembre 2026 portant délégation de signature (direction générale de la recherche, de l'innovation et du numérique en santé). Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "abab1886cf094a9d",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Commissions et organes de contrôle",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877487",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Commissions et organes de contrôle. Applicable ou à intégrer à partir du 22 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Publié le 22 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Dialogue social",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877487",
+        "nor": "INPA2625092X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Commissions et organes de contrôle. Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "6498f0d661029378",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de directeur régional adjoint de l'économie, de l'emploi, du travail et des solidarités des Pays de la Loire, chargé des fonctions de responsable du pôle « concurrence, consommation, répression des fraudes et métrologie »",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877502",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de directeur régional adjoint de l'économie, de l'emploi, du travail et des solidarités des Pays de la Loire, chargé des fonctions de responsable du pôle « concurrence, consommation, répression des fraudes et métrologie ». Applicable ou à intégrer à partir du 22 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Publié le 22 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877502",
+        "nor": "TRSZ2624069V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de directeur régional adjoint de l'économie, de l'emploi, du travail et des solidarités des Pays de la Loire, chargé des fonctions de responsable du pôle « concurrence, consommation, répression des fraudes et métrologie ». Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "2afaad30c91b2cb4",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de directeur adjoint de l'économie, de l'emploi, du travail et des solidarités de Guadeloupe, chargé des fonctions de responsable du pôle « entreprise, emploi, compétences »",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877511",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de directeur adjoint de l'économie, de l'emploi, du travail et des solidarités de Guadeloupe, chargé des fonctions de responsable du pôle « entreprise, emploi, compétences ». Applicable ou à intégrer à partir du 22 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Publié le 22 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877511",
+        "nor": "TRSZ2624137V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de directeur adjoint de l'économie, de l'emploi, du travail et des solidarités de Guadeloupe, chargé des fonctions de responsable du pôle « entreprise, emploi, compétences ». Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "5a729a25a8c0a942",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de directeur régional adjoint de l'économie, de l'emploi, du travail et des solidarités des Pays de la Loire, chargé des fonctions de responsable du pôle « concurrence, consommation, répression des fraudes et métrologie »",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877522",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de directeur régional adjoint de l'économie, de l'emploi, du travail et des solidarités des Pays de la Loire, chargé des fonctions de responsable du pôle « concurrence, consommation, répression des fraudes et métrologie ». Applicable ou à intégrer à partir du 22 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Publié le 22 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877522",
+        "nor": "ECOH2624114V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de directeur régional adjoint de l'économie, de l'emploi, du travail et des solidarités des Pays de la Loire, chargé des fonctions de responsable du pôle « concurrence, consommation, répression des fraudes et métrologie ». Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "9320d93daadf7dae",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de directeur adjoint de l'économie, de l'emploi, du travail et des solidarités de Guadeloupe, chargé des fonctions de responsable du pôle « entreprise, emploi, compétences »",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877531",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de directeur adjoint de l'économie, de l'emploi, du travail et des solidarités de Guadeloupe, chargé des fonctions de responsable du pôle « entreprise, emploi, compétences ». Applicable ou à intégrer à partir du 22 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Publié le 22 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Paie",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 58,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877531",
+        "nor": "ECOH2624138V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de directeur adjoint de l'économie, de l'emploi, du travail et des solidarités de Guadeloupe, chargé des fonctions de responsable du pôle « entreprise, emploi, compétences ». Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "39aeeec07e5d8560",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Avis de vacance d'un emploi de sous-directeur (administration centrale)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877542",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Avis de vacance d'un emploi de sous-directeur (administration centrale). Applicable ou à intégrer à partir du 22 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Publié le 22 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie",
+        "Emploi"
+      ],
+      "impact": "medium",
+      "priority": 56,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum. Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 6,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : emploi, fonction publique ou agent public, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877542",
+        "nor": "TRAK2623787V",
+        "nature": "AVIS",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "AVIS. Avis de vacance d'un emploi de sous-directeur (administration centrale). Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "d36d4d0578ca7c1b",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 septembre 2026 portant dissolution d'une société civile professionnelle et nomination d'une société d'exercice libéral à responsabilité limitée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877409",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Arrêté du 16 septembre 2026 portant dissolution d'une société civile professionnelle et nomination d'une société d'exercice libéral à responsabilité limitée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 23 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-23",
+        "label": "Par défaut, applicable le 23 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail). Contexte complémentaire : contexte professionnel général.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877409",
+        "nor": "JUSC2624575A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 septembre 2026 portant dissolution d'une société civile professionnelle et nomination d'une société d'exercice libéral à responsabilité limitée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "b492d9b822fde808",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Documents publiés",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877492",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : INFORMATIONS_PARLEMENTAIRES. Documents publiés. Applicable ou à intégrer à partir du 22 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Publié le 22 septembre 2026. Applicabilité à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "medium",
+      "priority": 54,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877492",
+        "nor": "INPS2625084X",
+        "nature": "INFORMATIONS_PARLEMENTAIRES",
+        "textDate": "2999-01-01",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "INFORMATIONS_PARLEMENTAIRES. Documents publiés. Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "7f2050e5106146cd",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 15 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877399",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Arrêté du 15 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 23 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-23",
+        "label": "Par défaut, applicable le 23 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877399",
+        "nor": "JUSC2624438A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-15",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 15 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "23102dc5716ee16a",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Arrêté du 16 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054877432",
+      "publishedAt": "2026-09-22",
+      "summary": "Changement apporté : Arrêté du 16 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Applicable ou à intégrer à partir du 23 septembre 2026. Impact pratique : identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-23",
+        "label": "Par défaut, applicable le 23 septembre 2026 sauf disposition contraire du texte.",
+        "basis": "Règle générale d'entrée en vigueur après publication."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "medium",
+      "priority": 53,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Information juridique à lire après les urgences P1. Preuve juridique : Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054877432",
+        "nor": "JUSC2624582A",
+        "nature": "ARRETE",
+        "textDate": "2026-09-16",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20260922-002206.tar.gz",
+        "sourceSummary": "ARRETE. Arrêté du 16 septembre 2026 portant nomination d'une notaire salariée (officiers publics ou ministériels). Texte publié au Journal officiel le 2026-09-22."
+      }
+    },
+    {
+      "id": "8f3f0ed380c1ad55",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "«L’entreprise n’entend pas» : la CGT appelle les salariés de la RATP à la grève illimitée à partir du 28 septembre",
+      "url": "https://www.lefigaro.fr/societes/l-entreprise-n-entend-pas-la-cgt-appelle-les-salaries-de-la-ratp-a-la-greve-illimitee-a-partir-du-28-septembre-20260922",
+      "publishedAt": "2026-09-22",
+      "summary": "Signal de veille : Le Figaro - économie signale : Repéré dans Le Figaro - économie. Alimentation, énergie, transports… L’inflation qui touche le portefeuille des salariés «ne [peut] être considérée comme simplement “conjoncturelle” ou temporaire», argumente le syndicat dans un courrier à la direction. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 23,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 7,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Figaro - économie. Alimentation, énergie, transports… L’inflation qui touche le portefeuille des salariés «ne [peut] être considérée comme simplement “conjoncturelle” ou temporaire», argumente le syndicat dans un courrier à la direction,..."
+      }
+    },
+    {
+      "id": "5742314437375803",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Le salaire redevient la principale priorité des cadres face à une charge de travail en augmentation",
+      "url": "https://www.lemonde.fr/vie-au-travail/article/2026/09/22/face-a-une-charge-de-travail-en-augmentation-le-salaire-redevient-la-principale-priorite-des-cadres_6779786_6768900.html",
+      "publishedAt": "2026-09-22",
+      "summary": "Signal de veille : Le Monde - économie signale : Repéré dans Le Monde - économie. Le critère salarial a rattrapé l’équilibre entre vie privée et vie professionnelle, loin devant le contenu et le sens du travail chez les cadres, explique dans sa chronique Jules Thomas, journaliste au service Economie. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 21,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 5,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Contexte complémentaire : contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans Le Monde - économie. Le critère salarial a rattrapé l’équilibre entre vie privée et vie professionnelle, loin devant le contenu et le sens du travail chez les cadres, explique dans sa chronique Jules Thomas, journaliste au service Economie..."
+      }
+    },
+    {
+      "id": "a497bd30c22e3322",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Plan de relance de l'agriculture : la Coordination rurale \"craint une vague de cessation d'activités et de suicides importante\" après les canicules et la sécheresse",
+      "url": "https://www.franceinfo.fr/economie/emploi/metiers/agriculture/plan-de-relance-de-l-agriculture-la-coordination-rurale-craint-une-vague-de-cessation-d-activites-et-de-suicides-importante-apres-les-canicules-et-la-secheresse_8203157.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-09-22",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Les représentants de la Coordination rurale, le deuxième syndicat agricole français, sont reçus mardi à Matignon par le Premier ministre Sébastien Lecornu pour préparer un plan de relance de l'agriculture dans le. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques vérifier les protections, autorisations et règles de représentation du personnel.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Les représentants de la Coordination rurale, le deuxième syndicat agricole français, sont reçus mardi à Matignon par le Premier ministre Sébastien Lecornu pour préparer un plan de relance de l'agriculture dans le..."
+      }
+    },
+    {
+      "id": "93b28a14f036ab81",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Quand les logiciels surveillent, évaluent et sanctionnent les salariés au travail",
+      "url": "https://www.franceinfo.fr/replay-radio/le-monde-et-vous/quand-les-logiciels-surveillent-evaluent-et-sanctionnent-les-salaries-au-travail_8191931.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-09-22",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Une enquête de l’OCDE menée dans six pays révèle l’ampleur du \"management algorithmique\". Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 19,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Une enquête de l’OCDE menée dans six pays révèle l’ampleur du \"management algorithmique\". Ces outils sont également très présents en France, mais les entreprises européennes leur confient beaucoup moins souvent les..."
+      }
+    },
+    {
+      "id": "456e01ff1effa3fe",
+      "date": "2026-09-22",
+      "firstSeenDate": "2026-09-22",
+      "sourceName": "franceinfo - emploi",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "VIDEO. Le président du Medef Patrick Martin demande un non-remboursement des arrêts-maladie de courte durée pour créer \"un effet comportemental\"",
+      "url": "https://www.franceinfo.fr/politique/je-crains-qu-il-faille-des-arrets-maladie-dits-d-ordre-public-qui-ne-soient-plus-rembourses-estime-patrick-martin-president-du-medef_8204216.html#xtor=RSS-3-%5Bgeneral%5D",
+      "publishedAt": "2026-09-22",
+      "summary": "Signal de veille : franceinfo - emploi signale : Repéré dans franceinfo - emploi. Interrogé dans les \"4 Vérités\" sur la politique à adopter en matière d'arrêts maladie pour dégager des économies, il a dit souhaiter que certains arrêts des salariés ne soient plus remboursés \"ni par le régime de base. Impact pratique : recouper avec une source officielle avant d'adapter les pratiques identifier le périmètre concerné, les actions RH à mener et les documents à mettre à jour.",
+      "application": {
+        "date": "2026-09-22",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Droit social"
+      ],
+      "impact": "low",
+      "priority": 19,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : relation de travail (salarié, employeur ou contrat de travail).",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : relation de travail (salarié, employeur ou contrat de travail)."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Repéré dans franceinfo - emploi. Interrogé dans les \"4 Vérités\" sur la politique à adopter en matière d'arrêts maladie pour dégager des économies, il a dit souhaiter que certains arrêts des salariés ne soient plus remboursés \"ni par le régime de base,..."
+      }
+    }
+  ]
+}
