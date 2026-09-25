@@ -211,20 +211,12 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
-    "name-08c6659efb55": {
+    "name-3f197b2fe1bd": {
       "label": "Convention collective",
       "idcc": null,
       "rank": "p3",
-      "firstSeen": "2026-09-24",
-      "lastSeen": "2026-09-24",
-      "seenCount": 1
-    },
-    "name-0e08067983ef": {
-      "label": "Convention collective",
-      "idcc": null,
-      "rank": "p3",
-      "firstSeen": "2026-09-24",
-      "lastSeen": "2026-09-24",
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-09-25",
       "seenCount": 1
     },
     "name-42638c9432f9": {
@@ -233,6 +225,14 @@
       "rank": "p1",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-49360d905305": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-09-25",
       "seenCount": 1
     },
     "name-8fb5e0614f6f": {
@@ -251,12 +251,28 @@
       "lastSeen": "2026-05-29",
       "seenCount": 1
     },
+    "name-98fb455b276d": {
+      "label": "détaillants, détaillants-fabricants et artisans de la confiserie, chocolaterie, biscuiterie",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-09-25",
+      "seenCount": 1
+    },
     "name-a9186b09254c": {
       "label": "des industries électriques et gazières 2026-2030 JORFARTI000054149541 2999-01-01 2999-01-01 En application des articles L",
       "idcc": "",
       "rank": "p3",
       "firstSeen": "2026-05-29",
       "lastSeen": "2026-05-29",
+      "seenCount": 1
+    },
+    "name-b50c14c400d0": {
+      "label": "Convention collective",
+      "idcc": null,
+      "rank": "p3",
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-09-25",
       "seenCount": 1
     },
     "name-cf9a5fa602f5": {
