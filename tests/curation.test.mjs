@@ -1,21 +1,26 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { dedupe, parseCass, parseJorf, parseRss } from "../scripts/curate.mjs";
+import { dateFromArticleUrl, dedupe, parseCass, parseJorf, parseRss } from "../scripts/curate.mjs";
 
 const curatePath = new URL("../scripts/curate.mjs", import.meta.url);
+
+test("uses an article URL date when a feed republishes an older story", () => {
+  assert.equal(dateFromArticleUrl("https://example.test/sujet-24-09-2026-abc.php"), "2026-09-24");
+  assert.equal(dateFromArticleUrl("https://example.test/sujet-99-99-2026.php"), null);
+});
 
 test("curation module exposes an import-safe boundary for fixture tests", async () => {
   const source = await readFile(curatePath, "utf8");
   assert.match(source, /isMainModule/);
 });
 
-test("applies legal relevance at the RSS boundary and attaches explainable metadata", () => {
+test("retains only an identifiable social-law draft from the laws feed", () => {
   const xml = `
     <rss><channel>
       <item>
-        <title>SMIC : le salaire minimum est revalorisé</title>
-        <description><![CDATA[Le salaire minimum interprofessionnel évolue.]]></description>
+        <title>Projet de loi sur la transparence des rémunérations</title>
+        <description><![CDATA[Le texte prévoit des obligations pour les employeurs.]]></description>
         <link>https://example.test/smic</link>
         <pubDate>2026-08-11</pubDate>
       </item>
@@ -28,13 +33,14 @@ test("applies legal relevance at the RSS boundary and attaches explainable metad
     </channel></rss>`;
 
   const entries = parseRss(xml, {
-    name: "Service-Public - professionnels",
-    kind: "rss",
-    defaultCategory: "actualite",
+    name: "Vie-publique - lois",
+    kind: "draft",
+    defaultCategory: "projet-loi",
   });
 
   assert.equal(entries.length, 1);
-  assert.equal(entries[0].title, "SMIC : le salaire minimum est revalorisé");
+  assert.equal(entries[0].title, "Projet de loi sur la transparence des rémunérations");
+  assert.equal(entries[0].category, "projet-loi");
   assert.equal(entries[0].legalRelevance.included, true);
   assert.equal(entries[0].legalRelevance.version, "legal-relevance-v2");
   assert.match(entries[0].priorityReason, /Preuve juridique/i);

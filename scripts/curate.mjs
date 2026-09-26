@@ -5,6 +5,7 @@ import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gunzipSync } from "node:zlib";
 import { classifyLegalRelevance } from "../lib/legal-relevance.mjs";
+import { editorialCategory } from "../lib/editorial-scope.mjs";
 
 const ROOT = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const DATA_DIR = join(ROOT, "data");
@@ -21,40 +22,11 @@ let conventionPriorityMemory = null;
 
 const rssSources = [
   {
-    name: "Vie-publique - actualités",
-    status: "flux RSS ouvert",
-    url: "https://www.vie-publique.fr/actualites-feeds.xml",
-    defaultCategory: "actualite",
-  },
-  {
     name: "Vie-publique - lois",
     status: "flux RSS ouvert",
     url: "https://www.vie-publique.fr/lois-feeds.xml",
     defaultCategory: "projet-loi",
-  },
-  {
-    name: "Service-Public - particuliers",
-    status: "flux RSS ouvert",
-    url: "https://www.service-public.fr/abonnements/rss/actu-actualites-particuliers.rss",
-    defaultCategory: "actualite",
-  },
-  {
-    name: "Service-Public - professionnels",
-    status: "flux RSS ouvert",
-    url: "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss",
-    defaultCategory: "actualite",
-  },
-  {
-    name: "Conseil d'État - actualités",
-    status: "flux RSS ouvert",
-    url: "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss",
-    defaultCategory: "jurisprudence",
-  },
-  {
-    name: "Conseil d'État - avis",
-    status: "flux RSS ouvert",
-    url: "https://www.conseil-etat.fr/outils/flux-rss/avis-rss",
-    defaultCategory: "projet-loi",
+    kind: "draft",
   },
   {
     name: "Le Monde - économie",
@@ -67,13 +39,6 @@ const rssSources = [
     name: "Le Parisien - économie",
     status: "flux RSS presse",
     url: "https://feeds.leparisien.fr/leparisien/rss/economie",
-    defaultCategory: "presse",
-    kind: "press",
-  },
-  {
-    name: "Le Parisien - politique",
-    status: "flux RSS presse",
-    url: "https://feeds.leparisien.fr/leparisien/rss/politique",
     defaultCategory: "presse",
     kind: "press",
   },
@@ -108,26 +73,13 @@ const archiveSources = [
     indexUrl: "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/",
     filePattern: /JORFSIMPLE_\d{8}-\d{6}\.tar\.gz/g,
   },
-  {
-    kind: "cass",
-    name: "DILA CASS",
-    status: "archive ouverte sans clé",
-    indexUrl: "https://echanges.dila.gouv.fr/OPENDATA/CASS/",
-    filePattern: /CASS_\d{8}-\d{6}\.tar\.gz/g,
-  },
 ];
 
 const sourceRegister = [...rssSources, ...archiveSources].map(({ name, status, url, indexUrl }) => ({
   name,
   status,
   url: url || indexUrl,
-})).concat([
-  {
-    name: "Les Échos",
-    status: "non intégré : les flux RSS testés répondent 403",
-    url: "https://www.lesechos.fr/",
-  },
-]);
+}));
 
 const themeRules = [
   ["Contrat", /contrat|licenciement|rupture|cdd|cdi|periode d'essai/i],
@@ -231,6 +183,15 @@ function isTodayEntry(entry) {
   return entry.category === "regle" && dateOnly(entry.application?.date) === runDate;
 }
 
+function dateFromArticleUrl(url) {
+  const match = String(url).match(/(?:^|[/-])(\d{2})-(\d{2})-(20\d{2})(?=[/-]|\.|$)/);
+  if (!match) return null;
+  const [, day, month, year] = match;
+  const iso = `${year}-${month}-${day}`;
+  const parsed = new Date(`${iso}T12:00:00Z`);
+  return !Number.isNaN(parsed.getTime()) && parsed.toISOString().slice(0, 10) === iso ? iso : null;
+}
+
 async function fetchText(url) {
   const response = await fetchWithTimeout(url);
   return response.text();
@@ -270,13 +231,16 @@ function parseRss(xml, source) {
       const publishedAt = normalizeDate(
         cleanText(tag(item, "pubDate") || tag(item, "dc:date") || tag(item, "updated"))
       );
+      const urlDate = source.kind === "press" ? dateFromArticleUrl(url) : null;
+      const effectivePublishedAt = urlDate || publishedAt;
       const corpus = `${title} ${description}`;
-      const category = source.kind === "press" ? "presse" : classifyCategory(corpus, source.defaultCategory);
       const sourceType = source.kind === "press" ? "press-rss" : "rss";
+      const focusedCategory = editorialCategory({ title, sourceEvidence: description, sourceKind: source.kind, sourceType, sourceName: source.name, url });
+      if (!focusedCategory || !effectivePublishedAt || !url) return null;
       const legalRelevance = classifyLegalRelevance({
         title,
         text: corpus,
-        category,
+        category: focusedCategory,
         sourceType,
         sourceKind: source.kind || "rss",
         sourceName: source.name,
@@ -284,21 +248,18 @@ function parseRss(xml, source) {
       if (!legalRelevance.included) {
         return null;
       }
-      const summary =
-        source.kind === "press"
-          ? pressSummary(source.name, description || title)
-          : summarize(description || title, 310);
+      const summary = summarize(description || title, 310);
       return makeEntry({
         sourceName: source.name,
         sourceType,
-        category,
+        category: focusedCategory,
         title,
         url,
-        publishedAt,
+        publishedAt: effectivePublishedAt,
         summary,
         text: corpus,
-        impact: impactFor(category, corpus),
-        application: applicationFor(category, description, publishedAt),
+        impact: impactFor(focusedCategory, corpus),
+        application: applicationFor(focusedCategory, description, effectivePublishedAt),
         legalRelevance,
       });
     })
@@ -335,7 +296,7 @@ function parseJorf(file, source, archiveUrl) {
   const id = cleanText(tag(file.xml, "ID"));
   const title = cleanText(tag(file.xml, "TITREFULL") || tag(file.xml, "TITRE"));
   const nature = cleanText(tag(file.xml, "NATURE"));
-  const publicationDate = cleanText(tag(file.xml, "DATE_PUBLI")) || runDate;
+  const publicationDate = cleanText(tag(file.xml, "DATE_PUBLI"));
   const textDate = cleanText(tag(file.xml, "DATE_TEXTE"));
   const nor = cleanText(tag(file.xml, "NOR"));
   const eli = cleanText(tag(file.xml, "ID_ELI"));
@@ -346,6 +307,8 @@ function parseJorf(file, source, archiveUrl) {
       .join(" ")
   );
   const corpus = `${nature} ${title} ${notice} ${body}`;
+  const officialUrl = id ? `https://www.legifrance.gouv.fr/jorf/id/${id}` : "";
+  if (!publicationDate || !editorialCategory({ title, sourceEvidence: notice, sourceKind: "jorf", nature, url: officialUrl })) return null;
   const legalRelevance = classifyLegalRelevance({
     title,
     text: corpus,
@@ -371,7 +334,7 @@ function parseJorf(file, source, archiveUrl) {
     sourceType: "archive",
     category: "regle",
     title,
-    url: eli || `https://www.legifrance.gouv.fr/jorf/id/${id}`,
+    url: officialUrl,
     publishedAt: publicationDate,
     summary,
     text: corpus,
@@ -482,16 +445,6 @@ function makeEntry({
   });
   const sourceSummary = summary || "Synthèse indisponible. Lire la source officielle.";
   const resolvedApplication = application || applicationFor(category, entryText, publishedAt);
-  const impactSummary = impactSummaryFor({
-    category,
-    title: normalizedTitle,
-    sourceName,
-    sourceType,
-    sourceSummary,
-    text: entryText,
-    application: resolvedApplication,
-    impact,
-  });
   const nextExtra = {
     ...extra,
     ...(collectiveAgreement ? { collectiveAgreement } : {}),
@@ -507,7 +460,7 @@ function makeEntry({
     title: normalizedTitle,
     url: normalizedUrl,
     publishedAt: publishedAt || runDate,
-    summary: impactSummary,
+    summary: sourceSummary,
     application: resolvedApplication,
     watch: watchFor(category, impact),
     themes,
@@ -1363,6 +1316,7 @@ function hash(value) {
 }
 
 export {
+  dateFromArticleUrl,
   dedupe,
   isTodayEntry,
   makeEntry,
