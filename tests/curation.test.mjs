@@ -1,13 +1,21 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { dateFromArticleUrl, dedupe, isWithinOfficialNewsWindow, parseAtom, parseCass, parseJorf, parseOfficialNews, parseRss } from "../scripts/curate.mjs";
+import { dateFromArticleUrl, dedupe, isWithinOfficialNewsWindow, isWithinRecentSourceWindow, parseAtom, parseCass, parseJorf, parseOfficialNews, parseRss } from "../scripts/curate.mjs";
 
 const curatePath = new URL("../scripts/curate.mjs", import.meta.url);
 
 test("uses an article URL date when a feed republishes an older story", () => {
   assert.equal(dateFromArticleUrl("https://example.test/sujet-24-09-2026-abc.php"), "2026-09-24");
   assert.equal(dateFromArticleUrl("https://example.test/sujet-99-99-2026.php"), null);
+});
+
+test("catches a source published after the previous daily run only once", () => {
+  const press = { sourceType: "press-rss", publishedAt: "2026-09-27" };
+  assert.equal(isWithinRecentSourceWindow(press, "2026-09-28"), true);
+  assert.equal(isWithinRecentSourceWindow(press, "2026-09-29"), false);
+  assert.equal(isWithinRecentSourceWindow({ ...press, publishedAt: "2026-09-25" }, "2026-09-28"), false);
+  assert.equal(isWithinRecentSourceWindow({ ...press, sourceType: "official-news" }, "2026-09-28"), false);
 });
 
 test("selects dated legal developments from the specialist employment-law Atom feed", () => {

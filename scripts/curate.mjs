@@ -208,7 +208,16 @@ function isTodayEntry(entry) {
   if (entry.sourceType === "official-news") {
     return isWithinOfficialNewsWindow(entry, runDate);
   }
+  if (isWithinRecentSourceWindow(entry, runDate)) {
+    return true;
+  }
   return entry.category === "regle" && dateOnly(entry.application?.date) === runDate;
+}
+
+function isWithinRecentSourceWindow(entry, date) {
+  if (entry.sourceType === "official-news") return false;
+  const published = dateOnly(entry.publishedAt);
+  return published === addDays(date, -1);
 }
 
 function isWithinOfficialNewsWindow(entry, date) {
@@ -1415,6 +1424,7 @@ export {
   dedupe,
   isTodayEntry,
   isWithinOfficialNewsWindow,
+  isWithinRecentSourceWindow,
   makeEntry,
   parseCass,
   parseAtom,

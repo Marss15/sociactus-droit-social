@@ -20,6 +20,8 @@ Le filtre exige un sujet de droit du travail explicite dans le titre. Une mentio
 
 Une annonce officielle découverte avec retard peut être intégrée pendant les sept jours suivant sa publication. La carte conserve sa date source et précise lorsque le texte réglementaire formel n'est pas publié ; l'entrée n'est pas présentée comme une loi ou un décret en vigueur.
 
+La curation rattrape aussi les publications de la veille sur les autres sources : un article sorti après l'édition du matin est présenté une seule fois le lendemain, avec sa vraie date de publication et sa date de repérage. Les identifiants déjà vus dans les éditions précédentes sont exclus.
+
 Chaque carte indique le stade du texte selon la source : publication au Journal officiel, projet ou proposition, annonce officielle, ou presse. Pour un texte publié, une date d'effet n'est affichée que si elle est explicitement repérée dans la notice ; elle doit être vérifiée dans les dispositions du texte. Aucune entrée en vigueur n'est déduite automatiquement du seul jour de publication. Une actualité sans date source exploitable est écartée.
 
 ## Utilisation
