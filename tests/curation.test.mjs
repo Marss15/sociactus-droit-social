@@ -1,13 +1,36 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { dateFromArticleUrl, dedupe, parseCass, parseJorf, parseRss } from "../scripts/curate.mjs";
+import { dateFromArticleUrl, dedupe, isWithinOfficialNewsWindow, parseCass, parseJorf, parseOfficialNews, parseRss } from "../scripts/curate.mjs";
 
 const curatePath = new URL("../scripts/curate.mjs", import.meta.url);
 
 test("uses an article URL date when a feed republishes an older story", () => {
   assert.equal(dateFromArticleUrl("https://example.test/sujet-24-09-2026-abc.php"), "2026-09-24");
   assert.equal(dateFromArticleUrl("https://example.test/sujet-99-99-2026.php"), null);
+});
+
+test("captures a dated official employment-law announcement without presenting it as published law", () => {
+  const html = `
+    <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
+      <p class="fr-text--lg fr-mb-1v">23 septembre 2026</p>
+      <h2 class="fr-mb-0">Prime carburant : jusqu’à 1 000 € exonérés en 2026 !</h2>
+      <p class="fr-mt-2w">Le plafond d'exonération de la prime carburant des salariés passe à 1 000 €.</p>
+      <p class="fr-mt-2w">L'employeur peut aider les salariés pour leurs trajets domicile-travail.</p>
+      <p class="fr-mt-2w">Les textes réglementaires destinés à modifier le régime social de la prime carburant ne sont pas encore publiés.</p>
+      <a href="/actualite/prime-carburant-1000" title="Lire l&#x27;actualité">Lire l&#x27;actualité</a></div></div>
+    <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
+      <p class="fr-text--lg fr-mb-1v">23 septembre 2026</p>
+      <h2 class="fr-mb-0">Aides au carburant pour les taxis</h2>
+      <a href="/actualite/taxis" title="Lire l&#x27;actualité">Lire l&#x27;actualité</a></div></div>`;
+  const entries = parseOfficialNews(html, { kind: "official-news", name: "Code du travail numérique - actualités", url: "https://code.travail.gouv.fr/actualite" });
+  assert.equal(entries.length, 1);
+  assert.equal(entries[0].publishedAt, "2026-09-23");
+  assert.equal(entries[0].category, "projet-loi");
+  assert.equal(entries[0].extra.status, "announced");
+  assert.match(entries[0].extra.legalStatus, /non publiés/);
+  assert.equal(isWithinOfficialNewsWindow(entries[0], "2026-09-28"), true);
+  assert.equal(isWithinOfficialNewsWindow(entries[0], "2026-10-02"), false);
 });
 
 test("curation module exposes an import-safe boundary for fixture tests", async () => {

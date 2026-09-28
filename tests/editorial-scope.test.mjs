@@ -22,6 +22,12 @@ test("drafts are not confused with already enacted laws", () => {
   assert.equal(editorialCategory({ ...base, title: "Projet de loi sur les animaux" }), null);
 });
 
+test("official announcements remain visible in the reader with their stated status", () => {
+  const entry = { title: "Prime carburant : jusqu'à 1 000 € exonérés", sourceType: "official-news", extra: { status: "announced" } };
+  assert.equal(editorialCategory(entry), "projet-loi");
+  assert.equal(editorialCategory({ ...entry, extra: {} }), null);
+});
+
 test("press needs an employment-law subject in its title and a concrete development", () => {
   const base = { sourceKind: "press", sourceType: "press-rss" };
   assert.equal(editorialCategory({ ...base, title: "Licenciement : un nouvel accord collectif est signé" }), "presse");

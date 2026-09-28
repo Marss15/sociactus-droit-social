@@ -48,12 +48,19 @@ function render() {
     meta.className = "entry-meta";
     const badge = document.createElement("span");
     badge.className = `badge ${entry.category}`;
-    badge.textContent = { regle: "Loi ou décret publié", "projet-loi": "Texte envisagé", presse: "Presse" }[entry.category];
+    badge.textContent = entry.extra?.status === "announced"
+      ? "Annonce officielle · texte non publié"
+      : { regle: "Loi ou décret publié", "projet-loi": "Texte envisagé", presse: "Presse" }[entry.category];
     const source = document.createElement("span");
     source.textContent = entry.sourceName || "Source";
     const date = document.createElement("time");
     date.textContent = dateLabel(entry.publishedAt || entry.date);
     meta.append(badge, source, date);
+    if (entry.firstSeenDate && entry.publishedAt && entry.firstSeenDate !== String(entry.publishedAt).slice(0, 10)) {
+      const detected = document.createElement("span");
+      detected.textContent = `Repéré le ${dateLabel(entry.firstSeenDate)}`;
+      meta.append(detected);
+    }
     const heading = document.createElement("h3");
     heading.textContent = entry.title;
     card.append(meta, heading);
@@ -64,6 +71,12 @@ function render() {
       description.textContent = excerpt;
       card.append(description);
     }
+    if (entry.extra?.legalStatus) {
+      const status = document.createElement("p");
+      status.className = "legal-status";
+      status.textContent = entry.extra.legalStatus;
+      card.append(status);
+    }
     try {
       const url = new URL(entry.url);
       if (["https:", "http:"].includes(url.protocol)) {
@@ -72,7 +85,9 @@ function render() {
         link.href = url.href;
         link.target = "_blank";
         link.rel = "noopener noreferrer";
-        link.textContent = entry.category === "presse" ? "Lire l’article ↗" : "Consulter le texte ↗";
+        link.textContent = entry.extra?.status === "announced"
+          ? "Lire l’annonce officielle ↗"
+          : entry.category === "presse" ? "Lire l’article ↗" : "Consulter le texte ↗";
         card.append(link);
       }
     } catch { /* No usable source URL. */ }
@@ -91,7 +106,7 @@ async function loadDay(date) {
     );
     els["journal-title"].textContent = `Veille du ${dateLabel(date)}`;
     const introduction = date === todayParis()
-      ? "Lois et décrets publiés, textes envisagés et presse concernant le droit du travail en France."
+      ? "Lois et décrets publiés, projets et annonces officielles, presse sur le droit du travail en France."
       : "Édition archivée. Aucun contenu plus récent n’a été chargé dans Sociactus.";
     els["journal-intro"].textContent = day.research?.errors?.length
       ? `${introduction} Certaines sources n’ont pas répondu : cette édition peut être incomplète.`

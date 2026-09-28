@@ -3,7 +3,7 @@
 Veille sélective pour un juriste en droit social en cabinet. Le journal quotidien ne présente que :
 
 - les lois et décrets publiés au Journal officiel qui portent directement sur le droit du travail ;
-- les projets ou propositions de loi en cours sur ce champ ;
+- les projets ou propositions de loi en cours et les annonces officielles de mesures sociales dont le texte n'est pas encore publié ;
 - les articles de presse qui signalent un développement juridique concret en droit du travail français.
 
 Une édition peut contenir **zéro information**. Le site affiche alors cette absence et la date de la dernière édition, sans remplir le journal avec des sujets de contexte. Les anciennes éditions passent par le même filtre que les nouvelles.
@@ -12,9 +12,12 @@ Une édition peut contenir **zéro information**. Le site affiche alors cette ab
 
 - [JORFSIMPLE de la DILA](https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/) pour les lois et décrets publiés, avec lien direct vers Légifrance.
 - [Panorama des lois de Vie-publique](https://www.vie-publique.fr/loi) pour les projets et propositions.
+- [Actualités du Code du travail numérique](https://code.travail.gouv.fr/actualite) pour les annonces officielles touchant directement la relation de travail. Leur statut de publication est indiqué explicitement.
 - Flux RSS publics du Monde, du Parisien, du Figaro et de franceinfo pour la presse.
 
 Le filtre exige un sujet de droit du travail explicite dans le titre. Une mention incidente de l'emploi, du chômage, de la retraite ou de la fonction publique ne suffit pas. Pour la presse, le titre doit aussi signaler un développement juridique : loi, décret, réforme, accord, décision, etc. Les articles dont l'URL contient une date antérieure au jour du journal ne sont pas présentés comme des actualités du jour. Cette sélection volontairement stricte peut omettre certains contenus pertinents : consulter la source primaire avant toute utilisation juridique.
+
+Une annonce officielle découverte avec retard peut être intégrée pendant les sept jours suivant sa publication. La carte conserve sa date source et précise lorsque le texte réglementaire formel n'est pas publié ; l'entrée n'est pas présentée comme une loi ou un décret en vigueur.
 
 ## Utilisation
 

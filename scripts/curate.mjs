@@ -4,7 +4,7 @@ import { existsSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gunzipSync } from "node:zlib";
-import { classifyLegalRelevance } from "../lib/legal-relevance.mjs";
+import { classifyLegalRelevance, normalizeLegalText } from "../lib/legal-relevance.mjs";
 import { editorialCategory } from "../lib/editorial-scope.mjs";
 
 const ROOT = resolve(fileURLToPath(new URL("..", import.meta.url)));
@@ -75,7 +75,16 @@ const archiveSources = [
   },
 ];
 
-const sourceRegister = [...rssSources, ...archiveSources].map(({ name, status, url, indexUrl }) => ({
+const officialNewsSources = [
+  {
+    kind: "official-news",
+    name: "Code du travail numérique - actualités",
+    status: "actualités officielles",
+    url: "https://code.travail.gouv.fr/actualite",
+  },
+];
+
+const sourceRegister = [...rssSources, ...archiveSources, ...officialNewsSources].map(({ name, status, url, indexUrl }) => ({
   name,
   status,
   url: url || indexUrl,
@@ -123,6 +132,14 @@ async function main() {
   for (const source of archiveSources) {
     try {
       collected.push(...(await parseArchiveSource(source)));
+    } catch (error) {
+      errors.push(`${source.name}: ${error.message}`);
+    }
+  }
+
+  for (const source of officialNewsSources) {
+    try {
+      collected.push(...parseOfficialNews(await fetchText(source.url), source));
     } catch (error) {
       errors.push(`${source.name}: ${error.message}`);
     }
@@ -180,7 +197,16 @@ function isTodayEntry(entry) {
   if (dateOnly(entry.publishedAt || entry.date) === runDate) {
     return true;
   }
+  if (entry.sourceType === "official-news") {
+    return isWithinOfficialNewsWindow(entry, runDate);
+  }
   return entry.category === "regle" && dateOnly(entry.application?.date) === runDate;
+}
+
+function isWithinOfficialNewsWindow(entry, date) {
+  if (entry.sourceType !== "official-news") return false;
+  const published = dateOnly(entry.publishedAt);
+  return Boolean(published) && published >= addDays(date, -7) && published < date;
 }
 
 function dateFromArticleUrl(url) {
@@ -264,6 +290,43 @@ function parseRss(xml, source) {
       });
     })
     .filter(Boolean);
+}
+
+function parseOfficialNews(html, source) {
+  const cards = String(html).split('<div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">').slice(1);
+  if (!cards.length) throw new Error("structure des actualités non reconnue");
+  return cards.flatMap((card) => {
+    const dateMatch = card.match(/<p class="fr-text--lg fr-mb-1v">\s*(\d{1,2})\s+([^<\s]+)\s+(\d{4})\s*<\/p>/);
+    const titleMatch = card.match(/<h2 class="fr-mb-0">([\s\S]*?)<\/h2>/);
+    const linkMatch = card.match(/<a href="(\/actualite\/[^"#?]+)"[^>]*>Lire l(?:&#x27;|&#39;|')actualité<\/a>/);
+    if (!dateMatch || !titleMatch || !linkMatch) return [];
+    const publishedAt = isoFromFrenchDate(dateMatch[1], dateMatch[2], dateMatch[3]);
+    const title = cleanText(titleMatch[1]);
+    const articleBody = cleanText(card.slice(0, linkMatch.index));
+    const normalizedBody = normalizeLegalText(articleBody);
+    const status = /textes? reglementaires? .{0,200}pas encore publies?/.test(normalizedBody) ? "announced" : "";
+    const category = editorialCategory({ title, sourceEvidence: articleBody, sourceKind: source.kind, status });
+    if (!category || !publishedAt) return [];
+    const paragraphs = [...card.matchAll(/<p class="fr-mt-2w">([\s\S]*?)<\/p>/g)].slice(0, 2).map((match) => cleanText(match[1]));
+    const summary = summarize(paragraphs.find((paragraph) => /1[\s\u00a0\u202f]?000|plafond/i.test(paragraph)) || paragraphs[0] || title, 310).replace(/\s+\./g, ".");
+    const corpus = `${title} ${articleBody}`;
+    const legalRelevance = classifyLegalRelevance({ title, text: corpus, category, sourceType: "official-news", sourceKind: source.kind, sourceName: source.name });
+    if (!legalRelevance.included) return [];
+    return [makeEntry({
+      sourceName: source.name,
+      sourceType: "official-news",
+      category,
+      title,
+      url: new URL(linkMatch[1], source.url).href,
+      publishedAt,
+      summary,
+      text: corpus,
+      impact: "watch",
+      application: { date: null, label: "Annonce officielle : textes réglementaires non encore publiés.", basis: "Code du travail numérique" },
+      extra: { status, legalStatus: "Textes réglementaires non publiés ; anticipation indiquée par le Code du travail numérique." },
+      legalRelevance,
+    })];
+  });
 }
 
 async function parseArchiveSource(source) {
@@ -462,7 +525,9 @@ function makeEntry({
     publishedAt: publishedAt || runDate,
     summary: sourceSummary,
     application: resolvedApplication,
-    watch: watchFor(category, impact),
+    watch: sourceType === "official-news"
+      ? "Suivre la publication des textes réglementaires annoncés."
+      : watchFor(category, impact),
     themes,
     impact,
     priority,
@@ -1319,9 +1384,11 @@ export {
   dateFromArticleUrl,
   dedupe,
   isTodayEntry,
+  isWithinOfficialNewsWindow,
   makeEntry,
   parseCass,
   parseJorf,
+  parseOfficialNews,
   parseRss,
   priorityFor,
   priorityRankFor,
