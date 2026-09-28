@@ -25,6 +25,25 @@ function todayParis() {
   return new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Paris", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
 }
 
+function statusLabel(entry) {
+  if (entry.category === "regle") return "Loi ou décret publié au JO";
+  if (entry.extra?.status === "announced") return "Annonce officielle · texte non publié";
+  if (entry.category === "projet-loi") {
+    const title = String(entry.title || "").toLocaleLowerCase("fr");
+    if (title.includes("proposition de loi")) return "Proposition de loi";
+    if (title.includes("projet de décret")) return "Projet de décret";
+    if (title.includes("projet de loi")) return "Projet de loi";
+    return "Texte envisagé";
+  }
+  return "Presse";
+}
+
+function verifiedEffectDate(entry) {
+  return entry.category === "regle" && entry.application?.date &&
+    entry.application?.basis === "Date explicite repérée dans la notice."
+    ? entry.application.date : null;
+}
+
 function render() {
   const entries = state.entries.filter((entry) =>
     (state.filter === "all" || entry.category === state.filter) &&
@@ -48,13 +67,11 @@ function render() {
     meta.className = "entry-meta";
     const badge = document.createElement("span");
     badge.className = `badge ${entry.category}`;
-    badge.textContent = entry.extra?.status === "announced"
-      ? "Annonce officielle · texte non publié"
-      : { regle: "Loi ou décret publié", "projet-loi": "Texte envisagé", presse: "Presse" }[entry.category];
+    badge.textContent = statusLabel(entry);
     const source = document.createElement("span");
     source.textContent = entry.sourceName || "Source";
     const date = document.createElement("time");
-    date.textContent = dateLabel(entry.publishedAt || entry.date);
+    date.textContent = `Publié le ${dateLabel(entry.publishedAt || entry.date)}`;
     meta.append(badge, source, date);
     if (entry.firstSeenDate && entry.publishedAt && entry.firstSeenDate !== String(entry.publishedAt).slice(0, 10)) {
       const detected = document.createElement("span");
@@ -70,6 +87,15 @@ function render() {
       description.className = "entry-excerpt";
       description.textContent = excerpt;
       card.append(description);
+    }
+    const effectDate = verifiedEffectDate(entry);
+    if (entry.category === "regle") {
+      const effect = document.createElement("p");
+      effect.className = "effect-date";
+      effect.textContent = effectDate
+        ? `Date d'effet indiquée dans la notice : ${dateLabel(effectDate)} · vérifier le champ`
+        : "Entrée en vigueur : à vérifier dans le texte";
+      card.append(effect);
     }
     if (entry.extra?.legalStatus) {
       const status = document.createElement("p");

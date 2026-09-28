@@ -1,13 +1,26 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { dateFromArticleUrl, dedupe, isWithinOfficialNewsWindow, parseCass, parseJorf, parseOfficialNews, parseRss } from "../scripts/curate.mjs";
+import { dateFromArticleUrl, dedupe, isWithinOfficialNewsWindow, parseAtom, parseCass, parseJorf, parseOfficialNews, parseRss } from "../scripts/curate.mjs";
 
 const curatePath = new URL("../scripts/curate.mjs", import.meta.url);
 
 test("uses an article URL date when a feed republishes an older story", () => {
   assert.equal(dateFromArticleUrl("https://example.test/sujet-24-09-2026-abc.php"), "2026-09-24");
   assert.equal(dateFromArticleUrl("https://example.test/sujet-99-99-2026.php"), null);
+});
+
+test("selects dated legal developments from the specialist employment-law Atom feed", () => {
+  const xml = `<feed>
+    <entry><title>Conventions collectives : les grilles de salaires au 1er octobre 2026</title><link href="https://www.editions-tissot.fr/actualite/droit-du-travail/grilles"/><updated>2026-09-28T09:54:00+02:00</updated><content type="html"><p>De nouvelles grilles de salaires entrent en vigueur pour plusieurs branches.</p></content></entry>
+    <entry><title>Arrêt maladie : pouvez-vous contacter votre salarié ?</title><link href="https://www.editions-tissot.fr/actualite/droit-du-travail/conseil"/><updated>2026-09-28T09:30:00+02:00</updated><content type="html"><p>Un conseil général pour les employeurs.</p></content></entry>
+    <entry><title>Projet de loi sur les congés payés</title><link href="https://www.editions-tissot.fr/actualite/droit-du-travail/sans-date"/><content type="html"><p>Texte envisagé.</p></content></entry>
+  </feed>`;
+  const entries = parseAtom(xml, { name: "Éditions Tissot - droit du travail", kind: "press" });
+  assert.equal(entries.length, 1);
+  assert.equal(entries[0].publishedAt, "2026-09-28");
+  assert.equal(entries[0].category, "presse");
+  assert.match(entries[0].summary, /grilles de salaires/);
 });
 
 test("captures a dated official employment-law announcement without presenting it as published law", () => {
@@ -122,7 +135,19 @@ test("applies legal relevance at the JORF and CASS archive boundaries", () => {
 
   assert.equal(rejected, null);
   assert.equal(accepted.legalRelevance.included, true);
+  assert.equal(accepted.application.date, null);
+  assert.match(accepted.application.label, /à vérifier/);
   assert.match(accepted.legalRelevance.reasons.join(" "), /salaire minimum/i);
+  const dated = parseJorf(
+    {
+      name: "JORFTEXT000054659998.xml",
+      xml: `<ROOT><ID>JORFTEXT000054659998</ID><TITREFULL>Décret relatif au SMIC</TITREFULL><NATURE>DECRET</NATURE><DATE_PUBLI>2026-08-11</DATE_PUBLI><NOTICE>Entrée en vigueur : le décret entre en vigueur le 1er septembre 2026. Le salaire minimum est revalorisé.</NOTICE></ROOT>`,
+    },
+    source,
+    "https://example.test/archive.tar.gz"
+  );
+  assert.equal(dated.application.date, "2026-09-01");
+  assert.equal(dated.application.basis, "Date explicite repérée dans la notice.");
   assert.equal(cass.legalRelevance.level, "primary");
   assert.match(cass.legalRelevance.reasons.join(" "), /chambre sociale/i);
 });

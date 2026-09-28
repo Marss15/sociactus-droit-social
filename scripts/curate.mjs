@@ -29,6 +29,14 @@ const rssSources = [
     kind: "draft",
   },
   {
+    name: "Éditions Tissot - droit du travail",
+    status: "flux Atom presse spécialisée",
+    url: "https://www.editions-tissot.fr/actualite/feeds/droit-du-travail/last_news.atom",
+    defaultCategory: "presse",
+    kind: "press",
+    format: "atom",
+  },
+  {
     name: "Le Monde - économie",
     status: "flux RSS presse",
     url: "https://www.lemonde.fr/economie/rss_full.xml",
@@ -123,7 +131,7 @@ async function main() {
   for (const source of rssSources) {
     try {
       const xml = await fetchText(source.url);
-      collected.push(...parseRss(xml, source));
+      collected.push(...(source.format === "atom" ? parseAtom(xml, source) : parseRss(xml, source)));
     } catch (error) {
       errors.push(`${source.name}: ${error.message}`);
     }
@@ -292,6 +300,37 @@ function parseRss(xml, source) {
     .filter(Boolean);
 }
 
+function parseAtom(xml, source) {
+  return blockTags(xml, "entry")
+    .map((item) => {
+      const title = cleanText(tag(item, "title"));
+      const description = cleanText(tag(item, "content") || tag(item, "summary"));
+      const url = item.match(/<link\b[^>]*href="(https?:\/\/[^\"]+)"[^>]*\/?\s*>/g)
+        ?.map((link) => link.match(/href="([^"]+)"/)?.[1])
+        .find((link) => link && /\/actualite\/droit-du-travail\//.test(link)) || "";
+      const publishedAt = normalizeDate(cleanText(tag(item, "published") || tag(item, "updated")));
+      const category = editorialCategory({ title, sourceEvidence: description, sourceKind: source.kind, sourceType: "press-rss", sourceName: source.name, url });
+      if (!category || !publishedAt || !url) return null;
+      const corpus = `${title} ${description}`;
+      const legalRelevance = classifyLegalRelevance({ title, text: corpus, category, sourceType: "press-rss", sourceKind: source.kind, sourceName: source.name });
+      if (!legalRelevance.included) return null;
+      return makeEntry({
+        sourceName: source.name,
+        sourceType: "press-rss",
+        category,
+        title,
+        url,
+        publishedAt,
+        summary: summarize(description || title, 270).replace(/[.!?]\.$/, (ending) => ending[0]),
+        text: corpus,
+        impact: "low",
+        application: applicationFor(category, description, publishedAt),
+        legalRelevance,
+      });
+    })
+    .filter(Boolean);
+}
+
 function parseOfficialNews(html, source) {
   const cards = String(html).split('<div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">').slice(1);
   if (!cards.length) throw new Error("structure des actualités non reconnue");
@@ -402,7 +441,7 @@ function parseJorf(file, source, archiveUrl) {
     summary,
     text: corpus,
     impact: /loi|ordonnance|decret/i.test(nature) ? "high" : "medium",
-    application: extractApplication(body, publicationDate, nature),
+    application: extractApplication(notice, publicationDate),
     extra: {
       id,
       nor,
@@ -818,28 +857,19 @@ function applicationFor(category, text, date) {
   };
 }
 
-function extractApplication(text, publicationDate, nature) {
+function extractApplication(text, publicationDate) {
   const explicit = extractExplicitDate(text);
   if (explicit) {
     return {
       date: explicit,
-      label: `Entrée en vigueur ou date d'effet détectée : ${formatFrenchDate(explicit)}.`,
-      basis: "Date explicite repérée dans le texte.",
-    };
-  }
-
-  if (/loi|ordonnance|decret|arrete/i.test(nature || "")) {
-    const defaultDate = addDays(publicationDate, 1);
-    return {
-      date: defaultDate,
-      label: `Par défaut, applicable le ${formatFrenchDate(defaultDate)} sauf disposition contraire du texte.`,
-      basis: "Règle générale d'entrée en vigueur après publication.",
+      label: `Date d'effet repérée dans la notice : ${formatFrenchDate(explicit)}. Vérifier le champ des dispositions.`,
+      basis: "Date explicite repérée dans la notice.",
     };
   }
 
   return {
-    date: publicationDate,
-    label: `Publié le ${formatFrenchDate(publicationDate)}. Applicabilité à vérifier dans le texte.`,
+    date: null,
+    label: `Publié le ${formatFrenchDate(publicationDate)}. Date d'entrée en vigueur à vérifier dans le texte.`,
     basis: "Publication au Journal officiel.",
   };
 }
@@ -847,8 +877,8 @@ function extractApplication(text, publicationDate, nature) {
 function extractExplicitDate(text) {
   const normalized = cleanText(text);
   const patterns = [
-    /(?:entre en vigueur|entree en vigueur|applicable|a compter du|prend effet le|date d'effet)\s*:?\s*(\d{1,2})(?:er)?\s+([a-zA-Z\u00c0-\u017f]+)\s+(\d{4})/i,
-    /(?:entre en vigueur|entree en vigueur|applicable|a compter du|prend effet le|date d'effet)\s*:?\s*(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{4})/i,
+    /(?:entre en vigueur|entree en vigueur|applicable|a compter du|prend effet le|date d'effet)\s*:?\s*(?:le\s+)?(\d{1,2})(?:er)?\s+([a-zA-Z\u00c0-\u017f]+)\s+(\d{4})/i,
+    /(?:entre en vigueur|entree en vigueur|applicable|a compter du|prend effet le|date d'effet)\s*:?\s*(?:le\s+)?(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{4})/i,
   ];
 
   for (const pattern of patterns) {
@@ -1308,7 +1338,7 @@ async function writeJson(path, value) {
 
 function normalizeDate(value) {
   if (!value) {
-    return runDate;
+    return null;
   }
   const parsed = new Date(value);
   if (!Number.isNaN(parsed.getTime())) {
@@ -1387,6 +1417,7 @@ export {
   isWithinOfficialNewsWindow,
   makeEntry,
   parseCass,
+  parseAtom,
   parseJorf,
   parseOfficialNews,
   parseRss,
