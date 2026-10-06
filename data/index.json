@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-10-05T15:53:14.694Z",
-  "latestDate": "2026-10-05",
+  "generatedAt": "2026-10-06T14:07:20.817Z",
+  "latestDate": "2026-10-06",
   "days": [
+    {
+      "date": "2026-10-06",
+      "file": "data/2026-10-06.json",
+      "total": 0,
+      "regles": 0,
+      "jurisprudence": 0,
+      "projets": 0,
+      "presse": 0,
+      "priorite1": 0,
+      "priorite2": 0,
+      "priorite3": 0
+    },
     {
       "date": "2026-10-05",
       "file": "data/2026-10-05.json",
@@ -1069,18 +1081,6 @@
       "priorite1": 2,
       "priorite2": 6,
       "priorite3": 17
-    },
-    {
-      "date": "2026-07-08",
-      "file": "data/2026-07-08.json",
-      "total": 9,
-      "regles": 8,
-      "jurisprudence": 0,
-      "projets": 0,
-      "presse": 1,
-      "priorite1": 1,
-      "priorite2": 6,
-      "priorite3": 2
     }
   ]
 }
