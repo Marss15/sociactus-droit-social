@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-10-07T14:25:45.878Z",
+  "date": "2026-10-07",
+  "stats": {
+    "total": 1,
+    "regles": 1,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 0,
+    "priorite1": 1,
+    "priorite2": 0,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Éditions Tissot - droit du travail",
+      "status": "flux Atom presse spécialisée",
+      "url": "https://www.editions-tissot.fr/actualite/feeds/droit-du-travail/last_news.atom"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "Code du travail numérique - actualités",
+      "status": "actualités officielles",
+      "url": "https://code.travail.gouv.fr/actualite"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-10-07",
+      "collected": 3,
+      "rejectedByDate": 2
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "d678f8e96772e019",
+      "date": "2026-10-07",
+      "firstSeenDate": "2026-10-07",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-929 du 6 octobre 2026 fixant les conditions d'application de l'article L. 6112-5 du code du travail relatif à l'établissement de la liste des compétences correspondant à l'exercice d'un mandat électif local et à la certification sanctionnant l'acquisition de ces compétences",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054956301",
+      "publishedAt": "2026-10-07",
+      "summary": "Publics concernés : personnes ayant exercé ou exerçant un mandat électif local, France compétences. Objet : le texte prévoit que la liste des compétences correspondant à l'exercice d'un mandat électif local mentionnée à l'article L.",
+      "application": {
+        "date": null,
+        "label": "Publié le 07 octobre 2026. Date d'entrée en vigueur à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Temps de travail",
+        "Paie",
+        "Formation",
+        "Emploi"
+      ],
+      "impact": "high",
+      "priority": 68,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique : droit ou code du travail. Preuve juridique : temps de travail, repos ou congés.",
+      "legalRelevance": {
+        "included": true,
+        "score": 20,
+        "level": "strong",
+        "reasons": [
+          "Preuve juridique : droit ou code du travail.",
+          "Preuve juridique : temps de travail, repos ou congés.",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif.",
+          "Preuve juridique : formation professionnelle ou obligations d’emploi encadrées.",
+          "Contexte complémentaire : emploi, contexte professionnel général."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000054956301",
+        "nor": "TRSD2612399D",
+        "nature": "DECRET",
+        "textDate": "2026-10-06",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20261007-002326.tar.gz",
+        "sourceSummary": "Publics concernés : personnes ayant exercé ou exerçant un mandat électif local, France compétences. Objet : le texte prévoit que la liste des compétences correspondant à l'exercice d'un mandat électif local mentionnée à l'article L."
+      }
+    }
+  ]
+}
