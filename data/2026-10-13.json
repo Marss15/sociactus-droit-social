@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-10-13T14:57:03.658Z",
+  "date": "2026-10-13",
+  "stats": {
+    "total": 1,
+    "regles": 0,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 1,
+    "priorite1": 0,
+    "priorite2": 1,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Éditions Tissot - droit du travail",
+      "status": "flux Atom presse spécialisée",
+      "url": "https://www.editions-tissot.fr/actualite/feeds/droit-du-travail/last_news.atom"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "Code du travail numérique - actualités",
+      "status": "actualités officielles",
+      "url": "https://code.travail.gouv.fr/actualite"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-10-13",
+      "collected": 4,
+      "rejectedByDate": 2
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "7182a4ebe2899187",
+      "date": "2026-10-13",
+      "firstSeenDate": "2026-10-13",
+      "sourceName": "Éditions Tissot - droit du travail",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Experts-comptables : revalorisation des salaires minimaux au plus tôt le 1er janvier 2027",
+      "url": "https://www.editions-tissot.fr/actualite/droit-du-travail/experts-comptables-revalorisation-des-salaires-minimaux-au-plus-tot-le-1er-janvier-2027",
+      "publishedAt": "2026-10-13",
+      "summary": "Les partenaires sociaux de la branche des cabinets d’experts-comptables et de commissaires aux comptes se sont entendus sur une hausse des salaires minimaux et sur la modification de leur mode de calcul. Ces changements s’appliqueront au plus tôt le 1er janvier 2027.",
+      "application": {
+        "date": "2026-10-13",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Les partenaires sociaux de la branche des cabinets d’experts-comptables et de commissaires aux comptes se sont entendus sur une hausse des salaires minimaux et sur la modification de leur mode de calcul. Ces changements s’appliqueront au plus tôt le 1er janvier 2027."
+      }
+    }
+  ]
+}
