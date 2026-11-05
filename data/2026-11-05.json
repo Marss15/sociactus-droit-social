@@ -1,0 +1,166 @@
+{
+  "generatedAt": "2026-11-05T16:23:26.945Z",
+  "date": "2026-11-05",
+  "stats": {
+    "total": 2,
+    "regles": 1,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 1,
+    "priorite1": 1,
+    "priorite2": 1,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Éditions Tissot - droit du travail",
+      "status": "flux Atom presse spécialisée",
+      "url": "https://www.editions-tissot.fr/actualite/feeds/droit-du-travail/last_news.atom"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "Code du travail numérique - actualités",
+      "status": "actualités officielles",
+      "url": "https://code.travail.gouv.fr/actualite"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-11-05",
+      "collected": 4,
+      "rejectedByDate": 2
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "de0ad9d24e990742",
+      "date": "2026-11-05",
+      "firstSeenDate": "2026-11-05",
+      "sourceName": "DILA JORFSIMPLE",
+      "sourceType": "archive",
+      "category": "regle",
+      "title": "Décret n° 2026-1027 du 4 novembre 2026 relatif au transfert du financement des fonds dédiés aux projets de transition professionnelle à l'instance paritaire nationale mentionnée à l'article L. 6323-17-5-1 du code du travail",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055057737",
+      "publishedAt": "2026-11-05",
+      "summary": "Publics concernés : salariés de droit privé, instance paritaire nationale mentionnée à l'article L. 6323-17-5-1, France compétences, opérateurs de compétences, commissions paritaires interprofessionnelles régionales. Objet : le texte organise le circuit financier pour le financement des projets de transition professionnelle.",
+      "application": {
+        "date": null,
+        "label": "Publié le 05 novembre 2026. Date d'entrée en vigueur à vérifier dans le texte.",
+        "basis": "Publication au Journal officiel."
+      },
+      "watch": "Vérifier le champ d'application, les textes modifiés et les mesures transitoires avant mise en place.",
+      "themes": [
+        "Contrat",
+        "Dialogue social",
+        "Formation",
+        "Emploi",
+        "Sécurité sociale"
+      ],
+      "impact": "high",
+      "priority": 68,
+      "priorityRank": "p1",
+      "priorityLabel": "Priorité 1",
+      "priorityReason": "Texte applicable ou changement normatif à traiter en premier. Preuve juridique : Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation.",
+      "legalRelevance": {
+        "included": true,
+        "score": 10,
+        "level": "primary",
+        "reasons": [
+          "Preuve juridique primaire : décision de la chambre sociale de la Cour de cassation."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "id": "JORFTEXT000055057737",
+        "nor": "TRSD2606986D",
+        "nature": "DECRET",
+        "textDate": "2026-11-04",
+        "archiveUrl": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/JORFSIMPLE_20261105-002736.tar.gz",
+        "sourceSummary": "Publics concernés : salariés de droit privé, instance paritaire nationale mentionnée à l'article L. 6323-17-5-1, France compétences, opérateurs de compétences, commissions paritaires interprofessionnelles régionales. Objet : le texte organise le circuit financier pour le financement des projets de transition professionnelle."
+      }
+    },
+    {
+      "id": "0b244c3b050f9759",
+      "date": "2026-11-05",
+      "firstSeenDate": "2026-11-05",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "L’appel de Frédéric Souillot (FO) avant le 5 novembre : « Il faut accélérer sur le smic et lancer une négociation flash sur les salaires »",
+      "url": "https://www.leparisien.fr/economie/lappel-de-frederic-souillot-fo-avant-le-5-novembre-il-faut-accelerer-sur-le-smic-et-lancer-une-negociation-flash-sur-les-salaires-04-11-2026-7XCS53KRRFAYZKG6BYPXLHRVWU.php",
+      "publishedAt": "2026-11-04",
+      "summary": "L’appel de Frédéric Souillot (FO) avant le 5 novembre : « Il faut accélérer sur le smic et lancer une négociation flash sur les salaires »",
+      "application": {
+        "date": "2026-11-04",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie"
+      ],
+      "impact": "low",
+      "priority": 20,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 4,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "L’appel de Frédéric Souillot (FO) avant le 5 novembre : « Il faut accélérer sur le smic et lancer une négociation flash sur les salaires »"
+      }
+    }
+  ]
+}
