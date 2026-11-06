@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-11-06T15:51:39.880Z",
+  "date": "2026-11-06",
+  "stats": {
+    "total": 1,
+    "regles": 0,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 1,
+    "priorite1": 0,
+    "priorite2": 1,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Éditions Tissot - droit du travail",
+      "status": "flux Atom presse spécialisée",
+      "url": "https://www.editions-tissot.fr/actualite/feeds/droit-du-travail/last_news.atom"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "Code du travail numérique - actualités",
+      "status": "actualités officielles",
+      "url": "https://code.travail.gouv.fr/actualite"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-11-06",
+      "collected": 4,
+      "rejectedByDate": 3
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "c00d1eaa537d6b83",
+      "date": "2026-11-06",
+      "firstSeenDate": "2026-11-06",
+      "sourceName": "Le Parisien - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Arrêt maladie, calculs, reports : ces pièges sur les congés payés qui peuvent coûter très cher aux entreprises",
+      "url": "https://www.leparisien.fr/economie/entreprise/arret-maladie-calculs-reports-ces-pieges-sur-les-conges-payes-qui-peuvent-couter-tres-cher-aux-entreprises-06-11-2026-4H6ARSSTNFDMLL5CTCE5ZR35EA.php",
+      "publishedAt": "2026-11-06",
+      "summary": "Arrêt maladie, calculs, reports : ces pièges sur les congés payés qui peuvent coûter très cher aux entreprises",
+      "application": {
+        "date": "2026-11-06",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Temps de travail"
+      ],
+      "impact": "low",
+      "priority": 19,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : temps de travail, repos ou congés.",
+      "legalRelevance": {
+        "included": true,
+        "score": 3,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : temps de travail, repos ou congés."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Arrêt maladie, calculs, reports : ces pièges sur les congés payés qui peuvent coûter très cher aux entreprises"
+      }
+    }
+  ]
+}
