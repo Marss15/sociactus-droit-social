@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-11-09T18:40:48.008Z",
+  "date": "2026-11-09",
+  "stats": {
+    "total": 2,
+    "regles": 0,
+    "jurisprudence": 0,
+    "projets": 0,
+    "actualites": 0,
+    "presse": 2,
+    "priorite1": 0,
+    "priorite2": 2,
+    "priorite3": 0
+  },
+  "sources": [
+    {
+      "name": "Vie-publique - lois",
+      "status": "flux RSS ouvert",
+      "url": "https://www.vie-publique.fr/lois-feeds.xml"
+    },
+    {
+      "name": "Éditions Tissot - droit du travail",
+      "status": "flux Atom presse spécialisée",
+      "url": "https://www.editions-tissot.fr/actualite/feeds/droit-du-travail/last_news.atom"
+    },
+    {
+      "name": "Le Monde - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml"
+    },
+    {
+      "name": "Le Parisien - économie",
+      "status": "flux RSS presse",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie"
+    },
+    {
+      "name": "Le Figaro - économie",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"
+    },
+    {
+      "name": "Le Figaro - social",
+      "status": "flux RSS presse",
+      "url": "https://www.lefigaro.fr/rss/figaro_social.xml"
+    },
+    {
+      "name": "franceinfo - emploi",
+      "status": "flux RSS presse",
+      "url": "https://www.francetvinfo.fr/economie/emploi.rss"
+    },
+    {
+      "name": "DILA JORFSIMPLE",
+      "status": "archive ouverte sans clé",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/"
+    },
+    {
+      "name": "Code du travail numérique - actualités",
+      "status": "actualités officielles",
+      "url": "https://code.travail.gouv.fr/actualite"
+    }
+  ],
+  "research": {
+    "mcp": "data.gouv.fr fournit un serveur MCP officiel pour explorer datasets et API, mais le site utilise les flux et archives HTTP pour rester statique et gratuit.",
+    "optionalApis": [
+      "API Légifrance via PISTE : gratuite après inscription, utile pour recherche fine dans JORF/LEGI/KALI.",
+      "API Judilibre via PISTE : gratuite après inscription, utile pour recherche plein texte dans les décisions de justice."
+    ],
+    "dailyMode": {
+      "strict": true,
+      "date": "2026-11-09",
+      "collected": 5,
+      "rejectedByDate": 3
+    },
+    "errors": []
+  },
+  "entries": [
+    {
+      "id": "15a0841ae80e5aca",
+      "date": "2026-11-09",
+      "firstSeenDate": "2026-11-09",
+      "sourceName": "Le Monde - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Hausse du smic : le gouvernement annonce une revalorisation de 1,6 % à partir du 1ᵉʳ décembre, la CGT dénonce « des miettes »",
+      "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/09/hausse-du-smic-le-gouvernement-annonce-une-revalorisation-de-1-6-a-partir-du-1-decembre-la-cgt-denonce-des-miettes_6808660_1656968.html",
+      "publishedAt": "2026-11-09",
+      "summary": "A l’issue d’une conférence sociale à Matignon, Sébastien Lecornu a déclaré qu’il s’agissait de la « deuxième hausse la plus importante en vingt ans ». Une assertion immédiatement contestée par les syndicats.",
+      "application": {
+        "date": "2026-11-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 24,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 8,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "A l’issue d’une conférence sociale à Matignon, Sébastien Lecornu a déclaré qu’il s’agissait de la « deuxième hausse la plus importante en vingt ans ». Une assertion immédiatement contestée par les syndicats."
+      }
+    },
+    {
+      "id": "7469fb50b709ac28",
+      "date": "2026-11-09",
+      "firstSeenDate": "2026-11-09",
+      "sourceName": "Le Figaro - économie",
+      "sourceType": "press-rss",
+      "category": "presse",
+      "title": "Le gouvernement annonce une revalorisation du smic de 1,6% pour le porter à 1502 euros dès le 1er décembre",
+      "url": "https://www.lefigaro.fr/social/le-gouvernement-annonce-une-revalorisation-du-smic-de-1-6-pour-le-porter-a-1502-euros-des-le-1er-decembre-20261109",
+      "publishedAt": "2026-11-09",
+      "summary": "Depuis plusieurs semaines, les organisations syndicales faisaient pression pour que le gouvernement donne un coup de pouce au smic.",
+      "application": {
+        "date": "2026-11-09",
+        "label": "Article journalistique non normatif : recouper avec une source officielle avant toute application.",
+        "basis": "Veille presse."
+      },
+      "watch": "Identifier si l'article renvoie à une source officielle, une négociation collective ou une décision publiée.",
+      "themes": [
+        "Paie",
+        "Dialogue social"
+      ],
+      "impact": "low",
+      "priority": 24,
+      "priorityRank": "p2",
+      "priorityLabel": "Priorité 2",
+      "priorityReason": "Signal presse secondaire relié à un sujet social : recouper avec une source officielle. Preuve juridique : Signal presse secondaire fondé sur une preuve sociale identifiable. Preuve juridique : rémunération, paie ou salaire minimum.",
+      "legalRelevance": {
+        "included": true,
+        "score": 8,
+        "level": "secondary",
+        "reasons": [
+          "Signal presse secondaire fondé sur une preuve sociale identifiable.",
+          "Preuve juridique : rémunération, paie ou salaire minimum.",
+          "Preuve juridique : relations collectives, CSE, syndicat ou accord collectif."
+        ],
+        "excludedBy": null,
+        "version": "legal-relevance-v2"
+      },
+      "extra": {
+        "sourceSummary": "Depuis plusieurs semaines, les organisations syndicales faisaient pression pour que le gouvernement donne un coup de pouce au smic."
+      }
+    }
+  ]
+}
